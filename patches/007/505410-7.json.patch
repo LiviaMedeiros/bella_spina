@@ -1,0 +1,63 @@
+--- en/scenario_5/505410-7.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/505410-7.json	2017-03-17 18:39:13.000000000 +0800
+@@ -247,9 +247,12 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+-                        "id": 304302
++                        "id": 100101,
++                        "motion": 0,
++                        "pos": 0
+                     }
+                 ],
++#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+@@ -282,11 +285,9 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 100101,
+-                        "motion": 301,
+-                        "pos": 0
++                        "motion": 301
+                     }
+                 ],
+-#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+@@ -346,9 +347,14 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 304302
++                        "cheek": 0,
++                        "face": "mtn_ex_000.exp.json",
++                        "id": 101403,
++                        "motion": 0,
++                        "pos": 0
+                     }
+                 ],
++#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+@@ -362,7 +368,7 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.3,
+                 "chara": [
+                     {
+                         "effect": "fadeout",
+@@ -370,7 +376,7 @@
+                     },
+                     {
+                         "effect": "fadeout",
+-                        "id": 304302
++                        "id": 101403
+                     }
+                 ],
+                 "textClear": 1

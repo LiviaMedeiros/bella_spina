@@ -1,0 +1,38 @@
+--- en/scenario_3/310101-5.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310101-5.json	2017-03-17 18:39:13.000000000 +0800
+@@ -3,11 +3,16 @@
+         "group_1": [
+             {
+                 "bg": "bg_adv_47001.jpg",
+-                "bgm": "bgm04_movie08",
++                "bgm": "bgm01_anime12",
+                 "chara": [
+                     {
++                        "id": 7001,
++                        "name": "sprite_0",
++                        "pos": 0
++                    },
++                    {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_020.exp.json",
+                         "id": 101000,
+                         "motion": 1,
+                         "pos": 2
+@@ -21,8 +26,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+                         "id": 101000,
+                         "motion": 200
+                     }
+@@ -35,5 +38,5 @@
+             }
+         ]
+     },
+-    "version": 2
++    "version": 3
+ }
+\ No newline at end of file

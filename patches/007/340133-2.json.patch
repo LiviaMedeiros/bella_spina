@@ -1,0 +1,182 @@
+--- en/scenario_3/340133-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/340133-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -28,6 +28,10 @@
+                 "turnEffect": "ef_adv_06"
+             },
+             {
++                "autoTurnLast": 1.5,
++                "turnChangeOut": "fadeOut"
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -47,13 +51,10 @@
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeOut": "fadeOut"
+             },
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301
+                     }
+                 ],
+@@ -62,11 +63,8 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 300201,
+-                        "motion": 200,
+-                        "pos": 0
++                        "motion": 200
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#
+@@ -74,11 +72,8 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+-                        "motion": 100,
+-                        "pos": 2
++                        "motion": 100
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -95,6 +90,7 @@
+                     }
+                 ],
+                 "se": "7208_wander_into",
++                "textClear": 1,
+                 "turnEffect": "stop"
+             },
+             {
+@@ -135,8 +131,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+                         "motion": 300
+                     }
+@@ -146,8 +140,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301
+                     }
+                 ],
+@@ -156,8 +148,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 300201,
+                         "motion": 0
+                     }
+@@ -167,8 +157,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+                         "motion": 0
+                     }
+@@ -178,8 +166,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+                         "motion": 100
+                     }
+@@ -189,8 +175,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301
+                     }
+                 ],
+@@ -284,8 +268,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+                         "motion": 200
+                     }
+@@ -295,8 +277,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301
+                     }
+                 ],
+@@ -315,8 +295,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 401301,
+                         "motion": 100
+                     }
+@@ -336,8 +314,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 300201,
+                         "motion": 200
+                     }
+@@ -356,6 +332,10 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
++                "autoTurnLast": 0.01,
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -370,6 +350,19 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.2,
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 300201,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,

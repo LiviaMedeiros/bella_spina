@@ -1,0 +1,93 @@
+--- en/scenario_3/340131-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/340131-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -79,7 +79,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "0",
++                        "face": "mtn_ex_010.exp.json",
+                         "id": 401300,
+                         "motion": 0,
+                         "pos": 2
+@@ -122,7 +122,8 @@
+                         "name": "sprite_0"
+                     }
+                 ],
+-                "se": "3102_enemy_dead"
++                "se": "3102_enemy_dead",
++                "textClear": 1
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -132,6 +133,18 @@
+                 "se": "7209_gate_close"
+             },
+             {
++                "autoTurnLast": 0.2,
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 300200,
++                        "motion": 0,
++                        "pos": 0
++                    }
++                ]
++            },
++            {
+                 "bgm": "bgm01_anime03",
+                 "chara": [
+                     {
+@@ -147,6 +160,10 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.01,
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -218,7 +235,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+                         "id": 401301
+                     }
+                 ],
+@@ -249,8 +265,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+                         "id": 401301,
+                         "motion": 100
+                     }
+@@ -292,7 +306,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+                         "id": 401301
+                     }
+                 ],
+@@ -323,7 +336,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+                         "id": 401301
+                     }
+                 ],
+@@ -343,8 +355,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 401301,
+                         "motion": 0
+                     }

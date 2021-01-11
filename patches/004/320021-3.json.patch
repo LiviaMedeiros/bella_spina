@@ -1,0 +1,113 @@
+--- en/scenario_3/320021-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/320021-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -30,6 +30,7 @@
+                         "id": 200200
+                     }
+                 ],
++#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -39,7 +40,6 @@
+                         "id": 200200
+                     }
+                 ],
+-#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+@@ -89,9 +89,11 @@
+             },
+             {
+                 "autoTurnLast": 1,
++                "bg": "black",
+                 "bgm": "stop",
+                 "item": [
+                     {
++                        "iPhoneXScale": 1,
+                         "path": "resource/scenario/img/51049_storyselect_homura/51049_witch_salvation.jpg",
+                         "posX": 0,
+                         "posY": 0,
+@@ -439,11 +441,11 @@
+                                 }
+                             ]
+                         },
++                        "iPhoneXScale": 1,
+                         "opacity": 255,
+-                        "path": "resource/scenario/img/purple.jpg",
++                        "path": "resource/scenario/img/purple.png",
+                         "posX": 0,
+                         "posY": 0,
+-                        "scale": 1,
+                         "setVisible": 1
+                     }
+                 ],
+@@ -640,6 +642,7 @@
+             },
+             {
+                 "autoTurnLast": 0.01,
++                "bg": "black",
+                 "bgm": "stop",
+                 "item": [
+                     {
+@@ -687,11 +690,11 @@
+                 "flashEffect": "flashWhite2",
+                 "item": [
+                     {
++                        "iPhoneXScale": 1,
+                         "opacity": 150,
+-                        "path": "resource/scenario/img/black.jpg",
++                        "path": "resource/scenario/img/black.png",
+                         "posX": 0,
+                         "posY": 0,
+-                        "scale": 1,
+                         "setVisible": 1
+                     }
+                 ],
+@@ -723,7 +726,7 @@
+                 "flashEffect": "flashRed2",
+                 "item": [
+                     {
+-                        "path": "resource/scenario/img/black.jpg",
++                        "path": "resource/scenario/img/black.png",
+                         "setVisible": 0
+                     }
+                 ],
+@@ -792,6 +795,7 @@
+                 ],
+                 "item": [
+                     {
++                        "iPhoneXScale": 1,
+                         "path": "resource/scenario/img/chapter9/101907_mami_ribbon.png",
+                         "posX": 0,
+                         "posY": 0,
+@@ -988,6 +992,7 @@
+             },
+             {
+                 "autoTurnLast": 0.01,
++                "bg": "black",
+                 "se": "7210_souljem_01"
+             },
+             {
+@@ -1005,6 +1010,7 @@
+             },
+             {
+                 "autoTurnLast": 0.5,
++                "bg": "bg_adv_20391.jpg",
+                 "chara": [
+                     {
+                         "cheek": 1,
+@@ -1160,11 +1166,11 @@
+                                 }
+                             ]
+                         },
++                        "iPhoneXScale": 1,
+                         "opacity": 255,
+-                        "path": "resource/scenario/img/pink.jpg",
++                        "path": "resource/scenario/img/pink.png",
+                         "posX": 0,
+                         "posY": 0,
+-                        "scale": 1,
+                         "setVisible": 1
+                     }
+                 ],

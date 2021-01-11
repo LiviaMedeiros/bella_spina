@@ -1,0 +1,94 @@
+--- en/scenario_3/310093-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310093-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -6,24 +6,25 @@
+                 "bgm": "bgm03_story08",
+                 "chara": [
+                     {
++                        "cheek": 1,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 100900,
++                        "motion": 0,
++                        "pos": 0
++                    },
++                    {
+                         "cheek": 2,
+                         "effect": "slideInRightFast",
+                         "face": "mtn_ex_031.exp.json",
+                         "id": 101100,
+-                        "motion": 0,
++                        "motion": 200,
+                         "mouthOpen": 1,
+                         "pos": 2
+-                    },
+-                    {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 100900,
+-                        "motion": 0,
+-                        "pos": 0
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
++                "textBg": "shout",
+ #BELLA=textRight=SPINA#
+                 "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+@@ -32,8 +33,9 @@
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_050.exp.json",
+                         "id": 100900,
++                        "lipSynch": 0,
+                         "motion": 400
+                     }
+                 ],
+@@ -42,12 +44,19 @@
+             {
+                 "chara": [
+                     {
++                        "id": 100900,
++                        "lipSynch": 0
++                    }
++                ],
++#BELLA=textLeft=SPINA#
++            },
++            {
++                "chara": [
++                    {
+                         "cheek": 2,
+-                        "effect": "shake",
+                         "face": "mtn_ex_060.exp.json",
+                         "id": 101100,
+-                        "motion": 100,
+-                        "mouthOpen": 1
++                        "motion": 400
+                     }
+                 ],
+                 "textBg": "shout",
+@@ -60,12 +69,11 @@
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 101000,
+                         "motion": 200,
+-                        "mouthOpen": 1,
+-                        "pos": 2
++                        "pos": 0
+                     }
+                 ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "autoTurnLast": 2,
+@@ -73,5 +81,5 @@
+             }
+         ]
+     },
+-    "version": 2
++    "version": 3
+ }
+\ No newline at end of file

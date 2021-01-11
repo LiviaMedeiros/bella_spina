@@ -1,0 +1,512 @@
+--- en/scenario_3/310022-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310022-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,8 +2,7 @@
+     "story": {
+         "group_1": [
+             {
+-                "bg": "bg_adv_12061.jpg",
+-                "bgm": "bgm01_battle04",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -17,19 +16,29 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 100300,
+-                        "motion": 200,
++                        "motion": 0,
+                         "mouthOpen": 1,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "bgm": "bgm01_battle04",
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 200
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
++                "textBg": "shout",
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "bgEffect": "shakeSmall",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -38,36 +47,48 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite1",
+                 "textBg": "shout",
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_030.exp.json",
++                        "id": 101100,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
+                         "id": 101000,
+-                        "motion": 300,
++                        "motion": 0,
+                         "mouthOpen": 0,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 101000,
++                        "motion": 300
++                    }
++                ],
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 101100,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 0
++                        "motion": 300
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -88,8 +109,7 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
+-                "bgEffect": "shakeSmall",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -103,17 +123,24 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_021.exp.json",
+                         "id": 100300,
+-                        "motion": 200,
+-                        "mouthOpen": 1,
++                        "motion": 0,
+                         "pos": 2
+                     }
+                 ],
+-                "flashEffect": "flashWhite1",
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 200
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -140,7 +167,6 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bgEffect": "shakeSmall",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -150,27 +176,23 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite1",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bgEffect": "shakeSmall",
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "effect": "shake",
+                         "face": "mtn_ex_060.exp.json",
+                         "id": 100200,
+                         "motion": 301,
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashRed1",
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -185,14 +207,21 @@
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 101100,
+                         "motion": 0,
+-                        "mouthOpen": 1,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 101100
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -207,7 +236,7 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -221,15 +250,24 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+                         "id": 100300,
+-                        "motion": 200,
++                        "motion": 0,
+                         "mouthOpen": 0,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 200
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -293,7 +331,6 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -303,28 +340,23 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+                 "turnEffect": "stop"
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "effect": "shake",
+                         "face": "mtn_ex_060.exp.json",
+                         "id": 100200,
+                         "motion": 400,
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashRed2",
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -334,25 +366,20 @@
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "effect": "shake",
+                         "id": 100200,
+-                        "motion": 400,
++                        "motion": 300,
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashRed2",
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -362,12 +389,11 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -381,15 +407,24 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 101000,
+-                        "motion": 200,
++                        "motion": 0,
+                         "mouthOpen": 0,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 101000,
++                        "motion": 200
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -404,14 +439,13 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
+-                "bgEffect": "shakeLarge",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+                         "id": 100300,
+-                        "motion": 100,
++                        "motion": 0,
+                         "mouthOpen": 0,
+                         "pos": 2
+                     },
+@@ -425,14 +459,32 @@
+                         "tear": 0
+                     }
+                 ],
+-                "flashEffect": "flashRed2",
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 100
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
++                "autoTurnLast": 1,
++                "chara": [
++                    {
++                        "effect": "fadeout",
++                        "id": 100200
++                    }
++                ],
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -440,11 +492,6 @@
+                         "id": 100300,
+                         "motion": 0,
+                         "mouthOpen": 0
+-                    },
+-                    {
+-                        "cheek": 0,
+-                        "effect": "fadeout",
+-                        "id": 100200
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -464,8 +511,6 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "autoTurnFirst": 1,
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -475,11 +520,16 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhiteSlow2",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.5,
++                "bgEffect": "shakeLarge",
++                "flashEffect": "explosion",
++                "textClear": 1
++            },
++            {
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -488,11 +538,27 @@
+                         "motion": 0,
+                         "mouthOpen": 0,
+                         "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 101000,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 101100
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "whiteIn",
+                 "turnChangeOut": "whiteOut"
+             },
+             {
+@@ -501,16 +567,14 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+                         "id": 101000,
+-                        "motion": 200,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "motion": 200
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bg": "bg_adv_12061.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -529,10 +593,18 @@
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "chara": [
++                    {
++                        "id": 100200
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -705,5 +777,5 @@
+             }
+         ]
+     },
+-    "version": 2
++    "version": 3
+ }
+\ No newline at end of file

@@ -1,0 +1,173 @@
+--- en/scenario_3/330272-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330272-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,39 +2,49 @@
+     "story": {
+         "group_1": [
+             {
++                "autoTurnLast": 0.5,
+                 "bg": "bg_adv_21221.jpg",
+-                "bgm": "bgm03_story08",
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 302701,
+-                        "motion": 1,
+-                        "pos": 1
++                        "motion": 0,
++                        "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_001.exp.json",
++                        "id": 301201,
++                        "motion": 0,
++                        "pos": 2
+                     }
+                 ],
+-#BELLA=nameCenter=SPINA#
+-#BELLA=textCenter=SPINA#
+-                "turnChangeIn": "fadeIn",
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story08",
++                "chara": [
++                    {
++                        "id": 302701,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+                         "id": 302701
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+                     {
+-                        "id": 302701,
+-                        "pos": 0
+-                    },
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 300801,
+@@ -108,8 +118,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
+                         "id": 301201
+                     }
+                 ],
+@@ -129,8 +137,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 302701
+                     }
+                 ],
+@@ -182,8 +188,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+                         "id": 302701,
+                         "motion": 200
+                     }
+@@ -225,8 +229,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 301201,
+                         "motion": 200
+                     }
+@@ -297,8 +299,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 301201,
+                         "motion": 300
+                     }
+@@ -308,8 +308,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 301201,
+                         "motion": 0
+                     }
+@@ -319,7 +317,7 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
++                        "cheek": -1,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 300501,
+                         "motion": 100,
+@@ -332,7 +330,7 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
++                        "cheek": -1,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 300501,
+                         "motion": 1
+@@ -390,8 +388,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_001.exp.json",
+                         "id": 302601,
+                         "motion": 100
+                     }
+@@ -401,8 +397,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_001.exp.json",
+                         "id": 302601
+                     }
+                 ],
+@@ -456,7 +450,7 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
++                        "cheek": -1,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 300501,
+                         "motion": 100,
+@@ -493,8 +487,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 302701,
+                         "motion": 200
+                     }

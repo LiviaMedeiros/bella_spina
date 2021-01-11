@@ -1,0 +1,51 @@
+--- en/scenario_5/510083-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510083-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -347,6 +347,8 @@
+             {
+                 "chara": [
+                     {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
+                         "id": 401101
+                     }
+                 ],
+@@ -369,7 +371,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_020.exp.json",
+                         "id": 401101,
+                         "motion": 100
+                     }
+@@ -389,6 +391,8 @@
+             {
+                 "chara": [
+                     {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
+                         "id": 401101,
+                         "motion": 300
+                     }
+@@ -513,6 +517,10 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
++                "autoTurnLast": 0.01,
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -594,6 +602,10 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.01,
++                "textClear": 1
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,

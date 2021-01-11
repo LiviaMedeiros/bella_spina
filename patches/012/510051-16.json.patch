@@ -1,0 +1,150 @@
+--- en/scenario_5/510051-16.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510051-16.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,29 +2,42 @@
+     "story": {
+         "group_1": [
+             {
++                "autoTurnLast": 0.01,
+                 "bg": "bg_adv_21163.jpg",
+-                "bgm": "bgm03_story12",
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 302600,
+-                        "motion": 100,
++                        "motion": 0,
+                         "pos": 0
++                    },
++                    {
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 302800,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story12",
++                "chara": [
++                    {
++                        "id": 302600,
++                        "motion": 100
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+                 "chara": [
+                     {
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 302800,
+-                        "motion": 1,
+-                        "pos": 2
++                        "motion": 1
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -61,6 +74,7 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
++                "bgm": "stop",
+                 "chara": [
+                     {
+                         "effect": "emotion_angry_1",
+@@ -147,27 +161,42 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 302800,
+-                        "motion": 200,
++                        "motion": 0,
+                         "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 300500,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302800,
++                        "motion": 200
++                    },
++                    {
++                        "id": 300500
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+-                        "id": 300500,
+-                        "motion": 0,
+-                        "pos": 2
++                        "id": 300500
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -713,6 +742,7 @@
+             {
+                 "chara": [
+                     {
++                        "cheek": 0,
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 302700,
+                         "motion": 0,
+@@ -741,19 +771,28 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
++                "autoTurnLast": 0.5,
++                "chara": [
++                    {
++                        "id": 302700,
++                        "pos": 0
++                    }
++                ],
++                "surround": "stop",
++                "textClear": 1,
++                "turnEffect": "stop"
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+                         "id": 302700,
+-                        "motion": 100,
+-                        "pos": 0
++                        "motion": 100
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+-                "surround": "stop",
+ #BELLA=textLeft=SPINA#
+-                "turnEffect": "stop"
+             },
+             {
+ #BELLA=textLeft=SPINA#

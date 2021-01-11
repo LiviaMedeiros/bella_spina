@@ -1,0 +1,36 @@
+--- en/scenario_1/101501-3_A1rur.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/101501-3_A1rur.json	2017-03-17 18:39:13.000000000 +0800
+@@ -615,8 +615,7 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 100702,
+-                        "motion": 100,
+-                        "voiceFull": "fullvoice/section_101501/vo_full_101501-3-50",
++                        "voiceFull": "fullvoice/section_101501/vo_full_101501-3-50_1",
+                         "voiceFullStop": "fullvoice/section_101501/vo_full_101501-3-49"
+                     }
+                 ],
+@@ -625,11 +624,22 @@
+             {
+                 "chara": [
+                     {
++                        "id": 100702,
++                        "motion": 100,
++                        "voiceFull": "fullvoice/section_101501/vo_full_101501-3-50_2",
++                        "voiceFullStop": "fullvoice/section_101501/vo_full_101501-3-50_1"
++                    }
++                ],
++#BELLA=textLeft=SPINA#
++            },
++            {
++                "chara": [
++                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 100702,
+                         "voiceFull": "fullvoice/section_101501/vo_full_101501-3-51",
+-                        "voiceFullStop": "fullvoice/section_101501/vo_full_101501-3-50"
++                        "voiceFullStop": "fullvoice/section_101501/vo_full_101501-3-50_2"
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#

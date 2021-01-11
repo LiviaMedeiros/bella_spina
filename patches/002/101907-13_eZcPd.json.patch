@@ -1,0 +1,36 @@
+--- en/scenario_1/101907-13_eZcPd.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/101907-13_eZcPd.json	2017-03-17 18:39:13.000000000 +0800
+@@ -483,7 +483,8 @@
+             },
+             {
+                 "autoTurnLast": 0.01,
+-                "turnChangeOut": "fadeOut"
++                "turnChangeOut": "fadeOut",
++                "turnEffect": "blackFrame"
+             },
+             {
+                 "autoTurnFirst": 6,
+@@ -497,7 +498,6 @@
+                 "enableSkipAutoTurn": 1,
+ #BELLA=nameCenter=SPINA#
+ #BELLA=textCenter=SPINA#
+-                "turnEffect": "blackFrame"
+             },
+             {
+                 "chara": [
+@@ -1014,6 +1014,7 @@
+                 "flashEffect": "explosion",
+                 "item": [
+                     {
++                        "iPhoneXScale": 1,
+                         "path": "resource/scenario/img/chapter9/101907_mami_ribbon.png",
+                         "posX": 0,
+                         "posY": 0,
+@@ -1090,6 +1091,7 @@
+                 ],
+                 "item": [
+                     {
++                        "iPhoneXScale": 1,
+                         "path": "resource/scenario/img/chapter9/101907_mami_ribbon.png",
+                         "posX": 0,
+                         "posY": 0,

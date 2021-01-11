@@ -1,0 +1,36 @@
+--- en/scenario_3/310172-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310172-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -402,7 +402,7 @@
+ #BELLA=textCenter=SPINA#
+             },
+             {
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -410,7 +410,13 @@
+                         "id": 101700,
+                         "motion": 1,
+                         "pos": 0
+-                    },
++                    }
++                ],
++                "textClear": 1
++            },
++            {
++                "autoTurnLast": 0.01,
++                "chara": [
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_040.exp.json",
+@@ -418,8 +424,7 @@
+                         "motion": 0,
+                         "pos": 2
+                     }
+-                ],
+-                "textClear": 1
++                ]
+             },
+             {
+                 "chara": [

@@ -1,0 +1,207 @@
+--- en/scenario_3/310051-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310051-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,8 +2,7 @@
+     "story": {
+         "group_1": [
+             {
+-                "bg": "bg_adv_46103.jpg",
+-                "bgm": "bgm01_anime15",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "id": 6103,
+@@ -19,11 +18,15 @@
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_46103.jpg",
++                "bgm": "bgm01_anime15",
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+                 "textBg": "shout",
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -34,8 +37,6 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+-                "se": "6053_hit_strike_03_s",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+@@ -48,13 +49,10 @@
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+-                "se": "6053_hit_strike_03_s",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "effect": "shake",
+@@ -62,8 +60,6 @@
+                         "name": "sprite_0"
+                     }
+                 ],
+-                "flashEffect": "flashRed2",
+-                "se": "6054_hit_strike_03_vh",
+                 "textBg": "shout",
+ #BELLA=textLeft=SPINA#
+             },
+@@ -98,7 +94,6 @@
+             {
+                 "chara": [
+                     {
+-                        "effect": "shake",
+                         "id": 6103,
+                         "name": "sprite_0"
+                     },
+@@ -111,7 +106,6 @@
+                         "pos": 2
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+ #BELLA=nameRight=SPINA#
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+@@ -133,7 +127,6 @@
+             {
+                 "chara": [
+                     {
+-                        "effect": "shake",
+                         "id": 6103,
+                         "name": "sprite_0"
+                     },
+@@ -145,7 +138,6 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+@@ -343,7 +335,7 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "bg": "bg_adv_46103.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
+                         "id": 6103,
+@@ -351,15 +343,26 @@
+                         "pos": 1
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_46103.jpg",
+ #BELLA=nameCenter=SPINA#
+ #BELLA=textCenter=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+-                "bg": "bg_adv_46103.jpg",
++                "autoTurnLast": 0.01,
+                 "chara": [
+                     {
++                        "cheek": 0,
++                        "face": "mtn_ex_001.exp.json",
++                        "id": 301200,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 0
++                    },
++                    {
+                         "cheek": 1,
+                         "face": "mtn_ex_020.exp.json",
+                         "id": 100500,
+@@ -368,9 +371,17 @@
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "bg": "bg_adv_46103.jpg",
++                "chara": [
++                    {
++                        "id": 100500
++                    }
++                ],
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "rollInFast",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -383,7 +394,7 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite1",
++                "flashEffect": "flashWhite2",
+ #BELLA=textRight=SPINA#
+             },
+             {
+@@ -392,9 +403,7 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 301200,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 0
++                        "lipSynch": 0
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -423,13 +432,10 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "flashEffect": "flashWhite2",
+-                "se": "6053_hit_strike_03_s",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "bgEffect": "shakeLarge",
+                 "chara": [
+                     {
+                         "cheek": 1,
+@@ -441,13 +447,13 @@
+                     {
+                         "cheek": 0,
+                         "effect": "shake",
++                        "eyeClose": 1,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 300800,
+                         "motion": 400,
+                         "mouthOpen": 0
+                     }
+                 ],
+-                "flashEffect": "flashRed2",
+                 "textBg": "shout",
+ #BELLA=textRight=SPINA#
+             },
+@@ -457,5 +463,5 @@
+             }
+         ]
+     },
+-    "version": 2
++    "version": 3
+ }
+\ No newline at end of file

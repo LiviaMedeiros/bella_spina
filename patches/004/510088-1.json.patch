@@ -1,0 +1,54 @@
+--- en/scenario_5/510088-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510088-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -17,7 +17,7 @@
+                 "autoTurnLast": 0.01,
+                 "item": [
+                     {
+-                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
++                        "path": "resource/scenario/img/51008_singleraid_kazumi/51008_memory08.jpg",
+                         "visible": "hide"
+                     }
+                 ],
+@@ -37,11 +37,13 @@
+             },
+             {
+                 "autoTurnLast": 2,
++                "bg": "bg_adv_13021.jpg",
++                "bgm": "stop",
++                "narrationEffect": "out",
+                 "surround": "4011A07",
+                 "turnChangeIn": "whiteIn"
+             },
+             {
+-                "bg": "bg_adv_13021.jpg",
+                 "bgm": "bgm01_anime03",
+                 "chara": [
+                     {
+@@ -61,7 +63,6 @@
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+-                "narrationEffect": "out",
+ #BELLA=textRight=SPINA#
+                 "turnChangeOut": "whiteOut"
+             },
+@@ -716,7 +717,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_020.exp.json",
+                         "id": 401101,
+                         "motion": 0
+                     }
+@@ -912,6 +913,10 @@
+                         "id": 101301,
+                         "motion": 1,
+                         "pos": 0
++                    },
++                    {
++                        "id": 401101,
++                        "motion": 0
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
