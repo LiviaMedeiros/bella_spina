@@ -2,7 +2,7 @@
 >                 "autoTurnLast": 0.01,
 6d6
 <                 "bgm": "bgm03_story02",
-12,13c12,20
+12,13c12,30
 <                         "motion": 1,
 <                         "pos": 1
 ---
@@ -15,11 +15,8 @@
 >                         "id": 300501,
 >                         "motion": 0,
 >                         "pos": 2
-16,18c23,34
-< #BELLA=nameCenter=SPINA#
-< #BELLA=textCenter=SPINA#
-<                 "turnChangeIn": "fadeIn",
----
+>                     }
+>                 ],
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
@@ -28,8 +25,11 @@
 >                     {
 >                         "id": 302701,
 >                         "motion": 1
->                     }
->                 ],
+16,18c33,34
+< #BELLA=nameCenter=SPINA#
+< #BELLA=textCenter=SPINA#
+<                 "turnChangeIn": "fadeIn",
+---
 > #BELLA=nameLeft=SPINA#
 > #BELLA=textLeft=SPINA#
 29c45
