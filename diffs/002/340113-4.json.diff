@@ -1,0 +1,91 @@
+5c5
+<                 "bg": "bg_adv_21221.jpg",
+---
+>                 "bg": "bg_adv_19221.jpg",
+64c64,66
+<                 "narrationEffect": "in"
+---
+>                 "narrationEffect": "in",
+>                 "turnChangeIn": "fadeIn",
+>                 "turnChangeOut": "fadeOut"
+66a69
+>                 "autoTurnLast": 0.5,
+71c74,76
+<                         "id": 300301
+---
+>                         "id": 300301,
+>                         "motion": 0,
+>                         "pos": 1
+74a80,87
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 300301
+>                     }
+>                 ],
+75a89
+>                 "turnChangeOut": "fadeOut"
+118,119d131
+<                         "cheek": 0,
+<                         "face": "mtn_ex_000.exp.json",
+130,131d141
+<                         "cheek": 0,
+<                         "face": "mtn_ex_000.exp.json",
+207c217
+<                 "autoTurnLast": 0.3,
+---
+>                 "autoTurnLast": 0.5,
+213c223,224
+<                 ]
+---
+>                 ],
+>                 "textClear": 1
+284,285d294
+<                         "cheek": 0,
+<                         "face": "mtn_ex_020.exp.json",
+296,297d304
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+299a307,310
+>                     },
+>                     {
+>                         "id": 300301,
+>                         "mouthOpen": 0
+318,319d328
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+351,352d359
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+399a407
+>                 "autoTurnLast": 0.01,
+406c414
+<                         "motion": 300,
+---
+>                         "motion": 0,
+410d417
+< #BELLA=nameCenter=SPINA#
+411a419,428
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 401101,
+>                         "motion": 300
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+414d430
+<                 "turnChangeIn": "fadeIn",
+420,421d435
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+430,431d443
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+441,442d452
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",

@@ -1,0 +1,39 @@
+5,6c5
+<                 "bg": "bg_adv_12061.jpg",
+<                 "bgm": "bgm03_story10",
+---
+>                 "autoTurnLast": 0.01,
+18c17
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_050.exp.json",
+20c19
+<                         "motion": 200,
+---
+>                         "motion": 0,
+24a24,34
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_12061.jpg",
+>                 "bgm": "bgm03_story10",
+>                 "chara": [
+>                     {
+>                         "id": 101000,
+>                         "motion": 200
+>                     }
+>                 ],
+28d37
+<                 "turnChangeIn": "fadeIn",
+57d65
+<                 "bgEffect": "shakeSmall",
+66d73
+<                 "flashEffect": "flashWhiteSlow1",
+85a93
+>                         "eyeClose": 0,
+390d397
+<                 "flashEffect": "flashWhite1",
+414c421
+<     "version": 2
+---
+>     "version": 3

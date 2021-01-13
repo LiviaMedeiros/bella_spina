@@ -1,0 +1,96 @@
+4a5
+>                 "autoTurnLast": 0.01,
+6d6
+<                 "bgm": "bgm03_story12",
+12c12
+<                         "motion": 100,
+---
+>                         "motion": 0,
+13a14,29
+>                     },
+>                     {
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 302800,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm03_story12",
+>                 "chara": [
+>                     {
+>                         "id": 302600,
+>                         "motion": 100
+18d33
+<                 "turnChangeIn": "fadeIn",
+24d38
+<                         "face": "mtn_ex_020.exp.json",
+26,27c40
+<                         "motion": 1,
+<                         "pos": 2
+---
+>                         "motion": 1
+63a77
+>                 "bgm": "stop",
+149a164
+>                 "autoTurnLast": 0.01,
+154c169
+<                         "motion": 200,
+---
+>                         "motion": 0,
+155a171,189
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 300500,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302800,
+>                         "motion": 200
+>                     },
+>                     {
+>                         "id": 300500
+160d193
+<                 "turnChangeIn": "rollInFast",
+166,170c199
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 300500,
+<                         "motion": 0,
+<                         "pos": 2
+---
+>                         "id": 300500
+715a745
+>                         "cheek": 0,
+743a774,785
+>                 "autoTurnLast": 0.5,
+>                 "chara": [
+>                     {
+>                         "id": 302700,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "surround": "stop",
+>                 "textClear": 1,
+>                 "turnEffect": "stop"
+>             },
+>             {
+749,750c791
+<                         "motion": 100,
+<                         "pos": 0
+---
+>                         "motion": 100
+754d794
+<                 "surround": "stop",
+756d795
+<                 "turnEffect": "stop"

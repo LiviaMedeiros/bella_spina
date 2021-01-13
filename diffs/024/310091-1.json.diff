@@ -1,0 +1,383 @@
+5,7c5
+<                 "bg": "bg_adv_46104.jpg",
+<                 "bgEffect": "shakeSmall",
+<                 "bgm": "bgm04_movie08",
+---
+>                 "autoTurnLast": 0.01,
+18c16
+<                         "motion": 200,
+---
+>                         "motion": 0,
+22c20,30
+<                 "flashEffect": "flashWhite2",
+---
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_46104.jpg",
+>                 "bgm": "bgm01_anime15",
+>                 "chara": [
+>                     {
+>                         "id": 101000,
+>                         "motion": 200
+>                     }
+>                 ],
+26d33
+<                 "turnChangeIn": "fadeIn",
+35d41
+<                         "motion": 0,
+38a45
+>                 "textBg": "shout",
+45c52
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_020.exp.json",
+47c54
+<                         "motion": 0,
+---
+>                         "motion": 100,
+57,60c64,65
+<                         "cheek": 1,
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100900,
+<                         "motion": 100
+---
+>                         "eyeClose": 1,
+>                         "id": 100900
+66d70
+<                 "bgEffect": "shakeSmall",
+69,70c73
+<                         "cheek": 1,
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "eyeClose": 0,
+76,77c79
+<                 "flashEffect": "flashWhite2",
+<                 "se": "4002_equip_arms_longspear_s",
+---
+>                 "se": "4052_landing_dive_sv",
+82,83c84
+<                 "autoTurnLast": 1.5,
+<                 "bgEffect": "shakeSmall",
+---
+>                 "autoTurnLast": 0.5,
+86d86
+<                         "effect": "shake",
+91,92d90
+<                 "flashEffect": "flashRed2",
+<                 "se": "1001_decision_l",
+96a95,107
+>                 "autoTurnLast": 0.5,
+>                 "bgm": "stop",
+>                 "chara": [
+>                     {
+>                         "effect": "fadeout",
+>                         "id": 7101,
+>                         "name": "sprite_0"
+>                     }
+>                 ],
+>                 "se": "3102_enemy_dead"
+>             },
+>             {
+>                 "autoTurnLast": 0.5,
+98a110,113
+>                 "se": "7209_gate_close",
+>                 "textClear": 1
+>             },
+>             {
+103c118
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_011.exp.json",
+112c127,128
+<                         "motion": 0
+---
+>                         "motion": 0,
+>                         "mouthOpen": 0
+116d131
+<                 "se": "7209_gate_close",
+123c138
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+125c140
+<                         "motion": 1
+---
+>                         "motion": 300
+145c160
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+147c162
+<                         "motion": 100
+---
+>                         "motion": 201
+153,162d167
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100900
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 101000
+<                     }
+<                 ],
+169,170c174,175
+<                 "bg": "bg_adv_11042.jpg",
+<                 "bgm": "bgm03_story02",
+---
+>                 "autoTurnLast": 1,
+>                 "bgm": "stop",
+173a179,185
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 100901,
+>                         "motion": 1,
+>                         "pos": 2
+>                     },
+>                     {
+>                         "cheek": 0,
+178,179c190,199
+<                         "pos": 2
+<                     },
+---
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_11042.jpg",
+>                 "bgm": "bgm03_story02",
+>                 "chara": [
+181,182d200
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+184,185c202
+<                         "motion": 1,
+<                         "pos": 0
+---
+>                         "motion": 300
+190,192c207
+<                 "narrationEffect": "out",
+< #BELLA=textRight=SPINA#
+<                 "turnChangeIn": "fadeIn",
+---
+> #BELLA=textLeft=SPINA#
+200c215,216
+<                         "id": 100901
+---
+>                         "id": 100901,
+>                         "motion": 200
+203c219
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+209,210c225,227
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 101001
+---
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 101001,
+>                         "motion": 0
+213c230
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+224c241
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+230c247
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+235c252
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+240,243c257
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 100901,
+<                         "motion": 0
+---
+>                         "id": 100901
+246c260
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+254c268
+<                         "motion": 100
+---
+>                         "motion": 0
+257c271
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+265c279
+<                         "motion": 1
+---
+>                         "motion": 200
+268c282,286
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+>             },
+>             {
+>                 "autoTurnLast": 0.01,
+>                 "turnChangeIn": "fadeIn"
+271,280d288
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100901
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 101001
+<                     }
+<                 ],
+283,284c291,293
+<                 "narrationBg": "bg_adv_11042.jpg",
+<                 "narrationEffect": "in"
+---
+>                 "narrationBg": "bg_adv_narration.jpg",
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"
+299c308
+<                 "bg": "bg_adv_11022.jpg",
+---
+>                 "autoTurnLast": 0.01,
+310c319
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+315a325,336
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_11022.jpg",
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 101001
+>                     }
+>                 ],
+318d338
+<                 "narrationEffect": "out",
+320a341
+>                 "turnChangeOut": "fadeOut"
+325,326d345
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+336,337c355,357
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 101001
+---
+>                         "face": "mtn_ex_011.exp.json",
+>                         "id": 101001,
+>                         "motion": 0
+348c368
+<                         "motion": 0
+---
+>                         "motion": 100
+356,358c376,377
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100901
+---
+>                         "id": 100901,
+>                         "motion": 100
+364,373c383,387
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100901
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 101001
+<                     }
+<                 ],
+---
+>                 "autoTurnLast": 0.01,
+>                 "surround": "stop",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+376c390
+<                 "narrationBg": "bg_adv_21142.jpg",
+---
+>                 "narrationBg": "bg_adv_narration.jpg",
+378c392
+<                 "surround": "stop"
+---
+>                 "turnChangeOut": "fadeOut"
+380a395
+>                 "autoTurnLast": 0.01,
+384,388c399,402
+<                         "cheek": 1,
+<                         "face": "mtn_ex_011.exp.json",
+<                         "id": 101001,
+<                         "motion": 300,
+<                         "mouthOpen": 1,
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 100901,
+>                         "motion": 0,
+392,394c406,408
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100901,
+---
+>                         "cheek": 1,
+>                         "face": "mtn_ex_011.exp.json",
+>                         "id": 101001,
+398a413,423
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 101001,
+>                         "motion": 300,
+>                         "mouthOpen": 1
+>                     }
+>                 ],
+401,402c426,427
+<                 "narrationEffect": "out",
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+>                 "turnChangeOut": "fadeOut"
+408c433
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_011.exp.json",
+413c438
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+420c445,446
+<                         "motion": 0
+---
+>                         "motion": 0,
+>                         "mouthOpen": 0
+423c449
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+434c460
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+449c475
+<     "version": 2
+---
+>     "version": 3

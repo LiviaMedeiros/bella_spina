@@ -1,0 +1,88 @@
+5,6c5
+<                 "bg": "bg_adv_21141.jpg",
+<                 "bgm": "bgm03_story03",
+---
+>                 "autoTurnLast": 0.01,
+12d10
+<                         "lipSynch": 0,
+17a16,26
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21141.jpg",
+>                 "bgm": "bgm03_story03",
+>                 "chara": [
+>                     {
+>                         "id": 100501,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+20d28
+<                 "turnChangeIn": "fadeIn",
+65c73
+<                 "bg": "bg_adv_21141.jpg",
+---
+>                 "autoTurnLast": 0.01,
+71d78
+<                         "lipSynch": 0,
+76a84,93
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21141.jpg",
+>                 "chara": [
+>                     {
+>                         "id": 100501,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+80d96
+<                 "turnChangeIn": "fadeIn",
+146c162
+<                 "bg": "bg_adv_12021.jpg",
+---
+>                 "autoTurnLast": 0.01,
+150a167,174
+>                         "id": 100501,
+>                         "motion": 0,
+>                         "mouthOpen": 0,
+>                         "pos": 0
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp.json",
+152c176
+<                         "motion": 400,
+---
+>                         "motion": 0,
+157,161c181
+< #BELLA=nameRight=SPINA#
+<                 "narrationEffect": "out",
+< #BELLA=textRight=SPINA#
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut"
+---
+>                 "turnChangeIn": "fadeIn"
+163a184
+>                 "bg": "bg_adv_12021.jpg",
+166,171c187,188
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100501,
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 0
+---
+>                         "id": 101301,
+>                         "motion": 400
+173a191,196
+> #BELLA=nameRight=SPINA#
+>                 "narrationEffect": "out",
+> #BELLA=textRight=SPINA#
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+447c470
+<     "version": 2
+---
+>     "version": 3

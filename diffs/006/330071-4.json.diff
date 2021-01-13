@@ -1,0 +1,211 @@
+5,12c5
+< #BELLA=nameNarration=SPINA#
+< #BELLA=narration=SPINA#
+<                 "narrationBg": "black",
+<                 "narrationEffect": "in",
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut"
+<             },
+<             {
+---
+>                 "autoTurnLast": 0.5,
+14d6
+<                 "bgm": "bgm03_story06",
+21d12
+<                         "mouthOpen": 1,
+32a24,40
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+> #BELLA=nameNarration=SPINA#
+> #BELLA=narration=SPINA#
+>                 "narrationBg": "black",
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+>                 "bgm": "bgm03_story06",
+>                 "chara": [
+>                     {
+>                         "id": 300701,
+>                         "tear": 1
+>                     }
+>                 ],
+43c51
+<                         "mouthOpen": 0
+---
+>                         "tear": 1
+56d63
+<                         "mouthOpen": 0,
+64a72
+>                         "cheek": 1,
+68d75
+<                         "mouthOpen": 0,
+81d87
+<                         "mouthOpen": 1,
+84a91
+>                 "textBg": "shout",
+90,91c97
+<                         "id": 810000,
+<                         "motion": 0
+---
+>                         "id": 810000
+96a103
+>                 "autoTurnLast": 0.5,
+104d110
+<                         "mouthOpen": 0,
+107a114,122
+>                 "turnChangeIn": "whiteIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 300701,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+110,111c125,126
+<                 "turnChangeIn": "whiteIn",
+<                 "turnChangeOut": "whiteOut"
+---
+>                 "turnChangeOut": "whiteOut",
+>                 "turnEffect": "promist"
+113a129
+>                 "autoTurnLast": 0.5,
+121d136
+<                         "mouthOpen": 0,
+124a140,148
+>                 "turnChangeIn": "whiteIn",
+>                 "turnEffect": "stop"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 300701
+>                     }
+>                 ],
+127,128c151,152
+<                 "turnChangeIn": "whiteIn",
+<                 "turnChangeOut": "whiteOut"
+---
+>                 "turnChangeOut": "whiteOut",
+>                 "turnChangeOutTime": 1
+136,137c160
+<                         "lipSynch": 0,
+<                         "mouthOpen": 0
+---
+>                         "lipSynch": 0
+150d172
+<                         "mouthOpen": 1,
+157,162d178
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 300701
+<                     }
+<                 ],
+169,171d184
+< #BELLA=narration=SPINA#
+<             },
+<             {
+178d190
+<                         "mouthOpen": 0,
+182a195,204
+> #BELLA=narration=SPINA#
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 300701,
+>                         "lipSynch": 0,
+>                         "tear": 1
+>                     }
+>                 ],
+193c215
+<                         "mouthOpen": 0,
+---
+>                         "lipSynch": 1,
+202,203c224
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+212,213c233
+<                         "motion": 101,
+<                         "mouthOpen": 0
+---
+>                         "motion": 101
+221,222c241,244
+<                         "effect": "fadeout",
+<                         "id": 300701
+---
+>                         "cheek": 2,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 300701,
+>                         "tear": 1
+233,234d254
+<                         "cheek": 2,
+<                         "face": "mtn_ex_050.exp.json",
+235a256
+>                         "lipSynch": 0,
+237,238d257
+<                         "mouthOpen": 0,
+<                         "pos": 1,
+248a268
+>                         "cheek": 2,
+252d271
+<                         "mouthOpen": 1,
+260a280
+>                         "cheek": 2,
+263d282
+<                         "mouthOpen": 0,
+272,273c291
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+282,283c300
+<                         "motion": 0,
+<                         "mouthOpen": 0
+---
+>                         "motion": 0
+291,292c308,311
+<                         "effect": "fadeout",
+<                         "id": 300701
+---
+>                         "cheek": 2,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 300701,
+>                         "tear": 1
+303,304d321
+<                         "cheek": 2,
+<                         "face": "mtn_ex_050.exp.json",
+306,308d322
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 1,
+323d336
+<                         "mouthOpen": 1,
+332,333c345
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+342,343c354,355
+<                         "motion": 0,
+<                         "mouthOpen": 0
+---
+>                         "lipSynch": 1,
+>                         "motion": 0
+351,352c363
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+358,363d368
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 300701
+<                     }
+<                 ],

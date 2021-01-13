@@ -1,0 +1,99 @@
+5,6c5
+<                 "bg": "bg_adv_13021.jpg",
+<                 "bgm": "bgm03_story02",
+---
+>                 "autoTurnLast": 0.01,
+16a16,20
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_13021.jpg",
+>                 "bgm": "bgm03_story02",
+19d22
+<                 "turnChangeIn": "fadeIn",
+22a26
+>                 "autoTurnLast": 0.2,
+26c30
+<                         "effect": "slideInLeft",
+---
+>                         "effect": "slideInLeftFast",
+33a38,46
+>                 "textClear": 1
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100301,
+>                         "motion": 200
+>                     }
+>                 ],
+53a67
+>                         "motion": 0,
+239a254
+>                 "autoTurnLast": 0.5,
+242,248c257,264
+<                         "cheek": 0,
+<                         "effect": "slideOutLeft",
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 100301,
+<                         "motion": 0,
+<                         "mouthOpen": 0
+<                     },
+---
+>                         "effect": "slideOutLeftFast",
+>                         "id": 100301
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+>                 "chara": [
+264c280
+<                         "effect": "slideInRight",
+---
+>                         "effect": "slideInRightFast",
+304c320
+<                 "bgEffect": "shakeLarge",
+---
+>                 "autoTurnLast": 0.2,
+307,313c323,331
+<                         "cheek": 0,
+<                         "effect": "slideOutLeft",
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 100301,
+<                         "motion": 0,
+<                         "mouthOpen": 0
+<                     },
+---
+>                         "effect": "slideOutLeftFast",
+>                         "id": 100301
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+>                 "bgEffect": "shakeLarge",
+>                 "chara": [
+358a377
+>                 "autoTurnLast": 0.01,
+361a381,392
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 100301,
+>                         "motion": 0,
+>                         "mouthOpen": 0,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+365d395
+<                         "mouthOpen": 0,
+371d400
+<                 "turnChangeIn": "rollInFast",
+408c437
+<     "version": 2
+---
+>     "version": 3

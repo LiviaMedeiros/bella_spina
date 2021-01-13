@@ -1,0 +1,61 @@
+4a5
+>                 "autoTurnLast": 0.2,
+6d6
+<                 "bgm": "bgm01_anime03",
+12c12
+<                         "motion": 200,
+---
+>                         "motion": 0,
+16a17,26
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm01_anime03",
+>                 "chara": [
+>                     {
+>                         "id": 300902,
+>                         "motion": 200
+>                     }
+>                 ],
+18a29
+>                 "turnChangeOut": "fadeOut"
+107c118,119
+<                 ]
+---
+>                 ],
+>                 "textClear": 1
+265a278
+>                 "autoTurnLast": 1,
+267c280
+<                 "bgm": "bgm01_anime07",
+---
+>                 "bgm": "stop",
+277a291,299
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm01_anime07",
+>                 "chara": [
+>                     {
+>                         "id": 300902
+>                     }
+>                 ],
+280d301
+<                 "turnChangeIn": "fadeIn",
+349c370,375
+<                 "bg": "bg_adv_21221.jpg",
+---
+>                 "autoTurnLast": 0.1,
+>                 "bg": "bg_adv_19231.jpg",
+>                 "bgm": "stop",
+>                 "turnChangeIn": "rollIn"
+>             },
+>             {
+364d389
+<                 "turnChangeIn": "rollIn",
+444a470
+>                 "bg": "bg_adv_21073.jpg",
+574c600
+<     "version": 2
+---
+>     "version": 3

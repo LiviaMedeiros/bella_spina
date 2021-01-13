@@ -1,0 +1,35 @@
+5,6c5
+<                 "bg": "bg_adv_21161.jpg",
+<                 "bgm": "bgm03_story02",
+---
+>                 "autoTurnLast": 0.01,
+25a25,34
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21161.jpg",
+>                 "bgm": "bgm03_story02",
+>                 "chara": [
+>                     {
+>                         "id": 301201
+>                     }
+>                 ],
+29d37
+<                 "turnChangeIn": "fadeIn",
+287a296
+>                         "lipSynch": 0,
+320a330,339
+>                 "autoTurnLast": 1,
+>                 "chara": [
+>                     {
+>                         "effect": "slideOutLeftFast",
+>                         "id": 100301
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+421c440
+<     "version": 2
+---
+>     "version": 3

@@ -1,0 +1,56 @@
+5,6c5
+<                 "bg": "bg_adv_21132.jpg",
+<                 "bgm": "bgm03_story01",
+---
+>                 "autoTurnLast": 0.01,
+15,23c14
+<                     }
+<                 ],
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut"
+<             },
+<             {
+<                 "chara": [
+---
+>                     },
+32a24,38
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21132.jpg",
+>                 "bgm": "bgm03_story01",
+>                 "chara": [
+>                     {
+>                         "id": 100501
+>                     }
+>                 ],
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+325a332,341
+>                 "autoTurnLast": 1,
+>                 "chara": [
+>                     {
+>                         "effect": "fadeout",
+>                         "id": 101301
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+539a556
+>                 "turnEffect": "thinking"
+566a584
+>                 "turnEffect": "stop"
+588c606
+<                         "motion": 0,
+---
+>                         "motion": 200,
+650c668
+<     "version": 2
+---
+>     "version": 3

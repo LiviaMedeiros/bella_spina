@@ -1,0 +1,262 @@
+13,14c13
+<                 "bg": "bg_adv_11092.jpg",
+<                 "bgm": "bgm03_story10",
+---
+>                 "autoTurnLast": 0.01,
+18,19c17,18
+<                         "face": "mtn_ex_051.exp.json",
+<                         "id": 100200,
+---
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 101100,
+26,27c25,26
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 101100,
+---
+>                         "face": "mtn_ex_051.exp.json",
+>                         "id": 100200,
+32a32,37
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_11092.jpg",
+>                 "bgm": "bgm03_story10",
+35,37c40
+<                 "narrationEffect": "out",
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "fadeIn",
+---
+> #BELLA=textRight=SPINA#
+50c53
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+61c64
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+73c76
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+87c90
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+99c102
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+111c114
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+122c125
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+134c137
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+145c148
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+157c160
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+169c172
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+181c184
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+193c196,206
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+>             },
+>             {
+>                 "autoTurnLast": 0.5,
+>                 "bg": "black",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "autoTurnLast": 0.5,
+>                 "flashEffect": "flashWhite2",
+>                 "turnChangeOut": "fadeOut"
+195a209
+>                 "autoTurnLast": 0.5,
+203c217,223
+<                         "mouthOpen": 0,
+---
+>                         "pos": 2
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 101100,
+>                         "motion": 0,
+207,209c227,238
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "fadeIn",
+---
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100200,
+>                         "lipSynch": 0,
+>                         "motion": 400
+>                     }
+>                 ],
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+215,216d243
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+218,220c245
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 0
+---
+>                         "motion": 400
+233a259,266
+>                         "pos": 0
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 100300,
+>                         "motion": 0,
+>                         "mouthOpen": 0,
+237,238c270,271
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+244,248c277,278
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 100300,
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 2
+---
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 100300
+254a285
+>                 "autoTurnLast": 0.01,
+262c293
+<                         "pos": 0
+---
+>                         "pos": 2
+270c301
+<                         "pos": 2
+---
+>                         "pos": 0
+273,275c304,314
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "rollInFast",
+---
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100200,
+>                         "motion": 400
+>                     }
+>                 ],
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+283a323
+>                         "motion": 300,
+287c327
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+297c337
+<                         "pos": 2
+---
+>                         "pos": 0
+300,301c340,341
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+313c353
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textRight=SPINA#
+323c363
+<                         "pos": 2
+---
+>                         "pos": 0
+326,327c366,367
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+337c377
+<                         "pos": 0
+---
+>                         "pos": 2
+340,341c380,381
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+352c392
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+364c404
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+374c414
+<                         "pos": 2
+---
+>                         "pos": 0
+377,378c417,418
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+388c428
+<                         "pos": 0
+---
+>                         "pos": 2
+391,392c431,432
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+402c442
+<                         "pos": 2
+---
+>                         "pos": 0
+405,406c445,446
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+414c454
+<     "version": 2
+---
+>     "version": 3

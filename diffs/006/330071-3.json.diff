@@ -1,0 +1,139 @@
+17a18
+>                 "autoTurnLast": 0.5,
+19c20,33
+<                 "bgChangeEffect": "fade",
+---
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_000.exp.json",
+>                         "id": 300701,
+>                         "motion": 0,
+>                         "pos": 1,
+>                         "soulGem": 0
+>                     }
+>                 ],
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+21a36,38
+>                 "narrationBg": "bg_adv_21221.jpg",
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"
+36d52
+<                 "bgm": "stop",
+39,45c55
+<                         "cheek": 0,
+<                         "face": "mtn_ex_000.exp.json",
+<                         "id": 300701,
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 1,
+<                         "soulGem": 0
+---
+>                         "id": 300701
+52,53d61
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut"
+58,60c66
+<                         "cheek": 0,
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+70,71c76
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+94,95c99,111
+<                         "effect": "fadeout",
+<                         "id": 300701
+---
+>                         "cheek": 2,
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 300701,
+>                         "motion": 0,
+>                         "pos": 0,
+>                         "tear": 1
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 800900,
+>                         "motion": 0,
+>                         "pos": 2
+107d122
+<                 "bg": "bg_adv_21221.jpg",
+110,123c125
+<                         "cheek": 2,
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 300701,
+<                         "motion": 0,
+<                         "mouthOpen": 0,
+<                         "pos": 0,
+<                         "soulGem": 0,
+<                         "tear": 1
+<                     },
+<                     {
+<                         "face": "mtn_ex_020.exp.json",
+<                         "id": 800900,
+<                         "motion": 0,
+<                         "pos": 2
+---
+>                         "id": 800900
+144c146
+<                         "mouthOpen": 0
+---
+>                         "tear": 1
+155d156
+<                         "mouthOpen": 0,
+174c175
+<                         "mouthOpen": 0
+---
+>                         "tear": 1
+183c184
+<                         "mouthOpen": 1
+---
+>                         "tear": 1
+195d195
+<                         "mouthOpen": 0,
+202c202
+<                 "bg": "bg_adv_21221.jpg",
+---
+>                 "autoTurnLast": 0.2,
+207,208c207,208
+<                         "pos": 2,
+<                         "posX": 40
+---
+>                         "pos": 1,
+>                         "posY": 80
+211,213c211,220
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+<                 "turnChangeIn": "rollInFast",
+---
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 810000
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+> #BELLA=textCenter=SPINA#
+219,220c226
+<                         "id": 810000,
+<                         "motion": 0
+---
+>                         "id": 810000
+223c229
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=textCenter=SPINA#
+231c237
+<     "version": 2
+---
+>     "version": 3

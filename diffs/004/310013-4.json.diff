@@ -1,0 +1,274 @@
+5,6c5
+<                 "bg": "bg_adv_21201.jpg",
+<                 "bgm": "bgm03_story02",
+---
+>                 "autoTurnLast": 0.01,
+16c15
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+22a22,31
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21201.jpg",
+>                 "bgm": "bgm03_story02",
+>                 "chara": [
+>                     {
+>                         "id": 100101
+>                     }
+>                 ],
+26d34
+<                 "turnChangeIn": "fadeIn",
+32c40
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+55c63
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+114,115c122,123
+<                 "bg": "bg_adv_21091.jpg",
+<                 "bgm": "bgm03_story09",
+---
+>                 "autoTurnLast": 1,
+>                 "bgm": "stop",
+118c126
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+131a140,144
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_21091.jpg",
+>                 "bgm": "bgm03_story09",
+136d148
+<                 "turnChangeIn": "fadeIn",
+152c164
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+163c175
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+171a184
+>                 "autoTurnLast": 0.01,
+174c187
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+177,178c190
+<                         "motion": 200,
+<                         "mouthOpen": 1,
+---
+>                         "motion": 0,
+182c194
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+188a201,209
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100401,
+>                         "motion": 200
+>                     }
+>                 ],
+192d212
+<                 "turnChangeIn": "rollInFast",
+198c218
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+200c220,221
+<                         "id": 100201
+---
+>                         "id": 100201,
+>                         "motion": 100
+208c229
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+210,211c231
+<                         "id": 100201,
+<                         "motion": 100
+---
+>                         "id": 100201
+227a248
+>                 "autoTurnLast": 0.01,
+230c251
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+237c258
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+243a265,272
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100401
+>                     }
+>                 ],
+247d275
+<                 "turnChangeIn": "rollInFast",
+266c294
+<                         "motion": 0,
+---
+>                         "motion": 401,
+284a313,317
+>                 "autoTurnLast": 0.01,
+>                 "bgm": "stop",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+286,295d318
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100101
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100201
+<                     }
+<                 ],
+300c323,324
+<                 "surround": "stop"
+---
+>                 "surround": "stop",
+>                 "turnChangeOut": "fadeOut"
+311a336
+>                 "autoTurnLast": 0.01,
+317c342
+<                         "motion": 300,
+---
+>                         "motion": 0,
+321d345
+< #BELLA=nameCenter=SPINA#
+323c347
+< #BELLA=textCenter=SPINA#
+---
+>                 "turnChangeIn": "fadeIn"
+328,329d351
+<                         "cheek": 0,
+<                         "face": "mtn_ex_011.exp.json",
+331c353
+<                         "motion": 1
+---
+>                         "motion": 300
+333a356
+> #BELLA=nameCenter=SPINA#
+334a358
+>                 "turnChangeOut": "fadeOut"
+339c363,364
+<                         "effect": "fadeout",
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_011.exp.json",
+342a368,374
+> #BELLA=textCenter=SPINA#
+>             },
+>             {
+>                 "autoTurnLast": 0.01,
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+346c378,379
+<                 "narrationEffect": "in"
+---
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"
+363a397
+>                 "autoTurnLast": 0.01,
+373c407
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+379a414,417
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+382d419
+<                 "narrationEffect": "out",
+383a421
+>                 "turnChangeOut": "fadeOut"
+388c426
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+401c439
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+428,429c466
+<                         "motion": 400,
+<                         "mouthOpen": 1
+---
+>                         "motion": 401
+434a472,475
+>                 "autoTurnLast": 0.01,
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+448c489,490
+<                 "narrationEffect": "in"
+---
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"
+454,455c496,497
+<                 "bg": "bg_adv_11022.jpg",
+<                 "bgm": "bgm03_story05",
+---
+>                 "autoTurnLast": 0.01,
+>                 "bgm": "stop",
+471a514,519
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_11022.jpg",
+>                 "bgm": "bgm03_story05",
+474d521
+<                 "narrationEffect": "out",
+476d522
+<                 "turnChangeIn": "fadeIn",
+512c558
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+560c606
+<                         "cheek": 0,
+---
+>                         "cheek": -1,
+581c627
+<                         "cheek": 2,
+---
+>                         "cheek": 1,
+591c637
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+658c704
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+669a716,719
+>                 "autoTurnLast": 0.01,
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+673c723,724
+<                 "narrationEffect": "in"
+---
+>                 "narrationEffect": "in",
+>                 "turnChangeOut": "fadeOut"

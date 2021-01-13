@@ -1,0 +1,136 @@
+4a5
+>                 "autoTurnLast": 0.01,
+6d6
+<                 "bgm": "bgm03_story07",
+12c12
+<                         "motion": 200,
+---
+>                         "motion": 0,
+22a23,34
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm03_story07",
+>                 "chara": [
+>                     {
+>                         "cheek": 2,
+>                         "id": 302600,
+>                         "motion": 200,
+>                         "tear": 1
+>                     }
+>                 ],
+25d36
+<                 "turnChangeIn": "fadeIn",
+299a311
+>                 "autoTurnLast": 0.01,
+306c318
+<                         "motion": 300,
+---
+>                         "motion": 0,
+316d327
+< #BELLA=nameLeft=SPINA#
+318d328
+< #BELLA=textLeft=SPINA#
+320d329
+<                 "turnChangeOut": "whiteOut",
+325a335,346
+>                         "id": 302600,
+>                         "lipSynch": 0,
+>                         "motion": 300
+>                     }
+>                 ],
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+>                 "turnChangeOut": "whiteOut"
+>             },
+>             {
+>                 "chara": [
+>                     {
+636c657
+<                 "autoTurnLast": 1,
+---
+>                 "autoTurnLast": 0.01,
+645c666,674
+<                 "turnChangeIn": "rollInFast",
+---
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "autoTurnLast": 1,
+>                 "chara": [
+>                     {
+>                         "id": 301101
+>                     }
+>                 ],
+648a678
+>                 "autoTurnLast": 0.01,
+654c684
+<                         "motion": 100,
+---
+>                         "motion": 0,
+655a686,700
+>                     },
+>                     {
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 101101,
+>                         "motion": 0,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 101000,
+>                         "motion": 100
+660d704
+<                 "turnChangeIn": "rollInFast",
+666d709
+<                         "face": "mtn_ex_050.exp.json",
+668,669c711
+<                         "motion": 400,
+<                         "pos": 0
+---
+>                         "motion": 400
+1566a1609
+>                 "autoTurnLast": 0.01,
+1571d1613
+<                         "lipSynch": 0,
+1575a1618,1626
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302700,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+1578d1628
+<                 "turnChangeIn": "rollInFast",
+1618c1668
+<                 "bg": "black",
+---
+>                 "bg": "bg_adv_21142.jpg",
+1620a1671
+>                 "narrationBg": "black",
+1626,1629d1676
+< #BELLA=narration=SPINA#
+<             },
+<             {
+<                 "bg": "bg_adv_21142.jpg",
+1635c1682
+<                         "motion": 1,
+---
+>                         "motion": 0,
+1636a1684,1692
+>                     }
+>                 ],
+> #BELLA=narration=SPINA#
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100501,
+>                         "motion": 1

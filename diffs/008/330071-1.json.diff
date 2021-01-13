@@ -1,0 +1,173 @@
+4a5
+>                 "autoTurnLast": 0.5,
+6d6
+<                 "bgm": "bgm03_story07",
+13d12
+<                         "mouthOpen": 0,
+24a24,32
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm03_story07",
+>                 "chara": [
+>                     {
+>                         "id": 800100
+>                     }
+>                 ],
+28d35
+<                 "turnChangeIn": "fadeIn",
+34,36c41
+<                         "cheek": 0,
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+43a49
+>                         "cheek": 0,
+56,57c62
+<                         "motion": 200,
+<                         "mouthOpen": 0
+---
+>                         "motion": 200
+72a78
+>                         "cheek": 0,
+96a103
+>                         "cheek": 0,
+111d117
+<                         "mouthOpen": 0,
+120,129d125
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 300701
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 800100
+<                     }
+<                 ],
+165a162
+>                 "autoTurnLast": 0.5,
+173d169
+<                         "mouthOpen": 0,
+177a174
+>                         "cheek": 0,
+184d180
+< #BELLA=nameLeft=SPINA#
+185a182,190
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 800300
+>                     }
+>                 ],
+> #BELLA=nameLeft=SPINA#
+186a192
+>                 "turnChangeOut": "fadeOut"
+190a197
+>                         "cheek": 0,
+205,207c212
+<                         "lipSynch": 1,
+<                         "motion": 200,
+<                         "mouthOpen": 0
+---
+>                         "motion": 200
+213,222d217
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 300701
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 800200
+<                     }
+<                 ],
+252a248
+>                 "autoTurnLast": 0.5,
+261d256
+<                         "mouthOpen": 0,
+272a268,276
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 800800
+>                     }
+>                 ],
+275d278
+<                 "narrationEffect": "out",
+277a281
+>                 "turnChangeOut": "fadeOut"
+282,284c286
+<                         "cheek": 0,
+<                         "id": 300701,
+<                         "mouthOpen": 0
+---
+>                         "id": 300701
+289a292
+>                 "autoTurnLast": 0.5,
+297,300c300,301
+<                         "mouthOpen": 0,
+<                         "pos": 0,
+<                         "soulGem": 0,
+<                         "tear": 0
+---
+>                         "pos": 1,
+>                         "soulGem": 0
+303,305c304,314
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "rollIn",
+---
+>                 "turnChangeIn": "rollIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 300701,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+> #BELLA=textCenter=SPINA#
+315,316c324
+<                         "lipSynch": 1,
+<                         "mouthOpen": 0
+---
+>                         "lipSynch": 1
+321c329
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textCenter=SPINA#
+324a333
+>                 "autoTurnLast": 0.2,
+326a336,345
+>                         "id": 300701,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+343,344c362
+<                         "motion": 101,
+<                         "mouthOpen": 0
+---
+>                         "motion": 101
+352c370,371
+<                 "turnChangeIn": "fadeIn"
+---
+>                 "turnChangeIn": "fadeIn",
+>                 "turnEffect": "stop"
+356c375
+<     "version": 2
+---
+>     "version": 3

@@ -1,0 +1,230 @@
+5,6c5
+<                 "bg": "bg_adv_12021.jpg",
+<                 "bgm": "bgm03_story09",
+---
+>                 "autoTurnLast": 0.01,
+22a22,26
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_12021.jpg",
+>                 "bgm": "bgm03_story09",
+25d28
+<                 "surround": "7001_birdsong",
+27d29
+<                 "turnChangeIn": "fadeIn",
+160c162
+<                 "bg": "bg_adv_12021.jpg",
+---
+>                 "autoTurnLast": 0.01,
+176a179,182
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_12021.jpg",
+180,181c186
+<                 "turnChangeIn": "rollInFast",
+<                 "turnChangeOut": "rollOutFast"
+---
+>                 "turnChangeOut": "fadeOut"
+227a233
+>                 "autoTurnLast": 0.2,
+230,234c236,237
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 100301,
+<                         "motion": 101,
+<                         "pos": 0
+---
+>                         "effect": "fadeout",
+>                         "id": 101101
+241,242c244,257
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+---
+>                 "textClear": 1
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 100301,
+>                         "motion": 101,
+>                         "pos": 1
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+> #BELLA=textCenter=SPINA#
+253c268
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textCenter=SPINA#
+260,261c275
+<                         "id": 100301,
+<                         "mouthOpen": 1
+---
+>                         "id": 100301
+264c278
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textCenter=SPINA#
+268a283,286
+>                         "id": 100301,
+>                         "pos": 0
+>                     },
+>                     {
+288a307
+> #BELLA=nameLeft=SPINA#
+298d316
+<                         "mouthOpen": 1,
+338,339c356
+<                         "motion": 0,
+<                         "mouthOpen": 1
+---
+>                         "motion": 0
+348c365
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_011.exp.json",
+358,359c375,376
+<                 "bg": "bg_adv_12023.jpg",
+<                 "bgm": "bgm03_story02",
+---
+>                 "autoTurnLast": 1,
+>                 "bgm": "stop",
+365c382
+<                         "motion": 100,
+---
+>                         "motion": 0,
+375a393,403
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_12023.jpg",
+>                 "bgm": "bgm03_story02",
+>                 "chara": [
+>                     {
+>                         "id": 100301,
+>                         "motion": 100
+>                     }
+>                 ],
+379d406
+<                 "turnChangeIn": "fadeIn",
+435a463
+>                 "autoTurnLast": 1,
+439,445d466
+<                         "face": "mtn_ex_011.exp.json",
+<                         "id": 101001,
+<                         "motion": 200,
+<                         "pos": 2
+<                     },
+<                     {
+<                         "cheek": 1,
+449a471,486
+>                     },
+>                     {
+>                         "cheek": 1,
+>                         "face": "mtn_ex_011.exp.json",
+>                         "id": 101001,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 101001,
+>                         "motion": 200
+455d491
+<                 "turnChangeIn": "fadeIn",
+479,480c515,519
+<                         "effect": "fadeout",
+<                         "id": 101101
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 100301,
+>                         "motion": 0,
+>                         "pos": 0
+490,493c529,530
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100301,
+<                         "motion": 0,
+<                         "pos": 0
+---
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 100301
+505,508d541
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 100301
+521,524d553
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 101301
+530a560
+>                 "autoTurnLast": 1,
+541a572,581
+>                 "turnChangeIn": "fadeIn",
+>                 "turnChangeInTime": 1
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100301,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+544,545d583
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeInTime": 1,
+583a622,634
+>                 "autoTurnLast": 0.01,
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 100501,
+>                         "motion": 0,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+594,600d644
+<                     },
+<                     {
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 100501,
+<                         "motion": 0,
+<                         "pos": 0
+606,607c650
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut"
+---
+>                 "turnChangeOut": "rollOutFast"
+675a719
+>                 "autoTurnLast": 0.01,
+681c725
+<                         "motion": 300,
+---
+>                         "motion": 0,
+691a736,744
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 100301,
+>                         "motion": 300
+>                     }
+>                 ],
+695d747
+<                 "turnChangeIn": "fadeIn",

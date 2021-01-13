@@ -1,0 +1,38 @@
+5,6c5
+<                 "bg": "bg_adv_14051.jpg",
+<                 "bgm": "bgm03_story07",
+---
+>                 "autoTurnLast": 0.01,
+14c13
+<                         "pos": 0
+---
+>                         "pos": 1
+17c16,21
+< #BELLA=nameLeft=SPINA#
+---
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bg": "bg_adv_14051.jpg",
+>                 "bgm": "bgm03_story07",
+> #BELLA=nameCenter=SPINA#
+19,20c23
+< #BELLA=textLeft=SPINA#
+<                 "turnChangeIn": "fadeIn",
+---
+> #BELLA=textCenter=SPINA#
+30c33
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=textCenter=SPINA#
+34a38,41
+>                         "id": 100501,
+>                         "pos": 0
+>                     },
+>                     {
+40a48
+> #BELLA=nameLeft=SPINA#
+366c374
+<     "version": 2
+---
+>     "version": 3
