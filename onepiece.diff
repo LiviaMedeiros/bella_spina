@@ -29741,6 +29741,23 @@ diff -r en/scenario_5/502901-5.json jp/scenario_5/502901-5.json
 <                         "path": "resource/scenario/img/black.jpg",
 ---
 >                         "path": "resource/scenario/img/black.png",
+diff -r en/scenario_5/503010-1.json jp/scenario_5/503010-1.json
+8a9
+>                         "iPhoneXScale": 1,
+27a29
+>                         "iPhoneXScale": 1,
+70a73
+>                         "iPhoneXScale": 1,
+94a98
+>                         "iPhoneXScale": 1,
+134a139
+>                         "iPhoneXScale": 1,
+158a164
+>                         "iPhoneXScale": 1,
+188a195
+>                         "iPhoneXScale": 1,
+207a215
+>                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503010-12.json jp/scenario_5/503010-12.json
 13a14
 >                         "iPhoneXScale": 1,
@@ -29874,23 +29891,6 @@ diff -r en/scenario_5/503010-18.json jp/scenario_5/503010-18.json
 <                         "scale": 1,
 ---
 >                         "scale": 2,
-diff -r en/scenario_5/503010-1.json jp/scenario_5/503010-1.json
-8a9
->                         "iPhoneXScale": 1,
-27a29
->                         "iPhoneXScale": 1,
-70a73
->                         "iPhoneXScale": 1,
-94a98
->                         "iPhoneXScale": 1,
-134a139
->                         "iPhoneXScale": 1,
-158a164
->                         "iPhoneXScale": 1,
-188a195
->                         "iPhoneXScale": 1,
-207a215
->                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503010-7.json jp/scenario_5/503010-7.json
 179a180
 >                         "iPhoneXScale": 1,
@@ -29906,6 +29906,11 @@ diff -r en/scenario_5/503010-9.json jp/scenario_5/503010-9.json
 152a156
 >                         "iPhoneXScale": 1,
 354a359
+>                         "iPhoneXScale": 1,
+diff -r en/scenario_5/503020-1.json jp/scenario_5/503020-1.json
+20a21
+>                         "iPhoneXScale": 1,
+357a359
 >                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503020-10.json jp/scenario_5/503020-10.json
 13a14
@@ -30081,19 +30086,14 @@ diff -r en/scenario_5/503020-18.json jp/scenario_5/503020-18.json
 <                         "path": "resource/scenario/img/black.jpg",
 ---
 >                         "path": "resource/scenario/img/black.png",
-diff -r en/scenario_5/503020-1.json jp/scenario_5/503020-1.json
-20a21
->                         "iPhoneXScale": 1,
-357a359
+diff -r en/scenario_5/503020-2.json jp/scenario_5/503020-2.json
+13a14
 >                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503020-21.json jp/scenario_5/503020-21.json
 141a142
 >                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503020-23.json jp/scenario_5/503020-23.json
 17a18
->                         "iPhoneXScale": 1,
-diff -r en/scenario_5/503020-2.json jp/scenario_5/503020-2.json
-13a14
 >                         "iPhoneXScale": 1,
 diff -r en/scenario_5/503020-3.json jp/scenario_5/503020-3.json
 26a27
@@ -33123,6 +33123,59 @@ diff -r en/scenario_5/510031-9.json jp/scenario_5/510031-9.json
 <     "version": 2
 ---
 >     "version": 3
+diff -r en/scenario_5/510051-1.json jp/scenario_5/510051-1.json
+4a5
+>                 "autoTurnLast": 0.01,
+11d11
+<                         "lipSynch": 0,
+13a14,29
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_001.exp.json",
+>                         "id": 302600,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302700,
+>                         "lipSynch": 0
+18d33
+<                 "turnChangeIn": "fadeIn",
+24,25d38
+<                         "cheek": 0,
+<                         "face": "mtn_ex_001.exp.json",
+27,29c40
+<                         "lipSynch": 0,
+<                         "motion": 0,
+<                         "pos": 2
+---
+>                         "lipSynch": 0
+160a172
+>                 "autoTurnLast": 0.01,
+161a174,183
+>                 "chara": [
+>                     {
+>                         "id": 6104,
+>                         "name": "sprite_0",
+>                         "pos": 1
+>                     }
+>                 ],
+>                 "turnChangeIn": "whiteIn"
+>             },
+>             {
+172,173c194
+<                         "name": "sprite_0",
+<                         "pos": 1
+---
+>                         "name": "sprite_0"
+181d201
+<                 "turnChangeIn": "whiteIn",
 diff -r en/scenario_5/510051-10.json jp/scenario_5/510051-10.json
 5,6c5
 <                 "bg": "bg_adv_20052.jpg",
@@ -33963,17 +34016,21 @@ diff -r en/scenario_5/510051-19.json jp/scenario_5/510051-19.json
 <                         "pos": 0
 ---
 >                         "motion": 300
-diff -r en/scenario_5/510051-1.json jp/scenario_5/510051-1.json
+diff -r en/scenario_5/510051-2.json jp/scenario_5/510051-2.json
 4a5
 >                 "autoTurnLast": 0.01,
-11d11
-<                         "lipSynch": 0,
-13a14,29
+6d6
+<                 "bgm": "bgm03_story03",
+11c11
+<                         "motion": 200,
+---
+>                         "motion": 0,
+12a13,29
 >                     },
 >                     {
 >                         "cheek": 0,
->                         "face": "mtn_ex_001.exp.json",
->                         "id": 302600,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 302701,
 >                         "motion": 0,
 >                         "pos": 2
 >                     }
@@ -33981,41 +34038,21 @@ diff -r en/scenario_5/510051-1.json jp/scenario_5/510051-1.json
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
+>                 "bgm": "bgm03_story03",
 >                 "chara": [
 >                     {
->                         "id": 302700,
->                         "lipSynch": 0
-18d33
+>                         "id": 302801,
+>                         "motion": 200
+17d33
 <                 "turnChangeIn": "fadeIn",
-24,25d38
+23,27c39
 <                         "cheek": 0,
-<                         "face": "mtn_ex_001.exp.json",
-27,29c40
-<                         "lipSynch": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 302701,
 <                         "motion": 0,
 <                         "pos": 2
 ---
->                         "lipSynch": 0
-160a172
->                 "autoTurnLast": 0.01,
-161a174,183
->                 "chara": [
->                     {
->                         "id": 6104,
->                         "name": "sprite_0",
->                         "pos": 1
->                     }
->                 ],
->                 "turnChangeIn": "whiteIn"
->             },
->             {
-172,173c194
-<                         "name": "sprite_0",
-<                         "pos": 1
----
->                         "name": "sprite_0"
-181d201
-<                 "turnChangeIn": "whiteIn",
+>                         "id": 302701
 diff -r en/scenario_5/510051-20.json jp/scenario_5/510051-20.json
 4a5
 >                 "autoTurnLast": 0.01,
@@ -35187,43 +35224,99 @@ diff -r en/scenario_5/510051-29.json jp/scenario_5/510051-29.json
 <                         "pos": 2
 ---
 >                         "motion": 400
-diff -r en/scenario_5/510051-2.json jp/scenario_5/510051-2.json
+diff -r en/scenario_5/510051-3.json jp/scenario_5/510051-3.json
 4a5
 >                 "autoTurnLast": 0.01,
 6d6
-<                 "bgm": "bgm03_story03",
-11c11
-<                         "motion": 200,
----
->                         "motion": 0,
-12a13,29
->                     },
->                     {
->                         "cheek": 0,
->                         "face": "mtn_ex_010.exp.json",
->                         "id": 302701,
->                         "motion": 0,
->                         "pos": 2
->                     }
->                 ],
+<                 "bgm": "bgm03_story12",
+15a16,24
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
->                 "bgm": "bgm03_story03",
+>                 "bgm": "bgm03_story12",
 >                 "chara": [
 >                     {
->                         "id": 302801,
->                         "motion": 200
-17d33
-<                 "turnChangeIn": "fadeIn",
-23,27c39
-<                         "cheek": 0,
-<                         "face": "mtn_ex_010.exp.json",
-<                         "id": 302701,
-<                         "motion": 0,
-<                         "pos": 2
----
 >                         "id": 302701
+>                     }
+>                 ],
+18d26
+<                 "turnChangeIn": "fadeIn",
+39a48
+>                 "autoTurnLast": 0.01,
+46c55
+<                         "motion": 1,
+---
+>                         "motion": 0,
+50d58
+< #BELLA=nameCenter=SPINA#
+51a60,69
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302701,
+>                         "motion": 1
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+53d70
+<                 "turnChangeIn": "fadeIn",
+87,89d103
+< #BELLA=narration=SPINA#
+<             },
+<             {
+95c109
+<                         "motion": 300,
+---
+>                         "motion": 0,
+98a113,121
+> #BELLA=narration=SPINA#
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302701,
+>                         "motion": 300
+>                     }
+>                 ],
+114a138
+>                 "autoTurnLast": 0.01,
+116d139
+<                 "bgm": "stop",
+124a148,156
+>                 "turnChangeIn": "whiteIn"
+>             },
+>             {
+>                 "bgm": "stop",
+>                 "chara": [
+>                     {
+>                         "id": 800800
+>                     }
+>                 ],
+127d158
+<                 "turnChangeIn": "whiteIn",
+144a176
+>                 "autoTurnLast": 0.01,
+150c182
+<                         "motion": 200,
+---
+>                         "motion": 0,
+154d185
+< #BELLA=nameCenter=SPINA#
+155a187,196
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302701,
+>                         "motion": 200
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+157d197
+<                 "turnChangeIn": "fadeIn",
 diff -r en/scenario_5/510051-30.json jp/scenario_5/510051-30.json
 14a15
 >                 "autoTurnLast": 0.01,
@@ -36127,68 +36220,64 @@ diff -r en/scenario_5/510051-39.json jp/scenario_5/510051-39.json
 >                     {
 >                         "id": 100501,
 >                         "motion": 1
-diff -r en/scenario_5/510051-3.json jp/scenario_5/510051-3.json
+diff -r en/scenario_5/510051-4.json jp/scenario_5/510051-4.json
 4a5
 >                 "autoTurnLast": 0.01,
-6d6
-<                 "bgm": "bgm03_story12",
-15a16,24
+14a16,23
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
->                 "bgm": "bgm03_story12",
 >                 "chara": [
 >                     {
->                         "id": 302701
+>                         "id": 302601
 >                     }
 >                 ],
-18d26
+17d25
 <                 "turnChangeIn": "fadeIn",
-39a48
+35a44
 >                 "autoTurnLast": 0.01,
-46c55
+42c51
 <                         "motion": 1,
 ---
 >                         "motion": 0,
-50d58
+46d54
 < #BELLA=nameCenter=SPINA#
-51a60,69
+47a56,65
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
 >                 "chara": [
 >                     {
->                         "id": 302701,
+>                         "id": 302601,
 >                         "motion": 1
 >                     }
 >                 ],
 > #BELLA=nameCenter=SPINA#
-53d70
+49d66
 <                 "turnChangeIn": "fadeIn",
-87,89d103
-< #BELLA=narration=SPINA#
-<             },
-<             {
-95c109
-<                         "motion": 300,
----
->                         "motion": 0,
-98a113,121
-> #BELLA=narration=SPINA#
+97a115
+>                 "autoTurnLast": 0.01,
+107d124
+< #BELLA=nameCenter=SPINA#
+108a126,134
+>                 "turnChangeIn": "fadeIn"
 >             },
 >             {
 >                 "chara": [
 >                     {
->                         "id": 302701,
->                         "motion": 300
+>                         "id": 800800
 >                     }
 >                 ],
-114a138
->                 "autoTurnLast": 0.01,
-116d139
+> #BELLA=nameCenter=SPINA#
+110d135
+<                 "turnChangeIn": "fadeIn",
+124,127d148
+< #BELLA=narration=SPINA#
+<             },
+<             {
 <                 "bgm": "stop",
-124a148,156
->                 "turnChangeIn": "whiteIn"
+135a157,165
+> #BELLA=narration=SPINA#
 >             },
 >             {
 >                 "bgm": "stop",
@@ -36197,28 +36286,64 @@ diff -r en/scenario_5/510051-3.json jp/scenario_5/510051-3.json
 >                         "id": 800800
 >                     }
 >                 ],
-127d158
-<                 "turnChangeIn": "whiteIn",
-144a176
->                 "autoTurnLast": 0.01,
-150c182
-<                         "motion": 200,
+153,154c183
+<                         "id": 800800,
+<                         "pos": 0
 ---
->                         "motion": 0,
-154d185
+>                         "id": 800800
+174a204
+>                 "autoTurnLast": 0.01,
+185d214
 < #BELLA=nameCenter=SPINA#
-155a187,196
+186a216,224
 >                 "turnChangeIn": "fadeIn"
 >             },
 >             {
 >                 "chara": [
 >                     {
->                         "id": 302701,
->                         "motion": 200
+>                         "id": 302601
 >                     }
 >                 ],
 > #BELLA=nameCenter=SPINA#
-157d197
+188d225
+<                 "turnChangeIn": "fadeIn",
+270a308
+>                 "autoTurnLast": 0.01,
+280d317
+< #BELLA=nameCenter=SPINA#
+282,283c319,327
+<                 "questTurnChangeIn": "fadeIn",
+<                 "questTurnChangeOut": "fadeOut",
+---
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 800800
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+284a329
+>                 "turnChangeOut": "fadeOut"
+343a389
+>                 "autoTurnLast": 0.01,
+350d395
+<                         "lipSynch": 0,
+355d399
+< #BELLA=nameCenter=SPINA#
+356a401,410
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302601,
+>                         "lipSynch": 0
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+358d411
 <                 "turnChangeIn": "fadeIn",
 diff -r en/scenario_5/510051-40.json jp/scenario_5/510051-40.json
 5c5,9
@@ -36421,131 +36546,6 @@ diff -r en/scenario_5/510051-43.json jp/scenario_5/510051-43.json
 >                     }
 >                 ],
 368d394
-<                 "turnChangeIn": "fadeIn",
-diff -r en/scenario_5/510051-4.json jp/scenario_5/510051-4.json
-4a5
->                 "autoTurnLast": 0.01,
-14a16,23
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 302601
->                     }
->                 ],
-17d25
-<                 "turnChangeIn": "fadeIn",
-35a44
->                 "autoTurnLast": 0.01,
-42c51
-<                         "motion": 1,
----
->                         "motion": 0,
-46d54
-< #BELLA=nameCenter=SPINA#
-47a56,65
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 302601,
->                         "motion": 1
->                     }
->                 ],
-> #BELLA=nameCenter=SPINA#
-49d66
-<                 "turnChangeIn": "fadeIn",
-97a115
->                 "autoTurnLast": 0.01,
-107d124
-< #BELLA=nameCenter=SPINA#
-108a126,134
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 800800
->                     }
->                 ],
-> #BELLA=nameCenter=SPINA#
-110d135
-<                 "turnChangeIn": "fadeIn",
-124,127d148
-< #BELLA=narration=SPINA#
-<             },
-<             {
-<                 "bgm": "stop",
-135a157,165
-> #BELLA=narration=SPINA#
->             },
->             {
->                 "bgm": "stop",
->                 "chara": [
->                     {
->                         "id": 800800
->                     }
->                 ],
-153,154c183
-<                         "id": 800800,
-<                         "pos": 0
----
->                         "id": 800800
-174a204
->                 "autoTurnLast": 0.01,
-185d214
-< #BELLA=nameCenter=SPINA#
-186a216,224
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 302601
->                     }
->                 ],
-> #BELLA=nameCenter=SPINA#
-188d225
-<                 "turnChangeIn": "fadeIn",
-270a308
->                 "autoTurnLast": 0.01,
-280d317
-< #BELLA=nameCenter=SPINA#
-282,283c319,327
-<                 "questTurnChangeIn": "fadeIn",
-<                 "questTurnChangeOut": "fadeOut",
----
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 800800
->                     }
->                 ],
-> #BELLA=nameCenter=SPINA#
-284a329
->                 "turnChangeOut": "fadeOut"
-343a389
->                 "autoTurnLast": 0.01,
-350d395
-<                         "lipSynch": 0,
-355d399
-< #BELLA=nameCenter=SPINA#
-356a401,410
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 302601,
->                         "lipSynch": 0
->                     }
->                 ],
-> #BELLA=nameCenter=SPINA#
-358d411
 <                 "turnChangeIn": "fadeIn",
 diff -r en/scenario_5/510051-5.json jp/scenario_5/510051-5.json
 4a5
@@ -36975,41 +36975,6 @@ diff -r en/scenario_5/510061-9.json jp/scenario_5/510061-9.json
 <                 "bg": "bg_adv_21025.jpg",
 ---
 >                 "bg": "bg_adv_21491.jpg",
-diff -r en/scenario_5/510071-10.json jp/scenario_5/510071-10.json
-4a5
->                 "autoTurnLast": 0.5,
-12c13
-<                         "motion": 200,
----
->                         "motion": 0,
-22a24,32
->                 "turnChangeIn": "fadeIn"
->             },
->             {
->                 "chara": [
->                     {
->                         "id": 301601,
->                         "motion": 200
->                     }
->                 ],
-26d35
-<                 "turnChangeIn": "fadeIn",
-627c636
-<                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
----
->                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
-641,643c650,652
-<                 "narrationFontSize": 28,
-<                 "narrationLineMargin": 15,
-<                 "narrationLineSpace": 10,
----
->                 "narrationFontSize": 30,
->                 "narrationLineMargin": 5,
->                 "narrationLineSpace": 15,
-656c665
-<                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
----
->                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
 diff -r en/scenario_5/510071-1.json jp/scenario_5/510071-1.json
 4a5
 >                 "autoTurnLast": 0.01,
@@ -37120,6 +37085,41 @@ diff -r en/scenario_5/510071-1.json jp/scenario_5/510071-1.json
 <                 "turnEffect": "stop"
 ---
 >                 "turnChangeOut": "fadeOut"
+diff -r en/scenario_5/510071-10.json jp/scenario_5/510071-10.json
+4a5
+>                 "autoTurnLast": 0.5,
+12c13
+<                         "motion": 200,
+---
+>                         "motion": 0,
+22a24,32
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 301601,
+>                         "motion": 200
+>                     }
+>                 ],
+26d35
+<                 "turnChangeIn": "fadeIn",
+627c636
+<                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
+---
+>                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
+641,643c650,652
+<                 "narrationFontSize": 28,
+<                 "narrationLineMargin": 15,
+<                 "narrationLineSpace": 10,
+---
+>                 "narrationFontSize": 30,
+>                 "narrationLineMargin": 5,
+>                 "narrationLineSpace": 15,
+656c665
+<                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
+---
+>                         "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
 diff -r en/scenario_5/510071-2.json jp/scenario_5/510071-2.json
 4a5
 >                 "autoTurnLast": 0.5,

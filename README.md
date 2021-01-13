@@ -14,4 +14,6 @@ onepiece are recursive macropatches, handy for estimating the overall amount of 
 
 all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g. `#BELLA=textLeft=SPINA#` with no indentation<br/>
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
-`000` patches probably are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
+`000` patches are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
+
+files in `valid` directory are successfully (0 hunk rejections, 0 special lines) patched scenarios which are still valid as json
