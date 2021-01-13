@@ -1,0 +1,355 @@
+--- en/scenario_3/330072-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330072-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,2 +5 @@
+-                "bg": "bg_adv_11043.jpg",
+-                "bgm": "bgm03_story02",
++                "autoTurnLast": 0.5,
+@@ -13 +11,0 @@
+-                        "mouthOpen": 0,
+@@ -17 +15 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -21 +18,0 @@
+-                        "mouthOpen": 0,
+@@ -24,0 +22,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_11043.jpg",
++                "bgm": "bgm03_story02",
++                "chara": [
++                    {
++                        "id": 300701
++                    }
++                ],
+@@ -28 +34,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -34 +40 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -36,2 +42 @@
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -42,0 +48 @@
++                "autoTurnLast": 0.5,
+@@ -50 +55,0 @@
+-                        "mouthOpen": 0,
+@@ -53,0 +59,8 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100301
++                    }
++                ],
+@@ -56 +68,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -64,2 +76 @@
+-                        "id": 100301,
+-                        "mouthOpen": 1
++                        "id": 100301
+@@ -70,0 +82 @@
++                "autoTurnLast": 0.1,
+@@ -78 +89,0 @@
+-                        "mouthOpen": 0,
+@@ -86 +96,0 @@
+-                        "mouthOpen": 0,
+@@ -89,0 +100,9 @@
++                "textClear": 1,
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100501
++                    }
++                ],
+@@ -93 +111,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -104 +121,0 @@
+-                        "mouthOpen": 0,
+@@ -116,2 +133 @@
+-                        "id": 100301,
+-                        "mouthOpen": 0
++                        "id": 100301
+@@ -128,2 +144 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -141 +155,0 @@
+-                        "mouthOpen": 0,
+@@ -154,2 +168 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -165,2 +178 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -174,2 +186 @@
+-                        "id": 100301,
+-                        "mouthOpen": 0
++                        "id": 100301
+@@ -186,2 +197 @@
+-                        "motion": 201,
+-                        "mouthOpen": 0
++                        "motion": 201
+@@ -199 +208,0 @@
+-                        "mouthOpen": 0,
+@@ -210,2 +219 @@
+-                        "id": 100501,
+-                        "mouthOpen": 0
++                        "id": 100501
+@@ -221,2 +229 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -233,2 +240 @@
+-                        "motion": 200,
+-                        "mouthOpen": 1
++                        "motion": 200
+@@ -260,2 +266 @@
+-                        "motion": 400,
+-                        "mouthOpen": 0
++                        "motion": 400
+@@ -266,0 +272 @@
++                "autoTurnLast": 0.2,
+@@ -274 +279,0 @@
+-                        "mouthOpen": 0,
+@@ -278 +283 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -282 +286,0 @@
+-                        "mouthOpen": 0,
+@@ -285,0 +290,8 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100201
++                    }
++                ],
+@@ -289 +300,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -298,2 +309 @@
+-                        "motion": 101,
+-                        "mouthOpen": 0
++                        "motion": 101
+@@ -310,2 +320 @@
+-                        "lipSynch": 0,
+-                        "mouthOpen": 0
++                        "lipSynch": 0
+@@ -319 +328 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -323,2 +332 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -336,2 +344 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -345 +352 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -348,2 +355 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -357 +363 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -359,2 +365 @@
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -368,3 +373 @@
+-                        "cheek": 0,
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -378 +380,0 @@
+-                        "cheek": 0,
+@@ -380,2 +382 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -389,3 +390 @@
+-                        "cheek": 0,
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -399 +397,0 @@
+-                        "cheek": 0,
+@@ -401,2 +399 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -410 +406,0 @@
+-                        "cheek": 0,
+@@ -413,2 +409 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -423 +417,0 @@
+-                        "cheek": 0,
+@@ -425,2 +419 @@
+-                        "lipSynch": 0,
+-                        "mouthOpen": 0
++                        "lipSynch": 0
+@@ -437,2 +430 @@
+-                        "lipSynch": 0,
+-                        "mouthOpen": 0
++                        "lipSynch": 0
+@@ -446 +438 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -448,2 +440 @@
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -458 +449 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -461,2 +452 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -468 +458 @@
+-                "autoTurnLast": 0.01,
++                "autoTurnLast": 0.1,
+@@ -475 +464,0 @@
+-                        "mouthOpen": 0,
+@@ -482,2 +471 @@
+-                        "motion": 201,
+-                        "mouthOpen": 0,
++                        "motion": 0,
+@@ -491,2 +479 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0,
++                        "motion": 0,
+@@ -508,0 +496,8 @@
++                    },
++                    {
++                        "id": 100501,
++                        "motion": 200
++                    },
++                    {
++                        "id": 100301,
++                        "motion": 201
+@@ -517,0 +513 @@
++                "autoTurnLast": 0.1,
+@@ -525,2 +521 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0,
++                        "motion": 0,
+@@ -529,0 +525,10 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 300701,
++                        "lipSynch": 0,
++                        "motion": 300
++                    }
++                ],
+@@ -532 +536,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -535,0 +540 @@
++                "autoTurnLast": 0.1,
+@@ -543 +547,0 @@
+-                        "mouthOpen": 1,
+@@ -544,0 +549,15 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 100501,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100301
+@@ -549 +567,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -556,2 +574 @@
+-                        "id": 100301,
+-                        "mouthOpen": 0
++                        "id": 100301
+@@ -568,2 +585 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -580,3 +596 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "motion": 100
+@@ -594,2 +608 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -607,3 +620 @@
+-                        "mouthOpen": 0,
+-                        "pos": 2,
+-                        "tear": 0
++                        "pos": 2
+@@ -621,2 +632 @@
+-                        "motion": 400,
+-                        "mouthOpen": 0
++                        "motion": 400
+@@ -634 +643,0 @@
+-                        "mouthOpen": 0,
+@@ -641,0 +651 @@
++                "autoTurnLast": 0.1,
+@@ -649 +658,0 @@
+-                        "mouthOpen": 0,
+@@ -653 +662 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -657 +665,0 @@
+-                        "mouthOpen": 0,
+@@ -660,0 +669,8 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 300701
++                    }
++                ],
+@@ -664 +679,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -670 +684,0 @@
+-                        "cheek": 0,
+@@ -672,2 +686 @@
+-                        "lipSynch": 0,
+-                        "mouthOpen": 0
++                        "lipSynch": 0
+@@ -681 +693,0 @@
+-                        "cheek": 0,
+@@ -684,2 +696 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -693 +704 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -695,2 +706 @@
+-                        "id": 100201,
+-                        "mouthOpen": 0
++                        "id": 100201
+@@ -706,2 +716 @@
+-                        "motion": 101,
+-                        "mouthOpen": 0
++                        "motion": 101

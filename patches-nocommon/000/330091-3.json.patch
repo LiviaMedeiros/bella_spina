@@ -1,0 +1,58 @@
+--- en/scenario_3/330091-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330091-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.2,
+@@ -6 +6,0 @@
+-                "bgm": "bgm01_anime03",
+@@ -12 +12 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -16,0 +17,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm01_anime03",
++                "chara": [
++                    {
++                        "id": 300902,
++                        "motion": 200
++                    }
++                ],
+@@ -18,0 +29 @@
++                "turnChangeOut": "fadeOut"
+@@ -107 +118,2 @@
+-                ]
++                ],
++                "textClear": 1
+@@ -265,0 +278 @@
++                "autoTurnLast": 1,
+@@ -267 +280 @@
+-                "bgm": "bgm01_anime07",
++                "bgm": "stop",
+@@ -277,0 +291,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm01_anime07",
++                "chara": [
++                    {
++                        "id": 300902
++                    }
++                ],
+@@ -280 +301,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -349 +370,6 @@
+-                "bg": "bg_adv_21221.jpg",
++                "autoTurnLast": 0.1,
++                "bg": "bg_adv_19231.jpg",
++                "bgm": "stop",
++                "turnChangeIn": "rollIn"
++            },
++            {
+@@ -364 +389,0 @@
+-                "turnChangeIn": "rollIn",
+@@ -444,0 +470 @@
++                "bg": "bg_adv_21073.jpg",
+@@ -574 +600 @@
+-    "version": 2
++    "version": 3

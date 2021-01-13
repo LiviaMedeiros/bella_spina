@@ -1,0 +1,83 @@
+--- en/scenario_5/510051-19.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510051-19.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -9 +12,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -18,0 +22 @@
++                "autoTurnLast": 0.01,
+@@ -24 +28 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -28 +31,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -30 +33 @@
+-#BELLA=textCenter=SPINA#
++                "turnChangeIn": "fadeIn"
+@@ -33 +35,0 @@
+-                "bgm": "bgm03_story05",
+@@ -36,2 +37,0 @@
+-                        "cheek": 0,
+-                        "effect": "fadeout",
+@@ -39 +39 @@
+-                        "pos": 1
++                        "motion": 200
+@@ -41,0 +42,6 @@
++#BELLA=nameCenter=SPINA#
++#BELLA=textCenter=SPINA#
++                "turnChangeOut": "fadeOut"
++            },
++            {
++                "bgm": "bgm03_story05",
+@@ -42,0 +49 @@
++                "narrationBg": "bg_adv_12021.jpg",
+@@ -61,2 +68 @@
+-                        "motion": 200,
+-                        "pos": 1
++                        "motion": 200
+@@ -137,0 +144 @@
++                "autoTurnLast": 0.01,
+@@ -143 +149,0 @@
+-                        "lipSynch": 0,
+@@ -147,0 +154,9 @@
++                "turnChangeIn": "rollIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302801,
++                        "lipSynch": 0
++                    }
++                ],
+@@ -150 +164,0 @@
+-                "turnChangeIn": "rollIn",
+@@ -378,0 +393 @@
++                "autoTurnLast": 0.01,
+@@ -380,0 +396,6 @@
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 302801,
++                        "motion": 0,
++                        "pos": 0
++                    },
++                    {
+@@ -387,0 +409,8 @@
++                "turnChangeIn": "rollIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302701
++                    }
++                ],
+@@ -390 +418,0 @@
+-                "turnChangeIn": "rollIn",
+@@ -396 +423,0 @@
+-                        "face": "mtn_ex_030.exp.json",
+@@ -398,2 +425 @@
+-                        "motion": 300,
+-                        "pos": 0
++                        "motion": 300

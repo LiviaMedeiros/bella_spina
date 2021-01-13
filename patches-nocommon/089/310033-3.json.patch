@@ -1,0 +1,185 @@
+--- en/scenario_3/310033-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310033-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5 +5 @@
+-                "bg": "bg_adv_21141.jpg",
++                "autoTurnLast": 0.01,
+@@ -13 +13 @@
+-                        "pos": 0
++                        "pos": 1
+@@ -16 +16,5 @@
+-#BELLA=nameLeft=SPINA#
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21141.jpg",
++#BELLA=nameCenter=SPINA#
+@@ -18,2 +22 @@
+-#BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
++#BELLA=textCenter=SPINA#
+@@ -32 +35 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textCenter=SPINA#
+@@ -36,0 +40,4 @@
++                        "id": 100201,
++                        "pos": 2
++                    },
++                    {
+@@ -42 +49 @@
+-                        "pos": 2,
++                        "pos": 0,
+@@ -46,2 +53,2 @@
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -53 +60 @@
+-                        "motion": 300,
++                        "motion": 200,
+@@ -58 +65 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -70 +77,2 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
+@@ -80 +88 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -90 +98 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -96 +104 @@
+-                        "motion": 200,
++                        "motion": 300,
+@@ -101 +109 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -104,2 +112,2 @@
+-                "bg": "bg_adv_21141.jpg",
+-                "bgm": "bgm03_story07",
++                "autoTurnLast": 2,
++                "bgm": "stop",
+@@ -113 +121 @@
+-                        "pos": 0
++                        "pos": 2
+@@ -121 +129 @@
+-                        "pos": 2,
++                        "pos": 0,
+@@ -124,0 +133,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21141.jpg",
++                "bgm": "bgm03_story07",
++                "chara": [
++                    {
++                        "id": 100301
++                    }
++                ],
+@@ -128,2 +146 @@
+-#BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
++#BELLA=textRight=SPINA#
+@@ -140 +157 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -151 +168 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -164 +181 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -177 +194 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -189 +206 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -199 +216 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -211 +228 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -223 +240 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -236 +253 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -246 +263 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -258 +275 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -269 +286 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -281 +298 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -293 +310 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -306 +323 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -318 +335 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -330 +347 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -340 +357 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -352 +369 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -362 +379 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -375 +392 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -386 +403 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -399 +416 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -410 +427 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -420 +437 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -431 +448 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -442 +459 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -453 +470 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -464 +481 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -476 +493 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -489 +506 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -501 +518 @@
+-#BELLA=textLeft=SPINA#
++#BELLA=textRight=SPINA#
+@@ -514 +531 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -522 +539 @@
+-    "version": 2
++    "version": 3

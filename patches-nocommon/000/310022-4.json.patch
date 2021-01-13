@@ -1,0 +1,105 @@
+--- en/scenario_3/310022-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310022-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,3 +5 @@
+-                "bg": "bg_adv_12061.jpg",
+-                "bgEffect": "shakeSmall",
+-                "bgm": "bgm03_story01",
++                "autoTurnLast": 0.01,
+@@ -15,0 +14,18 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 100900,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_12061.jpg",
++                "bgm": "bgm03_story01",
++                "chara": [
++                    {
++                        "id": 101000
+@@ -18 +33,0 @@
+-                "flashEffect": "flashWhite1",
+@@ -21 +35,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -27,6 +41 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 100900,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "id": 100900
+@@ -63,0 +73 @@
++                "autoTurnLast": 0.01,
+@@ -77 +87 @@
+-                        "motion": 201,
++                        "motion": 0,
+@@ -81,0 +92,9 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 200
++                    }
++                ],
+@@ -86 +104,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -90 +107,0 @@
+-                "bgEffect": "shakeSmall",
+@@ -94,0 +112 @@
++                        "motion": 201,
+@@ -98 +115,0 @@
+-                "flashEffect": "flashWhite1",
+@@ -115 +131,0 @@
+-                "bgEffect": "shakeSmall",
+@@ -119 +134,0 @@
+-                        "effect": "shake",
+@@ -126,2 +140,0 @@
+-                "flashEffect": "flashRed1",
+-                "se": "3001_chara_damage",
+@@ -130,0 +144 @@
++                "autoTurnLast": 0.01,
+@@ -138,0 +153,8 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 101000,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 2
+@@ -140,0 +163,3 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
+@@ -143 +167,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -160,2 +183,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -163,3 +185 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "motion": 300
+@@ -185,0 +206 @@
++                "autoTurnLast": 0.01,
+@@ -203,0 +225,3 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
+@@ -207 +230,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -239,2 +262 @@
+-                        "motion": 0,
+-                        "mouthOpen": 1
++                        "motion": 0

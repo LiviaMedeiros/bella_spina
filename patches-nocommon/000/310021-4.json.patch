@@ -1,0 +1,45 @@
+--- en/scenario_3/310021-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310021-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5 +5 @@
+-                "bg": "bg_adv_21201.jpg",
++                "autoTurnLast": 0.01,
+@@ -23,0 +24,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21201.jpg",
++                "chara": [
++                    {
++                        "id": 100201
++                    }
++                ],
+@@ -27 +35,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -245,2 +253,2 @@
+-                "bg": "bg_adv_21202.jpg",
+-                "bgm": "bgm03_story02",
++                "autoTurnLast": 0.01,
++                "bgm": "stop",
+@@ -254,0 +263,8 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 101101,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 2
+@@ -256,0 +273,5 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21202.jpg",
++                "bgm": "bgm03_story02",
+@@ -260 +280,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -280,4 +300 @@
+-                        "id": 101101,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "id": 101101

@@ -1,0 +1,157 @@
+--- en/scenario_5/510051-25.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510051-25.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -9 +12,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -15,0 +19 @@
++                "autoTurnLast": 0.01,
+@@ -17 +20,0 @@
+-                "bgm": "bgm03_story06",
+@@ -23 +26 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -24,0 +28,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 300500,
++                        "motion": 0,
++                        "pos": 2
+@@ -27 +36,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -28,0 +38,11 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story06",
++                "chara": [
++                    {
++                        "id": 302700,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -30,2 +50 @@
+-                "turnChangeIn": "whiteIn",
+-                "turnChangeOut": "whiteOut"
++                "turnChangeOut": "fadeOut"
+@@ -36,5 +55 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 300500,
+-                        "motion": 0,
+-                        "pos": 2
++                        "id": 300500
+@@ -112,0 +128 @@
++                "autoTurnLast": 0.01,
+@@ -122 +137,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -123,0 +139,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302701
++                    }
++                ],
++#BELLA=nameCenter=SPINA#
+@@ -125 +148,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -141,0 +165 @@
++                "autoTurnLast": 0.01,
+@@ -147 +171 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -148,0 +173,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 302701,
++                        "motion": 0,
++                        "pos": 2
+@@ -151 +181,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -152,0 +183,10 @@
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302601,
++                        "motion": 200
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -155 +194,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -161,5 +200 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 302701,
+-                        "motion": 0,
+-                        "pos": 2
++                        "id": 302701
+@@ -281,0 +317 @@
++                "autoTurnLast": 0.01,
+@@ -283,2 +318,0 @@
+-                "bgEffect": "shakeSmall",
+-                "bgm": "bgm01_anime08",
+@@ -286,0 +321,5 @@
++                        "id": 6105,
++                        "name": "sprite_0",
++                        "pos": 0
++                    },
++                    {
+@@ -288 +326,0 @@
+-                        "effect": "shake",
+@@ -291 +329 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -293 +331,9 @@
+-                    },
++                    }
++                ],
++                "narrationEffect": "out",
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "bgEffect": "shakeSmall",
++                "bgm": "bgm01_anime08",
++                "chara": [
+@@ -297,0 +344,5 @@
++                    },
++                    {
++                        "effect": "shake",
++                        "id": 302800,
++                        "motion": 400
+@@ -302 +352,0 @@
+-                "narrationEffect": "out",
+@@ -306 +355,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -556,0 +606 @@
++                "autoTurnLast": 0.01,
+@@ -562,0 +613,12 @@
++                        "motion": 0,
++                        "pos": 1,
++                        "tear": 1
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "cheek": 2,
++                        "id": 302700,
+@@ -564 +625,0 @@
+-                        "pos": 0,
+@@ -570 +630,0 @@
+-                "turnChangeIn": "fadeIn",

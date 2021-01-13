@@ -1,0 +1,154 @@
+--- en/scenario_3/310012-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310012-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,2 +5 @@
+-                "bg": "bg_adv_21143.jpg",
+-                "bgm": "bgm03_story07",
++                "autoTurnLast": 0.01,
+@@ -22,0 +22,11 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21143.jpg",
++                "bgm": "bgm03_story07",
++                "chara": [
++                    {
++                        "id": 100301,
++                        "lipSynch": 0
++                    }
++                ],
+@@ -26 +35,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -35,2 +44,2 @@
+-                        "motion": 300,
+-                        "mouthOpen": 1
++                        "lipSynch": 0,
++                        "motion": 300
+@@ -49,0 +59 @@
++                "textBg": "shout",
+@@ -101,2 +111 @@
+-                        "motion": 0,
+-                        "mouthOpen": 1
++                        "motion": 0
+@@ -112 +121,2 @@
+-                        "id": 100301
++                        "id": 100301,
++                        "lipSynch": 0
+@@ -289 +299 @@
+-                        "cheek": 0,
++                        "cheek": 1,
+@@ -291,0 +302 @@
++                        "lipSynch": 0,
+@@ -300 +311 @@
+-                        "cheek": 0,
++                        "cheek": 1,
+@@ -310 +321 @@
+-                        "cheek": 0,
++                        "cheek": 1,
+@@ -327,0 +339 @@
++                "turnEffect": "thinking"
+@@ -337,0 +350 @@
++                "turnEffect": "stop"
+@@ -342 +355 @@
+-                        "cheek": 0,
++                        "cheek": 1,
+@@ -408 +421 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_030.exp.json",
+@@ -410 +423 @@
+-                        "motion": 300
++                        "motion": 400
+@@ -444,0 +458 @@
++                        "lipSynch": 0,
+@@ -459,0 +474 @@
++                "turnEffect": "thinking"
+@@ -467,2 +482 @@
+-                        "motion": 300,
+-                        "mouthOpen": 1
++                        "motion": 300
+@@ -471,0 +486 @@
++                "turnEffect": "stop"
+@@ -473,0 +489 @@
++                "autoTurnLast": 0.01,
+@@ -479 +495 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -481,0 +498,16 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 100201,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100101,
++                        "motion": 400
+@@ -486 +517,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -493 +524 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -495,2 +526 @@
+-                        "motion": 400,
+-                        "pos": 2
++                        "motion": 400
+@@ -502,0 +533 @@
++                "autoTurnLast": 0.01,
+@@ -509 +539,0 @@
+-                        "mouthOpen": 1,
+@@ -519,0 +550,3 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
+@@ -523 +555,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -531 +563,2 @@
+-                        "id": 100301
++                        "id": 100301,
++                        "motion": 0
+@@ -575 +607,0 @@
+-                        "mouthOpen": 1,
+@@ -582,0 +615,12 @@
++                "bgm": "stop",
++                "chara": [
++                    {
++                        "cheek": 1,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 100501,
++                        "lipSynch": 0
++                    }
++                ],
++#BELLA=textLeft=SPINA#
++            },
++            {
+@@ -588,0 +633 @@
++                        "lipSynch": 0,
+@@ -599,0 +645 @@
++                        "lipSynch": 0,
+@@ -608 +654 @@
+-                        "cheek": 0,
++                        "cheek": 1,
+@@ -611 +657 @@
+-                        "motion": 0,
++                        "motion": 100,
+@@ -622 +668 @@
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_041.exp.json",
+@@ -625 +671,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "tear": 1
+@@ -652 +698,0 @@
+-                        "mouthOpen": 1,
+@@ -701 +747 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_011.exp.json",
+@@ -703 +749 @@
+-                        "motion": 0,
++                        "motion": 200,

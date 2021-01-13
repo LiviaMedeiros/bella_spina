@@ -1,0 +1,90 @@
+--- en/scenario_3/310013-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310013-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -63 +63 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -89 +89 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -97,0 +98 @@
++                "autoTurnLast": 0.01,
+@@ -110 +111 @@
+-                        "motion": 101,
++                        "motion": 0,
+@@ -113,0 +115,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100301,
++                        "motion": 101
++                    }
++                ],
+@@ -117 +126,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -147 +156 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -268 +277 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -294 +303 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -307 +316 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -469 +478 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -482 +491 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -504 +513 @@
+-                "bg": "bg_adv_11091.jpg",
++                "autoTurnLast": 0.01,
+@@ -510 +519 @@
+-                        "motion": 201,
++                        "motion": 0,
+@@ -521,0 +531,12 @@
++                "surround": "stop",
++                "turnChangeIn": "whiteIn",
++                "turnEffect": "promist"
++            },
++            {
++                "bg": "bg_adv_11091.jpg",
++                "chara": [
++                    {
++                        "id": 100300,
++                        "motion": 201
++                    }
++                ],
+@@ -526 +546,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -555 +575 @@
+-                "bg": "bg_adv_21202.jpg",
++                "autoTurnLast": 0.01,
+@@ -561 +581 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -571,0 +592,11 @@
++                "turnChangeIn": "whiteIn",
++                "turnEffect": "stop"
++            },
++            {
++                "bg": "bg_adv_21202.jpg",
++                "chara": [
++                    {
++                        "id": 100401,
++                        "motion": 200
++                    }
++                ],
+@@ -576,3 +607 @@
+-                "turnChangeIn": "whiteIn",
+-                "turnChangeOut": "whiteOut",
+-                "turnEffect": "stop"
++                "turnChangeOut": "whiteOut"
+@@ -586 +615 @@
+-                        "motion": 300
++                        "motion": 400

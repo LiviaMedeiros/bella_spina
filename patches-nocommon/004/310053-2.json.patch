@@ -1,0 +1,83 @@
+--- en/scenario_3/310053-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310053-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,2 +5 @@
+-                "bg": "bg_adv_21141.jpg",
+-                "bgm": "bgm03_story03",
++                "autoTurnLast": 0.01,
+@@ -12 +10,0 @@
+-                        "lipSynch": 0,
+@@ -17,0 +16,11 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21141.jpg",
++                "bgm": "bgm03_story03",
++                "chara": [
++                    {
++                        "id": 100501,
++                        "lipSynch": 0
++                    }
++                ],
+@@ -20 +28,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -65 +73 @@
+-                "bg": "bg_adv_21141.jpg",
++                "autoTurnLast": 0.01,
+@@ -71 +78,0 @@
+-                        "lipSynch": 0,
+@@ -76,0 +84,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_21141.jpg",
++                "chara": [
++                    {
++                        "id": 100501,
++                        "lipSynch": 0
++                    }
++                ],
+@@ -80 +96,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -146 +162 @@
+-                "bg": "bg_adv_12021.jpg",
++                "autoTurnLast": 0.01,
+@@ -150,0 +167,8 @@
++                        "id": 100501,
++                        "motion": 0,
++                        "mouthOpen": 0,
++                        "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
+@@ -152 +176 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -157,5 +181 @@
+-#BELLA=nameRight=SPINA#
+-                "narrationEffect": "out",
+-#BELLA=textRight=SPINA#
+-                "turnChangeIn": "fadeIn",
+-                "turnChangeOut": "fadeOut"
++                "turnChangeIn": "fadeIn"
+@@ -163,0 +184 @@
++                "bg": "bg_adv_12021.jpg",
+@@ -166,6 +187,2 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
+-                        "id": 100501,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 0
++                        "id": 101301,
++                        "motion": 400
+@@ -173,0 +191,6 @@
++#BELLA=nameRight=SPINA#
++                "narrationEffect": "out",
++#BELLA=textRight=SPINA#
++                "turnChangeOut": "fadeOut"
++            },
++            {
+@@ -447 +470 @@
+-    "version": 2
++    "version": 3

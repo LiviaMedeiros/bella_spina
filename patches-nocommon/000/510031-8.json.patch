@@ -1,0 +1,72 @@
+--- en/scenario_5/510031-8.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510031-8.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,2 +5,2 @@
+-                "bg": "bg_adv_21241.jpg",
+-                "bgm": "bgm01_anime03",
++                "autoTurnLast": 0.2,
++                "bg": "bg_adv_13111.jpg",
+@@ -19 +19 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -22,0 +23,11 @@
++                "turnChangeIn": "fadeIn",
++                "turnEffect": "blackFrame"
++            },
++            {
++                "bgm": "bgm01_anime03",
++                "chara": [
++                    {
++                        "id": 303101,
++                        "motion": 400
++                    }
++                ],
+@@ -26,3 +37 @@
+-                "turnChangeIn": "fadeIn",
+-                "turnChangeOut": "fadeOut",
+-                "turnEffect": "blackFrame"
++                "turnChangeOut": "fadeOut"
+@@ -55,2 +63,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
+@@ -77,2 +83,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -87,2 +91,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -98,2 +100,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
+@@ -120,2 +120,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -165,2 +163,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -187,2 +183,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -233,2 +227,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -311,2 +303,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -332,2 +322,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -486,2 +474,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -556,2 +542,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -567,2 +551,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -604,2 +586,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
+@@ -646 +627 @@
+-    "version": 2
++    "version": 3

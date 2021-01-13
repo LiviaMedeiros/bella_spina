@@ -1,0 +1,67 @@
+--- en/scenario_3/310053-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/310053-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5,2 +5 @@
+-                "bg": "bg_adv_14051.jpg",
+-                "bgm": "bgm03_story04",
++                "autoTurnLast": 0.01,
+@@ -12 +11 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -14,0 +14,17 @@
++                    },
++                    {
++                        "id": 810000,
++                        "pos": 2,
++                        "posX": 40,
++                        "posY": 0
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bg": "bg_adv_14051.jpg",
++                "bgm": "bgm03_story04",
++                "chara": [
++                    {
++                        "id": 100501,
++                        "motion": 200
+@@ -19 +34,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -57,9 +71,0 @@
+-                "chara": [
+-                    {
+-                        "id": 810000,
+-                        "motion": 0,
+-                        "pos": 2,
+-                        "posX": 40,
+-                        "posY": 0
+-                    }
+-                ],
+@@ -120,0 +127 @@
++#BELLA=nameCenter=SPINA#
+@@ -364 +371 @@
+-                        "motion": 0,
++                        "motion": 200,
+@@ -370,0 +378,10 @@
++                "autoTurnLast": 0.5,
++                "chara": [
++                    {
++                        "effect": "slideOutLeftFast",
++                        "id": 100501
++                    }
++                ],
++                "textClear": 1
++            },
++            {
+@@ -378,6 +394,0 @@
+-                    },
+-                    {
+-                        "cheek": 0,
+-                        "effect": "slideOutLeftFast",
+-                        "id": 100501,
+-                        "mouthOpen": 0
+@@ -392 +402,0 @@
+-                        "motion": 0,
+@@ -407 +417 @@
+-    "version": 2
++    "version": 3

@@ -1,0 +1,33 @@
+--- en/scenario_5/510051-13.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510051-13.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -9 +12,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -21,0 +25 @@
++                "autoTurnLast": 0.01,
+@@ -23 +26,0 @@
+-                "bgm": "bgm01_anime08",
+@@ -29 +32 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -33 +35,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -34,0 +37,11 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm01_anime08",
++                "chara": [
++                    {
++                        "id": 302600,
++                        "motion": 400
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -35,0 +49 @@
++                "turnChangeOut": "fadeOut"

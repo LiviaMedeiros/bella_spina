@@ -1,0 +1,351 @@
+--- en/scenario_3/330072-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330072-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.5,
+@@ -6 +6,0 @@
+-                "bgm": "bgm01_anime03",
+@@ -13 +12,0 @@
+-                        "mouthOpen": 0,
+@@ -17 +16 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -21 +19,0 @@
+-                        "mouthOpen": 0,
+@@ -24,0 +23,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm01_anime03",
++                "chara": [
++                    {
++                        "id": 100201
++                    }
++                ],
+@@ -28 +34,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -34,3 +40 @@
+-                        "cheek": 0,
+-                        "id": 300701,
+-                        "mouthOpen": 0
++                        "id": 300701
+@@ -47 +51 @@
+-                        "mouthOpen": 0,
++                        "motion": 0,
+@@ -61 +64,0 @@
+-                        "mouthOpen": 0,
+@@ -71 +74 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -75,2 +78 @@
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "pos": 0
+@@ -79 +81,2 @@
+-#BELLA=textRight=SPINA#
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -88 +90,0 @@
+-                        "mouthOpen": 0,
+@@ -101,2 +103 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -110,0 +112 @@
++                        "face": "mtn_ex_000.exp.json",
+@@ -113 +115 @@
+-                        "mouthOpen": 0
++                        "pos": 0
+@@ -115,0 +118 @@
++#BELLA=nameLeft=SPINA#
+@@ -125 +127,0 @@
+-                        "mouthOpen": 0,
+@@ -137,2 +139 @@
+-                        "id": 100501,
+-                        "mouthOpen": 0
++                        "id": 100501
+@@ -146 +147 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -150 +150,0 @@
+-                        "mouthOpen": 0,
+@@ -164 +163,0 @@
+-                        "mouthOpen": 0,
+@@ -171,0 +171 @@
++                "autoTurnLast": 0.5,
+@@ -179 +178,0 @@
+-                        "mouthOpen": 0,
+@@ -183 +182 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -187 +185,0 @@
+-                        "mouthOpen": 0,
+@@ -190,0 +189,8 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 300701
++                    }
++                ],
+@@ -194 +199,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -200 +205 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -203,2 +208 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -215,2 +219 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -221,0 +225 @@
++                "autoTurnLast": 0.2,
+@@ -229 +232,0 @@
+-                        "mouthOpen": 0,
+@@ -237 +239,0 @@
+-                        "mouthOpen": 0,
+@@ -240,0 +243,8 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100501
++                    }
++                ],
+@@ -244 +253,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -250,2 +259 @@
+-                        "id": 100301,
+-                        "mouthOpen": 0
++                        "id": 100301
+@@ -262,2 +270 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -273,2 +280 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -279,0 +286 @@
++                "autoTurnLast": 0.2,
+@@ -287 +293,0 @@
+-                        "mouthOpen": 0,
+@@ -291 +297 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -295 +300,0 @@
+-                        "mouthOpen": 0,
+@@ -298,0 +304,8 @@
++                "turnChangeIn": "rollInFast"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100201
++                    }
++                ],
+@@ -302 +314,0 @@
+-                "turnChangeIn": "rollInFast",
+@@ -310,2 +322 @@
+-                        "id": 300701,
+-                        "mouthOpen": 0
++                        "id": 300701
+@@ -320,2 +331 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -329 +338,0 @@
+-                        "cheek": 0,
+@@ -331,2 +340 @@
+-                        "lipSynch": 0,
+-                        "mouthOpen": 0
++                        "lipSynch": 0
+@@ -337,0 +346 @@
++                "autoTurnLast": 1,
+@@ -339 +348 @@
+-                "bgm": "bgm03_story02",
++                "bgm": "stop",
+@@ -346 +354,0 @@
+-                        "mouthOpen": 0,
+@@ -347,0 +356,16 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 100401,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story02",
++                "chara": [
++                    {
++                        "id": 100301
+@@ -352 +375,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -358,6 +381 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+-                        "id": 100401,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "id": 100401
+@@ -376 +393,0 @@
+-                        "mouthOpen": 0,
+@@ -386 +403,2 @@
+-                        "cheek": 0,
++                        "cheek": -1,
++                        "face": "mtn_ex_010.exp.json",
+@@ -389 +406,0 @@
+-                        "mouthOpen": 0,
+@@ -402,2 +419 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -415 +430,0 @@
+-                        "mouthOpen": 0,
+@@ -425 +439,0 @@
+-                        "cheek": 0,
+@@ -427,2 +441 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -440 +452,0 @@
+-                        "mouthOpen": 0,
+@@ -453,2 +465 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -465,2 +476 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -477,2 +487 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -486 +495 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -491 +499,0 @@
+-                        "mouthOpen": 0,
+@@ -506,2 +514 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -521 +527,0 @@
+-                        "mouthOpen": 0,
+@@ -534,2 +540 @@
+-                        "lipSynch": 1,
+-                        "mouthOpen": 0
++                        "lipSynch": 1
+@@ -545,2 +550 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -554,2 +558 @@
+-                        "id": 300701,
+-                        "mouthOpen": 0
++                        "id": 300701
+@@ -567,2 +570 @@
+-                        "motion": 200,
+-                        "mouthOpen": 0
++                        "motion": 200
+@@ -573,0 +576 @@
++                "autoTurnLast": 1.5,
+@@ -580 +582,0 @@
+-                        "mouthOpen": 1,
+@@ -581,0 +584,15 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 100401,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 100301
+@@ -586 +602,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -592,6 +608 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 100401,
+-                        "motion": 0,
+-                        "mouthOpen": 0,
+-                        "pos": 2
++                        "id": 100401
+@@ -610 +620,0 @@
+-                        "mouthOpen": 0,
+@@ -620,2 +629,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -623,2 +631 @@
+-                        "motion": 100,
+-                        "mouthOpen": 0
++                        "motion": 100
+@@ -636 +642,0 @@
+-                        "mouthOpen": 0,
+@@ -646 +652 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -650 +655,0 @@
+-                        "mouthOpen": 0,
+@@ -663,2 +668 @@
+-                        "motion": 401,
+-                        "mouthOpen": 1
++                        "motion": 401
+@@ -675,2 +679 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -688 +690,0 @@
+-                        "mouthOpen": 0,
+@@ -701,2 +703 @@
+-                        "motion": 0,
+-                        "mouthOpen": 0
++                        "motion": 0
+@@ -710,3 +711 @@
+-                        "cheek": 0,
+-                        "id": 300701,
+-                        "mouthOpen": 0
++                        "id": 300701
+@@ -723,2 +722 @@
+-                        "motion": 300,
+-                        "mouthOpen": 0
++                        "motion": 300
+@@ -732,3 +730 @@
+-                        "cheek": 0,
+-                        "id": 300701,
+-                        "mouthOpen": 0
++                        "id": 300701
+@@ -747 +742,0 @@
+-                        "mouthOpen": 0,
+@@ -757 +752 @@
+-                        "cheek": 0,
++                        "cheek": -1,
+@@ -761 +755,0 @@
+-                        "mouthOpen": 0,
+@@ -772 +766 @@
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_050.exp.json",
+@@ -773,0 +768 @@
++                        "lipSynch": 0,
+@@ -775 +769,0 @@
+-                        "mouthOpen": 0,
+@@ -789 +782,0 @@
+-                        "mouthOpen": 0,

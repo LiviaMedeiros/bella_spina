@@ -1,0 +1,91 @@
+--- en/scenario_5/510051-27.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510051-27.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -10 +13,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -19,0 +23 @@
++                "autoTurnLast": 0.01,
+@@ -26 +30 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -33 +36,0 @@
+-                        "lipSynch": 0,
+@@ -38 +40,0 @@
+-#BELLA=nameRight=SPINA#
+@@ -39,0 +42,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302701,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameRight=SPINA#
+@@ -41 +52,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -415 +426,2 @@
+-                        "id": 302701
++                        "id": 302701,
++                        "motion": 0
+@@ -763,0 +776 @@
++                "autoTurnLast": 0.01,
+@@ -767 +780 @@
+-                        "cheek": -1,
++                        "cheek": 0,
+@@ -770 +783 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -773,0 +787,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 300500,
++                        "motion": 1
++                    }
++                ],
+@@ -776,3 +798 @@
+-                "turnChangeIn": "fadeIn",
+-                "turnChangeOut": "fadeOut",
+-                "turnEffect": "blackFrame"
++                "turnChangeOut": "fadeOut"
+@@ -783 +803 @@
+-                        "cheek": -1,
++                        "cheek": 0,
+@@ -797 +817 @@
+-                        "cheek": -1,
++                        "cheek": 0,
+@@ -808 +828 @@
+-                        "cheek": -1,
++                        "cheek": 0,
+@@ -815,0 +836 @@
++                "autoTurnLast": 0.01,
+@@ -821 +842 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -830,0 +852,12 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 301101,
++                        "motion": 400
++                    },
++                    {
++                        "id": 100501
++                    }
++                ],
+@@ -833,3 +866 @@
+-                "turnChangeIn": "fadeIn",
+-                "turnChangeOut": "fadeOut",
+-                "turnEffect": "stop"
++                "turnChangeOut": "fadeOut"
