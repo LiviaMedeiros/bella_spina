@@ -9,6 +9,9 @@ patching from translated ones to latest jp versions
 
 onepiece are recursive macropatches, handy for estimating the overall amount of changes; do not apply them "as is"
 
+`only_jp` and `only_en` are lists of files which have only one version
+`broken_en` is a list of invalid json files, check asap if it's not empty
+
 all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g. `#BELLA=textLeft=SPINA#` with no indentation<br/>
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
 `000` patches probably are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
