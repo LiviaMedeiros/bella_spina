@@ -17,3 +17,12 @@ subdirectory names are numbers of special line occurrences, including common one
 `000` patches are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
 
 files in `valid` directory are successfully (0 hunk rejections, 0 special lines) patched scenarios which are still valid as json
+
+# totes
+jp scenarios: 5521
+en scenarios: 3398
+comparable files: 3378
+broken files: 1
+patches: 628
+conflicts: 2458
+valid results: 430
