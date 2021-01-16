@@ -19,10 +19,10 @@ subdirectory names are numbers of special line occurrences, including common one
 files in `valid` directory are successfully (0 hunk rejections, 0 special lines) patched scenarios which are still valid as json
 
 # totes
-jp scenarios: 5521
-en scenarios: 3398
-comparable files: 3378
-broken files: 1
-patches: 628
-conflicts: 2458
+jp scenarios: 5521<br/>
+en scenarios: 3398<br/>
+comparable files: 3378<br/>
+broken files: 1<br/>
+patches: 628<br/>
+conflicts: 2458<br/>
 valid results: 430
