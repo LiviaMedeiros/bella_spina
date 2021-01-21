@@ -69746,6 +69746,18 @@ diff -ru en/scenario_6/617501-1_RZLYm.json jp/scenario_6/617501-1_RZLYm.json
                              "value": 1
                          },
                          "motion": 1,
+diff -ru en/scenario_7/710081-1.json jp/scenario_7/710081-1.json
+--- en/scenario_7/710081-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_7/710081-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -615,7 +615,7 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+ #BELLA=textCenter=SPINA#
 diff -ru en/scenario_7/710093-1.json jp/scenario_7/710093-1.json
 --- en/scenario_7/710093-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_7/710093-1.json	2017-03-17 18:39:13.000000000 +0800
@@ -69766,3 +69778,42 @@ diff -ru en/scenario_7/710093-1.json jp/scenario_7/710093-1.json
                          "face": "mtn_ex_010.exp.json",
                          "id": 100901,
                          "motion": 200
+diff -ru en/scenario_7/730531-1.json jp/scenario_7/730531-1.json
+--- en/scenario_7/730531-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_7/730531-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -186,17 +186,6 @@
+ #BELLA=textCenter=SPINA#
+             },
+             {
+-                "chara": [
+-                    {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_000.exp.json",
+-                        "id": 101601,
+-                        "motion": 300
+-                    }
+-                ],
+-#BELLA=textCenter=SPINA#
+-            },
+-            {
+                 "autoTurnLast": 0.2,
+                 "chara": [
+                     {
+@@ -1185,17 +1174,6 @@
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_000.exp.json",
+-                        "id": 101601,
+-                        "motion": 0
+-                    }
+-                ],
+-#BELLA=textRight=SPINA#
+             },
+             {
+                 "chara": [
