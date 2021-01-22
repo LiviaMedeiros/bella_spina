@@ -22,7 +22,7 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
 jp scenarios: 5606<br/>
 en scenarios: 3536<br/>
 comparable files: 3469<br/>
-broken files: 1<br/>
+broken files: 0<br/>
 patches: 630<br/>
 conflicts: 2462<br/>
 valid results: 430
