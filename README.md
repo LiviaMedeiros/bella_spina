@@ -9,7 +9,8 @@ patching from translated ones to latest jp versions
 
 onepiece are recursive macropatches, handy for estimating the overall amount of changes; do not apply them "as is"
 
-`broken_en` is a list of invalid json files, check asap if it's not empty
+`broken_en` is a list of invalid json files, check asap if it's not empty<br/>
+`bom_en` is a list of files/lines containing 0xefbbbf sequence
 
 all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g. `#BELLA=textLeft=SPINA#` with no indentation<br/>
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
