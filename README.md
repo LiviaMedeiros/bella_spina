@@ -21,10 +21,11 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
 # totes
 ```
      0 broken_en
+     0 bom_en
   3536 all_en
-  5620 all_jp
+  5662 all_jp
     67 only_en
-  2151 only_jp
+  2193 only_jp
   3469 comparable
   2839 perfect
    630 outdated
