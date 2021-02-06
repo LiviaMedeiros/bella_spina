@@ -23,11 +23,11 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
      0 bom_en
   3536 all_en
-  5662 all_jp
-    67 only_en
-  2193 only_jp
-  3469 comparable
-  2839 perfect
+  5776 all_jp
+    19 only_en
+  2259 only_jp
+  3517 comparable
+  2887 perfect
    630 outdated
    430 valid
 ```
