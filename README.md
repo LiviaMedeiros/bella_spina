@@ -23,9 +23,9 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
     17 bom_en
   3659 all_en
-  5842 all_jp
+  5854 all_jp
     19 only_en
-  2202 only_jp
+  2214 only_jp
   3640 comparable
   3052 perfect
    588 outdated
