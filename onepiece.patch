@@ -39261,6 +39261,336 @@ diff -ru en/scenario_3/330432-3.json jp/scenario_3/330432-3.json
                  "chara": [
                      {
                          "cheek": 0,
+diff -ru en/scenario_3/330521-4.json jp/scenario_3/330521-4.json
+--- en/scenario_3/330521-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330521-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -1016,7 +1016,7 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "autoTurnFirst": 4.7,
++                "autoTurnFirst": 5.5,
+                 "bg": "bg_adv_narration.jpg",
+                 "bgm": "stop",
+                 "chara": [
+diff -ru en/scenario_3/330522-4.json jp/scenario_3/330522-4.json
+--- en/scenario_3/330522-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330522-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -415,7 +415,7 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-                "autoTurnFirst": 2.8,
++                "autoTurnFirst": 4.5,
+                 "bg": "bg_adv_narration.jpg",
+                 "bgm": "stop",
+                 "chara": [
+@@ -424,7 +424,7 @@
+                         "eyeClose": 0,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 305201,
+-                        "motion": 300,
++                        "motion": 0,
+                         "pos": 1,
+                         "tear": 0,
+                         "voice": "vo_char_3052_00_04"
+@@ -437,7 +437,16 @@
+                 "turnEffect": "stop"
+             },
+             {
+-                "autoTurnFirst": 1,
++                "autoTurnFirst": 1.2,
++                "chara": [
++                    {
++                        "id": 305201,
++                        "motion": 300
++                    }
++                ]
++            },
++            {
++                "autoTurnFirst": 4,
+                 "chara": [
+                     {
+                         "eyeClose": 1,
+diff -ru en/scenario_3/330523-1.json jp/scenario_3/330523-1.json
+--- en/scenario_3/330523-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330523-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -144,7 +144,7 @@
+                         "zOrder": "charaFront"
+                     }
+                 ],
+-                "autoTurnLast": 0.01
++                "autoTurnLast": 2
+             },
+             {
+                 "bgm": "bgm01_anime03",
+@@ -438,7 +438,7 @@
+ #BELLA=textCenter=SPINA#
+             },
+             {
+-                "autoTurnLast": 0.01,
++                "autoTurnLast": 2,
+                 "bg": "bg_adv_21421.jpg",
+                 "bgm": "stop",
+                 "chara": [
+diff -ru en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
+--- en/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -108,7 +108,16 @@
+                 "chara": [
+                     {
+                         "id": 305201,
+-                        "motion": 0
++                        "motion": 0,
++                        "pos": 0
++                    }
++                ],
++                "item": [
++                    {
++                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
++                        "posX": 300,
++                        "posY": 0,
++                        "visible": "appear"
+                     }
+                 ],
+ #BELLA=nameNarration=SPINA#
+@@ -127,7 +136,7 @@
+                     }
+                 ],
+                 "narrationEffect": "out",
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -135,7 +144,7 @@
+                         "id": 305201
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -147,7 +156,7 @@
+                         "motion": 0
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "autoTurnLast": 0.01,
+diff -ru en/scenario_3/330523-4.json jp/scenario_3/330523-4.json
+--- en/scenario_3/330523-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330523-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -552,6 +552,21 @@
+ #BELLA=textCenter=SPINA#
+             },
+             {
++                "chara": [
++                    {
++                        "id": 305201,
++                        "pos": 0
++                    }
++                ],
++                "item": [
++                    {
++                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
++                        "posX": 300,
++                        "posY": 0,
++                        "scale": 1,
++                        "setVisible": 1
++                    }
++                ],
+ #BELLA=nameNarration=SPINA#
+ #BELLA=narration=SPINA#
+                 "narrationBg": "bg_adv_21471.jpg",
+@@ -568,8 +583,9 @@
+                         "tear": 1
+                     }
+                 ],
++#BELLA=nameLeft=SPINA#
+                 "narrationEffect": "out",
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -579,7 +595,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -593,7 +609,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -604,7 +620,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -612,7 +628,7 @@
+                         "id": 305201
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -702,10 +718,19 @@
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 305201,
+                         "motion": 1,
+-                        "pos": 1,
++                        "pos": 0,
+                         "tear": 1
+                     }
+                 ],
++                "item": [
++                    {
++                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
++                        "posX": 300,
++                        "posY": 0,
++                        "scale": 1,
++                        "setVisible": 1
++                    }
++                ],
+                 "narrationEffect": "out",
+                 "turnChangeIn": "fadeIn"
+             },
+@@ -723,8 +748,8 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=nameCenter=SPINA#
+-#BELLA=textCenter=SPINA#
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -735,7 +760,7 @@
+                         "motion": 0
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -744,7 +769,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -755,7 +780,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -765,7 +790,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -776,7 +801,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -785,7 +810,7 @@
+                         "motion": 300
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -796,7 +821,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+ #BELLA=nameNarration=SPINA#
+@@ -816,7 +841,7 @@
+                     }
+                 ],
+                 "narrationEffect": "out",
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+@@ -827,7 +852,7 @@
+                         "tear": 1
+                     }
+                 ],
+-#BELLA=textCenter=SPINA#
++#BELLA=textLeft=SPINA#
+             },
+             {
+                 "autoTurnFirst": 2.3,
+@@ -841,7 +866,6 @@
+                         "id": 305201,
+                         "motion": 0,
+                         "pos": 1,
+-                        "tear": 1,
+                         "voice": "vo_char_3052_00_05"
+                     }
+                 ],
+@@ -851,11 +875,14 @@
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "autoTurnFirst": 1.3,
++                "autoTurnFirst": 4,
+                 "chara": [
+                     {
++                        "cheek": 2,
+                         "eyeClose": 1,
+-                        "id": 305201
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 305201,
++                        "tear": 1
+                     }
+                 ]
+             },
 diff -ru en/scenario_3/330531-2.json jp/scenario_3/330531-2.json
 --- en/scenario_3/330531-2.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/330531-2.json	2017-03-17 18:39:13.000000000 +0800
