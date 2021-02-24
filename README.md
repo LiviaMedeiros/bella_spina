@@ -15,6 +15,8 @@ patching from translated ones to latest jp versions
 `widelines_en` is a list of suspiciously long lines<br/>
 `chars_en` and `chars_jp` have all unique symbols separated by linebreak
 
+`ambivalence` has data for all translatable values with more than one translation
+
 all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g. `#BELLA=textLeft=SPINA#` with no indentation<br/>
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
 `000` patches are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
@@ -26,9 +28,9 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
     17 bom_en
   3659 all_en
-  5877 all_jp
+  5881 all_jp
      7 only_en
-  2225 only_jp
+  2229 only_jp
   3652 comparable
   3059 perfect
    593 outdated
