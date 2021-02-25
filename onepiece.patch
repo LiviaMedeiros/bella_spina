@@ -26364,32 +26364,6 @@ diff -ru en/scenario_3/320042-3.json jp/scenario_3/320042-3.json
                  "narrationEffect": "in",
                  "turnChangeIn": "fadeIn",
                  "turnChangeOut": "fadeOut"
-diff -ru en/scenario_3/320052-2.json jp/scenario_3/320052-2.json
---- en/scenario_3/320052-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/320052-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -161,6 +161,7 @@
- #BELLA=textLeft=SPINA#
-             },
-             {
-+                "bg": "bg_adv_21411.jpg",
-                 "chara": [
-                     {
-                         "cheek": 1,
-@@ -302,6 +303,7 @@
- #BELLA=textRight=SPINA#
-             },
-             {
-+                "bg": "bg_adv_21041.jpg",
-                 "chara": [
-                     {
-                         "cheek": 0,
-@@ -751,5 +753,5 @@
-             }
-         ]
-     },
--    "version": 2
-+    "version": 3
- }
 diff -ru en/scenario_3/320062-2.json jp/scenario_3/320062-2.json
 --- en/scenario_3/320062-2.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/320062-2.json	2017-03-17 18:39:13.000000000 +0800
@@ -26752,26 +26726,6 @@ diff -ru en/scenario_3/324003-3.json jp/scenario_3/324003-3.json
                          "cheek": 0,
                          "face": "mtn_ex_050.exp.json",
                          "id": 200401
-diff -ru en/scenario_3/325001-1.json jp/scenario_3/325001-1.json
---- en/scenario_3/325001-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/325001-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -127,7 +127,7 @@
-                 "turnChangeOut": "fadeOut"
-             },
-             {
--                "autoTurnLast": 0.1,
-+                "autoTurnLast": 0.01,
-                 "bg": "bg_adv_14072.jpg",
-                 "chara": [
-                     {
-@@ -155,6 +155,7 @@
-                 "turnChangeOut": "fadeOut"
-             },
-             {
-+                "autoTurnLast": 0.1,
-                 "chara": [
-                     {
-                         "effect": "fadeout",
 diff -ru en/scenario_3/326001-1.json jp/scenario_3/326001-1.json
 --- en/scenario_3/326001-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/326001-1.json	2017-03-17 18:39:13.000000000 +0800
@@ -27247,149 +27201,6 @@ diff -ru en/scenario_3/330053-4.json jp/scenario_3/330053-4.json
                  "chara": [
                      {
                          "cheek": -1,
-diff -ru en/scenario_3/330062-1.json jp/scenario_3/330062-1.json
---- en/scenario_3/330062-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330062-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21221.jpg",
-+                "bg": "bg_adv_19221.jpg",
-                 "bgm": "bgm01_anime03",
- #BELLA=nameNarration=SPINA#
- #BELLA=narration=SPINA#
-@@ -464,5 +464,5 @@
-             }
-         ]
-     },
--    "version": 2
-+    "version": 3
- }
-diff -ru en/scenario_3/330062-2.json jp/scenario_3/330062-2.json
---- en/scenario_3/330062-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330062-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21221.jpg",
-+                "bg": "bg_adv_19221.jpg",
-                 "bgm": "bgm01_anime03",
-                 "chara": [
-                     {
-@@ -548,5 +548,5 @@
-             }
-         ]
-     },
--    "version": 2
-+    "version": 3
- }
-diff -ru en/scenario_3/330062-3.json jp/scenario_3/330062-3.json
---- en/scenario_3/330062-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330062-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21221.jpg",
-+                "bg": "bg_adv_19221.jpg",
-                 "bgm": "bgm01_anime07",
-                 "chara": [
-                     {
-@@ -545,5 +545,5 @@
-             }
-         ]
-     },
--    "version": 2
-+    "version": 3
- }
-diff -ru en/scenario_3/330062-4.json jp/scenario_3/330062-4.json
---- en/scenario_3/330062-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330062-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21221.jpg",
-+                "bg": "bg_adv_19221.jpg",
-                 "bgm": "stop",
-                 "chara": [
-                     {
-diff -ru en/scenario_3/330063-3.json jp/scenario_3/330063-3.json
---- en/scenario_3/330063-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330063-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21241.jpg",
-+                "bg": "bg_adv_13111.jpg",
-                 "bgm": "bgm03_story01",
- #BELLA=nameNarration=SPINA#
- #BELLA=narration=SPINA#
-@@ -93,7 +93,7 @@
-                     }
-                 ],
- #BELLA=narration=SPINA#
--                "narrationBg": "bg_adv_21241.jpg",
-+                "narrationBg": "bg_adv_13111.jpg",
-                 "narrationEffect": "in"
-             },
-             {
-@@ -154,7 +154,7 @@
-                     }
-                 ],
- #BELLA=narration=SPINA#
--                "narrationBg": "bg_adv_21241.jpg",
-+                "narrationBg": "bg_adv_13111.jpg",
-                 "narrationEffect": "in",
-                 "surround": "stop"
-             },
-@@ -182,7 +182,7 @@
-                     }
-                 ],
- #BELLA=narration=SPINA#
--                "narrationBg": "bg_adv_21241.jpg",
-+                "narrationBg": "bg_adv_13111.jpg",
-                 "narrationEffect": "in"
-             },
-             {
-diff -ru en/scenario_3/330063-4.json jp/scenario_3/330063-4.json
---- en/scenario_3/330063-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330063-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -2,7 +2,7 @@
-     "story": {
-         "group_1": [
-             {
--                "bg": "bg_adv_21241.jpg",
-+                "bg": "bg_adv_13111.jpg",
-                 "bgm": "stop",
-                 "chara": [
-                     {
-@@ -781,11 +781,11 @@
-             {
- #BELLA=nameNarration=SPINA#
- #BELLA=narration=SPINA#
--                "narrationBg": "bg_adv_21241.jpg",
-+                "narrationBg": "bg_adv_13111.jpg",
-                 "narrationEffect": "in"
-             },
-             {
--                "autoTurnFirst": 4.3,
-+                "autoTurnFirst": 3.9,
-                 "bg": "bg_adv_narration.jpg",
-                 "bgm": "stop",
-                 "chara": [
-@@ -806,7 +806,7 @@
-                 "turnEffect": "stop"
-             },
-             {
--                "autoTurnFirst": 2.5,
-+                "autoTurnFirst": 2,
-                 "chara": [
-                     {
-                         "cheek": 1,
 diff -ru en/scenario_3/330071-1.json jp/scenario_3/330071-1.json
 --- en/scenario_3/330071-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/330071-1.json	2017-03-17 18:39:13.000000000 +0800
@@ -39261,78 +39072,6 @@ diff -ru en/scenario_3/330432-3.json jp/scenario_3/330432-3.json
                  "chara": [
                      {
                          "cheek": 0,
-diff -ru en/scenario_3/330521-4.json jp/scenario_3/330521-4.json
---- en/scenario_3/330521-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330521-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -1016,7 +1016,7 @@
- #BELLA=textLeft=SPINA#
-             },
-             {
--                "autoTurnFirst": 4.7,
-+                "autoTurnFirst": 5.5,
-                 "bg": "bg_adv_narration.jpg",
-                 "bgm": "stop",
-                 "chara": [
-diff -ru en/scenario_3/330522-4.json jp/scenario_3/330522-4.json
---- en/scenario_3/330522-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330522-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -415,7 +415,7 @@
- #BELLA=textRight=SPINA#
-             },
-             {
--                "autoTurnFirst": 2.8,
-+                "autoTurnFirst": 4.5,
-                 "bg": "bg_adv_narration.jpg",
-                 "bgm": "stop",
-                 "chara": [
-@@ -424,7 +424,7 @@
-                         "eyeClose": 0,
-                         "face": "mtn_ex_030.exp.json",
-                         "id": 305201,
--                        "motion": 300,
-+                        "motion": 0,
-                         "pos": 1,
-                         "tear": 0,
-                         "voice": "vo_char_3052_00_04"
-@@ -437,7 +437,16 @@
-                 "turnEffect": "stop"
-             },
-             {
--                "autoTurnFirst": 1,
-+                "autoTurnFirst": 1.2,
-+                "chara": [
-+                    {
-+                        "id": 305201,
-+                        "motion": 300
-+                    }
-+                ]
-+            },
-+            {
-+                "autoTurnFirst": 4,
-                 "chara": [
-                     {
-                         "eyeClose": 1,
-diff -ru en/scenario_3/330523-1.json jp/scenario_3/330523-1.json
---- en/scenario_3/330523-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330523-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -144,7 +144,7 @@
-                         "zOrder": "charaFront"
-                     }
-                 ],
--                "autoTurnLast": 0.01
-+                "autoTurnLast": 2
-             },
-             {
-                 "bgm": "bgm01_anime03",
-@@ -438,7 +438,7 @@
- #BELLA=textCenter=SPINA#
-             },
-             {
--                "autoTurnLast": 0.01,
-+                "autoTurnLast": 2,
-                 "bg": "bg_adv_21421.jpg",
-                 "bgm": "stop",
-                 "chara": [
 diff -ru en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
 --- en/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -55045,6 +54784,24 @@ diff -ru en/scenario_5/507452-52_8AaOe.json jp/scenario_5/507452-52_8AaOe.json
                          "id": 304400
                      }
                  ],
+diff -ru en/scenario_5/507455-55_8AaOe.json jp/scenario_5/507455-55_8AaOe.json
+--- en/scenario_5/507455-55_8AaOe.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/507455-55_8AaOe.json	2017-03-17 18:39:13.000000000 +0800
+@@ -148,14 +148,6 @@
+ #BELLA=textCenter=SPINA#
+             },
+             {
+-                "chara": [
+-                    {
+-                        "id": 800301
+-                    }
+-                ],
+-#BELLA=textCenter=SPINA#
+-            },
+-            {
+                 "autoTurnLast": 0.2,
+                 "chara": [
+                     {
 diff -ru en/scenario_5/510010-2_9UlG8.json jp/scenario_5/510010-2_9UlG8.json
 --- en/scenario_5/510010-2_9UlG8.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510010-2_9UlG8.json	2017-03-17 18:39:13.000000000 +0800

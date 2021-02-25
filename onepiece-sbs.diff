@@ -7987,10 +7987,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/320042-2.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/320042-3.json jp/scenario_3/320042-3.json
                 "bg": "bg_adv_21041.jpg",				  |	                "bg": "bg_adv_21411.jpg",
                 "narrationBg": "bg_adv_21041.jpg",			  |	                "narrationBg": "bg_adv_21411.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/320052-2.json jp/scenario_3/320052-2.json
-									  >	                "bg": "bg_adv_21411.jpg",
-									  >	                "bg": "bg_adv_21041.jpg",
-    "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/320062-2.json jp/scenario_3/320062-2.json
                 "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
 									  >	                "bg": "bg_adv_19231.jpg",
@@ -8053,9 +8049,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/324003-3.json jp/sc
             {								  <
                 "chara": [						  <
                     {							  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/325001-1.json jp/scenario_3/325001-1.json
-                "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.01,
-									  >	                "autoTurnLast": 0.1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/326001-1.json jp/scenario_3/326001-1.json
                 "narrationLineMargin": 30,				  |	                "narrationLineMargin": 10,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/326001-2.json jp/scenario_3/326001-2.json
@@ -8121,27 +8114,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330052-4.json jp/sc
                 "surround": "stop",					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330053-4.json jp/scenario_3/330053-4.json
                 "bg": "bg_adv_21083.jpg",				  |	                "bg": "bg_adv_21443.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330062-1.json jp/scenario_3/330062-1.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330062-2.json jp/scenario_3/330062-2.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330062-3.json jp/scenario_3/330062-3.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330062-4.json jp/scenario_3/330062-4.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330063-3.json jp/scenario_3/330063-3.json
-                "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330063-4.json jp/scenario_3/330063-4.json
-                "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-                "autoTurnFirst": 4.3,					  |	                "autoTurnFirst": 3.9,
-                "autoTurnFirst": 2.5,					  |	                "autoTurnFirst": 2,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330071-1.json jp/scenario_3/330071-1.json
 									  >	                "autoTurnLast": 0.5,
                 "bgm": "bgm03_story07",					  <
@@ -11017,24 +10989,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330431-4.json jp/sc
 									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330432-3.json jp/scenario_3/330432-3.json
 									  >	                "bg": "bg_adv_21401.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330521-4.json jp/scenario_3/330521-4.json
-                "autoTurnFirst": 4.7,					  |	                "autoTurnFirst": 5.5,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330522-4.json jp/scenario_3/330522-4.json
-                "autoTurnFirst": 2.8,					  |	                "autoTurnFirst": 4.5,
-                        "motion": 300,					  |	                        "motion": 0,
-                "autoTurnFirst": 1,					  |	                "autoTurnFirst": 1.2,
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 305201,
-									  >	                        "motion": 300
-									  >	                    }
-									  >	                ]
-									  >	            },
-									  >	            {
-									  >	                "autoTurnFirst": 4,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330523-1.json jp/scenario_3/330523-1.json
-                "autoTurnLast": 0.01					  |	                "autoTurnLast": 2
-                "autoTurnLast": 0.01,					  |	                "autoTurnLast": 2,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
                         "motion": 0					  |	                        "motion": 0,
 									  >	                        "pos": 0
@@ -16460,6 +16414,15 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/507452-52_8AaOe.jso
             {								  <
                 "chara": [						  <
                     {							  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/507455-55_8AaOe.json jp/scenario_5/507455-55_8AaOe.json
+                "chara": [						  <
+                    {							  <
+                        "id": 800301					  <
+                    }							  <
+                ],							  <
+#BELLA=textCenter=SPINA#						  <
+            },								  <
+            {								  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510010-2_9UlG8.json jp/scenario_5/510010-2_9UlG8.json
                         "name": "Yukika",				  |	                        "name": "sprite_0",
                         "name": "",					  |	                        "name": "sprite_0",

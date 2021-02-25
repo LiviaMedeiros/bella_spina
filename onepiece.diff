@@ -15228,15 +15228,6 @@ diff -r en/scenario_3/320042-3.json jp/scenario_3/320042-3.json
 <                 "narrationBg": "bg_adv_21041.jpg",
 ---
 >                 "narrationBg": "bg_adv_21411.jpg",
-diff -r en/scenario_3/320052-2.json jp/scenario_3/320052-2.json
-163a164
->                 "bg": "bg_adv_21411.jpg",
-304a306
->                 "bg": "bg_adv_21041.jpg",
-754c756
-<     "version": 2
----
->     "version": 3
 diff -r en/scenario_3/320062-2.json jp/scenario_3/320062-2.json
 5c5
 <                 "bg": "bg_adv_21221.jpg",
@@ -15411,13 +15402,6 @@ diff -r en/scenario_3/324003-3.json jp/scenario_3/324003-3.json
 <             {
 <                 "chara": [
 <                     {
-diff -r en/scenario_3/325001-1.json jp/scenario_3/325001-1.json
-130c130
-<                 "autoTurnLast": 0.1,
----
->                 "autoTurnLast": 0.01,
-157a158
->                 "autoTurnLast": 0.1,
 diff -r en/scenario_3/326001-1.json jp/scenario_3/326001-1.json
 610c610
 <                 "narrationLineMargin": 30,
@@ -15625,72 +15609,6 @@ diff -r en/scenario_3/330053-4.json jp/scenario_3/330053-4.json
 <                 "bg": "bg_adv_21083.jpg",
 ---
 >                 "bg": "bg_adv_21443.jpg",
-diff -r en/scenario_3/330062-1.json jp/scenario_3/330062-1.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-467c467
-<     "version": 2
----
->     "version": 3
-diff -r en/scenario_3/330062-2.json jp/scenario_3/330062-2.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-551c551
-<     "version": 2
----
->     "version": 3
-diff -r en/scenario_3/330062-3.json jp/scenario_3/330062-3.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-548c548
-<     "version": 2
----
->     "version": 3
-diff -r en/scenario_3/330062-4.json jp/scenario_3/330062-4.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-diff -r en/scenario_3/330063-3.json jp/scenario_3/330063-3.json
-5c5
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_13111.jpg",
-96c96
-<                 "narrationBg": "bg_adv_21241.jpg",
----
->                 "narrationBg": "bg_adv_13111.jpg",
-157c157
-<                 "narrationBg": "bg_adv_21241.jpg",
----
->                 "narrationBg": "bg_adv_13111.jpg",
-185c185
-<                 "narrationBg": "bg_adv_21241.jpg",
----
->                 "narrationBg": "bg_adv_13111.jpg",
-diff -r en/scenario_3/330063-4.json jp/scenario_3/330063-4.json
-5c5
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_13111.jpg",
-784c784
-<                 "narrationBg": "bg_adv_21241.jpg",
----
->                 "narrationBg": "bg_adv_13111.jpg",
-788c788
-<                 "autoTurnFirst": 4.3,
----
->                 "autoTurnFirst": 3.9,
-809c809
-<                 "autoTurnFirst": 2.5,
----
->                 "autoTurnFirst": 2,
 diff -r en/scenario_3/330071-1.json jp/scenario_3/330071-1.json
 4a5
 >                 "autoTurnLast": 0.5,
@@ -21575,42 +21493,6 @@ diff -r en/scenario_3/330431-4.json jp/scenario_3/330431-4.json
 diff -r en/scenario_3/330432-3.json jp/scenario_3/330432-3.json
 164a165
 >                 "bg": "bg_adv_21401.jpg",
-diff -r en/scenario_3/330521-4.json jp/scenario_3/330521-4.json
-1019c1019
-<                 "autoTurnFirst": 4.7,
----
->                 "autoTurnFirst": 5.5,
-diff -r en/scenario_3/330522-4.json jp/scenario_3/330522-4.json
-418c418
-<                 "autoTurnFirst": 2.8,
----
->                 "autoTurnFirst": 4.5,
-427c427
-<                         "motion": 300,
----
->                         "motion": 0,
-440c440,449
-<                 "autoTurnFirst": 1,
----
->                 "autoTurnFirst": 1.2,
->                 "chara": [
->                     {
->                         "id": 305201,
->                         "motion": 300
->                     }
->                 ]
->             },
->             {
->                 "autoTurnFirst": 4,
-diff -r en/scenario_3/330523-1.json jp/scenario_3/330523-1.json
-147c147
-<                 "autoTurnLast": 0.01
----
->                 "autoTurnLast": 2
-441c441
-<                 "autoTurnLast": 0.01,
----
->                 "autoTurnLast": 2,
 diff -r en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
 111c111,120
 <                         "motion": 0
@@ -31099,6 +30981,16 @@ diff -r en/scenario_5/507452-52_8AaOe.json jp/scenario_5/507452-52_8AaOe.json
 <             {
 <                 "chara": [
 <                     {
+diff -r en/scenario_5/507455-55_8AaOe.json jp/scenario_5/507455-55_8AaOe.json
+151,158d150
+<                 "chara": [
+<                     {
+<                         "id": 800301
+<                     }
+<                 ],
+< #BELLA=textCenter=SPINA#
+<             },
+<             {
 diff -r en/scenario_5/510010-2_9UlG8.json jp/scenario_5/510010-2_9UlG8.json
 744c744
 <                         "name": "Yukika",
