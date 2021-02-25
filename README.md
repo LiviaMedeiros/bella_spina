@@ -12,9 +12,9 @@ patching from translated ones to latest jp versions
 
 `broken_en` is a list of invalid json files, check asap if it's not empty<br/>
 `bom_en` is a list of files/lines containing 0xefbbbf sequence<br/>
-`widelines_en` is a list of suspiciously long lines<br/>
-`chars_en` and `chars_jp` have all unique symbols separated by linebreak
+`widelines_en` is a list of suspiciously long lines
 
+`chars` files have all unique symbols separated by linebreak<br/>
 `ambivalence` has data for all translatable values with more than one translation<br/>
 `inline` has data for all changed inline [tags]
 
@@ -30,6 +30,7 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
     25 bom_en
   3792 all_en
   5882 all_jp
+  2992 all_na
      8 only_en
   2098 only_jp
   3784 comparable
