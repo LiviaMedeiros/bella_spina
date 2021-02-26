@@ -14,7 +14,7 @@ patching from translated ones to latest jp versions
 `bom_en` is a list of files/lines containing 0xefbbbf sequence<br/>
 `widelines_en` is a list of suspiciously long lines
 
-`chars` files have all unique symbols separated by linebreak<br/>
+`chars` files have all unique symbols separated by linebreak, and some diff data<br/>
 `ambivalence` has data for all translatable values with more than one translation<br/>
 `inline` has data for all changed inline [tags]
 
