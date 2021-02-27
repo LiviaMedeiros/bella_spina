@@ -29,13 +29,19 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
     25 bom_en
   3792 all_en
-  5893 all_jp
+  5895 all_jp
   2992 all_na
      8 only_en
-  2109 only_jp
+  2111 only_jp
   3784 comparable
     32 same
   3201 perfect
    583 outdated
    378 valid
+```
+```asm
+1144 onepiece-nocommon.patch
+1136 onepiece-sbs.diff
+1044 onepiece.diff
+2088 onepiece.patch
 ```
