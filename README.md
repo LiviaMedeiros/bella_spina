@@ -29,10 +29,10 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
     25 bom_en
   3792 all_en
-  5882 all_jp
+  5893 all_jp
   2992 all_na
      8 only_en
-  2098 only_jp
+  2109 only_jp
   3784 comparable
     32 same
   3201 perfect
