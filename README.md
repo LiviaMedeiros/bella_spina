@@ -17,7 +17,8 @@ patching from translated ones to latest jp versions
 `chars` files have all unique symbols separated by linebreak, and some diff data<br/>
 `ambivalence` has data for all translatable values with more than one translation<br/>
 `inline` has data for all changed inline [tags]<br/>
-`stats` has sorted patch statistics
+`stats` has sorted patch statistics<br/>
+`rerun` has data about identical scenarios
 
 all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g. `#BELLA=textLeft=SPINA#` with no indentation<br/>
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
@@ -28,21 +29,21 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
 # totes
 ```asm
      0 broken_en
-    37 bom_en
-  3803 all_en
-  5896 all_jp
+    38 bom_en
+  3856 all_en
+  5916 all_jp
   2992 all_na
-     7 only_en
-  2100 only_jp
-  3796 comparable
+    10 only_en
+  2070 only_jp
+  3846 comparable
     32 same
-  3213 perfect
-   583 outdated
+  3261 perfect
+   585 outdated
    378 valid
 ```
 ```c
-1144 onepiece-nocommon.patch
+1148 onepiece-nocommon.patch
 1136 onepiece-sbs.diff
 1044 onepiece.diff
-2088 onepiece.patch
+2092 onepiece.patch
 ```
