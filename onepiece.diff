@@ -20139,6 +20139,28 @@ diff -r en/scenario_3/330152-4.json jp/scenario_3/330152-4.json
 <                 "bg": "bg_adv_21241.jpg",
 ---
 >                 "bg": "bg_adv_11101.jpg",
+diff -r en/scenario_3/330153-3.json jp/scenario_3/330153-3.json
+295c295
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+324c324
+<                         "motion": 400,
+---
+>                         "motion": 0,
+360,361c360,362
+<                         "id": 303000,
+<                         "motion": 301,
+---
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 301100,
+>                         "motion": 400,
+364a366
+> #BELLA=nameLeft=SPINA#
+385c387
+<                         "id": 301100,
+---
+>                         "id": 303000,
 diff -r en/scenario_3/330181-4.json jp/scenario_3/330181-4.json
 86c86,87
 <                         "id": 800300

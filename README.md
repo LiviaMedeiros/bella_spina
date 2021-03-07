@@ -31,14 +31,14 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
      0 broken_en
     38 bom_en
   3856 all_en
-  5916 all_jp
+  5919 all_jp
   2992 all_na
-    10 only_en
+     7 only_en
   2070 only_jp
-  3846 comparable
+  3849 comparable
     32 same
-  3261 perfect
-   585 outdated
+  3263 perfect
+   586 outdated
    378 valid
 ```
 ```c
