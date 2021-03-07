@@ -1,0 +1,159 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm03_story04",
+            "nameNarration": "#BELLA=nameNarration=SPINA#",
+            "narration": "#BELLA=narration=SPINA#",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/textBg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/6/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/chara/0/mouthOpen"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/6/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/6/chara/-",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 302601,
+            "motion": 0,
+            "pos": 2,
+            "soulGem": 0
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/6/turnChangeIn",
+        "value": "fadeIn"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/nameLeft",
+        "value": "#BELLA=nameLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/textBg",
+        "value": "shout"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/textLeft",
+        "value": "#BELLA=textLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/turnChangeOut",
+        "value": "fadeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/lipSynch"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/pos"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/chara/0/mouthOpen",
+        "value": 1
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/7/chara/0/id",
+        "value": 302701
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/7/chara/0/motion",
+        "value": 400
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/8",
+        "value": {
+            "chara": [
+                {
+                    "id": 302601,
+                    "lipSynch": 0,
+                    "soulGem": 0
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#"
+        }
+    }
+]

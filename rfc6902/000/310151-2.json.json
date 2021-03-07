@@ -1,0 +1,40 @@
+[
+    {
+        "op": "add",
+        "path": "/story/group_1/0/armatureList",
+        "value": [
+            {
+                "animation": [
+                    "action"
+                ],
+                "armatureId": 1,
+                "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                "zOrder": "messageBack"
+            },
+            {
+                "animation": [
+                    "action"
+                ],
+                "armatureId": 2,
+                "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                "zOrder": "bgFront"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/15/turnEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/22/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/39/deleteArmatureList",
+        "value": [
+            1,
+            2
+        ]
+    }
+]

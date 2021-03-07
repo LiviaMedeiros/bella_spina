@@ -1,0 +1,58 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/bgm",
+        "value": "bgm01_anime12"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/chara/0/motion"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/chara/0/name",
+        "value": "sprite_0"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/id",
+        "value": 7001
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/pos",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/chara/-",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101000,
+            "motion": 1,
+            "pos": 2
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/1/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/1/chara/0/face"
+    },
+    {
+        "op": "replace",
+        "path": "/version",
+        "value": 3
+    }
+]

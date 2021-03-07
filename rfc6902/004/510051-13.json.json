@@ -1,0 +1,76 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "nameNarration": "#BELLA=nameNarration=SPINA#",
+            "narration": "#BELLA=narration=SPINA#",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5/turnChangeIn",
+        "value": "fadeIn"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/5/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/6",
+        "value": {
+            "bgm": "bgm01_anime08",
+            "chara": [
+                {
+                    "id": 302600,
+                    "motion": 400
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bg": "bg_adv_21201.jpg",
+            "bgm": "bgm03_story02",
+            "chara": [
+                {
+                    "id": 101001
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/version",
+        "value": 3
+    }
+]

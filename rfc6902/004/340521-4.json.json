@@ -1,0 +1,120 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/52/autoTurnLast"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/autoTurnFirst",
+        "value": 1.8
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/bg",
+        "value": "bg_adv_narration.jpg"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/bgm",
+        "value": "stop"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/chara",
+        "value": [
+            {
+                "cheek": 0,
+                "eyeClose": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405201,
+                "lipSynch": 1,
+                "motion": 0,
+                "pos": 1,
+                "voice": "vo_char_4052_00_03"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/nameCenter",
+        "value": "#BELLA=nameCenter=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/textCenter",
+        "value": "#BELLA=textCenter=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/turnChangeOut",
+        "value": "fadeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/turnEffect",
+        "value": "stop"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/-",
+        "value": {
+            "autoTurnFirst": 0.95,
+            "chara": [
+                {
+                    "id": 405201,
+                    "motion": 100
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/-",
+        "value": {
+            "autoTurnFirst": 0.1,
+            "chara": [
+                {
+                    "id": 405201
+                }
+            ],
+            "narrationCoverOpacity": 110,
+            "narrationEffect": "in"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/-",
+        "value": {
+            "autoTurnFirst": 1,
+            "chara": [
+                {
+                    "id": 405201,
+                    "lipSynch": 0
+                }
+            ],
+            "nameNarration": "#BELLA=nameNarration=SPINA#",
+            "narration": "#BELLA=narration=SPINA#",
+            "textClear": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/-",
+        "value": {
+            "chara": [
+                {
+                    "id": 405201
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/-",
+        "value": {
+            "autoTurnLast": 2,
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        }
+    }
+]

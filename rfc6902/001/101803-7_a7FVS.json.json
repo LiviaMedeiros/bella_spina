@@ -1,0 +1,43 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/32/chara/0/voiceFull",
+        "value": "fullvoice/section_101870/vo_full_101803-7-27_1"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/33/chara/0/cheek",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/33/chara/0/face",
+        "value": "mtn_ex_011.exp.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/33/chara/0/voiceFull",
+        "value": "fullvoice/section_101870/vo_full_101803-7-27_2"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/33/chara/0/voiceFullStop",
+        "value": "fullvoice/section_101870/vo_full_101803-7-27_1"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/34",
+        "value": {
+            "chara": [
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_010.exp.json",
+                    "id": 101502,
+                    "voiceFull": "fullvoice/section_101870/vo_full_101803-7-28",
+                    "voiceFullStop": "fullvoice/section_101870/vo_full_101803-7-27_2"
+                }
+            ],
+            "textRight": "#BELLA=textRight=SPINA#"
+        }
+    }
+]

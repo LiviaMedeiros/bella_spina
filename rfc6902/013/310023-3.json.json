@@ -1,0 +1,417 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/surround"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bg": "bg_adv_21163.jpg",
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "surround": "7003_wind",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/mouthOpen"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/chara/0/tear"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/10/bgEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/10/flashEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/11/bgEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/11/flashEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/11/chara/0/effect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/12/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/12/textClear",
+        "value": 1
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/chara/0/motion"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/chara/0/mouthOpen"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/chara/0/pos"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/12/chara/0/effect",
+        "value": "fadeout"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/12/chara/0/id",
+        "value": 100300
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/12/chara/-",
+        "value": {
+            "effect": "fadeout",
+            "id": 100200
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/13/chara/0/id",
+        "value": 100900
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/13/chara/-",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101100,
+            "motion": 0,
+            "pos": 2
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/14/nameRight",
+        "value": "#BELLA=nameRight=SPINA#"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/14/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/14/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/14/chara/0/mouthOpen"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/14/chara/0/id",
+        "value": 101100
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/15/surround"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/15/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/15/nameLeft",
+        "value": "#BELLA=nameLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/15/textLeft",
+        "value": "#BELLA=textLeft=SPINA#"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/15/chara/0/mouthOpen"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/15/chara/0/pos",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/15/chara/0/face",
+        "value": "mtn_ex_030.exp.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/15/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/textBg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/turnChangeIn"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/16/surround",
+        "value": "stop"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/chara/0/flippedX"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/chara/0/name"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/chara/0/pos"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/16/chara/0/cheek",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/16/chara/0/face",
+        "value": "mtn_ex_050.exp.json"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/16/chara/0/motion",
+        "value": 100
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/16/chara/0/id",
+        "value": 100300
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/16/chara/1"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/17",
+        "value": {
+            "autoTurnLast": 0.5,
+            "flashEffect": "explosion",
+            "textClear": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/18",
+        "value": {
+            "autoTurnLast": 0.01,
+            "chara": [
+                {
+                    "id": 7103,
+                    "name": "sprite_0",
+                    "pos": 0
+                },
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_030.exp.json",
+                    "id": 101100,
+                    "motion": 0,
+                    "mouthOpen": 0,
+                    "pos": 2
+                }
+            ],
+            "turnChangeIn": "whiteIn"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/19",
+        "value": {
+            "bg": "bg_adv_21163.jpg",
+            "bgm": "bgm01_anime12",
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textBg": "shout",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "whiteOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/textBg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/23/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/chara/0/flippedX"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/chara/1/flippedX"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/24/chara"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/24/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/24/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/24/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/24/turnChangeIn"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/24/nameCenter",
+        "value": "#BELLA=nameCenter=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/24/textBg",
+        "value": "shout"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/24/textCenter",
+        "value": "#BELLA=textCenter=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/25",
+        "value": {
+            "autoTurnLast": 0.01,
+            "chara": [
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_010.exp.json",
+                    "id": 100200,
+                    "motion": 0,
+                    "mouthOpen": 0,
+                    "pos": 0
+                },
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_050.exp.json",
+                    "id": 100900,
+                    "motion": 0,
+                    "mouthOpen": 0,
+                    "pos": 2
+                }
+            ],
+            "turnChangeIn": "rollInFast"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/26",
+        "value": {
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "rollOutFast"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/version",
+        "value": 3
+    }
+]

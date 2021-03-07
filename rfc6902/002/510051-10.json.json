@@ -1,0 +1,81 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bg": "bg_adv_20052.jpg",
+            "bgm": "bgm01_anime05",
+            "chara": [
+                {
+                    "id": 810000,
+                    "motion": 0,
+                    "pos": 0,
+                    "posX": -50,
+                    "posY": 0
+                },
+                {
+                    "id": 302601,
+                    "soulGem": 0
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/bg",
+        "value": "bg_adv_20052.jpg"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/chara",
+        "value": [
+            {
+                "face": "mtn_ex_011.exp.json",
+                "id": 302801,
+                "motion": 0,
+                "pos": 2,
+                "soulGem": 0
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/chara/0/pos"
+    }
+]

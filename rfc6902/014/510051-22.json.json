@@ -1,0 +1,272 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm03_story07",
+            "nameNarration": "#BELLA=nameNarration=SPINA#",
+            "narration": "#BELLA=narration=SPINA#",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/7/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/8",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "motion": 200
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/12/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/12/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/13",
+        "value": {
+            "chara": [
+                {
+                    "id": 302601
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "whiteOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/19/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/chara/0/lipSynch"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/19/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/20",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "lipSynch": 0,
+                    "motion": 1
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "whiteOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/textCenter"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_2/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_2/0/turnChangeIn",
+        "value": "fadeIn"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/chara/0/lipSynch"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_2/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_2/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "lipSynch": 0,
+                    "motion": 200
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/textCenter"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_3/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_3/0/turnChangeIn",
+        "value": "fadeIn"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/chara/0/lipSynch"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_3/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_3/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "lipSynch": 0,
+                    "motion": 200
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_4/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_4/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_4/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "lipSynch": 0,
+                    "motion": 1
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    }
+]

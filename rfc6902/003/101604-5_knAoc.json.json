@@ -1,0 +1,57 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/narrationLineMargin",
+        "value": 10
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/9/autoTurnLast",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/9/textClear",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/9/chara/0/voiceFullStop",
+        "value": "fullvoice/section_101604/vo_full_101604-5-8"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/chara/1"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/10",
+        "value": {
+            "chara": [
+                {
+                    "cheek": 1,
+                    "face": "mtn_ex_030.exp.json",
+                    "id": 100600,
+                    "motion": 0,
+                    "pos": 2,
+                    "voiceFull": "fullvoice/section_101604/vo_full_101604-5-9"
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#"
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 1.2
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/1/motion",
+        "value": 200
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/2/motion",
+        "value": 1
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/chara/0/face",
+        "value": "mtn_ex_011.exp.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/chara/0/motion",
+        "value": 100
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/chara/0",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 402400,
+            "motion": 1
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/3/chara/3"
+    }
+]

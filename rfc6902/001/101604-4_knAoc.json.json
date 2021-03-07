@@ -1,0 +1,82 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/bg",
+        "value": "bg_adv_47112.jpg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/autoTurnLast",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/textClear",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/voiceFullStop",
+        "value": "fullvoice/section_101604/vo_full_101604-4-4"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/motion"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/voiceFull"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/voiceFullStop"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/chara/0/effect",
+        "value": "fadeout"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/4/chara/0/id",
+        "value": 100200
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5",
+        "value": {
+            "chara": [
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_000.exp.json",
+                    "id": 304900,
+                    "motion": 1,
+                    "voiceFull": "fullvoice/section_101604/vo_full_101604-4-5"
+                },
+                {
+                    "id": 6112,
+                    "name": "sprite_0",
+                    "pos": 0
+                }
+            ],
+            "textRight": "#BELLA=textRight=SPINA#"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/9/chara/0/pos",
+        "value": 0
+    }
+]

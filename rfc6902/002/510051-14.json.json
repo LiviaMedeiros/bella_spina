@@ -1,0 +1,49 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm01_anime08",
+            "chara": [
+                {
+                    "id": 302800,
+                    "tear": 1
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackPromist"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/40/chara/0/pos",
+        "value": 2
+    }
+]

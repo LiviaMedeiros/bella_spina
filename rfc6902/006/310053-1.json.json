@@ -1,0 +1,188 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/chara/-",
+        "value": {
+            "id": 810000,
+            "pos": 2,
+            "posX": 40,
+            "posY": 0
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bg": "bg_adv_14051.jpg",
+            "bgm": "bgm03_story04",
+            "chara": [
+                {
+                    "id": 100501,
+                    "motion": 200
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/5/chara"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/11/nameCenter",
+        "value": "#BELLA=nameCenter=SPINA#"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/33/chara/0/motion",
+        "value": 200
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/34/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/34/textClear",
+        "value": 1
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/chara/0/motion"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/chara/0/mouthOpen"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/34/chara/0/effect",
+        "value": "slideOutLeftFast"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/34/chara/0/id",
+        "value": 100501
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/34/chara/1"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/35/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/35/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/35/textRight",
+        "value": "#BELLA=textRight=SPINA#"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/35/chara/0/pos"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/35/chara/0/posX"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/35/chara/0/posY"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/35/chara/0/cheek",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/35/chara/0/face",
+        "value": "mtn_ex_050.exp.json"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/35/chara/0/mouthOpen",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/35/chara/0/id",
+        "value": 301101
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/35/chara/0/motion",
+        "value": 400
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/36",
+        "value": {
+            "chara": [
+                {
+                    "id": 810000,
+                    "pos": 0,
+                    "posX": -50,
+                    "posY": 0
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/version",
+        "value": 3
+    }
+]

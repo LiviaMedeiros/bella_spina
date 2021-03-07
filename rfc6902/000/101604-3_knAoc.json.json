@@ -1,0 +1,92 @@
+[
+    {
+        "op": "add",
+        "path": "/story/group_1/3/bg",
+        "value": "bg_adv_47112.jpg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/4/chara/0/id",
+        "value": 6112
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5",
+        "value": {
+            "autoTurnLast": 0.7,
+            "bgEffect": "shakeLarge",
+            "flashEffect": "flashWhite2"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/17/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/17/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/17/autoTurnLast",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/17/textClear",
+        "value": 1
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/17/chara/0/name"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/17/chara/0/pos"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/17/chara/0/effect",
+        "value": "fadeout"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/17/chara/0/id",
+        "value": 100600
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/18",
+        "value": {
+            "autoTurnLast": 0.1,
+            "chara": [
+                {
+                    "id": 7112,
+                    "name": "sprite_0",
+                    "pos": 0
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/19",
+        "value": {
+            "autoTurnLast": 0.5,
+            "bgEffect": "shakeSmall"
+        }
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 301601,
+                    "motion": 200
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/57/item/0/path",
+        "value": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/58/narrationFontSize",
+        "value": 30
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/58/narrationLineMargin",
+        "value": 5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/58/narrationLineSpace",
+        "value": 15
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/61/item/0/path",
+        "value": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg"
+    }
+]

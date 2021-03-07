@@ -1,0 +1,91 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm03_story04",
+            "nameNarration": "#BELLA=nameNarration=SPINA#",
+            "narration": "#BELLA=narration=SPINA#",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/chara/0/posX",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/chara/0/posY",
+        "value": 80
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/7/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/7/chara/0",
+        "value": {
+            "id": 810000,
+            "motion": 0,
+            "pos": 0,
+            "posX": -50,
+            "posY": 0
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/8",
+        "value": {
+            "chara": [
+                {
+                    "id": 302601,
+                    "soulGem": 0
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    }
+]

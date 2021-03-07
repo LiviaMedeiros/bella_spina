@@ -1,0 +1,327 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602,
+                    "motion": 200
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/10/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/10/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/10/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/10/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/11",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602,
+                    "motion": 300
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/19/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/19/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/19/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/20",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602,
+                    "motion": 200
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "rollOutFast"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/33/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/33/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/33/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/33/turnChangeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/33/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/33/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/34",
+        "value": {
+            "chara": [
+                {
+                    "id": 800600
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "sepiaFrame"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/47/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/47/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/47/turnChangeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/47/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/47/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/47/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/48",
+        "value": {
+            "bg": "bg_adv_21132.jpg",
+            "chara": [
+                {
+                    "id": 301601,
+                    "motion": 100
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackFrame"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/51/narrationBg",
+        "value": "bg_adv_narration.jpg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/52/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/52/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/52/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/53",
+        "value": {
+            "chara": [
+                {
+                    "id": 302902,
+                    "motion": 100
+                }
+            ],
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/59/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/59/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/59/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/60",
+        "value": {
+            "chara": [
+                {
+                    "id": 302902
+                }
+            ],
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/62/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/62/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/62/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/63",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/66/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/66/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/66/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/67",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/69/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/69/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/69/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/70",
+        "value": {
+            "chara": [
+                {
+                    "id": 301602
+                }
+            ],
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    }
+]

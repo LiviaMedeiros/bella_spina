@@ -1,0 +1,63 @@
+[
+    {
+        "op": "add",
+        "path": "/story/group_1/1/chara",
+        "value": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101901,
+                "motion": 0,
+                "pos": 0,
+                "soulGem": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 800700,
+                "motion": 0,
+                "pos": 2
+            }
+        ]
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/bg",
+        "value": "bg_adv_16111.jpg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/2/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/2/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/2/chara/0/pos"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/2/chara/0/soulGem"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/chara/0/id",
+        "value": 800700
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/chara/0/motion",
+        "value": 200
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/2/chara/1"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/25/bg",
+        "value": "bg_adv_16111.jpg"
+    }
+]
