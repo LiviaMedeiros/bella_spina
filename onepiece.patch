@@ -592,7 +592,7 @@ diff -ru en/scenario_1/101305-7_0ZvpU.json jp/scenario_1/101305-7_0ZvpU.json
              {
  #BELLA=nameNarration=SPINA#
  #BELLA=narration=SPINA#
- #BELLA=narration=SPINA#
+                 "narrationBg": "narration",
 -                "turnEffect": "stop",
                  "voiceFull": "fullvoice/section_101305/vo_full_101305-7-17"
              },
@@ -18101,7 +18101,7 @@ diff -ru en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
              },
              {
  #BELLA=narration=SPINA#
--#BELLA=narration=SPINA#
+-                "narrationBg": "narration",
 +                "narrationBg": "bg_adv_narration.jpg",
                  "narrationEffect": "in",
                  "turnChangeOut": "fadeOut"
@@ -31169,7 +31169,7 @@ diff -ru en/scenario_3/330073-1.json jp/scenario_3/330073-1.json
 -                "bg": "white",
  #BELLA=nameNarration=SPINA#
  #BELLA=narration=SPINA#
--#BELLA=narration=SPINA#
+-                "narrationBg": "narration",
 -                "narrationEffect": "in",
 -                "turnChangeIn": "fadeIn",
 -                "turnChangeOut": "fadeOut"
@@ -31288,7 +31288,7 @@ diff -ru en/scenario_3/330073-1.json jp/scenario_3/330073-1.json
 -                ],
  #BELLA=nameNarration=SPINA#
  #BELLA=narration=SPINA#
--#BELLA=narration=SPINA#
+-                "narrationBg": "narration",
 -                "narrationEffect": "in",
 -                "turnChangeIn": "fadeIn",
 -                "turnChangeOut": "fadeOut"
@@ -32425,7 +32425,7 @@ diff -ru en/scenario_3/330073-4.json jp/scenario_3/330073-4.json
 -                "bg": "white",
  #BELLA=nameNarration=SPINA#
  #BELLA=narration=SPINA#
--#BELLA=narration=SPINA#
+-                "narrationBg": "narration",
 +                "narrationBg": "bg_adv_narration.jpg",
                  "narrationEffect": "in",
 -                "surround": "stop",
@@ -56264,7 +56264,7 @@ diff -ru en/scenario_5/510031-5.json jp/scenario_5/510031-5.json
 -                "turnEffect": "blackFrame"
 +#BELLA=nameNarration=SPINA#
 +#BELLA=narration=SPINA#
-+#BELLA=narration=SPINA#
++                "narrationBg": "narration",
 +                "narrationEffect": "in",
 +                "turnChangeOut": "fadeOut"
              },

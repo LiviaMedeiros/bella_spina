@@ -7,6 +7,7 @@ patching from translated ones to latest jp versions
 - "nocommon" patches are in unified format but without common lines
 - diffs are normal diff outputs, maybe more human-friendly
 - "sbs" diffs are side-by-side without common lines, max width 150
+- rfc6902 are one-way json diffs
 
 `onepiece` are recursive macropatches, handy for estimating the overall amount of changes; do not apply them "as is"
 
@@ -39,10 +40,11 @@ files in `valid` directory are successfully (0 hunk rejections, 0 special lines)
     32 same
   3263 perfect
    586 outdated
-   378 valid
+   380 valid
 ```
 ```c
 1148 onepiece-nocommon.patch
+2476 onepiece-rfc6902.json
 1136 onepiece-sbs.diff
 1044 onepiece.diff
 2092 onepiece.patch

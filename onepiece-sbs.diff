@@ -5467,7 +5467,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/310093-1.json jp/sc
                     }							  <
                 ],							  <
                 "narrationBg": "bg_adv_11093.jpg",			  |	                "narrationBg": "bg_adv_narration.jpg",
-#BELLA=narration=SPINA#							  |	                "narrationBg": "bg_adv_narration.jpg",
+                "narrationBg": "narration",				  |	                "narrationBg": "bg_adv_narration.jpg",
                 "narrationBg": "black.jpg",				  |	                "narrationBg": "bg_adv_narration.jpg",
     "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310093-2.json jp/scenario_3/310093-2.json
@@ -9298,7 +9298,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330073-1.json jp/sc
                         "mouthOpen": 0					  <
 									  >	                        "lipSynch": 0,
                 "bg": "white",						  <
-#BELLA=narration=SPINA#							  |	                "narrationBg": "bg_adv_narration.jpg",
+                "narrationBg": "narration",				  |	                "narrationBg": "bg_adv_narration.jpg",
                 "narrationEffect": "in",				  |	                "narrationEffect": "in"
                 "turnChangeIn": "fadeIn",				  <
                 "turnChangeOut": "fadeOut"				  <
@@ -9335,7 +9335,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330073-1.json jp/sc
                         "id": 300701					  <
                     }							  <
                 ],							  <
-#BELLA=narration=SPINA#							  |	                "narrationBg": "bg_adv_narration.jpg",
+                "narrationBg": "narration",				  |	                "narrationBg": "bg_adv_narration.jpg",
                 "narrationEffect": "in",				  |	                "narrationEffect": "in"
                 "turnChangeIn": "fadeIn",				  <
                 "turnChangeOut": "fadeOut"				  <
@@ -9643,7 +9643,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330073-4.json jp/sc
                         "lipSynch": 1,					  |	                        "lipSynch": 1
                         "mouthOpen": 0					  <
                 "bg": "white",						  <
-#BELLA=narration=SPINA#							  |	                "narrationBg": "bg_adv_narration.jpg",
+                "narrationBg": "narration",				  |	                "narrationBg": "bg_adv_narration.jpg",
                 "surround": "stop",					  |	                "surround": "stop"
                 "turnChangeIn": "fadeIn",				  <
                 "turnChangeOut": "fadeOut"				  <
@@ -16840,7 +16840,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510031-5.json jp/sc
                         "face": "mtn_ex_030.exp.json",			  <
 #BELLA=nameCenter=SPINA#						  |	#BELLA=nameNarration=SPINA#
 #BELLA=textCenter=SPINA#						  |	#BELLA=narration=SPINA#
-                "turnChangeOut": "fadeOut",				  |	#BELLA=narration=SPINA#
+                "turnChangeOut": "fadeOut",				  |	                "narrationBg": "narration",
                 "turnEffect": "blackFrame"				  |	                "narrationEffect": "in",
 									  >	                "turnChangeOut": "fadeOut"
 									  >	                "autoTurnLast": 0.01,
