@@ -37,21 +37,21 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
 ```asm
      0 broken_en
     38 bom_en
-  3856 all_en
+  3863 all_en
   5919 all_jp
   2992 all_na
      7 only_en
-  2070 only_jp
-  3849 comparable
+  2063 only_jp
+  3856 comparable
     32 same
-  3263 perfect
-   586 outdated
+  3268 perfect
+   588 outdated
    380 valid
 ```
 ```c
 1148 onepiece-nocommon.patch
-2476 onepiece-rfc6902.json
-1136 onepiece-sbs.diff
-1044 onepiece.diff
-2092 onepiece.patch
+2484 onepiece-rfc6902.json
+1140 onepiece-sbs.diff
+1048 onepiece.diff
+2096 onepiece.patch
 ```
