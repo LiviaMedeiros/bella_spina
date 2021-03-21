@@ -44,14 +44,14 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
   2063 only_jp
   3856 comparable
     32 same
-  3268 perfect
-   588 outdated
+  3270 perfect
+   586 outdated
    380 valid
 ```
 ```c
 1148 onepiece-nocommon.patch
-2484 onepiece-rfc6902.json
-1140 onepiece-sbs.diff
-1048 onepiece.diff
-2096 onepiece.patch
+2476 onepiece-rfc6902.json
+1136 onepiece-sbs.diff
+1044 onepiece.diff
+2092 onepiece.patch
 ```
