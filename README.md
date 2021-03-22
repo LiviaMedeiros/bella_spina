@@ -36,7 +36,7 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
 # totes
 ```asm
      0 broken_en
-    38 bom_en
+     0 bom_en
   3863 all_en
   5919 all_jp
   2992 all_na
@@ -44,14 +44,14 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
   2063 only_jp
   3856 comparable
     32 same
-  3270 perfect
-   586 outdated
-   380 valid
+  3277 perfect
+   579 outdated
+   373 valid
 ```
 ```c
-1148 onepiece-nocommon.patch
+1144 onepiece-nocommon.patch
 2476 onepiece-rfc6902.json
 1136 onepiece-sbs.diff
 1044 onepiece.diff
-2092 onepiece.patch
+2088 onepiece.patch
 ```

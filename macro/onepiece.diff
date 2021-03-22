@@ -14877,33 +14877,6 @@ diff -r en/scenario_3/310151-2.json jp/scenario_3/310151-2.json
 >                     1,
 >                     2
 >                 ],
-diff -r en/scenario_3/310172-1.json jp/scenario_3/310172-1.json
-405c405
-<                 "autoTurnLast": 0.1,
----
->                 "autoTurnLast": 0.01,
-413c413,419
-<                     },
----
->                     }
->                 ],
->                 "textClear": 1
->             },
->             {
->                 "autoTurnLast": 0.01,
->                 "chara": [
-421,422c427
-<                 ],
-<                 "textClear": 1
----
->                 ]
-diff -r en/scenario_3/310181-2.json jp/scenario_3/310181-2.json
-36,37c36,37
-<                 "narrationLineMargin": 50,
-<                 "narrationLineSpace": 20,
----
->                 "narrationLineMargin": 15,
->                 "narrationLineSpace": 10,
 diff -r en/scenario_3/310193-1.json jp/scenario_3/310193-1.json
 286c286
 <                 "bg": "bg_adv_21291.jpg",
@@ -15242,55 +15215,6 @@ diff -r en/scenario_3/320023-4.json jp/scenario_3/320023-4.json
 >                         "path": "resource/scenario/img/purple.png",
 861d864
 <                         "scale": 1,
-diff -r en/scenario_3/320042-2.json jp/scenario_3/320042-2.json
-5c5
-<                 "bg": "bg_adv_21041.jpg",
----
->                 "bg": "bg_adv_21411.jpg",
-25c25
-<                 "narrationBg": "bg_adv_21041.jpg",
----
->                 "narrationBg": "bg_adv_21411.jpg",
-diff -r en/scenario_3/320042-3.json jp/scenario_3/320042-3.json
-5c5
-<                 "bg": "bg_adv_21041.jpg",
----
->                 "bg": "bg_adv_21411.jpg",
-25c25
-<                 "narrationBg": "bg_adv_21041.jpg",
----
->                 "narrationBg": "bg_adv_21411.jpg",
-diff -r en/scenario_3/320062-2.json jp/scenario_3/320062-2.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-277a278
->                 "bg": "bg_adv_19231.jpg",
-292a294
->                 "bg": "bg_adv_19221.jpg",
-519c521
-<     "version": 2
----
->     "version": 3
-diff -r en/scenario_3/320062-3.json jp/scenario_3/320062-3.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-456c456
-<     "version": 2
----
->     "version": 3
-diff -r en/scenario_3/320062-4.json jp/scenario_3/320062-4.json
-5c5
-<                 "bg": "bg_adv_21221.jpg",
----
->                 "bg": "bg_adv_19221.jpg",
-431c431
-<                 "narrationBg": "bg_adv_21221.jpg",
----
->                 "narrationBg": "bg_adv_19221.jpg",
 diff -r en/scenario_3/321021-2.json jp/scenario_3/321021-2.json
 142c142
 <                         "visible": "hide"

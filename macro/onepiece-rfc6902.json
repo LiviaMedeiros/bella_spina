@@ -41050,45 +41050,6 @@
             ]
         }
     ],
-    "scenario_3/310172-1.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/35/autoTurnLast",
-            "value": 0.01
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/35/chara/1"
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/36",
-            "value": {
-                "autoTurnLast": 0.01,
-                "chara": [
-                    {
-                        "cheek": 0,
-                        "face": "mtn_ex_040.exp.json",
-                        "id": 101800,
-                        "motion": 0,
-                        "pos": 2
-                    }
-                ]
-            }
-        }
-    ],
-    "scenario_3/310181-2.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/3/narrationLineMargin",
-            "value": 15
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/3/narrationLineSpace",
-            "value": 10
-        }
-    ],
     "scenario_3/310193-1.json": [
         {
             "op": "replace",
@@ -41531,76 +41492,6 @@
             "op": "replace",
             "path": "/story/group_1/75/item/0/path",
             "value": "resource/scenario/img/purple.png"
-        }
-    ],
-    "scenario_3/320042-2.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_21411.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/narrationBg",
-            "value": "bg_adv_21411.jpg"
-        }
-    ],
-    "scenario_3/320042-3.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_21411.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/narrationBg",
-            "value": "bg_adv_21411.jpg"
-        }
-    ],
-    "scenario_3/320062-2.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_19221.jpg"
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/24/bg",
-            "value": "bg_adv_19231.jpg"
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/25/bg",
-            "value": "bg_adv_19221.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/version",
-            "value": 3
-        }
-    ],
-    "scenario_3/320062-3.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_19221.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/version",
-            "value": 3
-        }
-    ],
-    "scenario_3/320062-4.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_19221.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/38/narrationBg",
-            "value": "bg_adv_19221.jpg"
         }
     ],
     "scenario_3/321021-2.json": [
