@@ -36,17 +36,17 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
 # totes
 ```asm
      0 broken_en
-     0 bom_en
-  3863 all_en
+    81 bom_en
+  4096 all_en
   6003 all_jp
   2992 all_na
      7 only_en
-  2147 only_jp
-  3856 comparable
+  1914 only_jp
+  4089 comparable
     32 same
-  3277 perfect
-   579 outdated
-   373 valid
+  3508 perfect
+   581 outdated
+   374 valid
 ```
 ```c
 1144 onepiece-nocommon.patch
