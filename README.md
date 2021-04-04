@@ -36,16 +36,16 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
 # totes
 ```asm
      0 broken_en
-    81 bom_en
-  4096 all_en
-  6018 all_jp
+   100 bom_en
+  4143 all_en
+  6020 all_jp
   2992 all_na
      7 only_en
-  1929 only_jp
-  4089 comparable
+  1884 only_jp
+  4136 comparable
     32 same
-  3508 perfect
-   581 outdated
+  3554 perfect
+   582 outdated
    374 valid
 ```
 ```c
