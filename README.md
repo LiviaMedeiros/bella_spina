@@ -38,10 +38,10 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
      0 broken_en
    100 bom_en
   4143 all_en
-  6026 all_jp
+  6028 all_jp
   2992 all_na
      7 only_en
-  1890 only_jp
+  1892 only_jp
   4136 comparable
     32 same
   3554 perfect
