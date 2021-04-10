@@ -15,7 +15,9 @@ all translatable lines are replaced with special string `#BELLA=key=SPINA#`, e.g
 subdirectory names are numbers of special line occurrences, including common ones if any<br/>
 `000` patches are more or less safe to apply directly, but the bigger the number (especially in nocommon) the more checking/editing is required
 
-files in `/valid/` directory are successfully (0 hunk rejections, 0 special lines) patched scenarios which are still valid as json
+### results
+files in `/invalid/` directory are successfully (0 hunk rejections, 0 special lines) patched scenarios which are invalid as json<br/>
+`/valid/` has ret-2-go minified scenarios
 
 ### /macro/
 `onepiece` are recursive macropatches, handy for estimating the overall amount of changes; do not apply them "as is"
@@ -46,6 +48,7 @@ files in `/valid/` directory are successfully (0 hunk rejections, 0 special line
     32 same
   3554 perfect
    582 outdated
+    10 invalid
    374 valid
 ```
 ```c
