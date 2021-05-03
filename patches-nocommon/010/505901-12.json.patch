@@ -1,0 +1,137 @@
+--- en/scenario_5/505901-12.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/505901-12.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -10 +13,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -16,0 +20 @@
++                "autoTurnLast": 0.01,
+@@ -27 +30,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -28,0 +32,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302600
++                    }
++                ],
++#BELLA=nameCenter=SPINA#
+@@ -30 +41,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -52,0 +64 @@
++                "autoTurnLast": 0.01,
+@@ -59 +71 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -63 +74,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -64,0 +76,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302700,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameCenter=SPINA#
+@@ -66 +86,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -93,0 +114 @@
++                "autoTurnLast": 0.01,
+@@ -104 +124,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -105,0 +126,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302600
++                    }
++                ],
++#BELLA=nameCenter=SPINA#
+@@ -107 +135,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -149,0 +178 @@
++                "autoTurnLast": 0.01,
+@@ -151 +179,0 @@
+-                "bgm": "bgm03_story03",
+@@ -157 +185 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -158,0 +187,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_001.exp.json",
++                        "id": 302601,
++                        "motion": 0,
++                        "pos": 2
+@@ -161 +195,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -162,0 +197,11 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story03",
++                "chara": [
++                    {
++                        "id": 302701,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -164,2 +209 @@
+-                "turnChangeIn": "whiteIn",
+-                "turnChangeOut": "whiteOut"
++                "turnChangeOut": "fadeOut"
+@@ -173,5 +217 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_001.exp.json",
+-                        "id": 302601,
+-                        "motion": 0,
+-                        "pos": 2
++                        "id": 302601
+@@ -257,0 +298 @@
++                "autoTurnLast": 0.01,
+@@ -264 +305 @@
+-                        "motion": 1,
++                        "motion": 0,
+@@ -265,0 +307,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 302601,
++                        "motion": 0,
++                        "pos": 2
+@@ -268 +315,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -269,0 +317,10 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302801,
++                        "motion": 1
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -271 +327,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -277,2 +332,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+@@ -280,2 +334 @@
+-                        "motion": 100,
+-                        "pos": 2
++                        "motion": 100

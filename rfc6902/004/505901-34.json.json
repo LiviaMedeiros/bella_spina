@@ -1,0 +1,84 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.7
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm03_story12",
+            "chara": [
+                {
+                    "id": 302701
+                }
+            ],
+            "nameLeft": "#BELLA=nameLeft=SPINA#",
+            "textLeft": "#BELLA=textLeft=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/nameCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/textCenter"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/9/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/9/chara/0/lipSynch"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/10",
+        "value": {
+            "chara": [
+                {
+                    "id": 302701,
+                    "lipSynch": 0
+                }
+            ],
+            "nameCenter": "#BELLA=nameCenter=SPINA#",
+            "textCenter": "#BELLA=textCenter=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/13/chara/0/cheek",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/16/chara/0/cheek",
+        "value": 0
+    }
+]

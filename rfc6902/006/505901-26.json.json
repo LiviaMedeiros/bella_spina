@@ -1,0 +1,199 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/bg",
+        "value": "bg_adv_21083.jpg"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1/nameNarration",
+        "value": "#BELLA=nameNarration=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1/narrationBg",
+        "value": "bg_adv_narration.jpg"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1/narrationEffect",
+        "value": "in"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1/turnChangeOut",
+        "value": "fadeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/3/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/3/nameLeft"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/3/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/3/textLeft"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/narration",
+        "value": "#BELLA=narration=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/3/chara/-",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 302701,
+            "motion": 0,
+            "pos": 2
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/textRight"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/nameLeft",
+        "value": "#BELLA=nameLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/narrationEffect",
+        "value": "out"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/textLeft",
+        "value": "#BELLA=textLeft=SPINA#"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/motion"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/chara/0/pos"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/4/chara/0/id",
+        "value": 302601
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5",
+        "value": {
+            "bgm": "bgm03_story04",
+            "chara": [
+                {
+                    "id": 302701
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/21/narrationBg",
+        "value": "bg_adv_narration.jpg"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/21/bg",
+        "value": "bg_adv_17053.jpg"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/24/chara",
+        "value": [
+            {
+                "face": "mtn_ex_030.exp.json",
+                "id": 302600,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 2,
+                "face": "mtn_ex_030.exp.json",
+                "id": 302700,
+                "motion": 0,
+                "pos": 2
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/25/bg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/25/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/25/chara/0/pos"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/27/chara/0/cheek"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/27/chara/0/face"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/27/chara/0/motion"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/27/chara/0/pos"
+    }
+]

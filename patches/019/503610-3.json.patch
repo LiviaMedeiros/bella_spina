@@ -1,0 +1,274 @@
+--- en/scenario_5/503610-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/503610-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,7 +2,8 @@
+     "story": {
+         "group_1": [
+             {
+-                "bg": "bg_adv_21041.jpg",
++                "autoTurnLast": 0.5,
++                "bg": "bg_adv_21401.jpg",
+                 "bgm": "bgm01_anime03",
+                 "chara": [
+                     {
+@@ -15,15 +16,22 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 100,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 301601
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -31,7 +39,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+-                        "id": 101700
++                        "id": 101701
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -41,7 +49,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 0
+                     }
+                 ],
+@@ -71,7 +79,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_051.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 300
+                     }
+                 ],
+@@ -82,7 +90,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+-                        "id": 101700
++                        "id": 101701
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -112,6 +120,7 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.5,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -128,10 +137,17 @@
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 301601
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -219,6 +235,7 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "autoTurnLast": 0.5,
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -231,14 +248,22 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+                         "id": 302901,
+-                        "motion": 100,
++                        "motion": 0,
+                         "pos": 2
+                     }
+                 ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302901,
++                        "motion": 100
++                    }
++                ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -365,7 +390,7 @@
+                 "autoTurnLast": 0.01,
+                 "item": [
+                     {
+-                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
++                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
+                         "posX": 0,
+                         "posY": 0,
+                         "visible": "appear"
+@@ -380,9 +405,9 @@
+                 "narrationAnchor": "bottom",
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+-                "narrationFontSize": 28,
+-                "narrationLineMargin": 35,
+-                "narrationLineSpace": 10,
++                "narrationFontSize": 30,
++                "narrationLineMargin": 10,
++                "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -414,16 +439,6 @@
+             },
+             {
+                 "autoTurnLast": 0.01,
+-                "item": [
+-                    {
+-                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
+-                        "visible": "hide"
+-                    }
+-                ],
+-                "narrationEffect": "out",
+-                "turnChangeIn": "fadeIn"
+-            },
+-            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -431,10 +446,27 @@
+                         "id": 301601,
+                         "motion": 0,
+                         "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_000.exp.json",
++                        "id": 302901,
++                        "motion": 0,
++                        "pos": 2
+                     }
+                 ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
++                "item": [
++                    {
++                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
++                        "visible": "hide"
++                    }
++                ],
++                "narrationEffect": "out",
++                "turnChangeIn": "fadeIn"
++            },
++            {
++#BELLA=nameCenter=SPINA#
++#BELLA=textCenter=SPINA#
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -453,7 +485,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 1,
+                         "pos": 2
+                     }
+@@ -477,7 +509,7 @@
+                     {
+                         "cheek": 1,
+                         "face": "mtn_ex_030.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 300
+                     }
+                 ],
+@@ -507,7 +539,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 0
+                     }
+                 ],
+@@ -516,7 +548,7 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 100
+                     }
+                 ],
+@@ -527,7 +559,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_011.exp.json",
+-                        "id": 101700
++                        "id": 101701
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -537,7 +569,7 @@
+                     {
+                         "cheek": -1,
+                         "face": "mtn_ex_020.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 200
+                     }
+                 ],
+@@ -572,7 +604,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_030.exp.json",
+-                        "id": 101700,
++                        "id": 101701,
+                         "motion": 300
+                     }
+                 ],
+@@ -583,7 +615,7 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+-                        "id": 101700
++                        "id": 101701
+                     }
+                 ],
+ #BELLA=textRight=SPINA#

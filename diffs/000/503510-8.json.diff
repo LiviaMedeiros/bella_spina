@@ -1,0 +1,74 @@
+5,6c5,6
+<                 "bg": "bg_adv_21241.jpg",
+<                 "bgm": "bgm01_anime03",
+---
+>                 "autoTurnLast": 0.2,
+>                 "bg": "bg_adv_13111.jpg",
+19c19
+<                         "motion": 400,
+---
+>                         "motion": 0,
+22a23,33
+>                 "turnChangeIn": "fadeIn",
+>                 "turnEffect": "blackFrame"
+>             },
+>             {
+>                 "bgm": "bgm01_anime03",
+>                 "chara": [
+>                     {
+>                         "id": 303101,
+>                         "motion": 400
+>                     }
+>                 ],
+26,28c37
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut",
+<                 "turnEffect": "blackFrame"
+---
+>                 "turnChangeOut": "fadeOut"
+55,56d63
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+77,78d83
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+87,88d91
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+98,99d100
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+120,121d120
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+165,166d163
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+187,188d183
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+233,234d227
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+311,312d303
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+332,333d322
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+486,487d474
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+556,557d542
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+567,568d551
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+604,605d586
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+646c627
+<     "version": 2
+---
+>     "version": 3

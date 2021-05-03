@@ -1,0 +1,150 @@
+--- en/scenario_5/505901-36.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/505901-36.json	2017-03-17 18:39:13.000000000 +0800
+@@ -4,0 +5 @@
++                "autoTurnLast": 0.01,
+@@ -5,0 +7,3 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
+@@ -10 +13,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -25,0 +29 @@
++                "autoTurnLast": 0.01,
+@@ -27 +30,0 @@
+-                "bgEffect": "shakeSmall",
+@@ -29,0 +33,7 @@
++                        "cheek": 0,
++                        "face": "mtn_ex_001.exp.json",
++                        "id": 302600,
++                        "motion": 0,
++                        "pos": 0
++                    },
++                    {
+@@ -33 +43 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -36,0 +47,10 @@
++                "questTurnChangeIn": "whiteIn"
++            },
++            {
++                "bgEffect": "shakeSmall",
++                "chara": [
++                    {
++                        "id": 100900,
++                        "motion": 400
++                    }
++                ],
+@@ -40 +59,0 @@
+-                "questTurnChangeIn": "whiteIn",
+@@ -48,2 +66,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_001.exp.json",
+@@ -51,2 +68 @@
+-                        "motion": 1,
+-                        "pos": 0
++                        "motion": 1
+@@ -922,0 +939 @@
++                "autoTurnLast": 0.01,
+@@ -924 +940,0 @@
+-                "bgm": "bgm01_anime05",
+@@ -932,0 +949,9 @@
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "bgm": "bgm01_anime05",
++                "chara": [
++                    {
++                        "id": 302800
++                    }
++                ],
+@@ -936 +960,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -1013,0 +1038 @@
++                "autoTurnLast": 0.01,
+@@ -1020 +1045 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -1021,0 +1047,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 302701,
++                        "motion": 0,
++                        "pos": 2
+@@ -1024 +1055,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -1025,0 +1057,11 @@
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "chara": [
++                    {
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 302601,
++                        "motion": 200
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
+@@ -1028 +1069,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -1034,2 +1074,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_011.exp.json",
+@@ -1037,2 +1076 @@
+-                        "motion": 200,
+-                        "pos": 2
++                        "motion": 200
+@@ -1062,0 +1101 @@
++                "autoTurnLast": 0.01,
+@@ -1071,0 +1111,8 @@
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 800800
++                    }
++                ],
+@@ -1076 +1122,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -1083,0 +1130 @@
++                "autoTurnLast": 0.01,
+@@ -1094 +1140,0 @@
+-#BELLA=nameCenter=SPINA#
+@@ -1095,0 +1142,9 @@
++                "turnChangeIn": "whiteIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302801
++                    }
++                ],
++#BELLA=nameCenter=SPINA#
+@@ -1098 +1152,0 @@
+-                "turnChangeIn": "whiteIn",
+@@ -1169,0 +1224 @@
++                "autoTurnLast": 0.01,
+@@ -1171 +1225,0 @@
+-                "bgm": "stop",
+@@ -1176 +1230 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -1179,0 +1234,11 @@
++                "turnChangeIn": "whiteIn",
++                "turnEffect": "stop"
++            },
++            {
++                "bgm": "stop",
++                "chara": [
++                    {
++                        "id": 302600,
++                        "motion": 200
++                    }
++                ],
+@@ -1184,3 +1249 @@
+-                "turnChangeIn": "whiteIn",
+-                "turnChangeOut": "whiteOut",
+-                "turnEffect": "stop"
++                "turnChangeOut": "whiteOut"

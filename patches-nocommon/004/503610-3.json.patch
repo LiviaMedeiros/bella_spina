@@ -1,0 +1,130 @@
+--- en/scenario_5/503610-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/503610-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -5 +5,2 @@
+-                "bg": "bg_adv_21041.jpg",
++                "autoTurnLast": 0.5,
++                "bg": "bg_adv_21401.jpg",
+@@ -18 +19 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -22,0 +24,8 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 301601
++                    }
++                ],
+@@ -26 +34,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -34 +42 @@
+-                        "id": 101700
++                        "id": 101701
+@@ -44 +52 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -74 +82 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -85 +93 @@
+-                        "id": 101700
++                        "id": 101701
+@@ -114,0 +123 @@
++                "autoTurnLast": 0.5,
+@@ -130,0 +140,8 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 301601
++                    }
++                ],
+@@ -134 +150,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -221,0 +238 @@
++                "autoTurnLast": 0.5,
+@@ -234 +251 @@
+-                        "motion": 100,
++                        "motion": 0,
+@@ -237,0 +255,9 @@
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "chara": [
++                    {
++                        "id": 302901,
++                        "motion": 100
++                    }
++                ],
+@@ -241 +266,0 @@
+-                "turnChangeIn": "fadeIn",
+@@ -368 +393 @@
+-                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
++                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
+@@ -383,3 +408,3 @@
+-                "narrationFontSize": 28,
+-                "narrationLineMargin": 35,
+-                "narrationLineSpace": 10,
++                "narrationFontSize": 30,
++                "narrationLineMargin": 10,
++                "narrationLineSpace": 20,
+@@ -417,10 +441,0 @@
+-                "item": [
+-                    {
+-                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.png",
+-                        "visible": "hide"
+-                    }
+-                ],
+-                "narrationEffect": "out",
+-                "turnChangeIn": "fadeIn"
+-            },
+-            {
+@@ -433,0 +449,7 @@
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_000.exp.json",
++                        "id": 302901,
++                        "motion": 0,
++                        "pos": 2
+@@ -436,2 +458,12 @@
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
++                "item": [
++                    {
++                        "path": "resource/scenario/img/51007_tower_kokoro/memoria_1138.jpg",
++                        "visible": "hide"
++                    }
++                ],
++                "narrationEffect": "out",
++                "turnChangeIn": "fadeIn"
++            },
++            {
++#BELLA=nameCenter=SPINA#
++#BELLA=textCenter=SPINA#
+@@ -456 +488 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -480 +512 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -510 +542 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -519 +551 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -530 +562 @@
+-                        "id": 101700
++                        "id": 101701
+@@ -540 +572 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -575 +607 @@
+-                        "id": 101700,
++                        "id": 101701,
+@@ -586 +618 @@
+-                        "id": 101700
++                        "id": 101701

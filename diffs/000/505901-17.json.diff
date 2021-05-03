@@ -1,0 +1,94 @@
+4a5
+>                 "autoTurnLast": 0.01,
+6d6
+<                 "bgm": "bgm03_story13",
+13a14,29
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 302700,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm03_story13",
+>                 "chara": [
+>                     {
+>                         "id": 302600
+18d33
+<                 "turnChangeIn": "fadeIn",
+27,28d41
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+30,31c43
+<                         "motion": 200,
+<                         "pos": 2
+---
+>                         "motion": 200
+37a50
+>                 "autoTurnLast": 0.01,
+43c56
+<                         "motion": 100,
+---
+>                         "motion": 0,
+44a58,76
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 300500,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "turnChangeIn": "rollInFast"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 302700,
+>                         "motion": 100
+>                     },
+>                     {
+>                         "id": 300500
+49d80
+<                 "turnChangeIn": "rollInFast",
+55,59c86
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 300500,
+<                         "motion": 0,
+<                         "pos": 2
+---
+>                         "id": 300500
+173a201,212
+>                 "autoTurnLast": 0.5,
+>                 "chara": [
+>                     {
+>                         "id": 302700,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "surround": "stop",
+>                 "textClear": 1,
+>                 "turnEffect": "stop"
+>             },
+>             {
+179,180c218
+<                         "motion": 1,
+<                         "pos": 0
+---
+>                         "motion": 1
+184d221
+<                 "surround": "stop",
+186d222
+<                 "turnEffect": "stop"
+825a862,865
+>             },
+>             {
+>                 "autoTurnLast": 2,
+>                 "turnChangeIn": "fadeIn"

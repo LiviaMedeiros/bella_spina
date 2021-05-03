@@ -1,0 +1,154 @@
+14a15
+>                 "autoTurnLast": 0.01,
+16d16
+<                 "bgm": "bgm01_anime16",
+21c21
+<                         "motion": 300,
+---
+>                         "motion": 0,
+24a25,34
+>                 "turnChangeIn": "fadeIn"
+>             },
+>             {
+>                 "bgm": "bgm01_anime16",
+>                 "chara": [
+>                     {
+>                         "id": 302600,
+>                         "motion": 300
+>                     }
+>                 ],
+27d36
+<                 "turnChangeIn": "fadeIn",
+43a53,62
+>                 "autoTurnLast": 0.2,
+>                 "chara": [
+>                     {
+>                         "id": 302600,
+>                         "pos": 0
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+51,54d69
+<                     },
+<                     {
+<                         "id": 302600,
+<                         "pos": 0
+1010a1026
+>                 "autoTurnLast": 0.01,
+1012d1027
+<                 "bgm": "stop",
+1021d1035
+< #BELLA=nameCenter=SPINA#
+1023,1024d1036
+<                 "surround": "stop",
+< #BELLA=textCenter=SPINA#
+1026d1037
+<                 "turnChangeOut": "fadeOut",
+1029a1041,1052
+>                 "bgm": "stop",
+>                 "chara": [
+>                     {
+>                         "id": 302700
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+>                 "surround": "stop",
+> #BELLA=textCenter=SPINA#
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+1035a1059
+>                 "autoTurnLast": 0.01,
+1037d1060
+<                 "bgm": "stop",
+1046d1068
+< #BELLA=nameCenter=SPINA#
+1048,1049d1069
+<                 "surround": "stop",
+< #BELLA=textCenter=SPINA#
+1051d1070
+<                 "turnChangeOut": "fadeOut",
+1054a1074,1085
+>                 "bgm": "stop",
+>                 "chara": [
+>                     {
+>                         "id": 302800
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+>                 "surround": "stop",
+> #BELLA=textCenter=SPINA#
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+1060a1092
+>                 "autoTurnLast": 0.01,
+1062d1093
+<                 "bgm": "stop",
+1067c1098
+<                         "motion": 300,
+---
+>                         "motion": 0,
+1071d1101
+< #BELLA=nameCenter=SPINA#
+1073,1074d1102
+<                 "surround": "stop",
+< #BELLA=textCenter=SPINA#
+1076d1103
+<                 "turnChangeOut": "fadeOut",
+1079a1107,1119
+>                 "bgm": "stop",
+>                 "chara": [
+>                     {
+>                         "id": 302600,
+>                         "motion": 300
+>                     }
+>                 ],
+> #BELLA=nameCenter=SPINA#
+>                 "surround": "stop",
+> #BELLA=textCenter=SPINA#
+>                 "turnChangeOut": "fadeOut"
+>             },
+>             {
+1085a1126
+>                 "autoTurnLast": 0.01,
+1087d1127
+<                 "bgm": "bgm03_story07",
+1092a1133,1152
+>                         "motion": 0,
+>                         "pos": 0
+>                     },
+>                     {
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 302700,
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+>                 "narrationEffect": "out",
+>                 "turnChangeIn": "fadeIn",
+>                 "turnEffect": "stop"
+>             },
+>             {
+>                 "bgm": "bgm03_story07",
+>                 "chara": [
+>                     {
+>                         "cheek": 2,
+>                         "id": 302600,
+1094d1153
+<                         "pos": 1,
+1098,1099c1157
+< #BELLA=nameCenter=SPINA#
+<                 "narrationEffect": "out",
+---
+> #BELLA=nameLeft=SPINA#
+1102,1105c1160,1161
+< #BELLA=textCenter=SPINA#
+<                 "turnChangeIn": "fadeIn",
+<                 "turnChangeOut": "fadeOut",
+<                 "turnEffect": "stop"
+---
+> #BELLA=textLeft=SPINA#
+>                 "turnChangeOut": "fadeOut"

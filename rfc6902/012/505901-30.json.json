@@ -1,0 +1,264 @@
+[
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/bgm"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/0/chara/0/effect"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/1",
+        "value": {
+            "bgm": "bgm03_story08",
+            "chara": [
+                {
+                    "effect": "emotion_surprise_0",
+                    "id": 302801,
+                    "motion": 400
+                },
+                {
+                    "id": 302601
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/turnChangeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/4/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/4/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/4/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/5",
+        "value": {
+            "chara": [
+                {
+                    "id": 301101,
+                    "motion": 100
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "whiteOut",
+            "turnEffect": "blackFrame"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/11/chara/0/face",
+        "value": "mtn_ex_011.exp.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/21/chara/0/face",
+        "value": "mtn_ex_011.exp.json"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/23/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/chara/0/lipSynch"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/23/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/23/chara/1/lipSynch"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/24",
+        "value": {
+            "chara": [
+                {
+                    "id": 302801,
+                    "lipSynch": 0,
+                    "motion": 300
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "whiteOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_2/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_2/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_2/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302801
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_3/0/turnChangeOut"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_3/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "add",
+        "path": "/story/group_3/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302801
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut"
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/nameRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/narrationEffect"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/surround"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/textRight"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/turnChangeOut"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_4/0/turnEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_4/0/autoTurnLast",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_4/0/chara/0/motion",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_4/1",
+        "value": {
+            "chara": [
+                {
+                    "id": 302801,
+                    "motion": 400
+                }
+            ],
+            "nameRight": "#BELLA=nameRight=SPINA#",
+            "narrationEffect": "out",
+            "surround": "stop",
+            "textRight": "#BELLA=textRight=SPINA#",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "stop"
+        }
+    }
+]

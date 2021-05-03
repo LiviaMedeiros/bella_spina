@@ -1,0 +1,52 @@
+--- en/scenario_5/505901-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/505901-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -2,29 +2,41 @@
+     "story": {
+         "group_1": [
+             {
++                "autoTurnLast": 0.01,
+                 "bg": "bg_adv_21081.jpg",
+-                "bgm": "bgm03_story03",
+                 "chara": [
+                     {
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 302801,
+-                        "motion": 200,
++                        "motion": 0,
+                         "pos": 0
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 302701,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "turnChangeIn": "fadeIn"
++            },
++            {
++                "bgm": "bgm03_story03",
++                "chara": [
++                    {
++                        "id": 302801,
++                        "motion": 200
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeIn": "fadeIn",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+-                        "id": 302701,
+-                        "motion": 0,
+-                        "pos": 2
++                        "id": 302701
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
