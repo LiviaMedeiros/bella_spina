@@ -39,14 +39,14 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 ```asm
      0 broken_en
      0 bom_en
-  4764 all_en
+  4776 all_en
   6178 all_jp
   2992 all_na
      7 only_en
-  1421 only_jp
-  4757 comparable
+  1409 only_jp
+  4769 comparable
     40 same
-  4073 perfect
+  4085 perfect
    684 outdated
     14 invalid
    429 valid
