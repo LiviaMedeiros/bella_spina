@@ -40,10 +40,10 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
      0 broken_en
      0 bom_en
   4776 all_en
-  6178 all_jp
+  6199 all_jp
   2992 all_na
      7 only_en
-  1409 only_jp
+  1430 only_jp
   4769 comparable
     40 same
   4085 perfect
