@@ -38,16 +38,16 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 # totes
 ```asm
      0 broken_en
-     0 bom_en
-  4776 all_en
+    12 bom_en
+  4814 all_en
   6199 all_jp
   2992 all_na
      7 only_en
-  1430 only_jp
-  4769 comparable
+  1392 only_jp
+  4807 comparable
     40 same
-  4085 perfect
-   684 outdated
+  4122 perfect
+   685 outdated
     14 invalid
    429 valid
 ```
