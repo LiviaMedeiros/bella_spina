@@ -32,8 +32,8 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 - `/ambivalence/`: data for all translatable values with more than one translation<br/>
 - `/inline/`: data for all changed inline [tags]<br/>
 - `/stats/`: sorted patch statistics<br/>
-- `/rerun/`: data about identical scenarios
-
+- `/rerun/`: data about identical scenarios<br/>
+- `/spellcheck/`: hunspell-related data
 
 # totes
 ```asm
