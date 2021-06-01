@@ -38,25 +38,25 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 # totes
 ```asm
      0 broken_en
-    49 bom_en
+    48 bom_en
   4844 all_en
   6269 all_jp
   2992 all_na
-  2952 same_na
-    40 changed_na
+  2814 same_na
+   178 changed_na
      7 only_en
   1432 only_jp
   4837 comparable
     40 same
-  4144 perfect
-   693 outdated
+  4068 perfect
+   769 outdated
     14 invalid
-   437 valid
+   514 valid
 ```
 ```c
-1356 onepiece-nocommon.patch
-2892 onepiece-rfc6902.json
-1356 onepiece-sbs.diff
-1232 onepiece.diff
-2460 onepiece.patch
+1412 onepiece-nocommon.patch
+2948 onepiece-rfc6902.json
+1400 onepiece-sbs.diff
+1276 onepiece.diff
+2584 onepiece.patch
 ```
