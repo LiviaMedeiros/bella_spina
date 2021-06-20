@@ -23,9 +23,10 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 `onepiece` are recursive macropatches, handy for estimating the overall amount of changes; do not apply them "as is"
 
 ### /checkout/
-- `broken_en`: list of invalid json files, check asap if it's not empty<br/>
-- `bom_en`: list of files/lines containing 0xefbbbf sequence<br/>
-- `widelines_en`: lists of suspiciously long lines
+- `broken`: list of invalid json files, check asap if it's not empty<br/>
+- `bom`: list of files/lines containing `0xefbbbf` sequence<br/>
+- `widelines`: lists of suspiciously long lines<br/>
+- `escapism`: lists of files/lines/counts for all escape sequences except for `\"`
 
 ### extra analysis
 - `/chars/`: all unique symbols separated by linebreak, and some diff data<br/>
@@ -33,7 +34,8 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 - `/inline/`: data for all changed inline [tags]<br/>
 - `/stats/`: sorted patch statistics<br/>
 - `/rerun/`: data about identical scenarios<br/>
-- `/spellcheck/`: hunspell-related data
+- `/spellcheck/`: hunspell-related data<br/>
+- `/escapism/`: all escape sequence occurrences
 
 # totes
 ```asm
