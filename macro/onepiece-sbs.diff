@@ -15551,6 +15551,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-4.json jp/sc
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/340281-3.json jp/scenario_3/340281-3.json
+                "se": "7205_magic_girl",				  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340521-4.json jp/scenario_3/340521-4.json
 									  >	                "autoTurnFirst": 1.8,
 									  >	                "bg": "bg_adv_narration.jpg",
@@ -25951,6 +25953,114 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-4_ZvuTl.json
                 "turnEffect": "stop"					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-8_ZvuTl.json jp/scenario_5/510112-8_ZvuTl.json
                 "narrationLineMargin": 25,				  |	                "narrationLineMargin": 15,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510202-3_m4VmX.json jp/scenario_5/510202-3_m4VmX.json
+                "narrationLineMargin": 25,				  |	                "narrationLineMargin": 15,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510203-2_m4VmX.json jp/scenario_5/510203-2_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+                        "zOrder": "charaBack"				  |	                        "zOrder": "charaFront"
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510203-5_m4VmX.json jp/scenario_5/510203-5_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-2_m4VmX.json jp/scenario_5/510204-2_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-3_m4VmX.json jp/scenario_5/510204-3_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-8_m4VmX.json jp/scenario_5/510204-8_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510207-2_m4VmX.json jp/scenario_5/510207-2_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510207-5_m4VmX.json jp/scenario_5/510207-5_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+                        "visible": "appear"				  |	                        "visible": "appear",
+									  >	                        "zOrder": "charaFront"
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510207-6_m4VmX.json jp/scenario_5/510207-6_m4VmX.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510208-1_kssXu.json jp/scenario_5/510208-1_kssXu.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510208-2_kssXu.json jp/scenario_5/510208-2_kssXu.json
+                "bg": "bg_adv_20121.jpg",				  |	                "bg": "bg_adv_31094.jpg",
+                        "eyeClose": 1,					  |	                        "id": 810000,
+                        "face": "mtn_ex_020.exp.json",			  |	                        "motion": 0,
+                        "id": 831400,					  |	                        "pos": 2,
+                        "motion": 1,					  |	                        "posX": 40
+									  >	                    },
+									  >	                    {
+									  >	                        "cheek": 0,
+									  >	                        "face": "mtn_ex_010.exp.json",
+									  >	                        "id": 412103,
+									  >	                        "motion": 0,
+                        "id": 810000,					  |	                        "cheek": 0,
+                        "pos": 2,					  |	                        "face": "mtn_ex_010.exp.json",
+                        "posX": 40,					  |	                        "id": 412103,
+                        "posY": 0					  |	                        "pos": 0
+                        "eyeClose": 1,					  |	                        "id": 412103
+                        "id": 831400					  <
+                        "eyeClose": 0,					  <
+                        "id": 831400					  |	                        "id": 412103,
+									  >	                        "pos": 0
+									  >	#BELLA=nameLeft=SPINA#
+                        "id": 831400					  |	                        "id": 412103,
+									  >	                        "motion": 400
+									  >	#BELLA=nameLeft=SPINA#
+									  >	#BELLA=nameRight=SPINA#
+									  >	#BELLA=nameRight=SPINA#
+                        "cheek": 0,					  |	                        "id": 412103,
+                        "eyeClose": 0,					  |	                        "motion": 0
+                        "face": "mtn_ex_010.exp.json",			  <
+                        "id": 831400,					  <
+                        "motion": 100					  <
+									  >	#BELLA=nameLeft=SPINA#
+                        "id": 831400					  |	                        "id": 412103
+									  >	#BELLA=nameLeft=SPINA#
+                        "face": "mtn_ex_011.exp.json",			  |	                        "eyeClose": 1,
+                        "id": 831400					  |	                        "id": 412103,
+									  >	                        "motion": 100,
+									  >	                        "pos": 0
+									  >	#BELLA=nameLeft=SPINA#
+                        "cheek": 0,					  |	                        "eyeClose": 0,
+                        "face": "mtn_ex_014.exp.json",			  |	                        "id": 412103
+                        "id": 831400,					  <
+                        "motion": 400					  <
+									  >	#BELLA=nameLeft=SPINA#
+                "autoTurnLast": 0.01,					  |	                "chara": [
+                "bg": "black",						  <
+                "item": [						  <
+                        "path": "resource/scenario/img/51065_singlerai	  |	                        "cheek": 0,
+                        "posX": 0,					  |	                        "face": "mtn_ex_014.exp.json",
+                        "posY": 0,					  |	                        "id": 412103,
+                        "visible": "appear"				  |	                        "motion": 0
+                "turnChangeIn": "fadeIn"				  |	#BELLA=nameLeft=SPINA#
+            },								  |	#BELLA=textLeft=SPINA#
+            {								  <
+#BELLA=nameNarration=SPINA#						  <
+#BELLA=narration=SPINA#							  <
+                "narrationAnchor": "bottom",				  <
+                "narrationCoverOpacity": 110,				  <
+                "narrationEffect": "in",				  <
+                "narrationFontSize": 30,				  <
+                "narrationLineMargin": 35,				  <
+                "narrationLineSpace": 20,				  <
+                "turnChangeOut": "fadeOut"				  <
+#BELLA=narration=SPINA#							  |	                "chara": [
+									  >	                    {
+									  >	                        "id": 412103,
+									  >	                        "motion": 200,
+									  >	                        "mouthOpen": 1
+									  >	                    }
+									  >	                ],
+									  >	#BELLA=nameLeft=SPINA#
+									  >	#BELLA=textLeft=SPINA#
+                "autoTurnLast": 0.5,					  |	                "autoTurnLast": 1,
+                "narrationEffect": "out",				  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510209-2_kssXu.json jp/scenario_5/510209-2_kssXu.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-1_kssXu.json jp/scenario_5/510210-1_kssXu.json
+									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-2_kssXu.json jp/scenario_5/510210-2_kssXu.json
+									  >	                        "iPhoneXScale": 1,
+                        "visible": "appear"				  |	                        "visible": "appear",
+									  >	                        "zOrder": "charaFront"
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-5_kssXu.json jp/scenario_5/510210-5_kssXu.json
+									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510911-2_RK87H.json jp/scenario_5/510911-2_RK87H.json
 									  >	                        "face": "mtn_ex_020.exp.json",
 									  >	                        "id": 401101
