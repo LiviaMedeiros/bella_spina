@@ -2,25 +2,31 @@
 <                 "bgm": "bgm04_movie08",
 ---
 >                 "bgm": "bgm01_battle02",
-9c9
+9,10c9,10
 <                         "cheek": 1,
+<                         "face": "mtn_ex_010.exp.json",
 ---
 >                         "cheek": 0,
-16c16
+>                         "face": "mtn_ex_010.exp3.json",
+11a12
+>                         "live2dName": "live2d_0",
+16,18c17,20
 <                         "cheek": 2,
+<                         "face": "mtn_ex_020.exp.json",
+<                         "id": 101090,
 ---
 >                         "cheek": 0,
-18c18,19
+>                         "face": "mtn_ex_010.exp3.json",
+>                         "id": 101000,
+>                         "live2dName": "live2d_1",
+32,34c34,35
+<                         "cheek": 2,
+<                         "face": "mtn_ex_020.exp.json",
 <                         "id": 101090,
 ---
 >                         "id": 101000,
 >                         "live2dName": "live2d_1",
-32,33d32
-<                         "cheek": 2,
-<                         "face": "mtn_ex_020.exp.json",
-34a34
->                         "live2dName": "live2d_1",
-46c46
+46c47
 <     "version": 2
 ---
 >     "version": 3

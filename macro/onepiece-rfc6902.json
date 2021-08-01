@@ -199,6 +199,68 @@
             "value": 1
         }
     ],
+    "scenario_1/101201-7.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_020.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/0/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/face",
+            "value": "mtn_ex_050.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/1/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/5/chara/1/id",
+            "value": 100100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/6/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/7/chara/0/id",
+            "value": 100100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_0"
+        }
+    ],
     "scenario_1/101302-5_oIPz1.json": [
         {
             "op": "replace",
@@ -35797,9 +35859,19 @@
             "value": "bgm01_battle02"
         },
         {
+            "op": "add",
+            "path": "/story/group_1/0/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
             "op": "replace",
             "path": "/story/group_1/0/chara/0/cheek",
             "value": 0
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_010.exp3.json"
         },
         {
             "op": "add",
@@ -35810,6 +35882,11 @@
             "op": "replace",
             "path": "/story/group_1/0/chara/1/cheek",
             "value": 0
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/face",
+            "value": "mtn_ex_010.exp3.json"
         },
         {
             "op": "replace",
@@ -35828,6 +35905,11 @@
             "op": "add",
             "path": "/story/group_1/1/chara/0/live2dName",
             "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/1/chara/0/id",
+            "value": 101000
         },
         {
             "op": "replace",
@@ -41060,6 +41142,18 @@
             "op": "replace",
             "path": "/story/group_1/7/chara/0/name",
             "value": "sprite_0"
+        }
+    ],
+    "scenario_3/312032-4.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/3/chara/0/id",
+            "value": 120302
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/3/chara/1/id",
+            "value": 120302
         }
     ],
     "scenario_3/312091-3.json": [
@@ -58046,6 +58140,13 @@
             "op": "add",
             "path": "/story/group_1/53/chara/0/lipSynch",
             "value": 0
+        }
+    ],
+    "scenario_3/330543-3.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/62/turnEffect",
+            "value": "stop"
         }
     ],
     "scenario_3/330563-4.json": [
@@ -75607,6 +75708,58 @@
             "path": "/story/group_1/26/chara/0/face"
         }
     ],
+    "scenario_3/340211-3.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_020.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/4/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/35/chara/0/live2dName",
+            "value": "live2d_0"
+        }
+    ],
     "scenario_3/340212-1.json": [
         {
             "op": "remove",
@@ -75890,6 +76043,41 @@
     ],
     "scenario_3/340261-1.json": [
         {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/3/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/5/chara/1/id",
+            "value": 760000
+        },
+        {
             "op": "replace",
             "path": "/story/group_1/6/chara/1/id",
             "value": 831100
@@ -75960,6 +76148,11 @@
     "scenario_3/340261-3.json": [
         {
             "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_000.exp3.json"
+        },
+        {
+            "op": "replace",
             "path": "/story/group_1/39/chara/0/id",
             "value": 831100
         },
@@ -76007,6 +76200,36 @@
             "op": "replace",
             "path": "/story/group_1/66/chara/1/id",
             "value": 831100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/67/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/67/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/67/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/68/chara/1/id",
+            "value": 760000
         }
     ],
     "scenario_3/340261-4.json": [
@@ -76543,6 +76766,21 @@
     "scenario_3/340263-3.json": [
         {
             "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_000.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/face",
+            "value": "mtn_ex_000.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/2/face",
+            "value": "mtn_ex_000.exp3.json"
+        },
+        {
+            "op": "replace",
             "path": "/story/group_1/27/chara/0/face",
             "value": "mtn_ex_050.exp.json"
         },
@@ -76555,6 +76793,36 @@
             "op": "replace",
             "path": "/story/group_1/28/chara/0/id",
             "value": 831100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/41/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/41/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/41/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/42/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/2/live2dName",
+            "value": "live2d_0"
         },
         {
             "op": "replace",
@@ -76590,6 +76858,21 @@
             "op": "replace",
             "path": "/story/group_1/90/chara/1/id",
             "value": 831100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/91/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/91/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/91/chara/2/live2dName",
+            "value": "live2d_0"
         }
     ],
     "scenario_3/340263-4.json": [
@@ -76908,6 +77191,1901 @@
             }
         }
     ],
+    "scenario_4/400001-1.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/8/chara/0/face",
+            "value": "mtn_ex_050.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/1/pos",
+            "value": 2
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/69/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/75/chara",
+            "value": [
+                {
+                    "cheek": 0,
+                    "face": "mtn_ex_030.exp.json",
+                    "id": 100100,
+                    "live2dName": "live2d_0",
+                    "motion": 0,
+                    "pos": 2
+                }
+            ]
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/76/chara/0/cheek"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/76/chara/0/face"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/76/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/77/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/78/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/80/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/82/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/83/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/83/chara/0/id",
+            "value": 100100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/83/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/84/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/86/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/86/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/86/chara/1/id",
+            "value": 100100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/88/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/89/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/90/chara",
+            "value": [
+                {
+                    "id": 100100,
+                    "live2dName": "live2d_1"
+                }
+            ]
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/91/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/92/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/93/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/94/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/94/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/94/chara/1/id",
+            "value": 100100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/95/chara/0/live2dName",
+            "value": "live2d_0"
+        }
+    ],
+    "scenario_4/400003-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/13/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/13/chara/1/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/15/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/15/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/15/chara/1/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/18/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/18/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/21/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/21/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/22/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/30/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/30/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/31/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/34/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/35/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/40/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/42/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/47/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/50/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/52/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/54/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/54/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/55/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/55/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/60/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/60/chara/0/id",
+            "value": 101100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/63/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/2/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/2/id",
+            "value": 101100
+        },
+        {
+            "op": "replace",
+            "path": "/version",
+            "value": 3
+        }
+    ],
+    "scenario_4/400009-1.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/4/chara/0/face",
+            "value": "mtn_ex_020.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/5/chara/0/face",
+            "value": "mtn_ex_010.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/13/chara/1/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/14/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/22/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/35/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/36/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/47/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/49/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/53/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/56/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/60/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/63/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/version",
+            "value": 3
+        }
+    ],
+    "scenario_4/400010-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/6/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/13/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/17/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/22/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/22/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/23/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/23/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/23/chara/1/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/27/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/28/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/29/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/31/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/36/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/38/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/43/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/45/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/47/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/49/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/51/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/51/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/59/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/59/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/60/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/0/id",
+            "value": 100900
+        }
+    ],
+    "scenario_4/400012-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/75/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/78/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/84/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/85/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/85/chara/2/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/86/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/87/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/87/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/88/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/88/chara/0/id",
+            "value": 300600
+        }
+    ],
+    "scenario_4/400013-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/0/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/0/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/2/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/3/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/4/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/5/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/6/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/6/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/7/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/7/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/8/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/10/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/10/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/11/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/11/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/11/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/11/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/11/chara/2/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/12/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/12/chara/2/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/13/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/14/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/18/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/19/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/20/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/20/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/21/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/22/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/22/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/23/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/23/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/26/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/28/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/29/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/29/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/35/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/36/chara/0/id",
+            "value": 100900
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/39/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/43/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/43/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/44/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/45/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/48/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/50/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/50/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/51/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/51/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/52/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/55/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/55/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/56/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/57/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/57/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/60/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/60/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/61/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/61/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/62/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/62/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/67/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/69/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/69/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/70/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/70/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/71/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/71/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/72/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/72/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/72/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/77/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/78/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/81/chara/0/face",
+            "value": "mtn_ex_010.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/82/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/83/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/89/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/90/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/92/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/95/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/98/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/99/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/101/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/103/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/104/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/version",
+            "value": 3
+        }
+    ],
+    "scenario_4/400014-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/1/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/2/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/10/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/10/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/11/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/12/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/13/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/13/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/13/chara/1/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/15/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/16/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/18/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/20/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/21/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/29/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/31/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/35/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/36/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/39/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/41/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/45/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/49/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/51/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/54/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/59/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/61/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/62/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/63/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/69/chara/0/live2dName",
+            "value": "live2d_0"
+        }
+    ],
+    "scenario_4/400019-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/50/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/51/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/54/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/55/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/60/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/69/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/80/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/81/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/81/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/81/chara/1/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/84/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/84/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/84/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/84/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/84/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/85/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/85/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/85/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/86/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/86/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/86/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/86/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/88/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/88/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/88/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/88/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/90/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/90/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/90/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/90/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/92/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/92/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/92/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/92/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/94/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/94/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/94/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/94/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/94/chara/2/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/95/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/95/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/95/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/95/chara/2/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/95/chara/2/id",
+            "value": 303100
+        }
+    ],
+    "scenario_4/400020-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/20/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/20/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/32/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/32/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/32/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/32/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/32/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/33/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/33/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/33/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/33/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/33/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/38/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/38/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/39/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/39/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/39/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/39/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/39/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/46/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/46/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/46/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/46/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/46/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/47/chara/0/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/1/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/47/chara/1/id",
+            "value": 303100
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/47/chara/2/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/58/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/60/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/69/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/73/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/74/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/75/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/76/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/77/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/78/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/chara/0/live2dName",
+            "value": "live2d_0"
+        }
+    ],
     "scenario_5/501107-2_1tFKL.json": [
         {
             "op": "replace",
@@ -76925,6 +79103,292 @@
             "op": "replace",
             "path": "/story/group_1/23/bg",
             "value": "bg_adv_13111.jpg"
+        }
+    ],
+    "scenario_5/501404-6_O6Cjc.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/20/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/21/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/22/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/23/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/narrationBg",
+            "value": "black"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/27/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/28/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/29/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/29/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/30/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/31/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/31/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/32/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/32/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/33/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/33/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/35/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/35/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/36/chara/0/live2dName",
+            "value": "live2d_2"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/36/chara/0/id",
+            "value": 300600
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/37/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/38/narrationBg",
+            "value": "black"
+        }
+    ],
+    "scenario_5/501501-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/2/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/8/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/9/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/17/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/37/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/56/chara/1/id",
+            "value": 760000
+        }
+    ],
+    "scenario_5/501501-5.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_000.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/face",
+            "value": "mtn_ex_010.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/4/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/19/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/34/chara/1/id",
+            "value": 760000
         }
     ],
     "scenario_5/501503-5.json": [
@@ -77019,6 +79483,43 @@
             "value": -50
         }
     ],
+    "scenario_5/501512-2.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/0/face",
+            "value": "mtn_ex_020.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/0/chara/1/face",
+            "value": "mtn_ex_020.exp3.json"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/24/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/chara/0/id",
+            "value": 760000
+        }
+    ],
     "scenario_5/501512-3.json": [
         {
             "op": "remove",
@@ -77036,6 +79537,81 @@
             "op": "replace",
             "path": "/story/group_1/18/chara/0/id",
             "value": 402200
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/26/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/42/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/66/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/67/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/67/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/68/chara/0/id",
+            "value": 760000
         }
     ],
     "scenario_5/501513-3.json": [
@@ -92420,6 +94996,140 @@
             }
         }
     ],
+    "scenario_5/506101-1.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/2/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/3/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/8/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/8/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/9/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/9/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/12/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/17/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/37/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/38/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/44/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/56/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/56/chara/1/id",
+            "value": 760000
+        }
+    ],
+    "scenario_5/506101-5.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/4/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/4/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/19/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/19/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/34/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/34/chara/1/id",
+            "value": 760000
+        }
+    ],
     "scenario_5/506103-5.json": [
         {
             "op": "replace",
@@ -92512,6 +95222,33 @@
             "value": -50
         }
     ],
+    "scenario_5/506112-2.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/24/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/24/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/chara/0/id",
+            "value": 760000
+        }
+    ],
     "scenario_5/506112-3.json": [
         {
             "op": "remove",
@@ -92529,6 +95266,81 @@
             "op": "replace",
             "path": "/story/group_1/18/chara/0/id",
             "value": 402200
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/26/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/42/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/42/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/64/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/65/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/66/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/67/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/67/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/68/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/68/chara/0/id",
+            "value": 760000
         }
     ],
     "scenario_5/506113-3.json": [
@@ -112447,6 +115259,68 @@
             "value": 15
         }
     ],
+    "scenario_5/510201-0.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/17/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/18/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/18/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/25/chara/1/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/25/chara/1/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/26/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/27/chara/0/live2dName",
+            "value": "live2d_0"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/28/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/28/chara/0/id",
+            "value": 760000
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/29/chara/0/live2dName",
+            "value": "live2d_1"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/29/chara/0/id",
+            "value": 760000
+        }
+    ],
     "scenario_5/510202-3_m4VmX.json": [
         {
             "op": "replace",
@@ -112482,9 +115356,142 @@
     ],
     "scenario_5/510204-3_m4VmX.json": [
         {
+            "op": "replace",
+            "path": "/story/group_1/41/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/42/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/43/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/51/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/52/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/55/chara/0/cheek"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/55/chara/0/face"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/60/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/66/chara/0/face",
+            "value": "mtn_ex_001.exp.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/70/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/72/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/73/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/77/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/78/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/79/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/82/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/84/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/86/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/87/chara/2/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/90/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/91/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/92/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/105/chara/1/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/110/chara/1/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/112/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/120/chara/1/id",
+            "value": 412100
+        },
+        {
             "op": "add",
             "path": "/story/group_1/122/item/0/iPhoneXScale",
             "value": 1
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/123/chara/1/id",
+            "value": 412100
         }
     ],
     "scenario_5/510204-8_m4VmX.json": [
@@ -112492,6 +115499,13 @@
             "op": "add",
             "path": "/story/group_1/114/item/0/iPhoneXScale",
             "value": 1
+        }
+    ],
+    "scenario_5/510205-2_m4VmX.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/10/chara/0/id",
+            "value": 412100
         }
     ],
     "scenario_5/510207-2_m4VmX.json": [
@@ -112901,6 +115915,26 @@
         {
             "op": "remove",
             "path": "/story/group_1/32"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/57/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/59/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/61/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/62/chara/2/id",
+            "value": 412100
         }
     ],
     "scenario_5/510209-2_kssXu.json": [
@@ -112934,6 +115968,89 @@
             "op": "add",
             "path": "/story/group_1/37/item/0/iPhoneXScale",
             "value": 1
+        }
+    ],
+    "scenario_5/510211-3_kssXu.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/60/chara/1/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/63/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/0/id",
+            "value": 412100
+        }
+    ],
+    "scenario_5/510211-4_kssXu.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/9/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/13/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/16/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/64/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/65/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/66/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/67/chara/0/id",
+            "value": 412100
+        }
+    ],
+    "scenario_5/510212-2_kssXu.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/29/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/30/chara/0/id",
+            "value": 412100
+        }
+    ],
+    "scenario_5/510213-2_kssXu.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/28/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/30/chara/0/id",
+            "value": 412100
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/31/chara/1/id",
+            "value": 412100
         }
     ],
     "scenario_5/510911-2_RK87H.json": [

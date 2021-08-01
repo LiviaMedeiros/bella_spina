@@ -1,5 +1,30 @@
 --- en/scenario_3/340263-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340263-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -8,21 +8,21 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_000.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+                         "id": 830300,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+                         "id": 830400,
+                         "motion": 0,
+                         "pos": 1
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+                         "id": 830500,
+                         "motion": 0,
+                         "pos": 2
 @@ -339,8 +339,8 @@
                  "chara": [
                      {
@@ -20,7 +45,45 @@
                      }
                  ],
  #BELLA=nameRight=SPINA#
-@@ -655,8 +655,8 @@
+@@ -579,7 +579,8 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+                         "motion": 0,
+                         "pos": 2
+                     },
+@@ -594,6 +595,7 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+                         "id": 760000,
++                        "live2dName": "live2d_0",
+                         "motion": 0,
+                         "pos": 0
+                     }
+@@ -607,7 +609,8 @@
+                 "chara": [
+                     {
+                         "effect": "fadeout",
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+                     },
+                     {
+                         "effect": "fadeout",
+@@ -615,7 +618,8 @@
+                     },
+                     {
+                         "effect": "fadeout",
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+                     }
+                 ],
+                 "textClear": 1
+@@ -655,8 +659,8 @@
                      },
                      {
                          "cheek": 0,
@@ -31,7 +94,7 @@
                          "motion": 0,
                          "pos": 2
                      }
-@@ -687,7 +687,7 @@
+@@ -687,7 +691,7 @@
                  "chara": [
                      {
                          "effect": "fadeout",
@@ -40,7 +103,7 @@
                      }
                  ],
                  "textClear": 1
-@@ -1137,7 +1137,7 @@
+@@ -1137,7 +1141,7 @@
                      {
                          "cheek": 0,
                          "face": "mtn_ex_030.exp.json",
@@ -49,7 +112,7 @@
                          "motion": 0,
                          "pos": 0
                      }
-@@ -1160,8 +1160,8 @@
+@@ -1160,8 +1164,8 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -60,7 +123,7 @@
                      }
                  ],
  #BELLA=textLeft=SPINA#
-@@ -1182,7 +1182,7 @@
+@@ -1182,7 +1186,7 @@
                      },
                      {
                          "effect": "fadeout",
@@ -69,3 +132,21 @@
                      }
                  ],
                  "textClear": 1
+@@ -1192,7 +1196,8 @@
+                     {
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+                         "motion": 0,
+                         "pos": 2
+                     },
+@@ -1207,6 +1212,7 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+                         "id": 760000,
++                        "live2dName": "live2d_0",
+                         "motion": 0,
+                         "pos": 0
+                     }

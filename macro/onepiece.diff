@@ -131,6 +131,38 @@ diff -r en/scenario_1/101103-3.json jp/scenario_1/101103-3.json
 ---
 >                 ],
 >                 "textClear": 1
+diff -r en/scenario_1/101201-7.json jp/scenario_1/101201-7.json
+9c9
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+17c17
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+18a19
+>                         "live2dName": "live2d_0",
+31a33
+>                         "live2dName": "live2d_0",
+60a63
+>                         "live2dName": "live2d_0",
+87a91
+>                         "live2dName": "live2d_0",
+96c100,101
+<                         "id": 100191,
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_1",
+111a117
+>                         "live2dName": "live2d_0",
+125c131
+<                         "id": 100191,
+---
+>                         "id": 100100,
+143a150
+>                         "live2dName": "live2d_0",
+196a204
+>                         "live2dName": "live2d_0",
 diff -r en/scenario_1/101302-5_oIPz1.json jp/scenario_1/101302-5_oIPz1.json
 244c244
 <                 "autoTurnFirst": 2,
@@ -12769,25 +12801,31 @@ diff -r en/scenario_3/310102-3.json jp/scenario_3/310102-3.json
 <                 "bgm": "bgm04_movie08",
 ---
 >                 "bgm": "bgm01_battle02",
-9c9
+9,10c9,10
 <                         "cheek": 1,
+<                         "face": "mtn_ex_010.exp.json",
 ---
 >                         "cheek": 0,
-16c16
+>                         "face": "mtn_ex_010.exp3.json",
+11a12
+>                         "live2dName": "live2d_0",
+16,18c17,20
 <                         "cheek": 2,
+<                         "face": "mtn_ex_020.exp.json",
+<                         "id": 101090,
 ---
 >                         "cheek": 0,
-18c18,19
+>                         "face": "mtn_ex_010.exp3.json",
+>                         "id": 101000,
+>                         "live2dName": "live2d_1",
+32,34c34,35
+<                         "cheek": 2,
+<                         "face": "mtn_ex_020.exp.json",
 <                         "id": 101090,
 ---
 >                         "id": 101000,
 >                         "live2dName": "live2d_1",
-32,33d32
-<                         "cheek": 2,
-<                         "face": "mtn_ex_020.exp.json",
-34a34
->                         "live2dName": "live2d_1",
-46c46
+46c47
 <     "version": 2
 ---
 >     "version": 3
@@ -14935,6 +14973,15 @@ diff -r en/scenario_3/311101-4.json jp/scenario_3/311101-4.json
 <                         "name": "Momoko"
 ---
 >                         "name": "sprite_0"
+diff -r en/scenario_3/312032-4.json jp/scenario_3/312032-4.json
+66c66
+<                         "id": 102302,
+---
+>                         "id": 120302,
+71c71
+<                         "id": 102302,
+---
+>                         "id": 120302,
 diff -r en/scenario_3/312091-3.json jp/scenario_3/312091-3.json
 516,524d515
 <                         "id": 100901
@@ -21461,6 +21508,11 @@ diff -r en/scenario_3/330531-4.json jp/scenario_3/330531-4.json
 diff -r en/scenario_3/330532-1.json jp/scenario_3/330532-1.json
 625a626
 >                         "lipSynch": 0,
+diff -r en/scenario_3/330543-3.json jp/scenario_3/330543-3.json
+739c739
+<                 "turnEffect": "blackFrame"
+---
+>                 "turnEffect": "stop"
 diff -r en/scenario_3/330563-4.json jp/scenario_3/330563-4.json
 415c415
 <                         "name": "Rui",
@@ -28866,6 +28918,42 @@ diff -r en/scenario_3/340133-4.json jp/scenario_3/340133-4.json
 277,278d264
 <                         "cheek": 0,
 <                         "face": "mtn_ex_010.exp.json",
+diff -r en/scenario_3/340211-3.json jp/scenario_3/340211-3.json
+9c9
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+59a60
+>                         "live2dName": "live2d_0",
+66c67,68
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+77c79,80
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+313a317
+>                         "live2dName": "live2d_0",
+348c352,353
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+359c364,365
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+424a431
+>                         "live2dName": "live2d_0",
+438c445,446
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
 diff -r en/scenario_3/340212-1.json jp/scenario_3/340212-1.json
 373,374c373
 <                         "posX": 40,
@@ -29129,11 +29217,33 @@ diff -r en/scenario_3/340252-1.json jp/scenario_3/340252-1.json
 <                     {
 <                         "id": 402400
 diff -r en/scenario_3/340261-1.json jp/scenario_3/340261-1.json
-95c95
+40a41
+>                         "live2dName": "live2d_0",
+47c48,49
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+61c63,64
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+74c77,78
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+78c82,83
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+95c100
 <                         "id": 402900,
 ---
 >                         "id": 831100,
-106c106
+106c111
 <                         "id": 402900
 ---
 >                         "id": 831100
@@ -29183,6 +29293,10 @@ diff -r en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
 ---
 >                         "id": 831100
 diff -r en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
+11c11
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 443c443
 <                         "id": 402900,
 ---
@@ -29223,6 +29337,23 @@ diff -r en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
 <                         "id": 402900
 ---
 >                         "id": 831100
+745a746
+>                         "live2dName": "live2d_0",
+752c753,754
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+766c768,769
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+770c773,774
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_3/340261-4.json jp/scenario_3/340261-4.json
 99c99
 <                         "id": 402900,
@@ -29626,6 +29757,18 @@ diff -r en/scenario_3/340263-2.json jp/scenario_3/340263-2.json
 ---
 >                         "id": 831100
 diff -r en/scenario_3/340263-3.json jp/scenario_3/340263-3.json
+11c11
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+18c18
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+25c25
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 342,343c342,343
 <                         "face": "mtn_ex_041.exp.json",
 <                         "id": 402900,
@@ -29636,30 +29779,54 @@ diff -r en/scenario_3/340263-3.json jp/scenario_3/340263-3.json
 <                         "id": 402900
 ---
 >                         "id": 831100
-658,659c658,659
+582c582,583
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+596a598
+>                         "live2dName": "live2d_0",
+610c612,613
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+618c621,622
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+658,659c662,663
 <                         "face": "mtn_ex_041.exp.json",
 <                         "id": 402900,
 ---
 >                         "face": "mtn_ex_050.exp.json",
 >                         "id": 831100,
-690c690
+690c694
 <                         "id": 402900
 ---
 >                         "id": 831100
-1140c1140
+1140c1144
 <                         "id": 402900,
 ---
 >                         "id": 831100,
-1163,1164c1163,1164
+1163,1164c1167,1168
 <                         "face": "mtn_ex_041.exp.json",
 <                         "id": 402900
 ---
 >                         "face": "mtn_ex_050.exp.json",
 >                         "id": 831100
-1185c1185
+1185c1189
 <                         "id": 402900
 ---
 >                         "id": 831100
+1195c1199,1200
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+1209a1215
+>                         "live2dName": "live2d_0",
 diff -r en/scenario_3/340263-4.json jp/scenario_3/340263-4.json
 250c250
 <                         "id": 402900,
@@ -29857,6 +30024,1041 @@ diff -r en/scenario_3/340523-5.json jp/scenario_3/340523-5.json
 >                 ]
 >             },
 >             {
+diff -r en/scenario_4/400001-1.json jp/scenario_4/400001-1.json
+41c41
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+578a579
+>                         "live2dName": "live2d_0",
+580c581,582
+<                         "mouthOpen": 1
+---
+>                         "mouthOpen": 1,
+>                         "pos": 2
+610a613
+>                         "live2dName": "live2d_0",
+638c641,642
+<                         "id": 100100
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_0"
+667a672,681
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 100100,
+>                         "live2dName": "live2d_0",
+>                         "motion": 0,
+>                         "pos": 2
+>                     }
+>                 ],
+675,676d688
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+677a690
+>                         "live2dName": "live2d_0",
+691a705
+>                         "live2dName": "live2d_0",
+701c715,716
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+712a728
+>                         "live2dName": "live2d_0",
+722c738,739
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+740a758
+>                         "live2dName": "live2d_0",
+753c771,772
+<                         "id": 100191,
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_1",
+760a780
+>                         "live2dName": "live2d_0",
+772c792,793
+<                         "id": 100100
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_0"
+783a805
+>                         "live2dName": "live2d_0",
+798a821
+>                         "live2dName": "live2d_0",
+804c827,828
+<                         "id": 100191,
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_1",
+821c845,846
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+830c855,856
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+835a862,867
+>                 "chara": [
+>                     {
+>                         "id": 100100,
+>                         "live2dName": "live2d_1"
+>                     }
+>                 ],
+845a878
+>                         "live2dName": "live2d_0",
+855c888,889
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+864c898,899
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+875a911
+>                         "live2dName": "live2d_0",
+880c916,917
+<                         "id": 100191
+---
+>                         "id": 100100,
+>                         "live2dName": "live2d_1"
+889c926,927
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+diff -r en/scenario_4/400003-1.json jp/scenario_4/400003-1.json
+132c132,133
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+154a156
+>                         "live2dName": "live2d_0",
+161c163,164
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+196c199,200
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+215c219,220
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+225a231
+>                         "live2dName": "live2d_0",
+260c266,267
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+272a280
+>                         "live2dName": "live2d_0",
+287a296
+>                         "live2dName": "live2d_0",
+312c321,322
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+324a335
+>                         "live2dName": "live2d_0",
+354c365,366
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+364a377
+>                         "live2dName": "live2d_0",
+401a415
+>                         "live2dName": "live2d_0",
+427a442
+>                         "live2dName": "live2d_0",
+453c468,469
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+475a492
+>                         "live2dName": "live2d_0",
+504c521,522
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+536a555
+>                         "live2dName": "live2d_0",
+562a582
+>                         "live2dName": "live2d_0",
+589c609,610
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+599c620,621
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+613a636
+>                         "live2dName": "live2d_0",
+664c687,688
+<                         "id": 101190,
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1",
+693a718
+>                         "live2dName": "live2d_0",
+715c740,741
+<                         "id": 101100
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_0"
+719c745,746
+<                         "id": 101190
+---
+>                         "id": 101100,
+>                         "live2dName": "live2d_1"
+776c803
+<     "version": 2
+---
+>     "version": 3
+diff -r en/scenario_4/400009-1.json jp/scenario_4/400009-1.json
+26c26
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+41c41
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+132c132
+<                         "id": 100990,
+---
+>                         "id": 100900,
+150c150
+<                         "id": 100990
+---
+>                         "id": 100900
+235c235
+<                         "id": 100990,
+---
+>                         "id": 100900,
+393c393
+<                         "id": 100990,
+---
+>                         "id": 100900,
+405c405
+<                         "id": 100990,
+---
+>                         "id": 100900,
+523c523
+<                         "id": 100990,
+---
+>                         "id": 100900,
+545c545
+<                         "id": 100990,
+---
+>                         "id": 100900,
+581c581
+<                         "id": 100990,
+---
+>                         "id": 100900,
+604c604
+<                         "id": 100990,
+---
+>                         "id": 100900,
+638c638
+<                         "id": 100990,
+---
+>                         "id": 100900,
+669c669
+<                         "id": 100990,
+---
+>                         "id": 100900,
+763c763
+<     "version": 2
+---
+>     "version": 3
+diff -r en/scenario_4/400010-1.json jp/scenario_4/400010-1.json
+53a54
+>                         "live2dName": "live2d_0",
+73c74,75
+<                         "id": 100900
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_0"
+111a114
+>                         "live2dName": "live2d_0",
+142a146
+>                         "live2dName": "live2d_0",
+158a163
+>                         "live2dName": "live2d_0",
+209a215
+>                         "live2dName": "live2d_0",
+254c260,261
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+272a280
+>                         "live2dName": "live2d_0",
+277c285,286
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+328c337,338
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+341c351,352
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+352a364
+>                         "live2dName": "live2d_0",
+378c390,391
+<                         "id": 100900
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_0"
+418a432
+>                         "live2dName": "live2d_0",
+442a457
+>                         "live2dName": "live2d_0",
+466c481,482
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+523a540
+>                         "live2dName": "live2d_0",
+548a566
+>                         "live2dName": "live2d_0",
+572c590,591
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+599a619
+>                         "live2dName": "live2d_0",
+627c647,648
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+728c749,750
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+741a764
+>                         "live2dName": "live2d_0",
+791c814,815
+<                         "id": 100990,
+---
+>                         "id": 100900,
+>                         "live2dName": "live2d_1",
+diff -r en/scenario_4/400012-1.json jp/scenario_4/400012-1.json
+797a798
+>                         "live2dName": "live2d_0",
+832a834
+>                         "live2dName": "live2d_0",
+843a846
+>                         "live2dName": "live2d_0",
+899a903
+>                         "live2dName": "live2d_0",
+913a918
+>                         "live2dName": "live2d_0",
+921c926,927
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+928c934,935
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+943a951
+>                         "live2dName": "live2d_0",
+956c964,965
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+968c977,978
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+diff -r en/scenario_4/400013-1.json jp/scenario_4/400013-1.json
+9a10
+>                         "live2dName": "live2d_0",
+16c17,18
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+38a41
+>                         "live2dName": "live2d_0",
+51c54,55
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+63c67,68
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+76a82
+>                         "live2dName": "live2d_0",
+89c95,96
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+102c109,110
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+115c123,124
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+128a138
+>                         "live2dName": "live2d_0",
+141c151,152
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+154a166
+>                         "live2dName": "live2d_0",
+161c173,174
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+169c182,183
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+183a198
+>                         "live2dName": "live2d_0",
+190c205,206
+<                         "id": 300690
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1"
+194c210,211
+<                         "id": 300699
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2"
+208a226
+>                         "live2dName": "live2d_0",
+221a240
+>                         "live2dName": "live2d_0",
+264c283,284
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+274c294,295
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+287c308,309
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+300a323
+>                         "live2dName": "live2d_0",
+313c336,337
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+326c350,351
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+339a365
+>                         "live2dName": "live2d_0",
+352c378,379
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+365c392,393
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+378a407
+>                         "live2dName": "live2d_0",
+391c420,421
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+404c434,435
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+484c515
+<                         "id": 100990,
+---
+>                         "id": 100900,
+500c531
+<                         "id": 100990,
+---
+>                         "id": 100900,
+517a549
+>                         "live2dName": "live2d_0",
+541c573,574
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+578c611,612
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+588c622,623
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+601c636,637
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+614a651
+>                         "live2dName": "live2d_0",
+641a679
+>                         "live2dName": "live2d_0",
+654a693
+>                         "live2dName": "live2d_0",
+676c715,716
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+689c729,730
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+702a744
+>                         "live2dName": "live2d_0",
+741c783,784
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+754c797,798
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+765c809,810
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+801c846,847
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+814c860,861
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+827c874,875
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+886a935
+>                         "live2dName": "live2d_0",
+899a949
+>                         "live2dName": "live2d_0",
+910c960,961
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+923c974,975
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+936c988,989
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+949a1003
+>                         "live2dName": "live2d_0",
+954c1008,1009
+<                         "id": 300690
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1"
+1015a1071
+>                         "live2dName": "live2d_0",
+1026c1082,1083
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+1036a1094
+>                         "live2dName": "live2d_0",
+1056c1114
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1068a1127
+>                         "live2dName": "live2d_0",
+1079a1139
+>                         "live2dName": "live2d_0",
+1156a1217
+>                         "live2dName": "live2d_0",
+1180a1242
+>                         "live2dName": "live2d_0",
+1205a1268
+>                         "live2dName": "live2d_0",
+1241a1305
+>                         "live2dName": "live2d_0",
+1278a1343
+>                         "live2dName": "live2d_0",
+1290c1355,1356
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+1311a1378
+>                         "live2dName": "live2d_0",
+1335c1402,1403
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+1345a1414
+>                         "live2dName": "live2d_0",
+1357c1426
+<     "version": 2
+---
+>     "version": 3
+diff -r en/scenario_4/400014-1.json jp/scenario_4/400014-1.json
+19a20
+>                         "live2dName": "live2d_0",
+33c34,35
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+43c45,46
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+53a57
+>                         "live2dName": "live2d_0",
+83a88
+>                         "live2dName": "live2d_0",
+97c102,103
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+110c116
+<                         "id": 300699,
+---
+>                         "id": 300600,
+123c129,130
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+136a144
+>                         "live2dName": "live2d_0",
+141c149,150
+<                         "id": 300690
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1"
+161a171
+>                         "live2dName": "live2d_0",
+183c193,194
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+204c215,216
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+225a238
+>                         "live2dName": "live2d_0",
+237a251
+>                         "live2dName": "live2d_0",
+279c293,294
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+301c316,317
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+324a341
+>                         "live2dName": "live2d_0",
+346a364
+>                         "live2dName": "live2d_0",
+389c407,408
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+399a419
+>                         "live2dName": "live2d_0",
+440a461
+>                         "live2dName": "live2d_0",
+462a484
+>                         "live2dName": "live2d_0",
+473c495,496
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+496a520
+>                         "live2dName": "live2d_0",
+507a532
+>                         "live2dName": "live2d_0",
+530a556
+>                         "live2dName": "live2d_0",
+552a579
+>                         "live2dName": "live2d_0",
+576a604
+>                         "live2dName": "live2d_0",
+614a643
+>                         "live2dName": "live2d_0",
+674a704
+>                         "live2dName": "live2d_0",
+700a731
+>                         "live2dName": "live2d_0",
+712c743,744
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+723c755,756
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+744a778
+>                         "live2dName": "live2d_0",
+782a817
+>                         "live2dName": "live2d_0",
+793c828,829
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+diff -r en/scenario_4/400019-1.json jp/scenario_4/400019-1.json
+468a469
+>                         "live2dName": "live2d_0",
+516a518
+>                         "live2dName": "live2d_0",
+546c548,549
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+554c557,558
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+584a589
+>                         "live2dName": "live2d_0",
+595c600,601
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+603a610
+>                         "live2dName": "live2d_0",
+647a655
+>                         "live2dName": "live2d_0",
+744a753
+>                         "live2dName": "live2d_0",
+869a879
+>                         "live2dName": "live2d_0",
+883c893,894
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+890c901,902
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+931a944
+>                         "live2dName": "live2d_0",
+938c951,952
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+945c959,960
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+956a972
+>                         "live2dName": "live2d_0",
+960c976,977
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+964c981,982
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+983c1001,1002
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+990c1009,1010
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+1021c1041,1042
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+1028c1049,1050
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+1059c1081,1082
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+1066c1089,1090
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+1097c1121,1122
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+1104c1129,1130
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+1128a1155
+>                         "live2dName": "live2d_0",
+1135c1162,1163
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+1142c1170,1171
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+1152a1182
+>                         "live2dName": "live2d_0",
+1156c1186,1187
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+1160c1191,1192
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+diff -r en/scenario_4/400020-1.json jp/scenario_4/400020-1.json
+258c258,259
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+402c403,404
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+409c411,412
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+416a420
+>                         "live2dName": "live2d_0",
+432c436,437
+<                         "id": 303190
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1"
+436c441,442
+<                         "id": 303191
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2"
+440c446,447
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+503c510,511
+<                         "id": 303190,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1",
+510c518,519
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+517a527
+>                         "live2dName": "live2d_0",
+533c543,544
+<                         "id": 303190
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1"
+537c548,549
+<                         "id": 303191
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2"
+541c553,554
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+631c644
+<                         "id": 303190,
+---
+>                         "id": 303100,
+632a646
+>                         "live2dName": "live2d_1",
+639c653,654
+<                         "id": 303191,
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2",
+646a662
+>                         "live2dName": "live2d_0",
+659c675,676
+<                         "id": 303190
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_1"
+663c680,681
+<                         "id": 303191
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_2"
+667c685,686
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+765a785
+>                         "live2dName": "live2d_0",
+800c820,821
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+858a880
+>                         "live2dName": "live2d_0",
+896c918,919
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "live2dName": "live2d_0"
+906a930
+>                         "live2dName": "live2d_0",
+930a955
+>                         "live2dName": "live2d_0",
+944c969,970
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+952a979
+>                         "live2dName": "live2d_0",
+961c988,989
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+969c997,998
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
+977a1007
+>                         "live2dName": "live2d_0",
+988c1018,1019
+<                         "id": 303100
+---
+>                         "id": 303100,
+>                         "live2dName": "live2d_0"
 diff -r en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
 1129c1129
 <                         "path": "resource/scenario/img/51011_tower_ny/51011_end.png",
@@ -29871,6 +31073,167 @@ diff -r en/scenario_5/501404-1_O6Cjc.json jp/scenario_5/501404-1_O6Cjc.json
 <                 "bg": "bg_adv_21241.jpg",
 ---
 >                 "bg": "bg_adv_13111.jpg",
+diff -r en/scenario_5/501404-6_O6Cjc.json jp/scenario_5/501404-6_O6Cjc.json
+171a172
+>                         "live2dName": "live2d_0",
+188c189,190
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+203a206
+>                         "live2dName": "live2d_0",
+216c219,220
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+227a232
+>                         "live2dName": "live2d_0",
+239c244,245
+<                         "id": 300600
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_0"
+247c253
+<                 "narrationBg": "White",
+---
+>                 "narrationBg": "black",
+256a263
+>                         "live2dName": "live2d_0",
+269c276,277
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+281c289,290
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+293c302,303
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+304a315
+>                         "live2dName": "live2d_0",
+315c326,327
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+326c338,339
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+337c350,351
+<                         "id": 300699
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2"
+347a362
+>                         "live2dName": "live2d_0",
+358c373,374
+<                         "id": 300690,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_1",
+369c385,386
+<                         "id": 300699,
+---
+>                         "id": 300600,
+>                         "live2dName": "live2d_2",
+380a398
+>                         "live2dName": "live2d_0",
+389c407
+<                 "narrationBg": "White",
+---
+>                 "narrationBg": "black",
+diff -r en/scenario_5/501501-1.json jp/scenario_5/501501-1.json
+26a27
+>                         "live2dName": "live2d_0",
+48c49,50
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+110a113
+>                         "live2dName": "live2d_0",
+117c120,121
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+130c134,135
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+134c139,140
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+166a173
+>                         "live2dName": "live2d_0",
+233c240,241
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+410a419
+>                         "live2dName": "live2d_0",
+447c456,457
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+460c470,471
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+536a548
+>                         "live2dName": "live2d_0",
+683a696
+>                         "live2dName": "live2d_0",
+690c703,704
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+diff -r en/scenario_5/501501-5.json jp/scenario_5/501501-5.json
+10c10
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+17c17
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+69a70
+>                         "live2dName": "live2d_0",
+76c77,78
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+250a253
+>                         "live2dName": "live2d_0",
+257c260,261
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+440a445
+>                         "live2dName": "live2d_0",
+447c452,453
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
 diff -r en/scenario_5/501503-5.json jp/scenario_5/501503-5.json
 476c476
 <                         "posX": 0,
@@ -29941,6 +31304,27 @@ diff -r en/scenario_5/501510-1.json jp/scenario_5/501510-1.json
 <                         "posX": 0,
 ---
 >                         "posX": -50,
+diff -r en/scenario_5/501512-2.json jp/scenario_5/501512-2.json
+10c10
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+17c17
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+285a286
+>                         "live2dName": "live2d_0",
+292c293,294
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+307c309,310
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_5/501512-3.json jp/scenario_5/501512-3.json
 219,222c219
 <                         "cheek": 0,
@@ -29949,6 +31333,47 @@ diff -r en/scenario_5/501512-3.json jp/scenario_5/501512-3.json
 <                         "motion": 0
 ---
 >                         "id": 402200
+310a308
+>                         "live2dName": "live2d_0",
+325c323,324
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+512a512
+>                         "live2dName": "live2d_0",
+519c519,520
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+795a797
+>                         "live2dName": "live2d_0",
+802c804,805
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+814c817,818
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+827c831,832
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+838c843,844
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+851c857,858
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_5/501513-3.json jp/scenario_5/501513-3.json
 490,491c490,491
 <                 "narrationLineMargin": 50,
@@ -36633,6 +38058,81 @@ diff -r en/scenario_5/505901-9.json jp/scenario_5/505901-9.json
 > #BELLA=nameRight=SPINA#
 50d71
 <                 "turnChangeIn": "fadeIn",
+diff -r en/scenario_5/506101-1.json jp/scenario_5/506101-1.json
+26a27
+>                         "live2dName": "live2d_0",
+48c49,50
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+110a113
+>                         "live2dName": "live2d_0",
+117c120,121
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+130c134,135
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+134c139,140
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+166a173
+>                         "live2dName": "live2d_0",
+233c240,241
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+410a419
+>                         "live2dName": "live2d_0",
+447c456,457
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+460c470,471
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+536a548
+>                         "live2dName": "live2d_0",
+683a696
+>                         "live2dName": "live2d_0",
+690c703,704
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+diff -r en/scenario_5/506101-5.json jp/scenario_5/506101-5.json
+69a70
+>                         "live2dName": "live2d_0",
+76c77,78
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+250a253
+>                         "live2dName": "live2d_0",
+257c260,261
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+440a445
+>                         "live2dName": "live2d_0",
+447c452,453
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
 diff -r en/scenario_5/506103-5.json jp/scenario_5/506103-5.json
 476c476
 <                         "posX": 0,
@@ -36703,6 +38203,19 @@ diff -r en/scenario_5/506110-1.json jp/scenario_5/506110-1.json
 <                         "posX": 0,
 ---
 >                         "posX": -50,
+diff -r en/scenario_5/506112-2.json jp/scenario_5/506112-2.json
+285a286
+>                         "live2dName": "live2d_0",
+292c293,294
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+307c309,310
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_5/506112-3.json jp/scenario_5/506112-3.json
 219,222c219
 <                         "cheek": 0,
@@ -36711,6 +38224,47 @@ diff -r en/scenario_5/506112-3.json jp/scenario_5/506112-3.json
 <                         "motion": 0
 ---
 >                         "id": 402200
+310a308
+>                         "live2dName": "live2d_0",
+325c323,324
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+512a512
+>                         "live2dName": "live2d_0",
+519c519,520
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+795a797
+>                         "live2dName": "live2d_0",
+802c804,805
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+814c817,818
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+827c831,832
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+838c843,844
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+851c857,858
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_5/506113-3.json jp/scenario_5/506113-3.json
 490,491c490,491
 <                 "narrationLineMargin": 50,
@@ -46050,6 +47604,41 @@ diff -r en/scenario_5/510112-8_ZvuTl.json jp/scenario_5/510112-8_ZvuTl.json
 <                 "narrationLineMargin": 25,
 ---
 >                 "narrationLineMargin": 15,
+diff -r en/scenario_5/510201-0.json jp/scenario_5/510201-0.json
+185a186
+>                         "live2dName": "live2d_0",
+200c201,202
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+301a304
+>                         "live2dName": "live2d_0",
+308c311,312
+<                         "id": 760090,
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1",
+321c325,326
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+336c341,342
+<                         "id": 760000
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_0"
+347c353,354
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
+361c368,369
+<                         "id": 760090
+---
+>                         "id": 760000,
+>                         "live2dName": "live2d_1"
 diff -r en/scenario_5/510202-3_m4VmX.json jp/scenario_5/510202-3_m4VmX.json
 406c406
 <                 "narrationLineMargin": 25,
@@ -46069,11 +47658,119 @@ diff -r en/scenario_5/510204-2_m4VmX.json jp/scenario_5/510204-2_m4VmX.json
 313a314
 >                         "iPhoneXScale": 1,
 diff -r en/scenario_5/510204-3_m4VmX.json jp/scenario_5/510204-3_m4VmX.json
-1659a1660
+447c447
+<                         "id": 831400,
+---
+>                         "id": 412100,
+476c476
+<                         "id": 831400,
+---
+>                         "id": 412100,
+489c489
+<                         "id": 831400
+---
+>                         "id": 412100
+617c617
+<                         "id": 831400,
+---
+>                         "id": 412100,
+647c647
+<                         "id": 831400
+---
+>                         "id": 412100
+703,704d702
+<                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
+763c761
+<                         "id": 831400,
+---
+>                         "id": 412100,
+855c853
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_001.exp.json",
+908c906
+<                         "id": 831400,
+---
+>                         "id": 412100,
+936c934
+<                         "id": 831400
+---
+>                         "id": 412100
+951c949
+<                         "id": 831400
+---
+>                         "id": 412100
+1009c1007
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1030c1028
+<                         "id": 831400
+---
+>                         "id": 412100
+1039c1037
+<                         "id": 831400
+---
+>                         "id": 412100
+1081c1079
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1122c1120
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1150c1148
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1184c1182
+<                         "id": 831400
+---
+>                         "id": 412100
+1225c1223
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1235c1233
+<                         "id": 831400
+---
+>                         "id": 412100
+1247c1245
+<                         "id": 831400
+---
+>                         "id": 412100
+1444c1442
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1505c1503
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1532c1530
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1631c1629
+<                         "id": 831400,
+---
+>                         "id": 412100,
+1659a1658
 >                         "iPhoneXScale": 1,
+1680c1679
+<                         "id": 831400
+---
+>                         "id": 412100
 diff -r en/scenario_5/510204-8_m4VmX.json jp/scenario_5/510204-8_m4VmX.json
 1345a1346
 >                         "iPhoneXScale": 1,
+diff -r en/scenario_5/510205-2_m4VmX.json jp/scenario_5/510205-2_m4VmX.json
+148c148
+<                         "id": 831400
+---
+>                         "id": 412100
 diff -r en/scenario_5/510207-2_m4VmX.json jp/scenario_5/510207-2_m4VmX.json
 1534a1535
 >                         "iPhoneXScale": 1,
@@ -46234,6 +47931,22 @@ diff -r en/scenario_5/510208-2_kssXu.json jp/scenario_5/510208-2_kssXu.json
 >                 "autoTurnLast": 1,
 346d352
 <                 "narrationEffect": "out",
+629c635
+<                         "id": 831400,
+---
+>                         "id": 412100,
+670c676
+<                         "id": 831400,
+---
+>                         "id": 412100,
+698c704
+<                         "id": 831400,
+---
+>                         "id": 412100,
+732c738
+<                         "id": 831400
+---
+>                         "id": 412100
 diff -r en/scenario_5/510209-2_kssXu.json jp/scenario_5/510209-2_kssXu.json
 346a347
 >                         "iPhoneXScale": 1,
@@ -46251,6 +47964,70 @@ diff -r en/scenario_5/510210-2_kssXu.json jp/scenario_5/510210-2_kssXu.json
 diff -r en/scenario_5/510210-5_kssXu.json jp/scenario_5/510210-5_kssXu.json
 571a572
 >                         "iPhoneXScale": 1,
+diff -r en/scenario_5/510211-3_kssXu.json jp/scenario_5/510211-3_kssXu.json
+824c824
+<                         "id": 831400,
+---
+>                         "id": 412100,
+854c854
+<                         "id": 831400,
+---
+>                         "id": 412100,
+866c866
+<                         "id": 831400
+---
+>                         "id": 412100
+diff -r en/scenario_5/510211-4_kssXu.json jp/scenario_5/510211-4_kssXu.json
+142c142
+<                         "id": 831400,
+---
+>                         "id": 412100,
+185c185
+<                         "id": 831400,
+---
+>                         "id": 412100,
+225c225
+<                         "id": 831400
+---
+>                         "id": 412100
+765c765
+<                         "id": 831400,
+---
+>                         "id": 412100,
+775c775
+<                         "id": 831400
+---
+>                         "id": 412100
+788c788
+<                         "id": 831400,
+---
+>                         "id": 412100,
+799c799
+<                         "id": 831400
+---
+>                         "id": 412100
+diff -r en/scenario_5/510212-2_kssXu.json jp/scenario_5/510212-2_kssXu.json
+380c380
+<                         "id": 831400,
+---
+>                         "id": 412100,
+394c394
+<                         "id": 831400
+---
+>                         "id": 412100
+diff -r en/scenario_5/510213-2_kssXu.json jp/scenario_5/510213-2_kssXu.json
+305c305
+<                         "id": 831400,
+---
+>                         "id": 412100,
+341c341
+<                         "id": 831400,
+---
+>                         "id": 412100,
+357c357
+<                         "id": 831400
+---
+>                         "id": 412100
 diff -r en/scenario_5/510911-2_RK87H.json jp/scenario_5/510911-2_RK87H.json
 300a301,310
 >                         "face": "mtn_ex_020.exp.json",

@@ -129,6 +129,36 @@ diff -ru0 en/scenario_1/101103-3.json jp/scenario_1/101103-3.json
 -                ]
 +                ],
 +                "textClear": 1
+diff -ru0 en/scenario_1/101201-7.json jp/scenario_1/101201-7.json
+--- en/scenario_1/101201-7.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/101201-7.json	2017-03-17 18:39:13.000000000 +0800
+@@ -9 +9 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -17 +17 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -18,0 +19 @@
++                        "live2dName": "live2d_0",
+@@ -31,0 +33 @@
++                        "live2dName": "live2d_0",
+@@ -60,0 +63 @@
++                        "live2dName": "live2d_0",
+@@ -87,0 +91 @@
++                        "live2dName": "live2d_0",
+@@ -96 +100,2 @@
+-                        "id": 100191,
++                        "id": 100100,
++                        "live2dName": "live2d_1",
+@@ -111,0 +117 @@
++                        "live2dName": "live2d_0",
+@@ -125 +131 @@
+-                        "id": 100191,
++                        "id": 100100,
+@@ -143,0 +150 @@
++                        "live2dName": "live2d_0",
+@@ -196,0 +204 @@
++                        "live2dName": "live2d_0",
 diff -ru0 en/scenario_1/101302-5_oIPz1.json jp/scenario_1/101302-5_oIPz1.json
 --- en/scenario_1/101302-5_oIPz1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_1/101302-5_oIPz1.json	2017-03-17 18:39:13.000000000 +0800
@@ -11412,22 +11442,28 @@ diff -ru0 en/scenario_3/310102-3.json jp/scenario_3/310102-3.json
 @@ -6 +6 @@
 -                "bgm": "bgm04_movie08",
 +                "bgm": "bgm01_battle02",
-@@ -9 +9 @@
+@@ -9,2 +9,2 @@
 -                        "cheek": 1,
+-                        "face": "mtn_ex_010.exp.json",
 +                        "cheek": 0,
-@@ -16 +16 @@
++                        "face": "mtn_ex_010.exp3.json",
+@@ -11,0 +12 @@
++                        "live2dName": "live2d_0",
+@@ -16,3 +17,4 @@
 -                        "cheek": 2,
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 101090,
 +                        "cheek": 0,
-@@ -18 +18,2 @@
++                        "face": "mtn_ex_010.exp3.json",
++                        "id": 101000,
++                        "live2dName": "live2d_1",
+@@ -32,3 +34,2 @@
+-                        "cheek": 2,
+-                        "face": "mtn_ex_020.exp.json",
 -                        "id": 101090,
 +                        "id": 101000,
 +                        "live2dName": "live2d_1",
-@@ -32,2 +32,0 @@
--                        "cheek": 2,
--                        "face": "mtn_ex_020.exp.json",
-@@ -34,0 +34 @@
-+                        "live2dName": "live2d_1",
-@@ -46 +46 @@
+@@ -46 +47 @@
 -    "version": 2
 +    "version": 3
 diff -ru0 en/scenario_3/310102-4.json jp/scenario_3/310102-4.json
@@ -13394,6 +13430,15 @@ diff -ru0 en/scenario_3/311101-4.json jp/scenario_3/311101-4.json
 @@ -110 +110 @@
 -                        "name": "Momoko"
 +                        "name": "sprite_0"
+diff -ru0 en/scenario_3/312032-4.json jp/scenario_3/312032-4.json
+--- en/scenario_3/312032-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/312032-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -66 +66 @@
+-                        "id": 102302,
++                        "id": 120302,
+@@ -71 +71 @@
+-                        "id": 102302,
++                        "id": 120302,
 diff -ru0 en/scenario_3/312091-3.json jp/scenario_3/312091-3.json
 --- en/scenario_3/312091-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/312091-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -19287,6 +19332,12 @@ diff -ru0 en/scenario_3/330532-1.json jp/scenario_3/330532-1.json
 +++ jp/scenario_3/330532-1.json	2017-03-17 18:39:13.000000000 +0800
 @@ -625,0 +626 @@
 +                        "lipSynch": 0,
+diff -ru0 en/scenario_3/330543-3.json jp/scenario_3/330543-3.json
+--- en/scenario_3/330543-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330543-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -739 +739 @@
+-                "turnEffect": "blackFrame"
++                "turnEffect": "stop"
 diff -ru0 en/scenario_3/330563-4.json jp/scenario_3/330563-4.json
 --- en/scenario_3/330563-4.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/330563-4.json	2017-03-17 18:39:13.000000000 +0800
@@ -26066,6 +26117,38 @@ diff -ru0 en/scenario_3/340133-4.json jp/scenario_3/340133-4.json
 @@ -277,2 +264,0 @@
 -                        "cheek": 0,
 -                        "face": "mtn_ex_010.exp.json",
+diff -ru0 en/scenario_3/340211-3.json jp/scenario_3/340211-3.json
+--- en/scenario_3/340211-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/340211-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -9 +9 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -59,0 +60 @@
++                        "live2dName": "live2d_0",
+@@ -66 +67,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -77 +79,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -313,0 +317 @@
++                        "live2dName": "live2d_0",
+@@ -348 +352,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -359 +364,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -424,0 +431 @@
++                        "live2dName": "live2d_0",
+@@ -438 +445,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
 diff -ru0 en/scenario_3/340212-1.json jp/scenario_3/340212-1.json
 --- en/scenario_3/340212-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340212-1.json	2017-03-17 18:39:13.000000000 +0800
@@ -26317,10 +26400,28 @@ diff -ru0 en/scenario_3/340252-1.json jp/scenario_3/340252-1.json
 diff -ru0 en/scenario_3/340261-1.json jp/scenario_3/340261-1.json
 --- en/scenario_3/340261-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340261-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -95 +95 @@
+@@ -40,0 +41 @@
++                        "live2dName": "live2d_0",
+@@ -47 +48,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -61 +63,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -74 +77,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -78 +82,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -95 +100 @@
 -                        "id": 402900,
 +                        "id": 831100,
-@@ -106 +106 @@
+@@ -106 +111 @@
 -                        "id": 402900
 +                        "id": 831100
 diff -ru0 en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
@@ -26362,6 +26463,9 @@ diff -ru0 en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
 diff -ru0 en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
 --- en/scenario_3/340261-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340261-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -11 +11 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
 @@ -443 +443 @@
 -                        "id": 402900,
 +                        "id": 831100,
@@ -26392,6 +26496,20 @@ diff -ru0 en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
 @@ -734 +734 @@
 -                        "id": 402900
 +                        "id": 831100
+@@ -745,0 +746 @@
++                        "live2dName": "live2d_0",
+@@ -752 +753,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -766 +768,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -770 +773,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_3/340261-4.json jp/scenario_3/340261-4.json
 --- en/scenario_3/340261-4.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340261-4.json	2017-03-17 18:39:13.000000000 +0800
@@ -26719,6 +26837,15 @@ diff -ru0 en/scenario_3/340263-2.json jp/scenario_3/340263-2.json
 diff -ru0 en/scenario_3/340263-3.json jp/scenario_3/340263-3.json
 --- en/scenario_3/340263-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340263-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -11 +11 @@
+-                        "face": "mtn_ex_000.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+@@ -18 +18 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+@@ -25 +25 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
 @@ -342,2 +342,2 @@
 -                        "face": "mtn_ex_041.exp.json",
 -                        "id": 402900,
@@ -26727,25 +26854,45 @@ diff -ru0 en/scenario_3/340263-3.json jp/scenario_3/340263-3.json
 @@ -354 +354 @@
 -                        "id": 402900
 +                        "id": 831100
-@@ -658,2 +658,2 @@
+@@ -582 +582,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -596,0 +598 @@
++                        "live2dName": "live2d_0",
+@@ -610 +612,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -618 +621,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -658,2 +662,2 @@
 -                        "face": "mtn_ex_041.exp.json",
 -                        "id": 402900,
 +                        "face": "mtn_ex_050.exp.json",
 +                        "id": 831100,
-@@ -690 +690 @@
+@@ -690 +694 @@
 -                        "id": 402900
 +                        "id": 831100
-@@ -1140 +1140 @@
+@@ -1140 +1144 @@
 -                        "id": 402900,
 +                        "id": 831100,
-@@ -1163,2 +1163,2 @@
+@@ -1163,2 +1167,2 @@
 -                        "face": "mtn_ex_041.exp.json",
 -                        "id": 402900
 +                        "face": "mtn_ex_050.exp.json",
 +                        "id": 831100
-@@ -1185 +1185 @@
+@@ -1185 +1189 @@
 -                        "id": 402900
 +                        "id": 831100
+@@ -1195 +1199,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -1209,0 +1215 @@
++                        "live2dName": "live2d_0",
 diff -ru0 en/scenario_3/340263-4.json jp/scenario_3/340263-4.json
 --- en/scenario_3/340263-4.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340263-4.json	2017-03-17 18:39:13.000000000 +0800
@@ -26944,6 +27091,900 @@ diff -ru0 en/scenario_3/340523-5.json jp/scenario_3/340523-5.json
 +                ]
 +            },
 +            {
+diff -ru0 en/scenario_4/400001-1.json jp/scenario_4/400001-1.json
+--- en/scenario_4/400001-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400001-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -41 +41 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -578,0 +579 @@
++                        "live2dName": "live2d_0",
+@@ -580 +581,2 @@
+-                        "mouthOpen": 1
++                        "mouthOpen": 1,
++                        "pos": 2
+@@ -610,0 +613 @@
++                        "live2dName": "live2d_0",
+@@ -638 +641,2 @@
+-                        "id": 100100
++                        "id": 100100,
++                        "live2dName": "live2d_0"
+@@ -667,0 +672,10 @@
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 100100,
++                        "live2dName": "live2d_0",
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
+@@ -675,2 +688,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -677,0 +690 @@
++                        "live2dName": "live2d_0",
+@@ -691,0 +705 @@
++                        "live2dName": "live2d_0",
+@@ -701 +715,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -712,0 +728 @@
++                        "live2dName": "live2d_0",
+@@ -722 +738,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -740,0 +758 @@
++                        "live2dName": "live2d_0",
+@@ -753 +771,2 @@
+-                        "id": 100191,
++                        "id": 100100,
++                        "live2dName": "live2d_1",
+@@ -760,0 +780 @@
++                        "live2dName": "live2d_0",
+@@ -772 +792,2 @@
+-                        "id": 100100
++                        "id": 100100,
++                        "live2dName": "live2d_0"
+@@ -783,0 +805 @@
++                        "live2dName": "live2d_0",
+@@ -798,0 +821 @@
++                        "live2dName": "live2d_0",
+@@ -804 +827,2 @@
+-                        "id": 100191,
++                        "id": 100100,
++                        "live2dName": "live2d_1",
+@@ -821 +845,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -830 +855,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -835,0 +862,6 @@
++                "chara": [
++                    {
++                        "id": 100100,
++                        "live2dName": "live2d_1"
++                    }
++                ],
+@@ -845,0 +878 @@
++                        "live2dName": "live2d_0",
+@@ -855 +888,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -864 +898,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -875,0 +911 @@
++                        "live2dName": "live2d_0",
+@@ -880 +916,2 @@
+-                        "id": 100191
++                        "id": 100100,
++                        "live2dName": "live2d_1"
+@@ -889 +926,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+diff -ru0 en/scenario_4/400003-1.json jp/scenario_4/400003-1.json
+--- en/scenario_4/400003-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400003-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -132 +132,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -154,0 +156 @@
++                        "live2dName": "live2d_0",
+@@ -161 +163,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -196 +199,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -215 +219,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -225,0 +231 @@
++                        "live2dName": "live2d_0",
+@@ -260 +266,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -272,0 +280 @@
++                        "live2dName": "live2d_0",
+@@ -287,0 +296 @@
++                        "live2dName": "live2d_0",
+@@ -312 +321,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -324,0 +335 @@
++                        "live2dName": "live2d_0",
+@@ -354 +365,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -364,0 +377 @@
++                        "live2dName": "live2d_0",
+@@ -401,0 +415 @@
++                        "live2dName": "live2d_0",
+@@ -427,0 +442 @@
++                        "live2dName": "live2d_0",
+@@ -453 +468,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -475,0 +492 @@
++                        "live2dName": "live2d_0",
+@@ -504 +521,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -536,0 +555 @@
++                        "live2dName": "live2d_0",
+@@ -562,0 +582 @@
++                        "live2dName": "live2d_0",
+@@ -589 +609,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -599 +620,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -613,0 +636 @@
++                        "live2dName": "live2d_0",
+@@ -664 +687,2 @@
+-                        "id": 101190,
++                        "id": 101100,
++                        "live2dName": "live2d_1",
+@@ -693,0 +718 @@
++                        "live2dName": "live2d_0",
+@@ -715 +740,2 @@
+-                        "id": 101100
++                        "id": 101100,
++                        "live2dName": "live2d_0"
+@@ -719 +745,2 @@
+-                        "id": 101190
++                        "id": 101100,
++                        "live2dName": "live2d_1"
+@@ -776 +803 @@
+-    "version": 2
++    "version": 3
+diff -ru0 en/scenario_4/400009-1.json jp/scenario_4/400009-1.json
+--- en/scenario_4/400009-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400009-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -26 +26 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -41 +41 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -132 +132 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -150 +150 @@
+-                        "id": 100990
++                        "id": 100900
+@@ -235 +235 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -393 +393 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -405 +405 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -523 +523 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -545 +545 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -581 +581 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -604 +604 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -638 +638 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -669 +669 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -763 +763 @@
+-    "version": 2
++    "version": 3
+diff -ru0 en/scenario_4/400010-1.json jp/scenario_4/400010-1.json
+--- en/scenario_4/400010-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400010-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -53,0 +54 @@
++                        "live2dName": "live2d_0",
+@@ -73 +74,2 @@
+-                        "id": 100900
++                        "id": 100900,
++                        "live2dName": "live2d_0"
+@@ -111,0 +114 @@
++                        "live2dName": "live2d_0",
+@@ -142,0 +146 @@
++                        "live2dName": "live2d_0",
+@@ -158,0 +163 @@
++                        "live2dName": "live2d_0",
+@@ -209,0 +215 @@
++                        "live2dName": "live2d_0",
+@@ -254 +260,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -272,0 +280 @@
++                        "live2dName": "live2d_0",
+@@ -277 +285,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -328 +337,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -341 +351,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -352,0 +364 @@
++                        "live2dName": "live2d_0",
+@@ -378 +390,2 @@
+-                        "id": 100900
++                        "id": 100900,
++                        "live2dName": "live2d_0"
+@@ -418,0 +432 @@
++                        "live2dName": "live2d_0",
+@@ -442,0 +457 @@
++                        "live2dName": "live2d_0",
+@@ -466 +481,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -523,0 +540 @@
++                        "live2dName": "live2d_0",
+@@ -548,0 +566 @@
++                        "live2dName": "live2d_0",
+@@ -572 +590,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -599,0 +619 @@
++                        "live2dName": "live2d_0",
+@@ -627 +647,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -728 +749,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+@@ -741,0 +764 @@
++                        "live2dName": "live2d_0",
+@@ -791 +814,2 @@
+-                        "id": 100990,
++                        "id": 100900,
++                        "live2dName": "live2d_1",
+diff -ru0 en/scenario_4/400012-1.json jp/scenario_4/400012-1.json
+--- en/scenario_4/400012-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400012-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -797,0 +798 @@
++                        "live2dName": "live2d_0",
+@@ -832,0 +834 @@
++                        "live2dName": "live2d_0",
+@@ -843,0 +846 @@
++                        "live2dName": "live2d_0",
+@@ -899,0 +903 @@
++                        "live2dName": "live2d_0",
+@@ -913,0 +918 @@
++                        "live2dName": "live2d_0",
+@@ -921 +926,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -928 +934,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -943,0 +951 @@
++                        "live2dName": "live2d_0",
+@@ -956 +964,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -968 +977,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+diff -ru0 en/scenario_4/400013-1.json jp/scenario_4/400013-1.json
+--- en/scenario_4/400013-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400013-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -9,0 +10 @@
++                        "live2dName": "live2d_0",
+@@ -16 +17,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -38,0 +41 @@
++                        "live2dName": "live2d_0",
+@@ -51 +54,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -63 +67,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -76,0 +82 @@
++                        "live2dName": "live2d_0",
+@@ -89 +95,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -102 +109,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -115 +123,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -128,0 +138 @@
++                        "live2dName": "live2d_0",
+@@ -141 +151,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -154,0 +166 @@
++                        "live2dName": "live2d_0",
+@@ -161 +173,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -169 +182,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -183,0 +198 @@
++                        "live2dName": "live2d_0",
+@@ -190 +205,2 @@
+-                        "id": 300690
++                        "id": 300600,
++                        "live2dName": "live2d_1"
+@@ -194 +210,2 @@
+-                        "id": 300699
++                        "id": 300600,
++                        "live2dName": "live2d_2"
+@@ -208,0 +226 @@
++                        "live2dName": "live2d_0",
+@@ -221,0 +240 @@
++                        "live2dName": "live2d_0",
+@@ -264 +283,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -274 +294,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -287 +308,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -300,0 +323 @@
++                        "live2dName": "live2d_0",
+@@ -313 +336,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -326 +350,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -339,0 +365 @@
++                        "live2dName": "live2d_0",
+@@ -352 +378,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -365 +392,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -378,0 +407 @@
++                        "live2dName": "live2d_0",
+@@ -391 +420,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -404 +434,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -484 +515 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -500 +531 @@
+-                        "id": 100990,
++                        "id": 100900,
+@@ -517,0 +549 @@
++                        "live2dName": "live2d_0",
+@@ -541 +573,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -578 +611,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -588 +622,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -601 +636,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -614,0 +651 @@
++                        "live2dName": "live2d_0",
+@@ -641,0 +679 @@
++                        "live2dName": "live2d_0",
+@@ -654,0 +693 @@
++                        "live2dName": "live2d_0",
+@@ -676 +715,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -689 +729,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -702,0 +744 @@
++                        "live2dName": "live2d_0",
+@@ -741 +783,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -754 +797,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -765 +809,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -801 +846,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -814 +860,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -827 +874,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -886,0 +935 @@
++                        "live2dName": "live2d_0",
+@@ -899,0 +949 @@
++                        "live2dName": "live2d_0",
+@@ -910 +960,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -923 +974,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -936 +988,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -949,0 +1003 @@
++                        "live2dName": "live2d_0",
+@@ -954 +1008,2 @@
+-                        "id": 300690
++                        "id": 300600,
++                        "live2dName": "live2d_1"
+@@ -1015,0 +1071 @@
++                        "live2dName": "live2d_0",
+@@ -1026 +1082,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -1036,0 +1094 @@
++                        "live2dName": "live2d_0",
+@@ -1056 +1114 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -1068,0 +1127 @@
++                        "live2dName": "live2d_0",
+@@ -1079,0 +1139 @@
++                        "live2dName": "live2d_0",
+@@ -1156,0 +1217 @@
++                        "live2dName": "live2d_0",
+@@ -1180,0 +1242 @@
++                        "live2dName": "live2d_0",
+@@ -1205,0 +1268 @@
++                        "live2dName": "live2d_0",
+@@ -1241,0 +1305 @@
++                        "live2dName": "live2d_0",
+@@ -1278,0 +1343 @@
++                        "live2dName": "live2d_0",
+@@ -1290 +1355,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -1311,0 +1378 @@
++                        "live2dName": "live2d_0",
+@@ -1335 +1402,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -1345,0 +1414 @@
++                        "live2dName": "live2d_0",
+@@ -1357 +1426 @@
+-    "version": 2
++    "version": 3
+diff -ru0 en/scenario_4/400014-1.json jp/scenario_4/400014-1.json
+--- en/scenario_4/400014-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400014-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -19,0 +20 @@
++                        "live2dName": "live2d_0",
+@@ -33 +34,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -43 +45,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -53,0 +57 @@
++                        "live2dName": "live2d_0",
+@@ -83,0 +88 @@
++                        "live2dName": "live2d_0",
+@@ -97 +102,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -110 +116 @@
+-                        "id": 300699,
++                        "id": 300600,
+@@ -123 +129,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -136,0 +144 @@
++                        "live2dName": "live2d_0",
+@@ -141 +149,2 @@
+-                        "id": 300690
++                        "id": 300600,
++                        "live2dName": "live2d_1"
+@@ -161,0 +171 @@
++                        "live2dName": "live2d_0",
+@@ -183 +193,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -204 +215,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -225,0 +238 @@
++                        "live2dName": "live2d_0",
+@@ -237,0 +251 @@
++                        "live2dName": "live2d_0",
+@@ -279 +293,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -301 +316,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -324,0 +341 @@
++                        "live2dName": "live2d_0",
+@@ -346,0 +364 @@
++                        "live2dName": "live2d_0",
+@@ -389 +407,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -399,0 +419 @@
++                        "live2dName": "live2d_0",
+@@ -440,0 +461 @@
++                        "live2dName": "live2d_0",
+@@ -462,0 +484 @@
++                        "live2dName": "live2d_0",
+@@ -473 +495,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -496,0 +520 @@
++                        "live2dName": "live2d_0",
+@@ -507,0 +532 @@
++                        "live2dName": "live2d_0",
+@@ -530,0 +556 @@
++                        "live2dName": "live2d_0",
+@@ -552,0 +579 @@
++                        "live2dName": "live2d_0",
+@@ -576,0 +604 @@
++                        "live2dName": "live2d_0",
+@@ -614,0 +643 @@
++                        "live2dName": "live2d_0",
+@@ -674,0 +704 @@
++                        "live2dName": "live2d_0",
+@@ -700,0 +731 @@
++                        "live2dName": "live2d_0",
+@@ -712 +743,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -723 +755,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -744,0 +778 @@
++                        "live2dName": "live2d_0",
+@@ -782,0 +817 @@
++                        "live2dName": "live2d_0",
+@@ -793 +828,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+diff -ru0 en/scenario_4/400019-1.json jp/scenario_4/400019-1.json
+--- en/scenario_4/400019-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400019-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -468,0 +469 @@
++                        "live2dName": "live2d_0",
+@@ -516,0 +518 @@
++                        "live2dName": "live2d_0",
+@@ -546 +548,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -554 +557,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -584,0 +589 @@
++                        "live2dName": "live2d_0",
+@@ -595 +600,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -603,0 +610 @@
++                        "live2dName": "live2d_0",
+@@ -647,0 +655 @@
++                        "live2dName": "live2d_0",
+@@ -744,0 +753 @@
++                        "live2dName": "live2d_0",
+@@ -869,0 +879 @@
++                        "live2dName": "live2d_0",
+@@ -883 +893,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -890 +901,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -931,0 +944 @@
++                        "live2dName": "live2d_0",
+@@ -938 +951,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -945 +959,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -956,0 +972 @@
++                        "live2dName": "live2d_0",
+@@ -960 +976,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -964 +981,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -983 +1001,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -990 +1009,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -1021 +1041,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -1028 +1049,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -1059 +1081,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -1066 +1089,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -1097 +1121,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -1104 +1129,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -1128,0 +1155 @@
++                        "live2dName": "live2d_0",
+@@ -1135 +1162,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -1142 +1170,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -1152,0 +1182 @@
++                        "live2dName": "live2d_0",
+@@ -1156 +1186,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -1160 +1191,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+diff -ru0 en/scenario_4/400020-1.json jp/scenario_4/400020-1.json
+--- en/scenario_4/400020-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400020-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -258 +258,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -402 +403,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -409 +411,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -416,0 +420 @@
++                        "live2dName": "live2d_0",
+@@ -432 +436,2 @@
+-                        "id": 303190
++                        "id": 303100,
++                        "live2dName": "live2d_1"
+@@ -436 +441,2 @@
+-                        "id": 303191
++                        "id": 303100,
++                        "live2dName": "live2d_2"
+@@ -440 +446,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -503 +510,2 @@
+-                        "id": 303190,
++                        "id": 303100,
++                        "live2dName": "live2d_1",
+@@ -510 +518,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -517,0 +527 @@
++                        "live2dName": "live2d_0",
+@@ -533 +543,2 @@
+-                        "id": 303190
++                        "id": 303100,
++                        "live2dName": "live2d_1"
+@@ -537 +548,2 @@
+-                        "id": 303191
++                        "id": 303100,
++                        "live2dName": "live2d_2"
+@@ -541 +553,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -631 +644 @@
+-                        "id": 303190,
++                        "id": 303100,
+@@ -632,0 +646 @@
++                        "live2dName": "live2d_1",
+@@ -639 +653,2 @@
+-                        "id": 303191,
++                        "id": 303100,
++                        "live2dName": "live2d_2",
+@@ -646,0 +662 @@
++                        "live2dName": "live2d_0",
+@@ -659 +675,2 @@
+-                        "id": 303190
++                        "id": 303100,
++                        "live2dName": "live2d_1"
+@@ -663 +680,2 @@
+-                        "id": 303191
++                        "id": 303100,
++                        "live2dName": "live2d_2"
+@@ -667 +685,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -765,0 +785 @@
++                        "live2dName": "live2d_0",
+@@ -800 +820,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -858,0 +880 @@
++                        "live2dName": "live2d_0",
+@@ -896 +918,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "live2dName": "live2d_0"
+@@ -906,0 +930 @@
++                        "live2dName": "live2d_0",
+@@ -930,0 +955 @@
++                        "live2dName": "live2d_0",
+@@ -944 +969,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -952,0 +979 @@
++                        "live2dName": "live2d_0",
+@@ -961 +988,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -969 +997,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
+@@ -977,0 +1007 @@
++                        "live2dName": "live2d_0",
+@@ -988 +1018,2 @@
+-                        "id": 303100
++                        "id": 303100,
++                        "live2dName": "live2d_0"
 diff -ru0 en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
 --- en/scenario_5/501107-2_1tFKL.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/501107-2_1tFKL.json	2017-03-17 18:39:13.000000000 +0800
@@ -26959,6 +28000,147 @@ diff -ru0 en/scenario_5/501404-1_O6Cjc.json jp/scenario_5/501404-1_O6Cjc.json
 @@ -250 +250 @@
 -                "bg": "bg_adv_21241.jpg",
 +                "bg": "bg_adv_13111.jpg",
+diff -ru0 en/scenario_5/501404-6_O6Cjc.json jp/scenario_5/501404-6_O6Cjc.json
+--- en/scenario_5/501404-6_O6Cjc.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501404-6_O6Cjc.json	2017-03-17 18:39:13.000000000 +0800
+@@ -171,0 +172 @@
++                        "live2dName": "live2d_0",
+@@ -188 +189,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -203,0 +206 @@
++                        "live2dName": "live2d_0",
+@@ -216 +219,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -227,0 +232 @@
++                        "live2dName": "live2d_0",
+@@ -239 +244,2 @@
+-                        "id": 300600
++                        "id": 300600,
++                        "live2dName": "live2d_0"
+@@ -247 +253 @@
+-                "narrationBg": "White",
++                "narrationBg": "black",
+@@ -256,0 +263 @@
++                        "live2dName": "live2d_0",
+@@ -269 +276,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -281 +289,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -293 +302,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -304,0 +315 @@
++                        "live2dName": "live2d_0",
+@@ -315 +326,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -326 +338,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -337 +350,2 @@
+-                        "id": 300699
++                        "id": 300600,
++                        "live2dName": "live2d_2"
+@@ -347,0 +362 @@
++                        "live2dName": "live2d_0",
+@@ -358 +373,2 @@
+-                        "id": 300690,
++                        "id": 300600,
++                        "live2dName": "live2d_1",
+@@ -369 +385,2 @@
+-                        "id": 300699,
++                        "id": 300600,
++                        "live2dName": "live2d_2",
+@@ -380,0 +398 @@
++                        "live2dName": "live2d_0",
+@@ -389 +407 @@
+-                "narrationBg": "White",
++                "narrationBg": "black",
+diff -ru0 en/scenario_5/501501-1.json jp/scenario_5/501501-1.json
+--- en/scenario_5/501501-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501501-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -26,0 +27 @@
++                        "live2dName": "live2d_0",
+@@ -48 +49,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -110,0 +113 @@
++                        "live2dName": "live2d_0",
+@@ -117 +120,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -130 +134,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -134 +139,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -166,0 +173 @@
++                        "live2dName": "live2d_0",
+@@ -233 +240,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -410,0 +419 @@
++                        "live2dName": "live2d_0",
+@@ -447 +456,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -460 +470,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -536,0 +548 @@
++                        "live2dName": "live2d_0",
+@@ -683,0 +696 @@
++                        "live2dName": "live2d_0",
+@@ -690 +703,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+diff -ru0 en/scenario_5/501501-5.json jp/scenario_5/501501-5.json
+--- en/scenario_5/501501-5.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501501-5.json	2017-03-17 18:39:13.000000000 +0800
+@@ -10 +10 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+@@ -17 +17 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -69,0 +70 @@
++                        "live2dName": "live2d_0",
+@@ -76 +77,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -250,0 +253 @@
++                        "live2dName": "live2d_0",
+@@ -257 +260,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -440,0 +445 @@
++                        "live2dName": "live2d_0",
+@@ -447 +452,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
 diff -ru0 en/scenario_5/501503-5.json jp/scenario_5/501503-5.json
 --- en/scenario_5/501503-5.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/501503-5.json	2017-03-17 18:39:13.000000000 +0800
@@ -27032,6 +28214,25 @@ diff -ru0 en/scenario_5/501510-1.json jp/scenario_5/501510-1.json
 @@ -343 +343 @@
 -                        "posX": 0,
 +                        "posX": -50,
+diff -ru0 en/scenario_5/501512-2.json jp/scenario_5/501512-2.json
+--- en/scenario_5/501512-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501512-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -10 +10 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -17 +17 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -285,0 +286 @@
++                        "live2dName": "live2d_0",
+@@ -292 +293,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -307 +309,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_5/501512-3.json jp/scenario_5/501512-3.json
 --- en/scenario_5/501512-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/501512-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -27041,6 +28242,40 @@ diff -ru0 en/scenario_5/501512-3.json jp/scenario_5/501512-3.json
 -                        "id": 100200,
 -                        "motion": 0
 +                        "id": 402200
+@@ -310,0 +308 @@
++                        "live2dName": "live2d_0",
+@@ -325 +323,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -512,0 +512 @@
++                        "live2dName": "live2d_0",
+@@ -519 +519,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -795,0 +797 @@
++                        "live2dName": "live2d_0",
+@@ -802 +804,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -814 +817,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -827 +831,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -838 +843,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -851 +857,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_5/501513-3.json jp/scenario_5/501513-3.json
 --- en/scenario_5/501513-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/501513-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -33601,6 +34836,74 @@ diff -ru0 en/scenario_5/505901-9.json jp/scenario_5/505901-9.json
 +#BELLA=nameRight=SPINA#
 @@ -50 +71,0 @@
 -                "turnChangeIn": "fadeIn",
+diff -ru0 en/scenario_5/506101-1.json jp/scenario_5/506101-1.json
+--- en/scenario_5/506101-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/506101-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -26,0 +27 @@
++                        "live2dName": "live2d_0",
+@@ -48 +49,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -110,0 +113 @@
++                        "live2dName": "live2d_0",
+@@ -117 +120,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -130 +134,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -134 +139,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -166,0 +173 @@
++                        "live2dName": "live2d_0",
+@@ -233 +240,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -410,0 +419 @@
++                        "live2dName": "live2d_0",
+@@ -447 +456,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -460 +470,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -536,0 +548 @@
++                        "live2dName": "live2d_0",
+@@ -683,0 +696 @@
++                        "live2dName": "live2d_0",
+@@ -690 +703,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+diff -ru0 en/scenario_5/506101-5.json jp/scenario_5/506101-5.json
+--- en/scenario_5/506101-5.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/506101-5.json	2017-03-17 18:39:13.000000000 +0800
+@@ -69,0 +70 @@
++                        "live2dName": "live2d_0",
+@@ -76 +77,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -250,0 +253 @@
++                        "live2dName": "live2d_0",
+@@ -257 +260,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -440,0 +445 @@
++                        "live2dName": "live2d_0",
+@@ -447 +452,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
 diff -ru0 en/scenario_5/506103-5.json jp/scenario_5/506103-5.json
 --- en/scenario_5/506103-5.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506103-5.json	2017-03-17 18:39:13.000000000 +0800
@@ -33674,6 +34977,19 @@ diff -ru0 en/scenario_5/506110-1.json jp/scenario_5/506110-1.json
 @@ -343 +343 @@
 -                        "posX": 0,
 +                        "posX": -50,
+diff -ru0 en/scenario_5/506112-2.json jp/scenario_5/506112-2.json
+--- en/scenario_5/506112-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/506112-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -285,0 +286 @@
++                        "live2dName": "live2d_0",
+@@ -292 +293,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -307 +309,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_5/506112-3.json jp/scenario_5/506112-3.json
 --- en/scenario_5/506112-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506112-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -33683,6 +34999,40 @@ diff -ru0 en/scenario_5/506112-3.json jp/scenario_5/506112-3.json
 -                        "id": 100200,
 -                        "motion": 0
 +                        "id": 402200
+@@ -310,0 +308 @@
++                        "live2dName": "live2d_0",
+@@ -325 +323,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -512,0 +512 @@
++                        "live2dName": "live2d_0",
+@@ -519 +519,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -795,0 +797 @@
++                        "live2dName": "live2d_0",
+@@ -802 +804,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -814 +817,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -827 +831,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -838 +843,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -851 +857,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_5/506113-3.json jp/scenario_5/506113-3.json
 --- en/scenario_5/506113-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506113-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -42689,6 +44039,37 @@ diff -ru0 en/scenario_5/510112-8_ZvuTl.json jp/scenario_5/510112-8_ZvuTl.json
 @@ -537 +537 @@
 -                "narrationLineMargin": 25,
 +                "narrationLineMargin": 15,
+diff -ru0 en/scenario_5/510201-0.json jp/scenario_5/510201-0.json
+--- en/scenario_5/510201-0.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510201-0.json	2017-03-17 18:39:13.000000000 +0800
+@@ -185,0 +186 @@
++                        "live2dName": "live2d_0",
+@@ -200 +201,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -301,0 +304 @@
++                        "live2dName": "live2d_0",
+@@ -308 +311,2 @@
+-                        "id": 760090,
++                        "id": 760000,
++                        "live2dName": "live2d_1",
+@@ -321 +325,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -336 +341,2 @@
+-                        "id": 760000
++                        "id": 760000,
++                        "live2dName": "live2d_0"
+@@ -347 +353,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
+@@ -361 +368,2 @@
+-                        "id": 760090
++                        "id": 760000,
++                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_5/510202-3_m4VmX.json jp/scenario_5/510202-3_m4VmX.json
 --- en/scenario_5/510202-3_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510202-3_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
@@ -42716,13 +44097,97 @@ diff -ru0 en/scenario_5/510204-2_m4VmX.json jp/scenario_5/510204-2_m4VmX.json
 diff -ru0 en/scenario_5/510204-3_m4VmX.json jp/scenario_5/510204-3_m4VmX.json
 --- en/scenario_5/510204-3_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510204-3_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
-@@ -1659,0 +1660 @@
+@@ -447 +447 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -476 +476 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -489 +489 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -617 +617 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -647 +647 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -703,2 +702,0 @@
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+@@ -763 +761 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -855 +853 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_001.exp.json",
+@@ -908 +906 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -936 +934 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -951 +949 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1009 +1007 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1030 +1028 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1039 +1037 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1081 +1079 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1122 +1120 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1150 +1148 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1184 +1182 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1225 +1223 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1235 +1233 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1247 +1245 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -1444 +1442 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1505 +1503 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1532 +1530 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1631 +1629 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -1659,0 +1658 @@
 +                        "iPhoneXScale": 1,
+@@ -1680 +1679 @@
+-                        "id": 831400
++                        "id": 412100
 diff -ru0 en/scenario_5/510204-8_m4VmX.json jp/scenario_5/510204-8_m4VmX.json
 --- en/scenario_5/510204-8_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510204-8_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
 @@ -1345,0 +1346 @@
 +                        "iPhoneXScale": 1,
+diff -ru0 en/scenario_5/510205-2_m4VmX.json jp/scenario_5/510205-2_m4VmX.json
+--- en/scenario_5/510205-2_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510205-2_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
+@@ -148 +148 @@
+-                        "id": 831400
++                        "id": 412100
 diff -ru0 en/scenario_5/510207-2_m4VmX.json jp/scenario_5/510207-2_m4VmX.json
 --- en/scenario_5/510207-2_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510207-2_m4VmX.json	2017-03-17 18:39:13.000000000 +0800
@@ -42877,6 +44342,18 @@ diff -ru0 en/scenario_5/510208-2_kssXu.json jp/scenario_5/510208-2_kssXu.json
 +                "autoTurnLast": 1,
 @@ -346 +352,0 @@
 -                "narrationEffect": "out",
+@@ -629 +635 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -670 +676 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -698 +704 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -732 +738 @@
+-                        "id": 831400
++                        "id": 412100
 diff -ru0 en/scenario_5/510209-2_kssXu.json jp/scenario_5/510209-2_kssXu.json
 --- en/scenario_5/510209-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510209-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
@@ -42901,6 +44378,63 @@ diff -ru0 en/scenario_5/510210-5_kssXu.json jp/scenario_5/510210-5_kssXu.json
 +++ jp/scenario_5/510210-5_kssXu.json	2017-03-17 18:39:13.000000000 +0800
 @@ -571,0 +572 @@
 +                        "iPhoneXScale": 1,
+diff -ru0 en/scenario_5/510211-3_kssXu.json jp/scenario_5/510211-3_kssXu.json
+--- en/scenario_5/510211-3_kssXu.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510211-3_kssXu.json	2017-03-17 18:39:13.000000000 +0800
+@@ -824 +824 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -854 +854 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -866 +866 @@
+-                        "id": 831400
++                        "id": 412100
+diff -ru0 en/scenario_5/510211-4_kssXu.json jp/scenario_5/510211-4_kssXu.json
+--- en/scenario_5/510211-4_kssXu.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510211-4_kssXu.json	2017-03-17 18:39:13.000000000 +0800
+@@ -142 +142 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -185 +185 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -225 +225 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -765 +765 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -775 +775 @@
+-                        "id": 831400
++                        "id": 412100
+@@ -788 +788 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -799 +799 @@
+-                        "id": 831400
++                        "id": 412100
+diff -ru0 en/scenario_5/510212-2_kssXu.json jp/scenario_5/510212-2_kssXu.json
+--- en/scenario_5/510212-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510212-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
+@@ -380 +380 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -394 +394 @@
+-                        "id": 831400
++                        "id": 412100
+diff -ru0 en/scenario_5/510213-2_kssXu.json jp/scenario_5/510213-2_kssXu.json
+--- en/scenario_5/510213-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510213-2_kssXu.json	2017-03-17 18:39:13.000000000 +0800
+@@ -305 +305 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -341 +341 @@
+-                        "id": 831400,
++                        "id": 412100,
+@@ -357 +357 @@
+-                        "id": 831400
++                        "id": 412100
 diff -ru0 en/scenario_5/510911-2_RK87H.json jp/scenario_5/510911-2_RK87H.json
 --- en/scenario_5/510911-2_RK87H.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510911-2_RK87H.json	2017-03-17 18:39:13.000000000 +0800

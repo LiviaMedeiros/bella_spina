@@ -98,6 +98,19 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_1/101102-4.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/101103-3.json jp/scenario_1/101103-3.json
                 ]							  |	                ],
 									  >	                "textClear": 1
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/101201-7.json jp/scenario_1/101201-7.json
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100191,					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100191,					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/101302-5_oIPz1.json jp/scenario_1/101302-5_oIPz1.json
                 "autoTurnFirst": 2,					  |	                "autoTurnFirst": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/101302-6_oIPz1.json jp/scenario_1/101302-6_oIPz1.json
@@ -6746,12 +6759,15 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/310102-2.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310102-3.json jp/scenario_3/310102-3.json
                 "bgm": "bgm04_movie08",					  |	                "bgm": "bgm01_battle02",
                         "cheek": 1,					  |	                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+									  >	                        "live2dName": "live2d_0",
                         "cheek": 2,					  |	                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
                         "id": 101090,					  |	                        "id": 101000,
 									  >	                        "live2dName": "live2d_1",
-                        "cheek": 2,					  <
-                        "face": "mtn_ex_020.exp.json",			  <
-									  >	                        "live2dName": "live2d_1",
+                        "cheek": 2,					  |	                        "id": 101000,
+                        "face": "mtn_ex_020.exp.json",			  |	                        "live2dName": "live2d_1",
+                        "id": 101090,					  <
     "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310102-4.json jp/scenario_3/310102-4.json
                 "bg": "bg_adv_21161.jpg",				  |	                "autoTurnLast": 0.01,
@@ -7874,6 +7890,9 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/311101-4.json jp/sc
                         "name": "Rena"					  |	                        "name": "sprite_0"
                         "name": "Momoko"				  |	                        "name": "sprite_0"
                         "name": "Momoko"				  |	                        "name": "sprite_0"
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/312032-4.json jp/scenario_3/312032-4.json
+                        "id": 102302,					  |	                        "id": 120302,
+                        "id": 102302,					  |	                        "id": 120302,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/312091-3.json jp/scenario_3/312091-3.json
                         "id": 100901					  <
                     }							  <
@@ -11011,6 +11030,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330531-4.json jp/sc
                 "bg": "bg_adv_21041.jpg",				  |	                "bg": "bg_adv_21401.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330532-1.json jp/scenario_3/330532-1.json
 									  >	                        "lipSynch": 0,
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/330543-3.json jp/scenario_3/330543-3.json
+                "turnEffect": "blackFrame"				  |	                "turnEffect": "stop"
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330563-4.json jp/scenario_3/330563-4.json
                         "name": "Rui",					  |	                        "name": "sprite_0",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340011-3.json jp/scenario_3/340011-3.json
@@ -15276,6 +15297,21 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340133-4.json jp/sc
                         "face": "mtn_ex_010.exp.json",			  <
                         "cheek": 0,					  <
                         "face": "mtn_ex_010.exp.json",			  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/340211-3.json jp/scenario_3/340211-3.json
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340212-1.json jp/scenario_3/340212-1.json
                         "posX": 40,					  |	                        "posX": 40
                         "posY": 0					  <
@@ -15393,6 +15429,15 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340252-1.json jp/sc
                     {							  <
                         "id": 402400					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-1.json jp/scenario_3/340261-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
@@ -15408,6 +15453,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-2.json jp/sc
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
@@ -15418,6 +15464,13 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-3.json jp/sc
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-4.json jp/scenario_3/340261-4.json
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900,					  |	                        "id": 831100,
@@ -15530,9 +15583,19 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-2.json jp/sc
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-3.json jp/scenario_3/340263-3.json
+                        "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
+                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
                         "face": "mtn_ex_041.exp.json",			  |	                        "face": "mtn_ex_050.exp.json",
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
                         "face": "mtn_ex_041.exp.json",			  |	                        "face": "mtn_ex_050.exp.json",
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
@@ -15540,6 +15603,9 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-3.json jp/sc
                         "face": "mtn_ex_041.exp.json",			  |	                        "face": "mtn_ex_050.exp.json",
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-4.json jp/scenario_3/340263-4.json
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
@@ -15703,11 +15769,517 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340523-5.json jp/sc
 									  >	                ]
 									  >	            },
 									  >	            {
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400001-1.json jp/scenario_4/400001-1.json
+                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+                        "mouthOpen": 1					  |	                        "mouthOpen": 1,
+									  >	                        "pos": 2
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100100					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "cheek": 0,
+									  >	                        "face": "mtn_ex_030.exp.json",
+									  >	                        "id": 100100,
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "motion": 0,
+									  >	                        "pos": 2
+									  >	                    }
+									  >	                ],
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_030.exp.json",			  <
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100191,					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100100					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100191,					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_1",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "id": 100100,
+									  >	                        "live2dName": "live2d_1"
+									  >	                    }
+									  >	                ],
+									  >	                        "live2dName": "live2d_0",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100191					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_1"
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400003-1.json jp/scenario_4/400003-1.json
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101190,					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 101100					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 101190					  |	                        "id": 101100,
+									  >	                        "live2dName": "live2d_1"
+    "version": 2							  |	    "version": 3
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400009-1.json jp/scenario_4/400009-1.json
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990					  |	                        "id": 100900
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+    "version": 2							  |	    "version": 3
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400010-1.json jp/scenario_4/400010-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100900					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100900					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_1",
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400012-1.json jp/scenario_4/400012-1.json
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400013-1.json jp/scenario_4/400013-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 300699					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 100990,					  |	                        "id": 100900,
+                        "id": 100990,					  |	                        "id": 100900,
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+    "version": 2							  |	    "version": 3
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400014-1.json jp/scenario_4/400014-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400019-1.json jp/scenario_4/400019-1.json
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400020-1.json jp/scenario_4/400020-1.json
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 303191					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2"
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 303191					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2"
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 303190,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 303191,					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303190					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 303191					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_2"
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "lipSynch": 0					  |	                        "lipSynch": 0,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 303100					  |	                        "id": 303100,
+									  >	                        "live2dName": "live2d_0"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
                         "path": "resource/scenario/img/51011_tower_ny/	  |	                        "path": "resource/scenario/img/51011_tower_ny/
                         "path": "resource/scenario/img/51011_tower_ny/	  |	                        "path": "resource/scenario/img/51011_tower_ny/
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501404-1_O6Cjc.json jp/scenario_5/501404-1_O6Cjc.json
                 "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_13111.jpg",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/501404-6_O6Cjc.json jp/scenario_5/501404-6_O6Cjc.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300600					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_0"
+                "narrationBg": "White",					  |	                "narrationBg": "black",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 300690,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 300699,					  |	                        "id": 300600,
+									  >	                        "live2dName": "live2d_2",
+									  >	                        "live2dName": "live2d_0",
+                "narrationBg": "White",					  |	                "narrationBg": "black",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/501501-1.json jp/scenario_5/501501-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/501501-5.json jp/scenario_5/501501-5.json
+                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
+                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501503-5.json jp/scenario_5/501503-5.json
                         "posX": 0,					  |	                        "posX": -50,
                         "posX": 0,					  |	                        "posX": -50,
@@ -15733,11 +16305,36 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/501509-4.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501510-1.json jp/scenario_5/501510-1.json
                         "posX": 0,					  |	                        "posX": -50,
                         "posX": 0,					  |	                        "posX": -50,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/501512-2.json jp/scenario_5/501512-2.json
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501512-3.json jp/scenario_5/501512-3.json
                         "cheek": 0,					  |	                        "id": 402200
                         "face": "mtn_ex_000.exp.json",			  <
                         "id": 100200,					  <
                         "motion": 0					  <
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501513-3.json jp/scenario_5/501513-3.json
                 "narrationLineMargin": 50,				  |	                "narrationLineMargin": 15,
                 "narrationLineSpace": 20,				  |	                "narrationLineSpace": 10,
@@ -20130,6 +20727,39 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/505901-9.json jp/sc
 									  >	                ],
 									  >	#BELLA=nameRight=SPINA#
                 "turnChangeIn": "fadeIn",				  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/506101-1.json jp/scenario_5/506101-1.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/506101-5.json jp/scenario_5/506101-5.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506103-5.json jp/scenario_5/506103-5.json
                         "posX": 0,					  |	                        "posX": -50,
                         "posX": 0,					  |	                        "posX": -50,
@@ -20155,11 +20785,34 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506109-4.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506110-1.json jp/scenario_5/506110-1.json
                         "posX": 0,					  |	                        "posX": -50,
                         "posX": 0,					  |	                        "posX": -50,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/506112-2.json jp/scenario_5/506112-2.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506112-3.json jp/scenario_5/506112-3.json
                         "cheek": 0,					  |	                        "id": 402200
                         "face": "mtn_ex_000.exp.json",			  <
                         "id": 100200,					  <
                         "motion": 0					  <
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506113-3.json jp/scenario_5/506113-3.json
                 "narrationLineMargin": 50,				  |	                "narrationLineMargin": 15,
                 "narrationLineSpace": 20,				  |	                "narrationLineSpace": 10,
@@ -25953,6 +26606,21 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-4_ZvuTl.json
                 "turnEffect": "stop"					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-8_ZvuTl.json jp/scenario_5/510112-8_ZvuTl.json
                 "narrationLineMargin": 25,				  |	                "narrationLineMargin": 15,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510201-0.json jp/scenario_5/510201-0.json
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 760090,					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1",
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760000					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_0"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
+                        "id": 760090					  |	                        "id": 760000,
+									  >	                        "live2dName": "live2d_1"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510202-3_m4VmX.json jp/scenario_5/510202-3_m4VmX.json
                 "narrationLineMargin": 25,				  |	                "narrationLineMargin": 15,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510203-2_m4VmX.json jp/scenario_5/510203-2_m4VmX.json
@@ -25963,9 +26631,38 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510203-5_m4VmX.json
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-2_m4VmX.json jp/scenario_5/510204-2_m4VmX.json
 									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-3_m4VmX.json jp/scenario_5/510204-3_m4VmX.json
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_030.exp.json",			  <
+                        "id": 831400,					  |	                        "id": 412100,
+                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_001.exp.json",
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
 									  >	                        "iPhoneXScale": 1,
+                        "id": 831400					  |	                        "id": 412100
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510204-8_m4VmX.json jp/scenario_5/510204-8_m4VmX.json
 									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510205-2_m4VmX.json jp/scenario_5/510205-2_m4VmX.json
+                        "id": 831400					  |	                        "id": 412100
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510207-2_m4VmX.json jp/scenario_5/510207-2_m4VmX.json
 									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510207-5_m4VmX.json jp/scenario_5/510207-5_m4VmX.json
@@ -26051,6 +26748,10 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510208-2_kssXu.json
 									  >	#BELLA=textLeft=SPINA#
                 "autoTurnLast": 0.5,					  |	                "autoTurnLast": 1,
                 "narrationEffect": "out",				  <
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510209-2_kssXu.json jp/scenario_5/510209-2_kssXu.json
 									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-1_kssXu.json jp/scenario_5/510210-1_kssXu.json
@@ -26061,6 +26762,25 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-2_kssXu.json
 									  >	                        "zOrder": "charaFront"
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510210-5_kssXu.json jp/scenario_5/510210-5_kssXu.json
 									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510211-3_kssXu.json jp/scenario_5/510211-3_kssXu.json
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510211-4_kssXu.json jp/scenario_5/510211-4_kssXu.json
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510212-2_kssXu.json jp/scenario_5/510212-2_kssXu.json
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/510213-2_kssXu.json jp/scenario_5/510213-2_kssXu.json
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400,					  |	                        "id": 412100,
+                        "id": 831400					  |	                        "id": 412100
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510911-2_RK87H.json jp/scenario_5/510911-2_RK87H.json
 									  >	                        "face": "mtn_ex_020.exp.json",
 									  >	                        "id": 401101
