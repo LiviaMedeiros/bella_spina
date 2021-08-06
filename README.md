@@ -42,12 +42,12 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
      0 broken_en
      1 bom_en
   5160 all_en
-  6559 all_jp
+  6567 all_jp
   2992 all_na
   2814 same_na
    178 changed_na
      7 only_en
-  1406 only_jp
+  1414 only_jp
   5153 comparable
     40 same
   4338 perfect
