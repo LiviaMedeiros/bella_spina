@@ -41,19 +41,19 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 ```asm
      0 broken_en
      1 bom_en
-  5160 all_en
+  5192 all_en
   6675 all_jp
   2992 all_na
   2814 same_na
    178 changed_na
      7 only_en
-  1522 only_jp
-  5153 comparable
+  1490 only_jp
+  5185 comparable
     40 same
-  4338 perfect
-   815 outdated
+  4369 perfect
+   816 outdated
     14 invalid
-   557 valid
+   558 valid
 ```
 ```c
 1480 onepiece-nocommon.patch
