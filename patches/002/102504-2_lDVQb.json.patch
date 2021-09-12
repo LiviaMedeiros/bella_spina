@@ -1,0 +1,44 @@
+--- en/scenario_1/102504-2_lDVQb.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/102504-2_lDVQb.json	2017-03-17 18:39:13.000000000 +0800
+@@ -10,7 +10,7 @@
+                         "cheek": 2,
+                         "effect": "ef_adv_08",
+                         "eyeClose": 1,
+-                        "face": "mtn_ex_031.exp.json",
++                        "face": "mtn_ex_031.exp3.json",
+                         "id": 305300,
+                         "motion": 0,
+                         "pos": 0
+@@ -25,7 +25,7 @@
+                         "eyeClose": 1,
+                         "id": 305300,
+                         "motion": 300,
+-                        "mouthOpen": 1
++                        "voiceFullAuto": "fullvoice/section_102504/vo_full_102504-2-1"
+                     }
+                 ],
+ #BELLA=nameNarration=SPINA#
+@@ -37,8 +37,7 @@
+                 "autoTurnLast": 1,
+                 "chara": [
+                     {
+-                        "id": 305300,
+-                        "mouthOpen": 0
++                        "id": 305300
+                     }
+                 ],
+                 "flashEffect": "flashWhite2",
+@@ -48,10 +47,11 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_032.exp.json",
++                        "face": "mtn_ex_032.exp3.json",
+                         "id": 102100,
+                         "motion": 0,
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102504/vo_full_102504-2-2"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
