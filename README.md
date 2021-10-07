@@ -42,18 +42,18 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
      0 broken_en
      1 bom_en
   5429 all_en
-  6824 all_jp
+  6828 all_jp
   2992 all_na
   2801 same_na
    191 changed_na
-    11 only_en
+     7 only_en
   1406 only_jp
-  5418 comparable
+  5422 comparable
     40 same
-  4474 perfect
-   944 outdated
+  4477 perfect
+   945 outdated
     13 invalid
-   687 valid
+   688 valid
 ```
 ```c
 1708 onepiece-nocommon.patch
