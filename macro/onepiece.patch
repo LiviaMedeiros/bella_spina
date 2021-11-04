@@ -70691,6 +70691,66 @@ diff -ru en/scenario_5/508301-9.json jp/scenario_5/508301-9.json
                          "setVisible": 1
                      }
                  ],
+diff -ru en/scenario_5/508501-2.json jp/scenario_5/508501-2.json
+--- en/scenario_5/508501-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/508501-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -357,16 +357,6 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 800300
+-                    }
+-                ],
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "id": 302101,
+                         "lipSynch": 0
+                     }
+@@ -614,9 +604,6 @@
+             },
+             {
+ #BELLA=narration=SPINA#
+-            },
+-            {
+-#BELLA=narration=SPINA#
+             },
+             {
+ #BELLA=narration=SPINA#
+diff -ru en/scenario_5/508503-3.json jp/scenario_5/508503-3.json
+--- en/scenario_5/508503-3.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/508503-3.json	2017-03-17 18:39:13.000000000 +0800
+@@ -308,14 +308,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 302101
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "id": 302101,
+                         "motion": 100
+                     }
+diff -ru en/scenario_5/508504-2.json jp/scenario_5/508504-2.json
+--- en/scenario_5/508504-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/508504-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -360,7 +360,7 @@
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+-                "narrationLineMargin": 35,
++                "narrationLineMargin": 10,
+                 "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut",
+                 "turnChangeOutTime": 1
 diff -ru en/scenario_5/509210-2_ejUmE.json jp/scenario_5/509210-2_ejUmE.json
 --- en/scenario_5/509210-2_ejUmE.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/509210-2_ejUmE.json	2017-03-17 18:39:13.000000000 +0800
