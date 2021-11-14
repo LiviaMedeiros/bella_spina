@@ -88164,6 +88164,492 @@ diff -ru en/scenario_5/510213-5_kssXu.json jp/scenario_5/510213-5_kssXu.json
                      }
                  ],
                  "textClear": 1
+diff -ru en/scenario_5/510510-10_Hemql.json jp/scenario_5/510510-10_Hemql.json
+--- en/scenario_5/510510-10_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-10_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -826,7 +826,7 @@
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+-                "narrationLineMargin": 35,
++                "narrationLineMargin": 10,
+                 "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut"
+             },
+diff -ru en/scenario_5/510510-1_Hemql.json jp/scenario_5/510510-1_Hemql.json
+--- en/scenario_5/510510-1_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-1_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -240,9 +240,6 @@
+ #BELLA=narration=SPINA#
+             },
+             {
+-#BELLA=narration=SPINA#
+-            },
+-            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+diff -ru en/scenario_5/510510-2_Hemql.json jp/scenario_5/510510-2_Hemql.json
+--- en/scenario_5/510510-2_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-2_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -164,14 +164,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 100901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "id": 101001,
+                         "motion": 0
+                     }
+@@ -795,15 +787,6 @@
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 104001
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+             },
+             {
+diff -ru en/scenario_5/510510-3_Hemql.json jp/scenario_5/510510-3_Hemql.json
+--- en/scenario_5/510510-3_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-3_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -114,24 +114,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 102201
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 102201
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_000.exp.json",
+                         "id": 104001,
+@@ -487,14 +469,6 @@
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 100901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+diff -ru en/scenario_5/510510-4_Hemql.json jp/scenario_5/510510-4_Hemql.json
+--- en/scenario_5/510510-4_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-4_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -194,15 +194,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=nameLeft=SPINA#
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 120902,
+@@ -399,15 +390,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 102250
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 120901,
+@@ -534,15 +516,6 @@
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 102350
+-                    }
+-                ],
+-#BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+diff -ru en/scenario_5/510510-6_Hemql.json jp/scenario_5/510510-6_Hemql.json
+--- en/scenario_5/510510-6_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-6_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -131,14 +131,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_030.exp.json",
+                         "id": 102250,
+@@ -201,9 +193,6 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+                 "chara": [
+                     {
+                         "id": 102350,
+@@ -228,15 +217,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 104050
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 120901,
+@@ -260,14 +240,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 120902,
+@@ -400,15 +372,6 @@
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 102250
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+             },
+             {
+diff -ru en/scenario_5/510510-8_Hemql.json jp/scenario_5/510510-8_Hemql.json
+--- en/scenario_5/510510-8_Hemql.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510510-8_Hemql.json	2017-03-17 18:39:13.000000000 +0800
+@@ -433,14 +433,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 120902
+-                    }
+-                ],
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 1,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 120901,
+@@ -511,9 +503,6 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+                 "chara": [
+                     {
+                         "id": 120901,
+@@ -611,9 +600,6 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+ #BELLA=textLeft=SPINA#
+             },
+             {
+diff -ru en/scenario_5/510520-10_5XtSr.json jp/scenario_5/510520-10_5XtSr.json
+--- en/scenario_5/510520-10_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-10_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -944,7 +944,7 @@
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+-                "narrationLineMargin": 10,
++                "narrationLineMargin": 35,
+                 "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -980,7 +980,7 @@
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+-                "narrationLineMargin": 10,
++                "narrationLineMargin": 35,
+                 "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut"
+             },
+diff -ru en/scenario_5/510520-1_5XtSr.json jp/scenario_5/510520-1_5XtSr.json
+--- en/scenario_5/510520-1_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-1_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -215,9 +215,6 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+@@ -336,15 +333,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 102250
+-                    }
+-                ],
+-#BELLA=nameLeft=SPINA#
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "id": 102350,
+                         "motion": 200
+                     }
+@@ -468,14 +456,6 @@
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 102250
+-                    }
+-                ],
+-#BELLA=textRight=SPINA#
+             },
+             {
+                 "chara": [
+diff -ru en/scenario_5/510520-3_5XtSr.json jp/scenario_5/510520-3_5XtSr.json
+--- en/scenario_5/510520-3_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-3_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -324,14 +324,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800100
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_051.exp.json",
+                         "id": 104050,
+@@ -357,14 +349,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800200
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 800300,
+@@ -828,14 +812,6 @@
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+             },
+             {
+ #BELLA=textLeft=SPINA#
+diff -ru en/scenario_5/510520-4_5XtSr.json jp/scenario_5/510520-4_5XtSr.json
+--- en/scenario_5/510520-4_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-4_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -374,14 +374,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 102250,
+@@ -413,14 +405,6 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "chara": [
+-                    {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+ #BELLA=textLeft=SPINA#
+             },
+             {
+@@ -617,15 +601,6 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 102350
+-                    }
+-                ],
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+                         "cheek": 0,
+                         "face": "mtn_ex_010.exp.json",
+                         "id": 102350
+@@ -696,14 +671,6 @@
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+-            },
+-            {
+-                "chara": [
+-                    {
+-                        "id": 102350
+-                    }
+-                ],
+-#BELLA=textRight=SPINA#
+             },
+             {
+                 "chara": [
+diff -ru en/scenario_5/510520-5_5XtSr.json jp/scenario_5/510520-5_5XtSr.json
+--- en/scenario_5/510520-5_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-5_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -176,9 +176,6 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
+-#BELLA=textRight=SPINA#
+-            },
+-            {
+                 "chara": [
+                     {
+                         "cheek": 0,
+diff -ru en/scenario_5/510520-7_5XtSr.json jp/scenario_5/510520-7_5XtSr.json
+--- en/scenario_5/510520-7_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-7_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -404,14 +404,6 @@
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "chara": [
+-                    {
+-                        "id": 120901
+-                    }
+-                ],
+-#BELLA=textLeft=SPINA#
+-            },
+-            {
+                 "autoTurnLast": 2,
+                 "chara": [
+                     {
+diff -ru en/scenario_5/510520-9_5XtSr.json jp/scenario_5/510520-9_5XtSr.json
+--- en/scenario_5/510520-9_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/510520-9_5XtSr.json	2017-03-17 18:39:13.000000000 +0800
+@@ -664,7 +664,7 @@
+                 "narrationCoverOpacity": 110,
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+-                "narrationLineMargin": 10,
++                "narrationLineMargin": 35,
+                 "narrationLineSpace": 20,
+                 "turnChangeOut": "fadeOut"
+             },
 diff -ru en/scenario_5/510710-10_1DyhN.json jp/scenario_5/510710-10_1DyhN.json
 --- en/scenario_5/510710-10_1DyhN.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510710-10_1DyhN.json	2017-03-17 18:39:13.000000000 +0800
