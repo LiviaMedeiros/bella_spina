@@ -2999,80 +2999,6 @@
             "value": 101471
         }
     ],
-    "scenario_1/102301-20_Z9WSZ.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/chara/0/face",
-            "value": "mtn_ex_001.exp3.json"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/chara/1/face",
-            "value": "mtn_ex_010.exp3.json"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/64/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/66/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/70/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/72/enableSkipAutoTurn"
-        }
-    ],
-    "scenario_1/102302-23_ZdxJi.json": [
-        {
-            "op": "remove",
-            "path": "/story/group_1/83/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/85/enableSkipAutoTurn"
-        }
-    ],
-    "scenario_1/102303-23_riRcZ.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/chara/0/face",
-            "value": "mtn_ex_001.exp3.json"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/chara/1/face",
-            "value": "mtn_ex_010.exp3.json"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/82/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/84/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/85/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/87/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/90/enableSkipAutoTurn"
-        },
-        {
-            "op": "remove",
-            "path": "/story/group_1/92/enableSkipAutoTurn"
-        }
-    ],
     "scenario_1/102504-18_lDVQb.json": [
         {
             "op": "remove",
@@ -58883,81 +58809,6 @@
             "value": "bg_adv_19221.jpg"
         }
     ],
-    "scenario_3/330152-1.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_11101.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/1/narrationBg",
-            "value": "bg_adv_11101.jpg"
-        }
-    ],
-    "scenario_3/330152-2.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_11101.jpg"
-        }
-    ],
-    "scenario_3/330152-3.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_11101.jpg"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/narrationBg",
-            "value": "bg_adv_11101.jpg"
-        }
-    ],
-    "scenario_3/330152-4.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/0/bg",
-            "value": "bg_adv_11101.jpg"
-        }
-    ],
-    "scenario_3/330153-3.json": [
-        {
-            "op": "replace",
-            "path": "/story/group_1/23/chara/0/face",
-            "value": "mtn_ex_010.exp.json"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/25/chara/0/motion",
-            "value": 0
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/28/nameLeft",
-            "value": "#BELLA=nameLeft=SPINA#"
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/28/chara/0/face",
-            "value": "mtn_ex_050.exp.json"
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/28/chara/0/id",
-            "value": 301100
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/28/chara/0/motion",
-            "value": 400
-        },
-        {
-            "op": "replace",
-            "path": "/story/group_1/30/chara/0/id",
-            "value": 303000
-        }
-    ],
     "scenario_3/330181-4.json": [
         {
             "op": "add",
@@ -65198,58 +65049,6 @@
             "op": "add",
             "path": "/story/group_1/1/item/0/iPhoneXScale",
             "value": 1
-        }
-    ],
-    "scenario_5/503201-5.json": [
-        {
-            "op": "add",
-            "path": "/story/group_1/35",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 100550
-                    },
-                    {
-                        "effect": "fadeout",
-                        "id": 100351
-                    },
-                    {
-                        "effect": "fadeout",
-                        "id": 101051
-                    }
-                ],
-                "textClear": 1
-            }
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/39",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 101051
-                    }
-                ],
-                "textClear": 1
-            }
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/46",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 101150
-                    }
-                ],
-                "textClear": 1
-            }
         }
     ],
     "scenario_5/503202-17.json": [
@@ -71613,58 +71412,6 @@
             "op": "replace",
             "path": "/story/group_1/14/chara/1/id",
             "value": 101471
-        }
-    ],
-    "scenario_5/505801-5.json": [
-        {
-            "op": "add",
-            "path": "/story/group_1/35",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 100550
-                    },
-                    {
-                        "effect": "fadeout",
-                        "id": 100351
-                    },
-                    {
-                        "effect": "fadeout",
-                        "id": 101051
-                    }
-                ],
-                "textClear": 1
-            }
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/39",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 101051
-                    }
-                ],
-                "textClear": 1
-            }
-        },
-        {
-            "op": "add",
-            "path": "/story/group_1/46",
-            "value": {
-                "autoTurnLast": 0.1,
-                "chara": [
-                    {
-                        "effect": "fadeout",
-                        "id": 101150
-                    }
-                ],
-                "textClear": 1
-            }
         }
     ],
     "scenario_5/505802-17.json": [
@@ -108516,6 +108263,13 @@
             }
         }
     ],
+    "scenario_5/513919-19_ceiHF.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/14/chara/0/lipSynch",
+            "value": 0
+        }
+    ],
     "scenario_6/603901-2_lo9Zw.json": [
         {
             "op": "remove",
@@ -109371,6 +109125,130 @@
             "op": "replace",
             "path": "/story/group_1/86/chara/2/id",
             "value": 101471
+        }
+    ],
+    "scenario_7/710252-1.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/78/autoTurnLast",
+            "value": 0.2
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/78/chara/0",
+            "value": {
+                "effect": "fadeout",
+                "id": 102650
+            }
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/78/chara/2"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/79/autoTurnLast"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/79/textClear"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/nameLeft",
+            "value": "#BELLA=nameLeft=SPINA#"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/textLeft",
+            "value": "#BELLA=textLeft=SPINA#"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/79/chara/0/cheek",
+            "value": 0
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/79/chara/0/motion",
+            "value": 1
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/79/chara/0/pos",
+            "value": 0
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/79/chara/-",
+            "value": {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 304701,
+                "motion": 1,
+                "pos": 2
+            }
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/80/chara",
+            "value": [
+                {
+                    "id": 304701
+                }
+            ]
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/81/nameNarration"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/81/narration"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/81/narrationBg"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/81/narrationEffect"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/81/chara",
+            "value": [
+                {
+                    "id": 102551,
+                    "motion": 200
+                }
+            ]
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/81/nameLeft",
+            "value": "#BELLA=nameLeft=SPINA#"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/81/textLeft",
+            "value": "#BELLA=textLeft=SPINA#"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/82"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/82"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/82"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/82"
         }
     ],
     "scenario_7/730401-2.json": [

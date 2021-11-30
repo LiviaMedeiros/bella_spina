@@ -2087,49 +2087,6 @@ diff -r en/scenario_1/102204-9_yV4hL.json jp/scenario_1/102204-9_yV4hL.json
 <                         "id": 101403,
 ---
 >                         "id": 101471,
-diff -r en/scenario_1/102301-20_Z9WSZ.json jp/scenario_1/102301-20_Z9WSZ.json
-11c11
-<                         "face": "mtn_ex_030.exp.json",
----
->                         "face": "mtn_ex_001.exp3.json",
-19c19
-<                         "face": "mtn_ex_031.exp.json",
----
->                         "face": "mtn_ex_010.exp3.json",
-766d765
-<                 "enableSkipAutoTurn": 1,
-786d784
-<                 "enableSkipAutoTurn": 0,
-832d829
-<                 "enableSkipAutoTurn": 1,
-853d849
-<                 "enableSkipAutoTurn": 0,
-diff -r en/scenario_1/102302-23_ZdxJi.json jp/scenario_1/102302-23_ZdxJi.json
-1000d999
-<                 "enableSkipAutoTurn": 1,
-1023d1021
-<                 "enableSkipAutoTurn": 0,
-diff -r en/scenario_1/102303-23_riRcZ.json jp/scenario_1/102303-23_riRcZ.json
-11c11
-<                         "face": "mtn_ex_020.exp.json",
----
->                         "face": "mtn_ex_001.exp3.json",
-18c18
-<                         "face": "mtn_ex_030.exp.json",
----
->                         "face": "mtn_ex_010.exp3.json",
-1020d1019
-<                 "enableSkipAutoTurn": 1,
-1044d1042
-<                 "enableSkipAutoTurn": 0,
-1058d1055
-<                 "enableSkipAutoTurn": 1,
-1081d1077
-<                 "enableSkipAutoTurn": 0,
-1117d1112
-<                 "enableSkipAutoTurn": 1,
-1140d1134
-<                 "enableSkipAutoTurn": 0,
 diff -r en/scenario_1/102504-18_lDVQb.json jp/scenario_1/102504-18_lDVQb.json
 590,596d589
 < #BELLA=narration=SPINA#
@@ -23102,56 +23059,6 @@ diff -r en/scenario_3/330132-4.json jp/scenario_3/330132-4.json
 <                 "bg": "bg_adv_21221.jpg",
 ---
 >                 "bg": "bg_adv_19221.jpg",
-diff -r en/scenario_3/330152-1.json jp/scenario_3/330152-1.json
-5c5
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_11101.jpg",
-32c32
-<                 "narrationBg": "bg_adv_21241.jpg"
----
->                 "narrationBg": "bg_adv_11101.jpg"
-diff -r en/scenario_3/330152-2.json jp/scenario_3/330152-2.json
-6c6
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_11101.jpg",
-diff -r en/scenario_3/330152-3.json jp/scenario_3/330152-3.json
-5c5
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_11101.jpg",
-25c25
-<                 "narrationBg": "bg_adv_21241.jpg",
----
->                 "narrationBg": "bg_adv_11101.jpg",
-diff -r en/scenario_3/330152-4.json jp/scenario_3/330152-4.json
-6c6
-<                 "bg": "bg_adv_21241.jpg",
----
->                 "bg": "bg_adv_11101.jpg",
-diff -r en/scenario_3/330153-3.json jp/scenario_3/330153-3.json
-295c295
-<                         "face": "mtn_ex_011.exp.json",
----
->                         "face": "mtn_ex_010.exp.json",
-324c324
-<                         "motion": 400,
----
->                         "motion": 0,
-360,361c360,362
-<                         "id": 303000,
-<                         "motion": 301,
----
->                         "face": "mtn_ex_050.exp.json",
->                         "id": 301100,
->                         "motion": 400,
-364a366
-> #BELLA=nameLeft=SPINA#
-385c387
-<                         "id": 301100,
----
->                         "id": 303000,
 diff -r en/scenario_3/330181-4.json jp/scenario_3/330181-4.json
 86c86,87
 <                         "id": 800300
@@ -27379,48 +27286,6 @@ diff -r en/scenario_5/503020-9.json jp/scenario_5/503020-9.json
 >                         "iPhoneXScale": 1,
 104a106
 >                         "iPhoneXScale": 1,
-diff -r en/scenario_5/503201-5.json jp/scenario_5/503201-5.json
-509a510,527
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 100550
->                     },
->                     {
->                         "effect": "fadeout",
->                         "id": 100351
->                     },
->                     {
->                         "effect": "fadeout",
->                         "id": 101051
->                     }
->                 ],
->                 "textClear": 1
->             },
->             {
-554a573,582
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 101051
->                     }
->                 ],
->                 "textClear": 1
->             },
->             {
-625a654,663
->             },
->             {
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 101150
->                     }
->                 ],
->                 "textClear": 1
 diff -r en/scenario_5/503202-17.json jp/scenario_5/503202-17.json
 191c191
 <                 "autoTurnFirst": 0.7,
@@ -30312,48 +30177,6 @@ diff -r en/scenario_5/505710-1_ycatl.json jp/scenario_5/505710-1_ycatl.json
 <                         "id": 101403
 ---
 >                         "id": 101471
-diff -r en/scenario_5/505801-5.json jp/scenario_5/505801-5.json
-509a510,527
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 100550
->                     },
->                     {
->                         "effect": "fadeout",
->                         "id": 100351
->                     },
->                     {
->                         "effect": "fadeout",
->                         "id": 101051
->                     }
->                 ],
->                 "textClear": 1
->             },
->             {
-554a573,582
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 101051
->                     }
->                 ],
->                 "textClear": 1
->             },
->             {
-625a654,663
->             },
->             {
->                 "autoTurnLast": 0.1,
->                 "chara": [
->                     {
->                         "effect": "fadeout",
->                         "id": 101150
->                     }
->                 ],
->                 "textClear": 1
 diff -r en/scenario_5/505802-17.json jp/scenario_5/505802-17.json
 191c191
 <                 "autoTurnFirst": 0.7,
@@ -49789,6 +49612,12 @@ diff -r en/scenario_5/513263-63_wFvmE.json jp/scenario_5/513263-63_wFvmE.json
 >                     {
 >                         "cheek": 0,
 >                         "face": "mtn_ex_030.exp.json",
+diff -r en/scenario_5/513919-19_ceiHF.json jp/scenario_5/513919-19_ceiHF.json
+161c161,162
+<                         "id": 800200
+---
+>                         "id": 800200,
+>                         "lipSynch": 0
 diff -r en/scenario_6/603901-2_lo9Zw.json jp/scenario_6/603901-2_lo9Zw.json
 378,388d377
 <                         "face": "mtn_ex_020.exp.json",
@@ -50458,6 +50287,101 @@ diff -r en/scenario_7/710151-1.json jp/scenario_7/710151-1.json
 <                         "id": 101403,
 ---
 >                         "id": 101471,
+diff -r en/scenario_7/710252-1.json jp/scenario_7/710252-1.json
+993c993
+<                 "autoTurnLast": 0.5,
+---
+>                 "autoTurnLast": 0.2,
+997c997
+<                         "id": 305801
+---
+>                         "id": 102650
+1001c1001
+<                         "id": 102650
+---
+>                         "id": 305801
+1007d1006
+<                 "autoTurnLast": 1,
+1010c1009
+<                         "cheek": 1,
+---
+>                         "cheek": 0,
+1013,1043c1012,1014
+<                         "motion": 100,
+<                         "pos": 1
+<                     }
+<                 ],
+<                 "textClear": 1
+<             },
+<             {
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+<             },
+<             {
+< #BELLA=nameNarration=SPINA#
+< #BELLA=narration=SPINA#
+<                 "narrationBg": "",
+<                 "narrationEffect": "in"
+<             },
+<             {
+<                 "chara": [
+<                     {
+<                         "cheek": 1,
+<                         "face": "mtn_ex_011.exp.json",
+<                         "id": 102551,
+<                         "motion": 0
+<                     }
+<                 ],
+< #BELLA=nameCenter=SPINA#
+<                 "narrationEffect": "out",
+< #BELLA=textCenter=SPINA#
+<             },
+<             {
+<                 "chara": [
+---
+>                         "motion": 1,
+>                         "pos": 0
+>                     },
+1047,1048c1018,1020
+<                         "id": 102551,
+<                         "motion": 1
+---
+>                         "id": 304701,
+>                         "motion": 1,
+>                         "pos": 2
+1051,1052c1023,1024
+< #BELLA=nameCenter=SPINA#
+< #BELLA=textCenter=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
+1055d1026
+<                 "autoTurnLast": 0.2,
+1058,1059c1029
+<                         "id": 102551,
+<                         "pos": 0
+---
+>                         "id": 304701
+1062c1032,1033
+<                 "textClear": 1
+---
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+1067,1071c1038,1039
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 304701,
+<                         "motion": 1,
+<                         "pos": 2
+---
+>                         "id": 102551,
+>                         "motion": 200
+1074,1075c1042,1043
+< #BELLA=nameRight=SPINA#
+< #BELLA=textRight=SPINA#
+---
+> #BELLA=nameLeft=SPINA#
+> #BELLA=textLeft=SPINA#
 diff -r en/scenario_7/730401-2.json jp/scenario_7/730401-2.json
 187c187
 <                         "id": 101403,

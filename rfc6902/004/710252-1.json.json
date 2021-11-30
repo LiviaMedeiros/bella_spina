@@ -1,0 +1,124 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/78/autoTurnLast",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/78/chara/0",
+        "value": {
+            "effect": "fadeout",
+            "id": 102650
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/78/chara/2"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/79/autoTurnLast"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/79/textClear"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/79/nameLeft",
+        "value": "#BELLA=nameLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/79/textLeft",
+        "value": "#BELLA=textLeft=SPINA#"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/79/chara/0/cheek",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/79/chara/0/motion",
+        "value": 1
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/79/chara/0/pos",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/79/chara/-",
+        "value": {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 304701,
+            "motion": 1,
+            "pos": 2
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/80/chara",
+        "value": [
+            {
+                "id": 304701
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/81/nameNarration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/81/narration"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/81/narrationBg"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/81/narrationEffect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/81/chara",
+        "value": [
+            {
+                "id": 102551,
+                "motion": 200
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/81/nameLeft",
+        "value": "#BELLA=nameLeft=SPINA#"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/81/textLeft",
+        "value": "#BELLA=textLeft=SPINA#"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/82"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/82"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/82"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/82"
+    }
+]
