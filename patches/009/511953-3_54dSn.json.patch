@@ -1,0 +1,360 @@
+--- en/scenario_5/511953-3_54dSn.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/511953-3_54dSn.json	2017-03-17 18:39:13.000000000 +0800
+@@ -8,14 +8,14 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_040.exp.json",
++                        "face": "mtn_ex_040.exp3.json",
+                         "id": 100301,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 101501,
+                         "motion": 0,
+                         "pos": 2
+@@ -47,7 +47,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100301,
+                         "motion": 300
+                     }
+@@ -59,7 +59,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100501,
+                         "motion": 100,
+                         "pos": 2
+@@ -72,7 +72,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_040.exp.json",
++                        "face": "mtn_ex_040.exp3.json",
+                         "id": 100301,
+                         "motion": 0
+                     }
+@@ -102,7 +102,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 101501,
+                         "motion": 300,
+                         "pos": 2
+@@ -133,7 +133,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100501,
+                         "motion": 0,
+                         "pos": 0
+@@ -176,7 +176,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_040.exp.json",
++                        "face": "mtn_ex_040.exp3.json",
+                         "id": 100301,
+                         "motion": 100,
+                         "pos": 0
+@@ -198,7 +198,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100501,
+                         "motion": 100,
+                         "pos": 0
+@@ -221,7 +221,7 @@
+                     {
+                         "cheek": 0,
+                         "eyeClose": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 101501,
+                         "motion": 400,
+                         "pos": 2
+@@ -247,14 +247,14 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+                         "id": 120302,
+                         "motion": 200,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+                         "id": 103000,
+                         "motion": 200,
+                         "pos": 2
+@@ -277,7 +277,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 120302,
+                         "motion": 400,
+                         "pos": 0
+@@ -291,7 +291,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+                         "id": 304200,
+                         "motion": 100,
+                         "pos": 2
+@@ -301,22 +301,35 @@
+ #BELLA=textRight=SPINA#
+             },
+             {
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_040.exp3.json",
++                        "id": 301700,
++                        "motion": 100,
++                        "pos": 0
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
++            },
++            {
+                 "autoTurnLast": 1,
+                 "bg": "bg_adv_21201.jpg",
+                 "bgm": "stop",
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100501,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 101501,
+-                        "motion": 0,
++                        "motion": 1,
+                         "pos": 2
+                     }
+                 ],
+@@ -328,6 +341,11 @@
+             },
+             {
+                 "bgm": "bgm03_story06",
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
++                "turnChangeOut": "fadeOut"
++            },
++            {
+                 "chara": [
+                     {
+                         "id": 100501
+@@ -335,13 +353,12 @@
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+-                "turnChangeOut": "fadeOut"
+             },
+             {
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_040.exp.json",
++                        "face": "mtn_ex_040.exp3.json",
+                         "id": 100301,
+                         "motion": 200,
+                         "pos": 0
+@@ -353,6 +370,15 @@
+             {
+                 "chara": [
+                     {
++                        "id": 100301
++                    }
++                ],
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
++            },
++            {
++                "chara": [
++                    {
+                         "id": 100301,
+                         "motion": 0
+                     }
+@@ -364,7 +390,7 @@
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 101501,
+                         "motion": 300
+                     }
+@@ -376,7 +402,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100501,
+                         "motion": 100,
+                         "pos": 0
+@@ -398,7 +424,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100301,
+                         "motion": 300,
+                         "pos": 0
+@@ -411,7 +437,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 101501,
+                         "motion": 100
+                     }
+@@ -432,7 +458,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100301,
+                         "motion": 100
+                     }
+@@ -444,7 +470,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 101501,
+                         "motion": 0
+                     }
+@@ -456,7 +482,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 100301,
+                         "motion": 0
+                     }
+@@ -468,7 +494,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+                         "id": 100301,
+                         "motion": 101
+                     }
+@@ -480,7 +506,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 100301
+                     }
+                 ],
+@@ -491,7 +517,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+                         "id": 100301,
+                         "motion": 0
+                     }
+@@ -513,7 +539,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100501,
+                         "motion": 300,
+                         "pos": 0
+@@ -535,7 +561,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 100501,
+                         "motion": 200
+                     }
+@@ -557,7 +583,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+                         "id": 101501
+                     }
+                 ],
+@@ -568,7 +594,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 101501,
+                         "motion": 0
+                     }
+@@ -589,7 +615,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 100301,
+                         "motion": 200,
+                         "pos": 0
+@@ -605,14 +631,14 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+                         "id": 100301,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+                         "id": 101501,
+                         "motion": 0,
+                         "pos": 2
