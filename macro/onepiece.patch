@@ -112642,7 +112642,35 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 304000,
                          "motion": 0,
                          "pos": 2
-@@ -716,7 +717,7 @@
+@@ -706,6 +707,27 @@
+                 "chara": [
+                     {
+                         "id": 304000,
++                        "motion": 400
++                    }
++                ],
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
++            },
++            {
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp3.json",
++                        "id": 304000
++                    }
++                ],
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
++            },
++            {
++                "chara": [
++                    {
++                        "id": 304000,
+                         "motion": 200
+                     }
+                 ],
+@@ -716,7 +738,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112651,7 +112679,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 303800,
                          "motion": 1
                      }
-@@ -756,14 +757,6 @@
+@@ -756,14 +778,6 @@
                          "animation": [
                              "action"
                          ],
@@ -112666,7 +112694,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "armatureId": 3,
                          "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
                          "zOrder": "messageBack"
-@@ -781,14 +774,14 @@
+@@ -781,14 +795,14 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112683,7 +112711,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 0,
                          "pos": 2
-@@ -828,7 +821,7 @@
+@@ -828,7 +842,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112692,7 +112720,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 200
                      }
-@@ -840,7 +833,7 @@
+@@ -840,7 +854,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112701,7 +112729,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 101
                      }
-@@ -905,14 +898,14 @@
+@@ -905,14 +919,14 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112718,7 +112746,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 0,
                          "pos": 2
-@@ -962,7 +955,7 @@
+@@ -962,7 +976,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112727,7 +112755,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 100,
                          "pos": 0
-@@ -976,7 +969,7 @@
+@@ -976,7 +990,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112736,7 +112764,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 100,
                          "pos": 2
-@@ -989,7 +982,7 @@
+@@ -989,7 +1003,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112745,7 +112773,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302
                      }
                  ],
-@@ -1010,7 +1003,7 @@
+@@ -1010,7 +1024,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112754,7 +112782,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 101,
                          "pos": 0
-@@ -1023,7 +1016,7 @@
+@@ -1023,7 +1037,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112763,7 +112791,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 400
                      }
-@@ -1035,7 +1028,7 @@
+@@ -1035,7 +1049,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112772,7 +112800,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 1
                      }
-@@ -1056,7 +1049,7 @@
+@@ -1056,7 +1070,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112781,7 +112809,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 100
                      }
-@@ -1068,7 +1061,7 @@
+@@ -1068,7 +1082,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112790,7 +112818,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 100,
                          "pos": 2
-@@ -1081,7 +1074,7 @@
+@@ -1081,7 +1095,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112799,7 +112827,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302
                      }
                  ],
-@@ -1092,7 +1085,7 @@
+@@ -1092,7 +1106,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112808,7 +112836,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 101
                      }
-@@ -1104,7 +1097,7 @@
+@@ -1104,7 +1118,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112817,7 +112845,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120302,
                          "motion": 200
                      }
-@@ -1129,13 +1122,13 @@
+@@ -1129,13 +1143,13 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112833,7 +112861,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 0
                      }
-@@ -1148,7 +1141,7 @@
+@@ -1148,7 +1162,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112842,7 +112870,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 200
                      }
-@@ -1205,14 +1198,14 @@
+@@ -1205,14 +1219,14 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112859,7 +112887,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 0,
                          "pos": 1,
-@@ -1248,7 +1241,7 @@
+@@ -1248,7 +1262,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112868,7 +112896,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 101
                      },
-@@ -1290,13 +1283,13 @@
+@@ -1290,13 +1304,13 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -112884,7 +112912,7 @@ diff -ru en/scenario_5/511968-18_54dSn.json jp/scenario_5/511968-18_54dSn.json
                          "id": 120301,
                          "motion": 300
                      }
-@@ -1308,7 +1301,7 @@
+@@ -1308,7 +1322,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113102,7 +113130,30 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "motion": 200
                      }
-@@ -729,14 +735,14 @@
+@@ -706,37 +712,19 @@
+ #BELLA=narration=SPINA#
+             },
+             {
+-                "armatureList": [
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 3,
+-                        "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
+-                        "zOrder": "messageBack"
+-                    },
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 4,
+-                        "filePath": "resource/image_native/effect/story/general/6000_snow_bgfront.ExportJson",
+-                        "zOrder": "bgFront"
+-                    }
+-                ],
+                 "autoTurnLast": 1,
+                 "bg": "bg_adv_24013.jpg",
                  "chara": [
                      {
                          "cheek": 0,
@@ -113119,7 +113170,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "motion": 0,
                          "pos": 2
-@@ -766,7 +772,7 @@
+@@ -766,7 +754,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113128,7 +113179,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "motion": 200
                      }
-@@ -777,9 +783,6 @@
+@@ -777,24 +765,9 @@
              {
                  "autoTurnLast": 1,
                  "bg": "bg_adv_21483.jpg",
@@ -113138,7 +113189,22 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "turnChangeIn": "fadeIn"
              },
              {
-@@ -809,21 +812,21 @@
+-                "autoTurnLast": 0.01,
+-                "deleteArmatureList": [
+-                    3
+-                ]
+-            },
+-            {
+-                "autoTurnLast": 0.01,
+-                "deleteArmatureList": [
+-                    4
+-                ]
+-            },
+-            {
+                 "armatureList": [
+                     {
+                         "animation": [
+@@ -809,21 +782,21 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113163,10 +113229,15 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 304000,
                          "motion": 0,
                          "pos": 2
-@@ -847,14 +850,6 @@
-                         "animation": [
-                             "action"
-                         ],
+@@ -842,32 +815,6 @@
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "armatureList": [
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
 -                        "armatureId": 1,
 -                        "filePath": "resource/image_native/effect/story/general/3501_vr_frame.ExportJson",
 -                        "zOrder": "messageBack"
@@ -113175,10 +113246,23 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
 -                        "animation": [
 -                            "action"
 -                        ],
-                         "armatureId": 3,
-                         "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
-                         "zOrder": "messageBack"
-@@ -890,21 +885,21 @@
+-                        "armatureId": 3,
+-                        "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
+-                        "zOrder": "messageBack"
+-                    },
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 4,
+-                        "filePath": "resource/image_native/effect/story/general/6000_snow_bgfront.ExportJson",
+-                        "zOrder": "bgFront"
+-                    }
+-                ],
+                 "autoTurnLast": 0.01,
+                 "bg": "bg_adv_19141.jpg",
+                 "deleteArmatureList": [
+@@ -890,21 +837,21 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113203,7 +113287,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
              },
              {
                  "autoTurnLast": 0.5,
-@@ -918,7 +913,7 @@
+@@ -918,7 +865,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113212,7 +113296,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "motion": 200
                      }
-@@ -930,7 +925,7 @@
+@@ -930,7 +877,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113221,7 +113305,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "motion": 201
                      }
-@@ -943,7 +938,7 @@
+@@ -943,12 +890,9 @@
                  "textClear": 1
              },
              {
@@ -113229,8 +113313,13 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
 +                "autoTurnLast": 1.3,
                  "bg": "bg_adv_16052.jpg",
                  "bgm": "stop",
-                 "deleteArmatureList": [
-@@ -957,21 +952,21 @@
+-                "deleteArmatureList": [
+-                    4
+-                ],
+                 "turnChangeIn": "whiteIn",
+                 "turnChangeInTime": 2
+             },
+@@ -957,29 +901,26 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113255,7 +113344,15 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 304200,
                          "motion": 0,
                          "pos": 2
-@@ -1007,7 +1002,7 @@
+                     }
+                 ],
+-                "deleteArmatureList": [
+-                    3
+-                ],
+                 "se": "6200_hit_explosion_01_vh"
+             },
+             {
+@@ -1007,7 +948,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113264,7 +113361,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 304200,
                          "motion": 400
                      }
-@@ -1087,7 +1082,7 @@
+@@ -1087,7 +1028,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 1,
@@ -113273,7 +113370,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "motion": 0,
                          "pos": 1
-@@ -1135,7 +1130,7 @@
+@@ -1135,7 +1076,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113282,7 +113379,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 100
-@@ -1154,7 +1149,7 @@
+@@ -1154,7 +1095,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113291,7 +113388,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 300
-@@ -1207,7 +1202,7 @@
+@@ -1207,7 +1148,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113300,7 +113397,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0
                      }
-@@ -1230,7 +1225,7 @@
+@@ -1230,7 +1171,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113309,7 +113406,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 101
-@@ -1265,7 +1260,7 @@
+@@ -1265,7 +1206,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 0,
@@ -113318,7 +113415,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 200
-@@ -1278,7 +1273,7 @@
+@@ -1278,7 +1219,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113327,7 +113424,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 1
-@@ -1302,7 +1297,7 @@
+@@ -1302,7 +1243,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 1,
@@ -113336,7 +113433,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120301,
                          "lipSynch": 0,
                          "motion": 300
-@@ -1318,7 +1313,7 @@
+@@ -1318,7 +1259,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 1,
@@ -113345,7 +113442,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "motion": 0,
                          "pos": 1
-@@ -1343,7 +1338,7 @@
+@@ -1343,7 +1284,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 0,
@@ -113354,7 +113451,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0
                      }
-@@ -1366,7 +1361,7 @@
+@@ -1366,7 +1307,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113363,7 +113460,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 300
-@@ -1418,7 +1413,6 @@
+@@ -1418,7 +1359,6 @@
  #BELLA=textCenter=SPINA#
              },
              {
@@ -113371,7 +113468,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "chara": [
                      {
                          "eyeClose": 1,
-@@ -1434,7 +1428,7 @@
+@@ -1434,7 +1374,7 @@
                      {
                          "cheek": 0,
                          "eyeClose": 0,
@@ -113380,7 +113477,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 200
-@@ -1445,6 +1439,7 @@
+@@ -1445,6 +1385,7 @@
              },
              {
                  "autoTurnLast": 0.5,
@@ -113388,7 +113485,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "flashEffect": "explosion",
                  "textClear": 1
              },
-@@ -1452,7 +1447,7 @@
+@@ -1452,7 +1393,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113397,7 +113494,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 0
-@@ -1472,7 +1467,7 @@
+@@ -1472,7 +1413,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113406,7 +113503,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "motion": 0,
                          "pos": 2
-@@ -1498,7 +1493,7 @@
+@@ -1498,7 +1439,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113415,7 +113512,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0
                      }
-@@ -1510,7 +1505,7 @@
+@@ -1510,7 +1451,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113424,7 +113521,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 300
-@@ -1533,7 +1528,7 @@
+@@ -1533,7 +1474,7 @@
                  "chara": [
                      {
                          "cheek": 0,
@@ -113433,7 +113530,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 0
-@@ -1562,6 +1557,20 @@
+@@ -1562,6 +1503,20 @@
                  "turnChangeOutTime": 1
              },
              {
@@ -113454,7 +113551,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
  #BELLA=nameNarration=SPINA#
  #BELLA=narration=SPINA#
                  "narrationAnchor": "bottom",
-@@ -1579,7 +1588,7 @@
+@@ -1579,7 +1534,7 @@
  #BELLA=narration=SPINA#
              },
              {
@@ -113463,7 +113560,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "narrationEffect": "out"
              },
              {
-@@ -1589,12 +1598,15 @@
+@@ -1589,12 +1544,15 @@
                      {
                          "cheek": 1,
                          "eyeClose": 1,
@@ -113480,7 +113577,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "item": [
                      {
                          "path": "resource/scenario/img/51119_storyselect_delivery/memoria_1104.jpg",
-@@ -1602,7 +1614,8 @@
+@@ -1602,7 +1560,8 @@
                      }
                  ],
                  "turnChangeIn": "whiteIn",
@@ -113490,7 +113587,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
              },
              {
                  "chara": [
-@@ -1662,7 +1675,7 @@
+@@ -1662,7 +1621,7 @@
                  "chara": [
                      {
                          "cheek": 1,
@@ -113499,7 +113596,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 0
-@@ -1675,7 +1688,7 @@
+@@ -1675,7 +1634,7 @@
                  "chara": [
                      {
                          "cheek": 1,
@@ -113508,7 +113605,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0
                      }
-@@ -1696,14 +1709,15 @@
+@@ -1696,14 +1655,15 @@
              {
                  "autoTurnLast": 0.2,
                  "flashEffect": "explosion",
@@ -113526,7 +113623,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                          "id": 120302,
                          "lipSynch": 0,
                          "motion": 300
-@@ -1713,7 +1727,7 @@
+@@ -1713,7 +1673,7 @@
  #BELLA=textCenter=SPINA#
              },
              {
@@ -113535,7 +113632,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "textClear": 1
              },
              {
-@@ -1722,7 +1736,11 @@
+@@ -1722,7 +1682,11 @@
                  "turnChangeInTime": 2
              },
              {
@@ -113548,7 +113645,7 @@ diff -ru en/scenario_5/511969-19_54dSn.json jp/scenario_5/511969-19_54dSn.json
                  "turnChangeInTime": 2,
                  "turnChangeOut": "whiteOut"
              },
-@@ -1737,7 +1755,7 @@
+@@ -1737,7 +1701,7 @@
                          "zOrder": "charaFront"
                      }
                  ],
@@ -117346,6 +117443,129 @@ diff -ru en/scenario_5/513919-19_ceiHF.json jp/scenario_5/513919-19_ceiHF.json
                      }
                  ],
  #BELLA=nameRight=SPINA#
+diff -ru en/scenario_5/515168-18_v12wo.json jp/scenario_5/515168-18_v12wo.json
+--- en/scenario_5/515168-18_v12wo.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/515168-18_v12wo.json	2017-03-17 18:39:13.000000000 +0800
+@@ -707,6 +707,27 @@
+                 "chara": [
+                     {
+                         "id": 304000,
++                        "motion": 400
++                    }
++                ],
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
++            },
++            {
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp3.json",
++                        "id": 304000
++                    }
++                ],
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
++            },
++            {
++                "chara": [
++                    {
++                        "id": 304000,
+                         "motion": 200
+                     }
+                 ],
+diff -ru en/scenario_5/515169-19_v12wo.json jp/scenario_5/515169-19_v12wo.json
+--- en/scenario_5/515169-19_v12wo.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/515169-19_v12wo.json	2017-03-17 18:39:13.000000000 +0800
+@@ -712,24 +712,6 @@
+ #BELLA=narration=SPINA#
+             },
+             {
+-                "armatureList": [
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 3,
+-                        "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
+-                        "zOrder": "messageBack"
+-                    },
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 4,
+-                        "filePath": "resource/image_native/effect/story/general/6000_snow_bgfront.ExportJson",
+-                        "zOrder": "bgFront"
+-                    }
+-                ],
+                 "autoTurnLast": 1,
+                 "bg": "bg_adv_24013.jpg",
+                 "chara": [
+@@ -786,18 +768,6 @@
+                 "turnChangeIn": "fadeIn"
+             },
+             {
+-                "autoTurnLast": 0.01,
+-                "deleteArmatureList": [
+-                    3
+-                ]
+-            },
+-            {
+-                "autoTurnLast": 0.01,
+-                "deleteArmatureList": [
+-                    4
+-                ]
+-            },
+-            {
+                 "armatureList": [
+                     {
+                         "animation": [
+@@ -845,24 +815,6 @@
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "armatureList": [
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 3,
+-                        "filePath": "resource/image_native/effect/story/general/3000_snow_messageback.ExportJson",
+-                        "zOrder": "messageBack"
+-                    },
+-                    {
+-                        "animation": [
+-                            "action"
+-                        ],
+-                        "armatureId": 4,
+-                        "filePath": "resource/image_native/effect/story/general/6000_snow_bgfront.ExportJson",
+-                        "zOrder": "bgFront"
+-                    }
+-                ],
+                 "autoTurnLast": 0.01,
+                 "bg": "bg_adv_19141.jpg",
+                 "deleteArmatureList": [
+@@ -941,9 +893,6 @@
+                 "autoTurnLast": 1.3,
+                 "bg": "bg_adv_16052.jpg",
+                 "bgm": "stop",
+-                "deleteArmatureList": [
+-                    4
+-                ],
+                 "turnChangeIn": "whiteIn",
+                 "turnChangeInTime": 2
+             },
+@@ -972,9 +921,6 @@
+                         "pos": 2
+                     }
+                 ],
+-                "deleteArmatureList": [
+-                    3
+-                ],
+                 "se": "6200_hit_explosion_01_vh"
+             },
+             {
 diff -ru en/scenario_6/603901-2_lo9Zw.json jp/scenario_6/603901-2_lo9Zw.json
 --- en/scenario_6/603901-2_lo9Zw.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_6/603901-2_lo9Zw.json	2017-03-17 18:39:13.000000000 +0800
