@@ -1,0 +1,419 @@
+--- en/scenario_1/102601-9_Hfpep.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/102601-9_Hfpep.json	2017-03-17 18:39:13.000000000 +0800
+@@ -21 +21 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -34 +34,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-1"
+@@ -57 +58,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-2"
+@@ -67 +69,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-3"
+@@ -78 +81,2 @@
+-                        "id": 103501
++                        "id": 103501,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-4"
+@@ -107 +111 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -122 +126 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -124 +128,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-5"
+@@ -156 +161 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -181 +186,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-6"
+@@ -202 +208 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_060.exp3.json",
+@@ -204,2 +210,2 @@
+-                        "lipSynch": 0,
+-                        "motion": 400
++                        "motion": 400,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-7"
+@@ -215 +221 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -218 +224,2 @@
+-                        "pos": 1
++                        "pos": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-8"
+@@ -238 +245 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -241 +248,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-9"
+@@ -245 +253 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -252 +260 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -264 +272,2 @@
+-                        "id": 304700
++                        "id": 304700,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-10"
+@@ -274 +283 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -277 +286,2 @@
+-                        "pos": 1
++                        "pos": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-11"
+@@ -287 +297,2 @@
+-                        "motion": 100
++                        "motion": 100,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-12"
+@@ -317 +328 @@
+-                "autoTurnLast": 1,
++                "autoTurnLast": 0.3,
+@@ -321,2 +332 @@
+-                        "effect": "7001_attack02",
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -324 +334 @@
+-                        "motion": 400,
++                        "motion": 0,
+@@ -329 +339 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -331 +341 @@
+-                        "motion": 200,
++                        "motion": 0,
+@@ -333,0 +344,14 @@
++                ]
++            },
++            {
++                "autoTurnLast": 1,
++                "chara": [
++                    {
++                        "effect": "7001_attack02",
++                        "id": 102800,
++                        "motion": 400
++                    },
++                    {
++                        "id": 102600,
++                        "motion": 200
++                    }
+@@ -342 +366 @@
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+@@ -345 +369,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-13"
+@@ -354 +379,2 @@
+-                        "id": 102600
++                        "id": 102600,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-14"
+@@ -364 +390,2 @@
+-                        "motion": 100
++                        "motion": 100,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-15"
+@@ -377 +404 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -380 +407,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-16"
+@@ -409 +437 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -412 +440,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-17"
+@@ -416 +445 @@
+-                        "face": "mtn_ex_012.exp.json",
++                        "face": "mtn_ex_012.exp3.json",
+@@ -429 +458,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-18"
+@@ -439 +469,2 @@
+-                        "motion": 100
++                        "motion": 100,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-19"
+@@ -468 +499 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -471 +502,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-20"
+@@ -475 +507 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -494,0 +527,4 @@
++                "autoTurnLast": 0.1,
++                "narrationEffect": "out"
++            },
++            {
+@@ -499 +535 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -501 +537,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-22"
+@@ -505 +541,0 @@
+-                "narrationEffect": "out",
+@@ -513 +549 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -516 +552,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-23"
+@@ -527 +564 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_060.exp3.json",
+@@ -530 +567,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-24"
+@@ -554 +592 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -557 +595,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-25"
+@@ -561 +600 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -574 +613 @@
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+@@ -576 +615,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-26"
+@@ -587 +627,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-27"
+@@ -597 +638 @@
+-                        "face": "mtn_ex_060.exp.json",
++                        "face": "mtn_ex_060.exp3.json",
+@@ -600 +641,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-28"
+@@ -610 +652 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -612 +654,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-29"
+@@ -622 +665,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-30"
+@@ -632 +676 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -635 +679,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-31"
+@@ -646 +691 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -648 +693,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-32"
+@@ -658 +704 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -661 +707,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-33"
+@@ -671 +718,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-34"
+@@ -681 +729 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -683 +731,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-35"
+@@ -693 +742 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -696 +745,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-36"
+@@ -706 +756,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-37"
+@@ -716 +767,2 @@
+-                        "motion": 1
++                        "motion": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-38"
+@@ -726 +778 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -728 +780,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-39"
+@@ -738 +791,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-40"
+@@ -748 +802 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -751 +805,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-41"
+@@ -761 +816,2 @@
+-                        "motion": 100
++                        "motion": 100,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-42"
+@@ -773 +829,2 @@
+-                        "motion": 1
++                        "motion": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-43"
+@@ -778,0 +836,6 @@
++                "chara": [
++                    {
++                        "id": 102800,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-44"
++                    }
++                ],
+@@ -783,0 +847,2 @@
++                        "cheek": 0,
++                        "face": "mtn_ex_011.exp3.json",
+@@ -785 +850,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-45"
+@@ -790,0 +857,4 @@
++                "autoTurnLast": 0.1,
++                "narrationEffect": "out"
++            },
++            {
+@@ -794 +864,2 @@
+-                        "lipSynch": 0
++                        "lipSynch": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-46"
+@@ -798 +868,0 @@
+-                "narrationEffect": "out",
+@@ -803,0 +874,2 @@
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp3.json",
+@@ -805 +877,2 @@
+-                        "motion": 300
++                        "motion": 300,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-47"
+@@ -814 +887,2 @@
+-                        "id": 102800
++                        "id": 102800,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-48"
+@@ -824 +898 @@
+-                        "face": "mtn_ex_011.exp.json",
++                        "face": "mtn_ex_011.exp3.json",
+@@ -827 +901,2 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-49"
+@@ -837 +912 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -839 +914,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-50"
+@@ -849 +925,2 @@
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-51"
+@@ -859 +936 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -862 +939,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-52"
+@@ -891 +969 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -895 +973,2 @@
+-                        "pos": 1
++                        "pos": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-53"
+@@ -922 +1001 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -934 +1013 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -937 +1016,2 @@
+-                        "pos": 1
++                        "pos": 1,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-54"
+@@ -958 +1038 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -961 +1041,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-55"
+@@ -972 +1053,2 @@
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-56"
+@@ -985,0 +1068,4 @@
++                "autoTurnLast": 0.1,
++                "narrationEffect": "out"
++            },
++            {
+@@ -989 +1075 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -992 +1078,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-58"
+@@ -996 +1082,0 @@
+-                "narrationEffect": "out",
+@@ -1003 +1089 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -1006 +1092,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-59"
+@@ -1016 +1103 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -1019 +1106,2 @@
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102601/vo_full_102601-9-60"

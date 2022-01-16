@@ -50,15 +50,15 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
   1398 only_jp
   5854 comparable
     42 same
-  4939 perfect
-   915 outdated
-    13 invalid
-   660 valid
+  4924 perfect
+   930 outdated
+    19 invalid
+   669 valid
 ```
 ```c
-1760 onepiece-nocommon.patch
-3144 onepiece-rfc6902.json
-1668 onepiece-sbs.diff
-1596 onepiece.diff
-3688 onepiece.patch
+1992 onepiece-nocommon.patch
+3512 onepiece-rfc6902.json
+1884 onepiece-sbs.diff
+1828 onepiece.diff
+4092 onepiece.patch
 ```
