@@ -41,24 +41,24 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 ```asm
      0 broken_en
      0 bom_en
-  5981 all_en
+  5986 all_en
   7368 all_jp
   2992 all_na
-  2748 same_na
-   244 changed_na
+  2746 same_na
+   246 changed_na
      7 only_en
-  1394 only_jp
-  5974 comparable
+  1389 only_jp
+  5979 comparable
     42 same
-  5063 perfect
-   911 outdated
+  5064 perfect
+   915 outdated
     13 invalid
-   660 valid
+   663 valid
 ```
 ```c
-1736 onepiece-nocommon.patch
-3044 onepiece-rfc6902.json
-1648 onepiece-sbs.diff
-1576 onepiece.diff
-3632 onepiece.patch
+1752 onepiece-nocommon.patch
+3064 onepiece-rfc6902.json
+1664 onepiece-sbs.diff
+1592 onepiece.diff
+3672 onepiece.patch
 ```
