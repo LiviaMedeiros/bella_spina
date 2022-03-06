@@ -1,0 +1,361 @@
+--- en/scenario_1/102703-6_yKMiv.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/102703-6_yKMiv.json	2017-03-17 18:39:13.000000000 +0800
+@@ -7,14 +7,14 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100100,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_051.exp.json",
++                        "face": "mtn_ex_051.exp3.json",
+                         "id": 100200,
+                         "motion": 0,
+                         "pos": 2
+@@ -42,18 +42,18 @@
+                 "textClear": 1
+             },
+             {
+-                "autoTurnLast": 1.5,
++                "autoTurnLast": 2,
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100400,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 101500,
+                         "motion": 0,
+                         "pos": 2
+@@ -76,18 +76,18 @@
+                 "textClear": 1
+             },
+             {
+-                "autoTurnLast": 1.5,
++                "autoTurnLast": 2,
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 302800,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 301100,
+                         "motion": 0,
+                         "pos": 2
+@@ -99,11 +99,12 @@
+                 "chara": [
+                     {
+                         "cheek": 2,
+-                        "face": "mtn_ex_031.exp.json",
++                        "face": "mtn_ex_031.exp3.json",
+                         "id": 100500,
+                         "motion": 300,
+                         "pos": 0,
+-                        "tear": 1
++                        "tear": 1,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-1"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -113,7 +114,8 @@
+                 "chara": [
+                     {
+                         "id": 301100,
+-                        "motion": 400
++                        "motion": 400,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-2"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -123,10 +125,11 @@
+                 "chara": [
+                     {
+                         "cheek": 2,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100500,
+                         "motion": 0,
+-                        "tear": 1
++                        "tear": 1,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-3"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -135,7 +138,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 100500
++                        "id": 100500,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-4"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -144,8 +148,8 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 1,
+-                        "face": "mtn_ex_020.exp.json",
++                        "cheek": 2,
++                        "face": "mtn_ex_021.exp3.json",
+                         "id": 100300,
+                         "motion": 200,
+                         "pos": 2
+@@ -157,23 +161,27 @@
+                 "narrationEffect": "in"
+             },
+             {
++                "autoTurnLast": 0.1,
++                "narrationEffect": "out"
++            },
++            {
+                 "chara": [
+                     {
+                         "cheek": 2,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 100500,
+-                        "motion": 0
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-6"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+-                "narrationEffect": "out",
+ #BELLA=textLeft=SPINA#
+             },
+             {
+                 "chara": [
+                     {
+                         "id": 100300,
+-                        "motion": 0
++                        "motion": 0,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-7"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -182,7 +190,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 100300
++                        "id": 100300,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-8"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -191,10 +200,9 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
+                         "id": 100300,
+-                        "motion": 101
++                        "motion": 101,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-9"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -203,7 +211,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 100300
++                        "id": 100300,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-10"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -212,10 +221,9 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 1,
+-                        "face": "mtn_ex_020.exp.json",
+                         "id": 100300,
+-                        "motion": 100
++                        "motion": 100,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-11"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -225,7 +233,8 @@
+                 "chara": [
+                     {
+                         "id": 100300,
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-12"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -235,10 +244,11 @@
+                 "chara": [
+                     {
+                         "cheek": 2,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100300,
+                         "motion": 300,
+-                        "mouthOpen": 1
++                        "mouthOpen": 0,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-13"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -248,8 +258,9 @@
+                 "chara": [
+                     {
+                         "cheek": 2,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 100500
++                        "face": "mtn_ex_030.exp3.json",
++                        "id": 100500,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-14"
+                     },
+                     {
+                         "id": 100300,
+@@ -264,9 +275,10 @@
+                     {
+                         "cheek": 2,
+                         "effect": "ef_adv_08",
+-                        "face": "mtn_ex_031.exp.json",
++                        "face": "mtn_ex_031.exp3.json",
+                         "id": 100500,
+-                        "motion": 200
++                        "motion": 200,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-15"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -275,11 +287,12 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_052.exp.json",
++                        "cheek": 2,
++                        "face": "mtn_ex_052.exp3.json",
+                         "id": 100300,
+                         "motion": 0,
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-16"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -289,22 +302,23 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_021.exp.json",
++                        "face": "mtn_ex_021.exp3.json",
+                         "id": 100200,
+                         "motion": 201,
+-                        "pos": 0
++                        "pos": 0,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-17"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+ #BELLA=textLeft=SPINA#
+             },
+             {
+-                "autoTurnLast": 0.5,
++                "autoTurnLast": 1,
+                 "flashEffect": "explosion",
+                 "textClear": 1
+             },
+             {
+-                "autoTurnLast": 0.01,
++                "autoTurnLast": 0.5,
+                 "item": [
+                     {
+                         "path": "resource/scenario/img/part2_chapter6/102703_felicia_doppel.png",
+@@ -318,12 +332,12 @@
+                 "turnEffect": "blackPromist"
+             },
+             {
+-                "autoTurnLast": 2,
++                "autoTurnLast": 2.5,
+                 "textClear": 1,
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "autoTurnLast": 0.2,
++                "autoTurnLast": 1,
+                 "item": [
+                     {
+                         "path": "resource/scenario/img/part2_chapter6/102703_felicia_doppel.png",
+@@ -336,14 +350,15 @@
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100200,
+                         "motion": 0,
+-                        "pos": 2
++                        "pos": 2,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-19"
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_052.exp.json",
++                        "face": "mtn_ex_052.exp3.json",
+                         "id": 100100,
+                         "motion": 0,
+                         "pos": 0
+@@ -357,7 +372,8 @@
+                     {
+                         "eyeClose": 1,
+                         "id": 100200,
+-                        "motion": 300
++                        "motion": 300,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-20"
+                     }
+                 ],
+ #BELLA=nameRight=SPINA#
+@@ -367,9 +383,10 @@
+                 "chara": [
+                     {
+                         "cheek": 1,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 100100,
+-                        "motion": 301
++                        "motion": 301,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-21"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#
+@@ -380,7 +397,8 @@
+                     {
+                         "cheek": 1,
+                         "eyeClose": 1,
+-                        "id": 100100
++                        "id": 100100,
++                        "voiceFullAuto": "fullvoice/section_102703/vo_full_102703-6-22"
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#

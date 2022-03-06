@@ -1,0 +1,540 @@
+11c11
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+24c24,25
+<                         "motion": 400
+---
+>                         "motion": 400,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-1"
+42c43
+<                 "autoTurnLast": 0.5,
+---
+>                 "autoTurnLast": 0.2,
+46,47c47
+<                         "effect": "7000_attack01",
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+53d52
+<                 "surround": "1023A01",
+56a56,65
+>                 "autoTurnLast": 0.5,
+>                 "chara": [
+>                     {
+>                         "effect": "7000_attack01",
+>                         "id": 101600
+>                     }
+>                 ],
+>                 "surround": "1023A01"
+>             },
+>             {
+62c71
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
+75c84
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+77c86,87
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-2"
+89c99
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+106c116
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+113a124
+>                 "autoTurnLast": 0.2,
+118c129
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+121c132,133
+<                         "pos": 1
+---
+>                         "pos": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-3"
+131c143
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
+133,134c145,147
+<                         "lipSynch": 0,
+<                         "motion": 300
+---
+>                         "lipSynch": 1,
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-4"
+145c158,159
+<                         "posX": 70
+---
+>                         "posX": 70,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-5"
+151a166
+>                 "autoTurnLast": 3,
+155c170
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+157,158c172,173
+<                         "motion": 100,
+<                         "pos": 2
+---
+>                         "pos": 2,
+>                         "voiceFull": "fullvoice/section_102704/vo_full_102704-3-6"
+160a176
+>                 "enableSkipAutoTurn": 1,
+164a181,194
+>                 "autoTurnLast": 0.5,
+>                 "chara": [
+>                     {
+>                         "id": 102300,
+>                         "motion": 200
+>                     },
+>                     {
+>                         "effect": "7001_attack02",
+>                         "id": 101600
+>                     }
+>                 ],
+>                 "surround": "1023A01"
+>             },
+>             {
+178c208
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
+181c211,213
+<                         "pos": 0
+---
+>                         "pos": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-7",
+>                         "voiceFullStop": "fullvoice/section_102704/vo_full_102704-3-6"
+183a216
+>                 "enableSkipAutoTurn": 0,
+192c225
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+194c227,228
+<                         "motion": 300
+---
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-8"
+204c238,239
+<                         "id": 101600
+---
+>                         "id": 101600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-9"
+214c249
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+216c251,252
+<                         "motion": 200
+---
+>                         "motion": 200,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-10"
+227c263,264
+<                         "motion": 300
+---
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-11"
+237c274,276
+<                         "id": 102300
+---
+>                         "id": 102300,
+>                         "motion": 100,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-12"
+243a283
+>                 "autoTurnLast": 1,
+247c287,288
+<                         "motion": 200
+---
+>                         "motion": 0,
+>                         "voiceFull": "fullvoice/section_102704/vo_full_102704-3-13"
+249a291
+>                 "enableSkipAutoTurn": 1,
+253a296,324
+>                 "autoTurnLast": 1.3,
+>                 "chara": [
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp3.json",
+>                         "id": 102300
+>                     }
+>                 ]
+>             },
+>             {
+>                 "autoTurnLast": 1.5,
+>                 "chara": [
+>                     {
+>                         "id": 102300,
+>                         "motion": 200
+>                     },
+>                     {
+>                         "effect": "7001_attack02",
+>                         "id": 101600
+>                     }
+>                 ],
+>                 "surround": "1023A03"
+>             },
+>             {
+>                 "autoTurnLast": 0.2,
+>                 "enableSkipAutoTurn": 0
+>             },
+>             {
+>                 "autoTurnLast": 3,
+257c328,329
+<                         "motion": 400
+---
+>                         "voiceFull": "fullvoice/section_102704/vo_full_102704-3-14",
+>                         "voiceFullStop": "fullvoice/section_102704/vo_full_102704-3-13"
+259a332
+>                 "enableSkipAutoTurn": 1,
+263a337,350
+>                 "autoTurnLast": 0.5,
+>                 "chara": [
+>                     {
+>                         "id": 101600,
+>                         "motion": 400
+>                     },
+>                     {
+>                         "effect": "7001_attack02",
+>                         "id": 102300
+>                     }
+>                 ],
+>                 "surround": "1023A03"
+>             },
+>             {
+267c354
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
+269c356,358
+<                         "motion": 400
+---
+>                         "motion": 400,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-15",
+>                         "voiceFullStop": "fullvoice/section_102704/vo_full_102704-3-14"
+271a361
+>                 "enableSkipAutoTurn": 0,
+280c370
+<                         "face": "mtn_ex_031.exp.json",
+---
+>                         "face": "mtn_ex_031.exp3.json",
+282c372,373
+<                         "pos": 2
+---
+>                         "pos": 2,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-16"
+292c383,384
+<                         "motion": 200
+---
+>                         "motion": 200,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-17"
+302c394
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+304c396,397
+<                         "motion": 100
+---
+>                         "motion": 100,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-18"
+314c407
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+318c411,412
+<                         "pos": 0
+---
+>                         "pos": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-19"
+339c433,434
+<                         "id": 101600
+---
+>                         "id": 101600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-20"
+352c447
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+360c455
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+372c467,468
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-21"
+382c478,479
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-22"
+391c488,489
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-23"
+400c498,499
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-24"
+410c509
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+412c511,512
+<                         "motion": 0
+---
+>                         "motion": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-25"
+422,423c522,524
+<                         "face": "mtn_ex_050.exp.json",
+<                         "id": 102001
+---
+>                         "face": "mtn_ex_050.exp3.json",
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-26"
+433c534,535
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-27"
+442c544,545
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-28"
+452c555
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+454c557,558
+<                         "motion": 300
+---
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-29"
+464c568,569
+<                         "motion": 200
+---
+>                         "motion": 200,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-30"
+473c578,579
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-31"
+483c589,590
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-32"
+492c599,600
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-33"
+502c610
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+504c612,613
+<                         "motion": 300
+---
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-34"
+513c622,623
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-35"
+522c632,633
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-36"
+532c643,644
+<                         "motion": 200
+---
+>                         "motion": 200,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-37"
+542c654
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+544c656,657
+<                         "motion": 0
+---
+>                         "motion": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-38"
+554c667,668
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-39"
+564c678
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+566c680,681
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-40"
+576c691,692
+<                         "motion": 0
+---
+>                         "motion": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-41"
+585c701,702
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-42"
+594c711,712
+<                         "id": 103600
+---
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-43"
+603c721,722
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-44"
+613c732,733
+<                         "motion": 100
+---
+>                         "motion": 100,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-45"
+622c742,743
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-46"
+631c752,753
+<                         "id": 102001
+---
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-47"
+641c763,764
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-48"
+651,652c774,776
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 102001
+---
+>                         "face": "mtn_ex_010.exp3.json",
+>                         "id": 102001,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-49"
+664c788
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+681c805
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+689c813
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+697c821
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+710c834,835
+<                         "motion": 400
+---
+>                         "motion": 400,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-50"
+721c846,847
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-51"
+731c857
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+733c859,860
+<                         "motion": 300
+---
+>                         "motion": 300,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-52"
+743c870
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+745c872
+<                         "motion": 200
+---
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-53"
+765c892
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+767,768c894,896
+<                         "lipSynch": 0,
+<                         "motion": 400
+---
+>                         "lipSynch": 1,
+>                         "motion": 400,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-55"
+778,779c906,908
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 103600
+---
+>                         "face": "mtn_ex_030.exp3.json",
+>                         "id": 103600,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-56"
+789c918,919
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-57"
+816c946,947
+<                         "soulGem": 0
+---
+>                         "soulGem": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-58"
+826c957
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+829c960,961
+<                         "motion": 200
+---
+>                         "motion": 200,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-59"
+839c971,972
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-60"
+849c982
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+852c985,986
+<                         "motion": 1
+---
+>                         "motion": 1,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-61"
+862c996,997
+<                         "lipSynch": 0
+---
+>                         "lipSynch": 0,
+>                         "voiceFullAuto": "fullvoice/section_102704/vo_full_102704-3-62"
