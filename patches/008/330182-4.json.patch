@@ -1,0 +1,211 @@
+--- en/scenario_3/330182-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330182-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -7,15 +7,15 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_000.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+                         "id": 301800,
+                         "motion": 0,
+                         "pos": 0
+                     },
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
+-                        "id": 800300,
++                        "face": "mtn_ex_030.exp3.json",
++                        "id": 104400,
+                         "motion": 0,
+                         "pos": 2
+                     }
+@@ -23,19 +23,33 @@
+                 "turnChangeIn": "fadeIn"
+             },
+             {
+-                "autoTurnLast": 1,
++                "autoTurnLast": 0.3,
+                 "chara": [
+                     {
+                         "cheek": 0,
+                         "effect": "ef_adv_05",
+-                        "face": "mtn_ex_000.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+                         "id": 301801,
+                         "motion": 0,
+                         "pos": 0
+                     }
+                 ],
+                 "se": "7205_magic_girl",
+-                "textClear": 1,
++                "turnChangeOut": "fadeOut"
++            },
++            {
++                "autoTurnLast": 0.3,
++                "chara": [
++                    {
++                        "cheek": 0,
++                        "effect": "ef_adv_05",
++                        "face": "mtn_ex_030.exp3.json",
++                        "id": 104401,
++                        "motion": 0,
++                        "pos": 2
++                    }
++                ],
++                "se": "7205_magic_girl",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -52,7 +66,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 301801
+                     }
+                 ],
+@@ -69,7 +83,7 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300,
++                        "id": 104401,
+                         "lipSynch": 0
+                     }
+                 ],
+@@ -104,7 +118,7 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300,
++                        "id": 104401,
+                         "lipSynch": 0
+                     }
+                 ],
+@@ -122,7 +136,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "id": 104401,
++                        "motion": 300
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -131,7 +146,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+                         "id": 301801
+                     }
+                 ],
+@@ -140,7 +155,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "id": 104401,
++                        "motion": 0
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -159,7 +175,10 @@
+                 "bgm": "bgm05_event08",
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "effect": "ef_adv_08",
++                        "eyeClose": 1,
++                        "id": 104401,
++                        "mouthOpen": 1
+                     }
+                 ],
+                 "textBg": "shout",
+@@ -169,6 +188,10 @@
+                 "chara": [
+                     {
+                         "id": 301801
++                    },
++                    {
++                        "id": 104401,
++                        "mouthOpen": 0
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#
+@@ -176,7 +199,10 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "eyeClose": 1,
++                        "id": 104401,
++                        "motion": 300,
++                        "mouthOpen": 0
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -184,7 +210,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "eyeClose": 1,
++                        "id": 104401
+                     }
+                 ],
+                 "textBg": "shout",
+@@ -203,10 +230,6 @@
+                 "chara": [
+                     {
+                         "id": 301801
+-                    },
+-                    {
+-                        "effect": "ef_adv_08",
+-                        "id": 800300
+                     }
+                 ],
+ #BELLA=textLeft=SPINA#
+@@ -224,7 +247,8 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "eyeClose": 1,
++                        "id": 104401
+                     }
+                 ],
+ #BELLA=textRight=SPINA#
+@@ -234,7 +258,7 @@
+                 "chara": [
+                     {
+                         "cheek": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 301801
+                     }
+                 ],
+@@ -243,9 +267,11 @@
+             {
+                 "chara": [
+                     {
+-                        "id": 800300
++                        "eyeClose": 0,
++                        "id": 104401
+                     }
+                 ],
++#BELLA=nameRight=SPINA#
+ #BELLA=textRight=SPINA#
+             },
+             {
+@@ -281,7 +307,7 @@
+                     {
+                         "cheek": 0,
+                         "eyeClose": 0,
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+                         "id": 301801,
+                         "motion": 1,
+                         "pos": 1,

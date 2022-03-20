@@ -1,10 +1,44 @@
 --- en/scenario_5/506512-4_S2bQ5.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506512-4_S2bQ5.json	2017-03-17 18:39:13.000000000 +0800
+@@ -47 +47 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -54 +54 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -96 +96 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -109 +109 @@
+-                        "face": "mtn_ex_000.exp.json",
++                        "face": "mtn_ex_000.exp3.json",
+@@ -116 +116 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -140 +140 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -178 +178 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -185 +185 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -239 +239 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -246 +246 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -295 +295 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
 @@ -351 +351 @@
 -                "autoTurnLast": 0.01,
 +                "autoTurnLast": 0.1,
-@@ -355 +355,27 @@
+@@ -355,2 +355,28 @@
 -                "autoTurnLast": 1.6,
+-                "bg": "bg_adv_20081.jpg",
 +                "armatureList": [
 +                    {
 +                        "animation": [
@@ -32,6 +66,10 @@
 +            },
 +            {
 +                "autoTurnLast": 2,
++                "bg": "bg_adv_31121.jpg",
+@@ -361 +387 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
 @@ -381,0 +408,13 @@
 +                "deleteArmatureList": [
 +                    1
@@ -46,44 +84,25 @@
 +            },
 +            {
 +                "autoTurnLast": 0.01,
+@@ -385 +424 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -392 +431 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
 @@ -399,3 +438,2 @@
 -                    1
 -                ],
 -                "turnChangeIn": "rollInFast"
 +                    3
 +                ]
+@@ -430 +468 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
 @@ -444 +482 @@
 -                        "armatureId": 2,
 +                        "armatureId": 1,
-@@ -449 +487 @@
--                "autoTurnLast": 0.01
-+                "autoTurnLast": 0.1
-@@ -471 +509 @@
--                    2
-+                    1
-@@ -482 +520 @@
--                        "pos": 0
-+                        "pos": 2
-@@ -490 +528 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -493,2 +531,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -507 +545 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -522,2 +560,2 @@
--#BELLA=nameLeft=SPINA#
--#BELLA=textLeft=SPINA#
-+#BELLA=nameRight=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -545 +583 @@
--                        "armatureId": 3,
-+                        "armatureId": 1,
-@@ -550 +588,27 @@
+@@ -449 +487,27 @@
 -                "autoTurnLast": 0.01
 +                "autoTurnLast": 0.1
 +            },
@@ -112,10 +131,89 @@
 +                    }
 +                ],
 +                "autoTurnLast": 0.1
-@@ -564 +628 @@
+@@ -471 +535 @@
+-                    2
++                    1
+@@ -475,0 +540,12 @@
++                "autoTurnLast": 0.1,
++                "deleteArmatureList": [
++                    2
++                ]
++            },
++            {
++                "autoTurnLast": 0.1,
++                "deleteArmatureList": [
++                    3
++                ]
++            },
++            {
+@@ -479 +555 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -482 +558 @@
+-                        "pos": 0
++                        "pos": 2
+@@ -486 +562 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -490 +566 @@
+-                        "pos": 2
++                        "pos": 0
+@@ -493,2 +569,2 @@
+-#BELLA=nameRight=SPINA#
+-#BELLA=textRight=SPINA#
++#BELLA=nameLeft=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -500 +576 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -507 +583 @@
+-#BELLA=textRight=SPINA#
++#BELLA=textLeft=SPINA#
+@@ -522,2 +598,2 @@
+-#BELLA=nameLeft=SPINA#
+-#BELLA=textLeft=SPINA#
++#BELLA=nameRight=SPINA#
++#BELLA=textRight=SPINA#
+@@ -531 +607 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -545 +621 @@
+-                        "armatureId": 3,
++                        "armatureId": 1,
+@@ -550 +626,27 @@
+-                "autoTurnLast": 0.01
++                "autoTurnLast": 0.1
++            },
++            {
++                "armatureList": [
++                    {
++                        "animation": [
++                            "action"
++                        ],
++                        "armatureId": 2,
++                        "filePath": "resource/image_native/effect/story/general/3004_sparks.ExportJson",
++                        "zOrder": "messageBack"
++                    }
++                ],
++                "autoTurnLast": 0.1
++            },
++            {
++                "armatureList": [
++                    {
++                        "animation": [
++                            "action"
++                        ],
++                        "armatureId": 3,
++                        "filePath": "resource/image_native/effect/story/general/6002_sparks.ExportJson",
++                        "zOrder": "bgFront"
++                    }
++                ],
++                "autoTurnLast": 0.1
+@@ -564 +666 @@
 -                "autoTurnLast": 1.3,
 +                "autoTurnLast": 0.1,
-@@ -568 +632,19 @@
+@@ -568 +670,19 @@
 -                "autoTurnLast": 1,
 +                "autoTurnLast": 0.01,
 +                "turnChangeIn": "whiteIn",
@@ -136,9 +234,45 @@
 +            },
 +            {
 +                "autoTurnLast": 1.5,
-@@ -589,4 +671 @@
+@@ -573 +693 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -581 +701 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -589,4 +709 @@
 -                ],
 -                "turnChangeIn": "whiteIn",
 -                "turnChangeInTime": 1,
 -                "turnEffect": "stop"
 +                ]
+@@ -611 +728 @@
+-                        "face": "mtn_ex_031.exp.json",
++                        "face": "mtn_ex_031.exp3.json",
+@@ -621 +738 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -643 +760 @@
+-                        "face": "mtn_ex_020.exp.json",
++                        "face": "mtn_ex_020.exp3.json",
+@@ -668 +785 @@
+-                        "face": "mtn_ex_010.exp.json",
++                        "face": "mtn_ex_010.exp3.json",
+@@ -730 +847 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -744 +861 @@
+-                        "face": "mtn_ex_050.exp.json",
++                        "face": "mtn_ex_050.exp3.json",
+@@ -765 +882 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -816 +933 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -824 +941 @@
+-                        "face": "mtn_ex_030.exp.json",
++                        "face": "mtn_ex_030.exp3.json",
+@@ -858 +975 @@
+-                        "face": "mtn_ex_031.exp.json",
++                        "face": "mtn_ex_031.exp3.json",
