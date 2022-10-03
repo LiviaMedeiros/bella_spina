@@ -530,14 +530,11 @@ diff -r en/scenario_1/102504-18_lDVQb.json jp/scenario_1/102504-18_lDVQb.json
 <                 "narrationFontSize": 30,
 <                 "narrationLineMargin": 15,
 <                 "narrationLineSpace": 5,
-614,620d606
-< #BELLA=narration=SPINA#
-<                 "narrationAnchor": "bottom",
-<                 "narrationCoverOpacity": 0,
-<                 "narrationEffect": "in",
-<                 "narrationFontSize": 30,
-<                 "narrationLineMargin": 0.1,
-<                 "narrationLineSpace": 0.1,
+614,615c607
+<                 "turnChangeOut": "fadeOut",
+<                 "narrationEffect": "out"
+---
+>                 "turnChangeOut": "fadeOut"
 diff -r en/scenario_1/102601-18_Hfpep.json jp/scenario_1/102601-18_Hfpep.json
 1063d1062
 <                 "enableSkipAutoTurn": 1,
@@ -13886,6 +13883,70 @@ diff -r en/scenario_3/310193-4.json jp/scenario_3/310193-4.json
 <                 "bg": "bg_adv_21291.jpg",
 ---
 >                 "bg": "bg_adv_16111.jpg",
+diff -r en/scenario_3/310241-1.json jp/scenario_3/310241-1.json
+277,292d276
+<                         "effect": "fadeout",
+<                         "id": 302101
+<                     },
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 304401
+<                     }
+<                 ],
+< #BELLA=nameNarration=SPINA#
+< #BELLA=narration=SPINA#
+<                 "narrationBg": "bg_adv_16133.jpg",
+<                 "narrationEffect": "in"
+<             },
+<             {
+<                 "chara": [
+<                     {
+304a289,299
+>                     }
+>                 ],
+> #BELLA=nameNarration=SPINA#
+> #BELLA=narration=SPINA#
+>                 "narrationBg": "bg_adv_16133.jpg",
+>                 "narrationEffect": "in"
+>             },
+>             {
+>                 "chara": [
+>                     {
+>                         "id": 102401
+diff -r en/scenario_3/310242-1.json jp/scenario_3/310242-1.json
+251,252c251,255
+<                         "effect": "fadeout",
+<                         "id": 800300
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 102401,
+>                         "motion": 0,
+>                         "pos": 2
+255,256c258,262
+<                         "effect": "fadeout",
+<                         "id": 800600
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 800300,
+>                         "motion": 0,
+>                         "pos": 0
+267,268d272
+<                         "cheek": 0,
+<                         "face": "mtn_ex_020.exp.json",
+271,279c275
+<                         "motion": 300,
+<                         "pos": 2
+<                     },
+<                     {
+<                         "cheek": 0,
+<                         "face": "mtn_ex_020.exp.json",
+<                         "id": 800300,
+<                         "motion": 0,
+<                         "pos": 0
+---
+>                         "motion": 300
 diff -r en/scenario_3/310372-3.json jp/scenario_3/310372-3.json
 11c11
 <                         "face": "mtn_ex_050.exp.json",

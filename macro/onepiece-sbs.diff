@@ -277,13 +277,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_1/102504-18_lDVQb.jso
                 "narrationFontSize": 30,				  <
                 "narrationLineMargin": 15,				  <
                 "narrationLineSpace": 5,				  <
-#BELLA=narration=SPINA#							  <
-                "narrationAnchor": "bottom",				  <
-                "narrationCoverOpacity": 0,				  <
-                "narrationEffect": "in",				  <
-                "narrationFontSize": 30,				  <
-                "narrationLineMargin": 0.1,				  <
-                "narrationLineSpace": 0.1,				  <
+                "turnChangeOut": "fadeOut",				  |	                "turnChangeOut": "fadeOut"
+                "narrationEffect": "out"				  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/102601-18_Hfpep.json jp/scenario_1/102601-18_Hfpep.json
                 "enableSkipAutoTurn": 1,				  <
                 "enableSkipAutoTurn": 0,				  <
@@ -7281,6 +7276,56 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/310193-3.json jp/sc
                 "bg": "bg_adv_21291.jpg",				  |	                "bg": "bg_adv_16111.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310193-4.json jp/scenario_3/310193-4.json
                 "bg": "bg_adv_21291.jpg",				  |	                "bg": "bg_adv_16111.jpg",
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/310241-1.json jp/scenario_3/310241-1.json
+                        "effect": "fadeout",				  <
+                        "id": 302101					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 304401					  <
+                    }							  <
+                ],							  <
+#BELLA=nameNarration=SPINA#						  <
+#BELLA=narration=SPINA#							  <
+                "narrationBg": "bg_adv_16133.jpg",			  <
+                "narrationEffect": "in"					  <
+            },								  <
+            {								  <
+                "chara": [						  <
+                    {							  <
+									  >	                    }
+									  >	                ],
+									  >	#BELLA=nameNarration=SPINA#
+									  >	#BELLA=narration=SPINA#
+									  >	                "narrationBg": "bg_adv_16133.jpg",
+									  >	                "narrationEffect": "in"
+									  >	            },
+									  >	            {
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "id": 102401
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/310242-1.json jp/scenario_3/310242-1.json
+                        "effect": "fadeout",				  |	                        "cheek": 0,
+                        "id": 800300					  |	                        "face": "mtn_ex_020.exp.json",
+									  >	                        "id": 102401,
+									  >	                        "motion": 0,
+									  >	                        "pos": 2
+                        "effect": "fadeout",				  |	                        "cheek": 0,
+                        "id": 800600					  |	                        "face": "mtn_ex_020.exp.json",
+									  >	                        "id": 800300,
+									  >	                        "motion": 0,
+									  >	                        "pos": 0
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_020.exp.json",			  <
+                        "motion": 300,					  |	                        "motion": 300
+                        "pos": 2					  <
+                    },							  <
+                    {							  <
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_020.exp.json",			  <
+                        "id": 800300,					  <
+                        "motion": 0,					  <
+                        "pos": 0					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310372-3.json jp/scenario_3/310372-3.json
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
