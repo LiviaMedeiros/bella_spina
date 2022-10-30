@@ -13734,6 +13734,117 @@ diff -r en/scenario_3/310153-3.json jp/scenario_3/310153-3.json
 <                         "id": 101403,
 ---
 >                         "id": 101471,
+diff -r en/scenario_3/310161-4.json jp/scenario_3/310161-4.json
+144,145c144,145
+<                         "face": "mtn_ex_010.exp.json",
+<                         "id": 800500,
+---
+>                         "face": "mtn_ex_011.exp.json",
+>                         "id": 832400,
+190c190,191
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 200
+209c210,211
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 1
+228c230,231
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 300
+251c254,255
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 0
+271c275
+<                         "id": 800500
+---
+>                         "id": 832400
+332c336
+<                         "id": 800500,
+---
+>                         "id": 832400,
+376c380,381
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 1
+385c390
+<                         "id": 800500
+---
+>                         "id": 832400
+404c409,410
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 200
+414c420
+<                         "id": 800500
+---
+>                         "id": 832400
+430c436,437
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 0
+448c455
+<                         "id": 800500
+---
+>                         "id": 832400
+462c469
+<                         "id": 800500
+---
+>                         "id": 832400
+diff -r en/scenario_3/310162-3.json jp/scenario_3/310162-3.json
+10c10
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+517,518c517,518
+<                         "id": 800500,
+<                         "motion": 0,
+---
+>                         "id": 832400,
+>                         "motion": 1,
+527c527
+<                         "id": 800500
+---
+>                         "id": 832400
+diff -r en/scenario_3/310163-2.json jp/scenario_3/310163-2.json
+10c10
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+17c17
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+155,156c155,156
+<                         "id": 800500,
+<                         "motion": 0,
+---
+>                         "id": 832400,
+>                         "motion": 1,
+165c165
+<                         "id": 800500
+---
+>                         "id": 832400
+diff -r en/scenario_3/310163-3.json jp/scenario_3/310163-3.json
+407,408c407,408
+<                         "id": 800500,
+<                         "motion": 0,
+---
+>                         "id": 832400,
+>                         "motion": 1,
+417c417
+<                         "id": 800500
+---
+>                         "id": 832400
 diff -r en/scenario_3/310182-2.json jp/scenario_3/310182-2.json
 10c10
 <                         "face": "mtn_ex_030.exp.json",
@@ -15602,6 +15713,40 @@ diff -r en/scenario_3/311161-2.json jp/scenario_3/311161-2.json
 < #BELLA=textLeft=SPINA#
 <             },
 <             {
+diff -r en/scenario_3/311161-4.json jp/scenario_3/311161-4.json
+11c11
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+186,187c186,187
+<                         "id": 800500,
+<                         "motion": 0,
+---
+>                         "id": 832400,
+>                         "motion": 1,
+210c210,211
+<                         "id": 800500
+---
+>                         "id": 832400,
+>                         "motion": 0
+219c220
+<                         "id": 800500
+---
+>                         "id": 832400
+246c247,248
+<                         "id": 800500,
+---
+>                         "id": 832400,
+>                         "motion": 200,
+301c303,304
+<                         "id": 800500,
+---
+>                         "id": 832400,
+>                         "motion": 0,
+313c316
+<                         "id": 800500
+---
+>                         "id": 832400
 diff -r en/scenario_3/311162-1.json jp/scenario_3/311162-1.json
 134,142d133
 <                 "chara": [
