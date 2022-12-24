@@ -1101,6 +1101,79 @@
             "path": "/story/group_1/93/enableSkipAutoTurn"
         }
     ],
+    "scenario_1/102602-15_Hfpep.json": [
+        {
+            "op": "remove",
+            "path": "/story/group_1/77/enableSkipAutoTurn"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/77/autoTurnLast",
+            "value": 1.1
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/79/enableSkipAutoTurn"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/84/autoTurnLast",
+            "value": 4.5
+        }
+    ],
+    "scenario_1/102603-18_Hfpep.json": [
+        {
+            "op": "remove",
+            "path": "/story/group_1/126/enableSkipAutoTurn"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/128/enableSkipAutoTurn"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/130/enableSkipAutoTurn"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/132/enableSkipAutoTurn"
+        }
+    ],
+    "scenario_1/102604-22_Hfpep.json": [
+        {
+            "op": "add",
+            "path": "/story/group_1/36/chara/0/voiceFullAuto",
+            "value": "fullvoice/section_102604/vo_full_102604-22-24c"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/51/enableSkipAutoTurn"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/53/enableSkipAutoTurn"
+        }
+    ],
+    "scenario_1/102605-3_Hfpep.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/57/chara/0/face",
+            "value": "mtn_ex_010.exp3.json"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/57/chara/0/motion",
+            "value": 1
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/60/chara/0/cheek"
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/60/chara/0/face"
+        }
+    ],
     "scenario_1/102703-12_yKMiv.json": [
         {
             "op": "remove",

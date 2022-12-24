@@ -295,6 +295,26 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_1/102601-1_Hfpep.json
                 "narrationLineMargin": 80,				  |	                "narrationLineMargin": 60,
                 "narrationLineMargin": 80,				  |	                "narrationLineMargin": 60,
                 "narrationLineMargin": 30,				  |	                "narrationLineMargin": 10,
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/102602-15_Hfpep.json jp/scenario_1/102602-15_Hfpep.json
+                "autoTurnLast": 1.3,					  |	                "autoTurnLast": 1.1,
+                "enableSkipAutoTurn": 1,				  <
+                "enableSkipAutoTurn": 0,				  <
+                "autoTurnLast": 4.3,					  |	                "autoTurnLast": 4.5,
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/102603-18_Hfpep.json jp/scenario_1/102603-18_Hfpep.json
+                "enableSkipAutoTurn": 1,				  <
+                "enableSkipAutoTurn": 0,				  <
+                "enableSkipAutoTurn": 1,				  <
+                "enableSkipAutoTurn": 0,				  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/102604-22_Hfpep.json jp/scenario_1/102604-22_Hfpep.json
+                        "pos": 0					  |	                        "pos": 0,
+									  >	                        "voiceFullAuto": "fullvoice/section_102604/vo_
+                "enableSkipAutoTurn": 1,				  <
+                "enableSkipAutoTurn": 0,				  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/102605-3_Hfpep.json jp/scenario_1/102605-3_Hfpep.json
+                        "face": "mtn_ex_011.exp3.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+                        "motion": 0,					  |	                        "motion": 1,
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_010.exp3.json",			  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/102703-12_yKMiv.json jp/scenario_1/102703-12_yKMiv.json
                         "id": 100300,					  |	                        "id": 100300
                         "motion": 301					  <

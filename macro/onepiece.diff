@@ -582,6 +582,50 @@ diff -r en/scenario_1/102601-1_Hfpep.json jp/scenario_1/102601-1_Hfpep.json
 <                 "narrationLineMargin": 30,
 ---
 >                 "narrationLineMargin": 10,
+diff -r en/scenario_1/102602-15_Hfpep.json jp/scenario_1/102602-15_Hfpep.json
+1004c1004
+<                 "autoTurnLast": 1.3,
+---
+>                 "autoTurnLast": 1.1,
+1013d1012
+<                 "enableSkipAutoTurn": 1,
+1043d1041
+<                 "enableSkipAutoTurn": 0,
+1092c1090
+<                 "autoTurnLast": 4.3,
+---
+>                 "autoTurnLast": 4.5,
+diff -r en/scenario_1/102603-18_Hfpep.json jp/scenario_1/102603-18_Hfpep.json
+1594d1593
+<                 "enableSkipAutoTurn": 1,
+1618d1616
+<                 "enableSkipAutoTurn": 0,
+1641d1638
+<                 "enableSkipAutoTurn": 1,
+1665d1661
+<                 "enableSkipAutoTurn": 0,
+diff -r en/scenario_1/102604-22_Hfpep.json jp/scenario_1/102604-22_Hfpep.json
+512c512,513
+<                         "pos": 0
+---
+>                         "pos": 0,
+>                         "voiceFullAuto": "fullvoice/section_102604/vo_full_102604-22-24c"
+672d672
+<                 "enableSkipAutoTurn": 1,
+693d692
+<                 "enableSkipAutoTurn": 0,
+diff -r en/scenario_1/102605-3_Hfpep.json jp/scenario_1/102605-3_Hfpep.json
+749c749
+<                         "face": "mtn_ex_011.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+751c751
+<                         "motion": 0,
+---
+>                         "motion": 1,
+781,782d780
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp3.json",
 diff -r en/scenario_1/102703-12_yKMiv.json jp/scenario_1/102703-12_yKMiv.json
 184,185c184
 <                         "id": 100300,
