@@ -267,6 +267,12 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_1/102005-13_SRByL.jso
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/102005-7_jZcs7.json jp/scenario_1/102005-7_jZcs7.json
                                 "duration": 0.5,			  |	                                "duration": 0.3,
                         "scale": 4,					  |	                        "scale": 6,
+diff -ry '--width=150' --suppress-common-lines en/scenario_1/102005-8_foLv1.json jp/scenario_1/102005-8_foLv1.json
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 101100,					  <
+                        "live2dName": "live2d_1"			  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_1/102204-3_yV4hL.json jp/scenario_1/102204-3_yV4hL.json
                         "id": 101403,					  |	                        "id": 101471,
                         "id": 101403					  |	                        "id": 101471
@@ -2201,387 +2207,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/310023-3.json jp/sc
 									  >	            },
 									  >	            {
                 "turnChangeIn": "rollInFast",				  <
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310031-1.json jp/scenario_3/310031-1.json
-                "bg": "bg_adv_11091.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story01",					  <
-                        "motion": 400,					  |	                        "motion": 0,
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_11091.jpg",
-									  >	                "bgm": "bgm03_story01",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100900,
-									  >	                        "motion": 400
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-                "bgEffect": "shakeSmall",				  <
-                "flashEffect": "flashWhite1",				  <
-                "bgEffect": "shakeSmall",				  <
-                        "effect": "shake",				  <
-                        "motion": 0,					  |	                        "motion": 300,
-                "flashEffect": "flashRed1",				  <
-                "se": "3001_chara_damage",				  <
-                        "mouthOpen": 1					  |	                        "motion": 400
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_060.exp.json",
-									  >	                        "motion": 200,
-                        "motion": 0,					  |	                        "motion": 1,
-                        "motion": 300,					  |	                        "motion": 100,
-                        "motion": 0,					  |	                        "motion": 300,
-                        "motion": 0,					  |	                        "motion": 200,
-                        "motion": 0,					  |	                        "motion": 400,
-                        "motion": 0,					  |	                        "motion": 200,
-                        "motion": 400,					  |	                        "motion": 100,
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310031-2.json jp/scenario_3/310031-2.json
-                "bg": "bg_adv_11091.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_11091.jpg",
-									  >	                "bgm": "bgm03_story02",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100300
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-									  >	                        "motion": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310031-3.json jp/scenario_3/310031-3.json
-									  >	                "autoTurnLast": 0.01,
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-                "turnChangeIn": "fadeIn",				  <
-									  >	                        "motion": 200,
-                        "motion": 0,					  |	                        "motion": 400,
-									  >	                        "id": 100300,
-									  >	                        "mouthOpen": 1
-									  >	                    },
-									  >	                    {
-									  >	                        "motion": 100,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310031-4.json jp/scenario_3/310031-4.json
-                "bg": "bg_adv_11091.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_11091.jpg",
-									  >	                "bgm": "bgm03_story02",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100900,
-									  >	                        "motion": 1
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-                        "motion": 0,					  |	                        "motion": 100,
-									  >	                "autoTurnLast": 1,
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "effect": "fadeout",
-									  >	                        "id": 100300
-									  >	                    }
-									  >	                ],
-									  >	                "textClear": 1
-									  >	            },
-									  >	            {
-                    },							  <
-                    {							  <
-                        "cheek": 0,					  <
-                        "effect": "fadeout",				  <
-                        "face": "mtn_ex_040.exp.json",			  <
-                        "id": 100300,					  <
-                        "motion": 0,					  <
-                        "mouthOpen": 0					  <
-									  >	                "autoTurnLast": 1,
-                        "motion": 300,					  |	                        "motion": 0,
-									  >	                    },
-									  >	                    {
-									  >	                        "cheek": 0,
-									  >	                        "face": "mtn_ex_010.exp.json",
-									  >	                        "id": 101000,
-									  >	                        "motion": 0,
-									  >	                        "mouthOpen": 0,
-									  >	                        "pos": 2
-									  >	                    }
-									  >	                ],
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100900,
-									  >	                        "motion": 300
-                "turnChangeIn": "fadeIn",				  <
-                        "motion": 200,					  |	                        "motion": 200
-                        "mouthOpen": 0,					  <
-                        "pos": 2					  <
-                "autoTurnFirst": 4.3,					  |	                "autoTurnFirst": 4.8,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310032-1.json jp/scenario_3/310032-1.json
-                "bg": "bg_adv_21241.jpg",				  |	                "autoTurnLast": 0.01,
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_13111.jpg",
-                        "pos": 0					  |	                        "pos": 1
-#BELLA=nameLeft=SPINA#							  |	#BELLA=nameCenter=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-                "turnChangeIn": "fadeIn",				  <
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-									  >	                        "pos": 0
-									  >	                    },
-									  >	                    {
-									  >	                        "id": 100301,
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=nameRight=SPINA#
-									  >	#BELLA=textRight=SPINA#
-                "bg": "bg_adv_21241.jpg",				  |	                "autoTurnLast": 0.01,
-                        "pos": 0					  |	                        "pos": 2
-                        "pos": 2					  |	                        "pos": 0
-									  >	                "turnChangeIn": "rollInFast"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_13111.jpg",
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-                "turnChangeIn": "rollInFast",				  <
-                        "pos": 2					  |	                        "pos": 0
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-                        "pos": 2					  |	                        "pos": 0
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-                        "pos": 2					  |	                        "pos": 0
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-                        "pos": 2					  |	                        "pos": 0
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-                        "pos": 2					  |	                        "pos": 0
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310032-3.json jp/scenario_3/310032-3.json
-                "bg": "bg_adv_13021.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_13021.jpg",
-									  >	                "bgm": "bgm03_story02",
-                "turnChangeIn": "fadeIn",				  <
-									  >	                "autoTurnLast": 0.2,
-                        "effect": "slideInLeft",			  |	                        "effect": "slideInLeftFast",
-									  >	                "textClear": 1
-									  >	            },
-									  >	            {
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100301,
-									  >	                        "motion": 200
-									  >	                    }
-									  >	                ],
-									  >	                        "motion": 0,
-									  >	                "autoTurnLast": 0.5,
-                        "cheek": 0,					  |	                        "effect": "slideOutLeftFast",
-                        "effect": "slideOutLeft",			  |	                        "id": 100301
-                        "face": "mtn_ex_010.exp.json",			  |	                    }
-                        "id": 100301,					  |	                ],
-                        "motion": 0,					  |	                "textClear": 1
-                        "mouthOpen": 0					  |	            },
-                    },							  |	            {
-									  >	                "chara": [
-                        "effect": "slideInRight",			  |	                        "effect": "slideInRightFast",
-                "bgEffect": "shakeLarge",				  |	                "autoTurnLast": 0.2,
-                        "cheek": 0,					  |	                        "effect": "slideOutLeftFast",
-                        "effect": "slideOutLeft",			  |	                        "id": 100301
-                        "face": "mtn_ex_010.exp.json",			  |	                    }
-                        "id": 100301,					  |	                ],
-                        "motion": 0,					  |	                "textClear": 1
-                        "mouthOpen": 0					  |	            },
-                    },							  |	            {
-									  >	                "bgEffect": "shakeLarge",
-									  >	                "chara": [
-									  >	                "autoTurnLast": 0.01,
-									  >	                        "face": "mtn_ex_010.exp.json",
-									  >	                        "id": 100301,
-									  >	                        "motion": 0,
-									  >	                        "mouthOpen": 0,
-									  >	                        "pos": 0
-									  >	                    }
-									  >	                ],
-									  >	                "turnChangeIn": "rollInFast"
-									  >	            },
-									  >	            {
-									  >	                "chara": [
-									  >	                    {
-                        "mouthOpen": 0,					  <
-                "turnChangeIn": "rollInFast",				  <
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310032-4.json jp/scenario_3/310032-4.json
-                "bg": "bg_adv_13021.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_13021.jpg",
-									  >	                "bgm": "bgm03_story02",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100301
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-									  >	                        "lipSynch": 0,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310033-1.json jp/scenario_3/310033-1.json
-                "bg": "bg_adv_18021.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_18021.jpg",
-									  >	                "bgm": "bgm03_story02",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 301201
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310033-2.json jp/scenario_3/310033-2.json
-                "bg": "bg_adv_21161.jpg",				  |	                "autoTurnLast": 0.01,
-                "bgm": "bgm03_story02",					  <
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_21161.jpg",
-									  >	                "bgm": "bgm03_story02",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 301201
-									  >	                    }
-									  >	                ],
-                "turnChangeIn": "fadeIn",				  <
-									  >	                        "lipSynch": 0,
-									  >	                "autoTurnLast": 1,
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "effect": "slideOutLeftFast",
-									  >	                        "id": 100301
-									  >	                    }
-									  >	                ],
-									  >	                "textClear": 1
-									  >	            },
-									  >	            {
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310033-3.json jp/scenario_3/310033-3.json
-                "bg": "bg_adv_21141.jpg",				  |	                "autoTurnLast": 0.01,
-                        "pos": 0					  |	                        "pos": 1
-#BELLA=nameLeft=SPINA#							  |	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_21141.jpg",
-									  >	#BELLA=nameCenter=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-                "turnChangeIn": "fadeIn",				  <
-#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
-									  >	                        "id": 100201,
-									  >	                        "pos": 2
-									  >	                    },
-									  >	                    {
-                        "pos": 2,					  |	                        "pos": 0,
-#BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-                        "motion": 300,					  |	                        "motion": 200,
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=nameRight=SPINA#
-									  >	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-                        "motion": 200,					  |	                        "motion": 300,
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-                "bg": "bg_adv_21141.jpg",				  |	                "autoTurnLast": 2,
-                "bgm": "bgm03_story07",					  |	                "bgm": "stop",
-                        "pos": 0					  |	                        "pos": 2
-                        "pos": 2,					  |	                        "pos": 0,
-									  >	                "turnChangeIn": "fadeIn"
-									  >	            },
-									  >	            {
-									  >	                "bg": "bg_adv_21141.jpg",
-									  >	                "bgm": "bgm03_story07",
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 100301
-									  >	                    }
-									  >	                ],
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-                "turnChangeIn": "fadeIn",				  <
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-#BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
-#BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
     "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310041-4.json jp/scenario_3/310041-4.json
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_050.exp.json",
@@ -7790,27 +7415,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/311072-4.json jp/sc
 #BELLA=textLeft=SPINA#							  |	#BELLA=textRight=SPINA#
 #BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
 #BELLA=textRight=SPINA#							  |	#BELLA=textLeft=SPINA#
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311081-1.json jp/scenario_3/311081-1.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311081-2.json jp/scenario_3/311081-2.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311081-3.json jp/scenario_3/311081-3.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311082-3.json jp/scenario_3/311082-3.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311082-4.json jp/scenario_3/311082-4.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311083-1.json jp/scenario_3/311083-1.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311083-4.json jp/scenario_3/311083-4.json
-                                "duration": 0.5,			  |	                                "duration": 0.4,
-                        "scale": 4,					  |	                        "scale": 6,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/311083-5.json jp/scenario_3/311083-5.json
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
-                "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/311101-4.json jp/scenario_3/311101-4.json
                         "name": "Momoko",				  |	                        "name": "sprite_0",
                         "name": "Kaede"					  |	                        "name": "sprite_0"
@@ -11168,134 +10772,29 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330441-3.json jp/sc
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330522-1.json jp/scenario_3/330522-1.json
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "effect": "fadeout",				  |	                        "id": 303501,
-                        "id": 305201					  |	                        "pos": 2
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/330532-2.json jp/scenario_3/330532-2.json
+                        "effect": "fadeout",				  <
+                        "id": 800800					  <
                     },							  <
                     {							  <
-                        "cheek": 1,					  <
-                        "effect": "shake",				  <
-                        "eyeClose": 0,					  <
-                        "face": "mtn_ex_050.exp.json",			  <
-                        "id": 303501,					  <
-                        "motion": 0,					  <
-                        "mouthOpen": 0,					  <
-                        "pos": 2					  <
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "effect": "fadeout",				  |	                        "id": 305201,
-                        "id": 305201					  |	                        "pos": 2
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                    },							  <
+                        "effect": "fadeout",				  <
+                        "id": 801000					  <
+                    }							  <
+                ],							  <
+#BELLA=nameNarration=SPINA#						  <
+#BELLA=narration=SPINA#							  <
+                "narrationBg": "bg_adv_narration.jpg",			  <
+                "narrationEffect": "in"					  <
+            },								  <
+            {								  <
+                "chara": [						  <
                     {							  <
-                        "cheek": 0,					  <
-                        "face": "mtn_ex_030.exp.json",			  <
-                        "id": 305201,					  <
-                        "lipSynch": 0,					  <
-                        "motion": 1,					  <
-                        "pos": 2					  <
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
-                        "motion": 0					  |	                        "motion": 0,
-									  >	                        "pos": 0
-									  >	                    }
-									  >	                ],
-									  >	                "item": [
-									  >	                    {
-									  >	                        "path": "resource/scenario/img/51126_tower_Ash
-									  >	                        "posX": 300,
-									  >	                        "posY": 0,
-									  >	                        "visible": "appear"
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330523-4.json jp/scenario_3/330523-4.json
-									  >	                "chara": [
-									  >	                    {
-									  >	                        "id": 305201,
-									  >	                        "pos": 0
-									  >	                    }
-									  >	                ],
-									  >	                "item": [
-									  >	                    {
-									  >	                        "path": "resource/scenario/img/51126_tower_Ash
-									  >	                        "posX": 300,
-									  >	                        "posY": 0,
-									  >	                        "scale": 1,
-									  >	                        "setVisible": 1
-									  >	                    }
-									  >	                ],
-									  >	#BELLA=nameLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-                        "pos": 1,					  |	                        "pos": 0,
-									  >	                "item": [
-									  >	                    {
-									  >	                        "path": "resource/scenario/img/51126_tower_Ash
-									  >	                        "posX": 300,
-									  >	                        "posY": 0,
-									  >	                        "scale": 1,
-									  >	                        "setVisible": 1
-									  >	                    }
-									  >	                ],
-#BELLA=nameCenter=SPINA#						  |	#BELLA=nameLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-#BELLA=textCenter=SPINA#						  |	#BELLA=textLeft=SPINA#
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330531-2.json jp/scenario_3/330531-2.json
-                "bg": "bg_adv_21041.jpg",				  |	                "bg": "bg_adv_21401.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330531-4.json jp/scenario_3/330531-4.json
-                "bg": "bg_adv_21041.jpg",				  |	                "bg": "bg_adv_21401.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330532-1.json jp/scenario_3/330532-1.json
-									  >	                        "lipSynch": 0,
+									  >	#BELLA=nameNarration=SPINA#
+									  >	#BELLA=narration=SPINA#
+									  >	                "narrationBg": "bg_adv_narration.jpg",
+									  >	                "narrationEffect": "in"
+									  >	            },
+									  >	            {
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330543-3.json jp/scenario_3/330543-3.json
                 "turnEffect": "blackFrame"				  |	                "turnEffect": "stop"
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330563-4.json jp/scenario_3/330563-4.json
@@ -11646,18 +11145,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340252-1.json jp/sc
                     },							  <
                     {							  <
                         "id": 402400					  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-1.json jp/scenario_3/340261-1.json
-									  >	                        "live2dName": "live2d_0",
-                        "id": 760090,					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_1",
-                        "id": 760000					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_0"
-                        "id": 760000					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_0"
-                        "id": 760090					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_1"
-                        "id": 402900,					  |	                        "id": 831100,
-                        "id": 402900					  |	                        "id": 831100
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
@@ -11682,13 +11169,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-3.json jp/sc
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900					  |	                        "id": 831100
                         "id": 402900					  |	                        "id": 831100
-									  >	                        "live2dName": "live2d_0",
                         "id": 760090,					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_1",
-                        "id": 760000					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_0"
-                        "id": 760090					  |	                        "id": 760000,
-									  >	                        "live2dName": "live2d_1"
+                        "id": 760090,					  |	                        "id": 760000,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340261-4.json jp/scenario_3/340261-4.json
                         "id": 402900,					  |	                        "id": 831100,
                         "id": 402900,					  |	                        "id": 831100,
@@ -11987,8 +11469,58 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340523-5.json jp/sc
 									  >	                ]
 									  >	            },
 									  >	            {
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400001-1.json jp/scenario_4/400001-1.json
+									  >	                        "live2dName": "live2d_0",
+									  >	                        "live2dName": "live2d_0",
+                        "id": 100100					  |	                        "id": 100100,
+									  >	                        "live2dName": "live2d_0"
+diff -ry '--width=150' --suppress-common-lines en/scenario_4/400025-1.json jp/scenario_4/400025-1.json
+                        "effect": "fadeout",				  <
+                        "id": 301300					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 301500					  <
+                    }							  <
+                ],							  <
+#BELLA=nameNarration=SPINA#						  <
+#BELLA=narration=SPINA#							  <
+                "narrationBg": "black",					  <
+                "narrationEffect": "in",				  <
+                "narrationFontSize": 40					  <
+            },								  <
+            {								  <
+                "autoTurnLast": 0.01,					  <
+                "chara": [						  <
+                    {							  <
+                ]							  |	                ],
+									  >	#BELLA=nameNarration=SPINA#
+									  >	#BELLA=narration=SPINA#
+									  >	                "narrationBg": "black",
+									  >	                "narrationEffect": "in",
+									  >	                "narrationFontSize": 40
 diff -ry '--width=150' --suppress-common-lines en/scenario_4/420171-1.json jp/scenario_4/420171-1.json
 									  >	#BELLA=nameLeft=SPINA#
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/501104-1_qbLmT.json jp/scenario_5/501104-1_qbLmT.json
+                        "effect": "fadeout",				  |	                        "cheek": 0,
+                        "id": 302801					  |	                        "face": "mtn_ex_010.exp.json",
+									  >	                        "id": 301101,
+									  >	                        "motion": 0,
+									  >	                        "pos": 0
+                        "effect": "fadeout",				  |	                        "cheek": 0,
+                        "id": 100501					  |	                        "face": "mtn_ex_010.exp.json",
+									  >	                        "id": 302801,
+									  >	                        "motion": 0,
+									  >	                        "pos": 2
+                        "motion": 1,					  |	                        "motion": 1
+                        "pos": 0					  <
+                    },							  <
+                    {							  <
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_010.exp.json",			  <
+                        "id": 302801,					  <
+                        "motion": 0,					  <
+                        "pos": 2					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
                         "path": "resource/scenario/img/51011_tower_ny/	  |	                        "path": "resource/scenario/img/51011_tower_ny/
                         "path": "resource/scenario/img/51011_tower_ny/	  |	                        "path": "resource/scenario/img/51011_tower_ny/
@@ -12020,29 +11552,19 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/502802-16.json jp/s
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/502802-18.json jp/scenario_5/502802-18.json
                 "narrationLineSpace": 5,				  |	                "narrationLineSpace": 15,
                 "narrationLineSpace": 5,				  |	                "narrationLineSpace": 15,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/502901-2.json jp/scenario_5/502901-2.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "scale": 1,					  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/502901-3.json jp/scenario_5/502901-3.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/502901-4.json jp/scenario_5/502901-4.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/502901-5.json jp/scenario_5/502901-5.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "scale": 1,					  <
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
+									  >	                        "cheek": 0,
+                        "id": 200302					  |	                        "face": "mtn_ex_020.exp.json",
+									  >	                        "id": 200302,
+									  >	                        "motion": 0,
+									  >	                        "pos": 1,
+									  >	                        "posX": 0
+                        "cheek": 0,					  <
+                        "face": "mtn_ex_020.exp.json",			  |	                        "id": 200302
+                        "id": 200302,					  <
+                        "motion": 0,					  <
+                        "pos": 1,					  <
+                        "posX": 0					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/503010-1.json jp/scenario_5/503010-1.json
 									  >	                        "iPhoneXScale": 1,
 									  >	                        "iPhoneXScale": 1,
@@ -13100,6 +12622,49 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/504010-7.json jp/sc
 									  >	                        "iPhoneXScale": 1,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/504010-9.json jp/scenario_5/504010-9.json
 									  >	                        "iPhoneXScale": 1,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/504101-6.json jp/scenario_5/504101-6.json
+                "autoTurnLast": 0.01,					  <
+                "chara": [						  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 301101					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 300801					  <
+                    }							  <
+                ]							  <
+            },								  <
+            {								  <
+                "autoTurnLast": 0.1,					  <
+                "se": "7208_wander_into",				  <
+                "chara": [						  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 300801					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 200701					  <
+                    }							  <
+                ]							  <
+            },								  <
+            {								  <
+									  >	                "se": "7208_wander_into",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/504101-7.json jp/scenario_5/504101-7.json
+                "autoTurnLast": 0.1,					  <
+                "chara": [						  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 301100					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 200700					  <
+                    }							  <
+                ]							  <
+            },								  <
+            {								  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/504501-6_yJVgp.json jp/scenario_5/504501-6_yJVgp.json
                 "bg": "bg_adv_21025.jpg",				  |	                "bg": "bg_adv_21491.jpg",
                 "narrationBg": "bg_adv_21025.jpg",			  |	                "narrationBg": "bg_adv_21491.jpg",
@@ -13193,6 +12758,15 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/505005-3_YOPuu.json
                         "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/505005-4_YOPuu.json jp/scenario_5/505005-4_YOPuu.json
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 801202					  <
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 200652					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/505006-5_YOPuu.json jp/scenario_5/505006-5_YOPuu.json
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_０３0.exp.json",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/505410-7.json jp/scenario_5/505410-7.json
@@ -15183,6 +14757,13 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/505901-36.json jp/s
 									  >	                ],
 									  >	#BELLA=nameCenter=SPINA#
                 "turnChangeIn": "whiteIn",				  <
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "effect": "fadeout",
+									  >	                        "id": 302701,
+									  >	                        "pos": 1
+									  >	                    }
+									  >	                ],
 									  >	                "autoTurnLast": 0.01,
                 "bgm": "stop",						  <
                         "motion": 200,					  |	                        "motion": 0,
@@ -16035,6 +15616,11 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506112-3.json jp/sc
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506113-3.json jp/scenario_5/506113-3.json
                 "narrationLineMargin": 50,				  |	                "narrationLineMargin": 15,
                 "narrationLineSpace": 20,				  |	                "narrationLineSpace": 10,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/506210-7_0l84M.json jp/scenario_5/506210-7_0l84M.json
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 800700					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506301-14_3X7EZ.json jp/scenario_5/506301-14_3X7EZ.json
 									  >	                        "iPhoneXScale": 1,
                         "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
@@ -16389,7 +15975,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506512-4_S2bQ5.json
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                 "autoTurnLast": 0.01,					  |	                "autoTurnLast": 0.1,
                 "autoTurnLast": 1.6,					  |	                "armatureList": [
-                "bg": "bg_adv_20081.jpg",				  |	                    {
+									  >	                    {
 									  >	                        "animation": [
 									  >	                            "action"
 									  >	                        ],
@@ -16415,7 +16001,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506512-4_S2bQ5.json
 									  >	            },
 									  >	            {
 									  >	                "autoTurnLast": 2,
-									  >	                "bg": "bg_adv_31121.jpg",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
 									  >	                "deleteArmatureList": [
 									  >	                    1
@@ -20140,6 +19725,13 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510051-36.json jp/s
 									  >	                ],
 									  >	#BELLA=nameCenter=SPINA#
                 "turnChangeIn": "whiteIn",				  <
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "effect": "fadeout",
+									  >	                        "id": 302701,
+									  >	                        "pos": 1
+									  >	                    }
+									  >	                ],
 									  >	                "autoTurnLast": 0.01,
                 "bgm": "stop",						  <
                         "motion": 200,					  |	                        "motion": 0,
@@ -22415,7 +22007,7 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-4_ZvuTl.json
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                 "autoTurnLast": 0.01,					  |	                "autoTurnLast": 0.1,
                 "autoTurnLast": 1.6,					  |	                "armatureList": [
-                "bg": "bg_adv_20081.jpg",				  |	                    {
+									  >	                    {
 									  >	                        "animation": [
 									  >	                            "action"
 									  >	                        ],
@@ -22441,7 +22033,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-4_ZvuTl.json
 									  >	            },
 									  >	            {
 									  >	                "autoTurnLast": 2,
-									  >	                "bg": "bg_adv_31121.jpg",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
 									  >	                "deleteArmatureList": [
 									  >	                    1
@@ -22702,6 +22293,11 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510201-2_m4VmX.json
                         "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 6601,					  <
+                        "name": "sprite_0"				  <
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_031.exp.json",			  |	                        "face": "mtn_ex_031.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
@@ -29119,6 +28715,12 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/513263-63_wFvmE.jso
 									  >	                    {
 									  >	                        "cheek": 0,
 									  >	                        "face": "mtn_ex_030.exp.json",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/513410-4_eaiwn.json jp/scenario_5/513410-4_eaiwn.json
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 800100,					  <
+                        "live2dName": "live2d_0"			  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/513919-19_ceiHF.json jp/scenario_5/513919-19_ceiHF.json
                         "id": 800200					  |	                        "id": 800200,
 									  >	                        "lipSynch": 0
@@ -29281,6 +28883,11 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/515801-2_6sJsp.json
                         "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
+                    },							  <
+                    {							  <
+                        "effect": "fadeout",				  <
+                        "id": 6601,					  <
+                        "name": "sprite_0"				  <
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_031.exp.json",			  |	                        "face": "mtn_ex_031.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",

@@ -1,0 +1,42 @@
+--- en/scenario_5/501104-1_qbLmT.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501104-1_qbLmT.json	2017-03-17 18:39:13.000000000 +0800
+@@ -83,12 +83,18 @@
+             {
+                 "chara": [
+                     {
+-                        "effect": "fadeout",
+-                        "id": 302801
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 301101,
++                        "motion": 0,
++                        "pos": 0
+                     },
+                     {
+-                        "effect": "fadeout",
+-                        "id": 100501
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 302801,
++                        "motion": 0,
++                        "pos": 2
+                     }
+                 ],
+ #BELLA=nameNarration=SPINA#
+@@ -102,15 +108,7 @@
+                         "cheek": 0,
+                         "face": "mtn_ex_050.exp.json",
+                         "id": 301101,
+-                        "motion": 1,
+-                        "pos": 0
+-                    },
+-                    {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+-                        "id": 302801,
+-                        "motion": 0,
+-                        "pos": 2
++                        "motion": 1
+                     }
+                 ],
+ #BELLA=nameLeft=SPINA#

@@ -1,0 +1,32 @@
+--- en/scenario_5/502901-5.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/502901-5.json	2017-03-17 18:39:13.000000000 +0800
+@@ -187,8 +187,13 @@
+             {
+                 "chara": [
+                     {
++                        "cheek": 0,
+                         "effect": "fadeout",
+-                        "id": 200302
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 200302,
++                        "motion": 0,
++                        "pos": 1,
++                        "posX": 0
+                     }
+                 ],
+ #BELLA=narration=SPINA#
+@@ -198,13 +203,8 @@
+             {
+                 "chara": [
+                     {
+-                        "cheek": 0,
+                         "effect": "ef_adv_08",
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 200302,
+-                        "motion": 0,
+-                        "pos": 1,
+-                        "posX": 0
++                        "id": 200302
+                     }
+                 ],
+ #BELLA=narration=SPINA#

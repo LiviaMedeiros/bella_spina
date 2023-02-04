@@ -126,15 +126,23 @@
 > #BELLA=nameCenter=SPINA#
 1098d1152
 <                 "turnChangeIn": "whiteIn",
-1169a1224
+1101a1156,1162
+>                 "chara": [
+>                     {
+>                         "effect": "fadeout",
+>                         "id": 302701,
+>                         "pos": 1
+>                     }
+>                 ],
+1162a1224
 >                 "autoTurnLast": 0.01,
-1171d1225
+1164d1225
 <                 "bgm": "stop",
-1176c1230
+1169c1230
 <                         "motion": 200,
 ---
 >                         "motion": 0,
-1179a1234,1244
+1172a1234,1244
 >                 "turnChangeIn": "whiteIn",
 >                 "turnEffect": "stop"
 >             },
@@ -146,7 +154,7 @@
 >                         "motion": 200
 >                     }
 >                 ],
-1184,1186c1249
+1177,1179c1249
 <                 "turnChangeIn": "whiteIn",
 <                 "turnChangeOut": "whiteOut",
 <                 "turnEffect": "stop"

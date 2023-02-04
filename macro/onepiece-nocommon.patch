@@ -515,6 +515,15 @@ diff -ru0 en/scenario_1/102005-7_jZcs7.json jp/scenario_1/102005-7_jZcs7.json
 @@ -78 +78 @@
 -                        "scale": 4,
 +                        "scale": 6,
+diff -ru0 en/scenario_1/102005-8_foLv1.json jp/scenario_1/102005-8_foLv1.json
+--- en/scenario_1/102005-8_foLv1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_1/102005-8_foLv1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -64,5 +63,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 101100,
+-                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_1/102204-3_yV4hL.json jp/scenario_1/102204-3_yV4hL.json
 --- en/scenario_1/102204-3_yV4hL.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_1/102204-3_yV4hL.json	2017-03-17 18:39:13.000000000 +0800
@@ -3823,740 +3832,6 @@ diff -ru0 en/scenario_3/310023-3.json jp/scenario_3/310023-3.json
 @@ -320 +346,0 @@
 -                "turnChangeIn": "rollInFast",
 @@ -461 +487 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310031-1.json jp/scenario_3/310031-1.json
---- en/scenario_3/310031-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310031-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_11091.jpg",
--                "bgm": "bgm03_story01",
-+                "autoTurnLast": 0.01,
-@@ -20 +19 @@
--                        "motion": 400,
-+                        "motion": 0,
-@@ -24,0 +24,11 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_11091.jpg",
-+                "bgm": "bgm03_story01",
-+                "chara": [
-+                    {
-+                        "id": 100900,
-+                        "motion": 400
-+                    }
-+                ],
-@@ -28 +37,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -32 +40,0 @@
--                "bgEffect": "shakeSmall",
-@@ -41 +48,0 @@
--                "flashEffect": "flashWhite1",
-@@ -46 +52,0 @@
--                "bgEffect": "shakeSmall",
-@@ -50 +55,0 @@
--                        "effect": "shake",
-@@ -53 +58 @@
--                        "motion": 0,
-+                        "motion": 300,
-@@ -57,2 +61,0 @@
--                "flashEffect": "flashRed1",
--                "se": "3001_chara_damage",
-@@ -80 +83 @@
--                        "mouthOpen": 1
-+                        "motion": 400
-@@ -90 +93 @@
--                        "face": "mtn_ex_020.exp.json",
-+                        "face": "mtn_ex_060.exp.json",
-@@ -91,0 +95 @@
-+                        "motion": 200,
-@@ -127 +131 @@
--                        "motion": 0,
-+                        "motion": 1,
-@@ -152 +156 @@
--                        "motion": 300,
-+                        "motion": 100,
-@@ -175 +179 @@
--                        "motion": 0,
-+                        "motion": 300,
-@@ -253 +257 @@
--                        "motion": 0,
-+                        "motion": 200,
-@@ -370 +374 @@
--                        "motion": 0,
-+                        "motion": 400,
-@@ -384 +388 @@
--                        "motion": 0,
-+                        "motion": 200,
-@@ -423 +427 @@
--                        "motion": 400,
-+                        "motion": 100,
-@@ -446 +450 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310031-2.json jp/scenario_3/310031-2.json
---- en/scenario_3/310031-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310031-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_11091.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -24,0 +24,10 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_11091.jpg",
-+                "bgm": "bgm03_story02",
-+                "chara": [
-+                    {
-+                        "id": 100300
-+                    }
-+                ],
-@@ -27 +35,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -34,0 +43 @@
-+                        "motion": 1,
-diff -ru0 en/scenario_3/310031-3.json jp/scenario_3/310031-3.json
---- en/scenario_3/310031-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310031-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -4,0 +5,4 @@
-+                "autoTurnLast": 0.01,
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-@@ -28 +31,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -47,0 +51 @@
-+                        "motion": 200,
-@@ -371 +375 @@
--                        "motion": 0,
-+                        "motion": 400,
-@@ -379,0 +384,4 @@
-+                        "id": 100300,
-+                        "mouthOpen": 1
-+                    },
-+                    {
-@@ -407,0 +416 @@
-+                        "motion": 100,
-diff -ru0 en/scenario_3/310031-4.json jp/scenario_3/310031-4.json
---- en/scenario_3/310031-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310031-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_11091.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -24,0 +24,11 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_11091.jpg",
-+                "bgm": "bgm03_story02",
-+                "chara": [
-+                    {
-+                        "id": 100900,
-+                        "motion": 1
-+                    }
-+                ],
-@@ -28 +37,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -277 +286 @@
--                        "motion": 0,
-+                        "motion": 100,
-@@ -307,0 +317,10 @@
-+                "autoTurnLast": 1,
-+                "chara": [
-+                    {
-+                        "effect": "fadeout",
-+                        "id": 100300
-+                    }
-+                ],
-+                "textClear": 1
-+            },
-+            {
-@@ -316,8 +334,0 @@
--                    },
--                    {
--                        "cheek": 0,
--                        "effect": "fadeout",
--                        "face": "mtn_ex_040.exp.json",
--                        "id": 100300,
--                        "motion": 0,
--                        "mouthOpen": 0
-@@ -357,0 +369 @@
-+                "autoTurnLast": 1,
-@@ -363 +375 @@
--                        "motion": 300,
-+                        "motion": 0,
-@@ -365,0 +378,17 @@
-+                    },
-+                    {
-+                        "cheek": 0,
-+                        "face": "mtn_ex_010.exp.json",
-+                        "id": 101000,
-+                        "motion": 0,
-+                        "mouthOpen": 0,
-+                        "pos": 2
-+                    }
-+                ],
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "chara": [
-+                    {
-+                        "id": 100900,
-+                        "motion": 300
-@@ -370 +398,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -379,3 +407 @@
--                        "motion": 200,
--                        "mouthOpen": 0,
--                        "pos": 2
-+                        "motion": 200
-@@ -468 +494 @@
--                "autoTurnFirst": 4.3,
-+                "autoTurnFirst": 4.8,
-diff -ru0 en/scenario_3/310032-1.json jp/scenario_3/310032-1.json
---- en/scenario_3/310032-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310032-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5 +5,5 @@
--                "bg": "bg_adv_21241.jpg",
-+                "autoTurnLast": 0.01,
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_13111.jpg",
-@@ -15 +19 @@
--                        "pos": 0
-+                        "pos": 1
-@@ -18,3 +22,2 @@
--#BELLA=nameLeft=SPINA#
--#BELLA=textLeft=SPINA#
--                "turnChangeIn": "fadeIn",
-+#BELLA=nameCenter=SPINA#
-+#BELLA=textCenter=SPINA#
-@@ -33 +36 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textCenter=SPINA#
-@@ -45 +48 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textCenter=SPINA#
-@@ -58 +61 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textCenter=SPINA#
-@@ -67,0 +71,4 @@
-+                        "pos": 0
-+                    },
-+                    {
-+                        "id": 100301,
-@@ -71,2 +78,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -86 +93,2 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=nameRight=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -89 +97 @@
--                "bg": "bg_adv_21241.jpg",
-+                "autoTurnLast": 0.01,
-@@ -97 +105 @@
--                        "pos": 0
-+                        "pos": 2
-@@ -105 +113 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -107,0 +116,4 @@
-+                "turnChangeIn": "rollInFast"
-+            },
-+            {
-+                "bg": "bg_adv_13111.jpg",
-@@ -110,2 +122 @@
--#BELLA=textRight=SPINA#
--                "turnChangeIn": "rollInFast",
-+#BELLA=textLeft=SPINA#
-@@ -122 +133 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -125,2 +136,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -136 +147 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -148 +159 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -159 +170 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -162,2 +173,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -176 +187 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -188 +199 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -201 +212 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -212 +223 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -215,2 +226,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -227 +238 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -238 +249 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -250 +261 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -262 +273 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -274 +285 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -286 +297 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -298 +309 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -310 +321 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -322 +333 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -333 +344 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -345 +356 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -356 +367 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -368 +379 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -379 +390 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -390 +401 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -400 +411 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -403,2 +414,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -416 +427 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -428 +439 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -439 +450 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -449 +460 @@
--                        "pos": 2
-+                        "pos": 0
-@@ -452,2 +463,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -466 +477 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -478 +489 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -492 +503 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -501 +512 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310032-3.json jp/scenario_3/310032-3.json
---- en/scenario_3/310032-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310032-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_13021.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -16,0 +16,5 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_13021.jpg",
-+                "bgm": "bgm03_story02",
-@@ -19 +22,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -22,0 +26 @@
-+                "autoTurnLast": 0.2,
-@@ -26 +30 @@
--                        "effect": "slideInLeft",
-+                        "effect": "slideInLeftFast",
-@@ -33,0 +38,9 @@
-+                "textClear": 1
-+            },
-+            {
-+                "chara": [
-+                    {
-+                        "id": 100301,
-+                        "motion": 200
-+                    }
-+                ],
-@@ -53,0 +67 @@
-+                        "motion": 0,
-@@ -239,0 +254 @@
-+                "autoTurnLast": 0.5,
-@@ -242,7 +257,8 @@
--                        "cheek": 0,
--                        "effect": "slideOutLeft",
--                        "face": "mtn_ex_010.exp.json",
--                        "id": 100301,
--                        "motion": 0,
--                        "mouthOpen": 0
--                    },
-+                        "effect": "slideOutLeftFast",
-+                        "id": 100301
-+                    }
-+                ],
-+                "textClear": 1
-+            },
-+            {
-+                "chara": [
-@@ -264 +280 @@
--                        "effect": "slideInRight",
-+                        "effect": "slideInRightFast",
-@@ -304 +320 @@
--                "bgEffect": "shakeLarge",
-+                "autoTurnLast": 0.2,
-@@ -307,7 +323,9 @@
--                        "cheek": 0,
--                        "effect": "slideOutLeft",
--                        "face": "mtn_ex_010.exp.json",
--                        "id": 100301,
--                        "motion": 0,
--                        "mouthOpen": 0
--                    },
-+                        "effect": "slideOutLeftFast",
-+                        "id": 100301
-+                    }
-+                ],
-+                "textClear": 1
-+            },
-+            {
-+                "bgEffect": "shakeLarge",
-+                "chara": [
-@@ -358,0 +377 @@
-+                "autoTurnLast": 0.01,
-@@ -361,0 +381,12 @@
-+                        "face": "mtn_ex_010.exp.json",
-+                        "id": 100301,
-+                        "motion": 0,
-+                        "mouthOpen": 0,
-+                        "pos": 0
-+                    }
-+                ],
-+                "turnChangeIn": "rollInFast"
-+            },
-+            {
-+                "chara": [
-+                    {
-@@ -365 +395,0 @@
--                        "mouthOpen": 0,
-@@ -371 +400,0 @@
--                "turnChangeIn": "rollInFast",
-@@ -408 +437 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310032-4.json jp/scenario_3/310032-4.json
---- en/scenario_3/310032-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310032-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_13021.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -25,0 +25,10 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_13021.jpg",
-+                "bgm": "bgm03_story02",
-+                "chara": [
-+                    {
-+                        "id": 100301
-+                    }
-+                ],
-@@ -29 +37,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -166,0 +175 @@
-+                        "lipSynch": 0,
-diff -ru0 en/scenario_3/310033-1.json jp/scenario_3/310033-1.json
---- en/scenario_3/310033-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310033-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_18021.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -24,0 +24,10 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_18021.jpg",
-+                "bgm": "bgm03_story02",
-+                "chara": [
-+                    {
-+                        "id": 301201
-+                    }
-+                ],
-@@ -27 +35,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -463 +471 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310033-2.json jp/scenario_3/310033-2.json
---- en/scenario_3/310033-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310033-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5,2 +5 @@
--                "bg": "bg_adv_21161.jpg",
--                "bgm": "bgm03_story02",
-+                "autoTurnLast": 0.01,
-@@ -25,0 +25,10 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_21161.jpg",
-+                "bgm": "bgm03_story02",
-+                "chara": [
-+                    {
-+                        "id": 301201
-+                    }
-+                ],
-@@ -29 +37,0 @@
--                "turnChangeIn": "fadeIn",
-@@ -287,0 +296 @@
-+                        "lipSynch": 0,
-@@ -320,0 +330,10 @@
-+                "autoTurnLast": 1,
-+                "chara": [
-+                    {
-+                        "effect": "slideOutLeftFast",
-+                        "id": 100301
-+                    }
-+                ],
-+                "textClear": 1
-+            },
-+            {
-@@ -421 +440 @@
--    "version": 2
-+    "version": 3
-diff -ru0 en/scenario_3/310033-3.json jp/scenario_3/310033-3.json
---- en/scenario_3/310033-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/310033-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -5 +5 @@
--                "bg": "bg_adv_21141.jpg",
-+                "autoTurnLast": 0.01,
-@@ -13 +13 @@
--                        "pos": 0
-+                        "pos": 1
-@@ -16 +16,5 @@
--#BELLA=nameLeft=SPINA#
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_21141.jpg",
-+#BELLA=nameCenter=SPINA#
-@@ -18,2 +22 @@
--#BELLA=textLeft=SPINA#
--                "turnChangeIn": "fadeIn",
-+#BELLA=textCenter=SPINA#
-@@ -32 +35 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textCenter=SPINA#
-@@ -36,0 +40,4 @@
-+                        "id": 100201,
-+                        "pos": 2
-+                    },
-+                    {
-@@ -42 +49 @@
--                        "pos": 2,
-+                        "pos": 0,
-@@ -46,2 +53,2 @@
--#BELLA=nameRight=SPINA#
--#BELLA=textRight=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -53 +60 @@
--                        "motion": 300,
-+                        "motion": 200,
-@@ -58 +65 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -70 +77,2 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=nameRight=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -80 +88 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -90 +98 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -96 +104 @@
--                        "motion": 200,
-+                        "motion": 300,
-@@ -101 +109 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -104,2 +112,2 @@
--                "bg": "bg_adv_21141.jpg",
--                "bgm": "bgm03_story07",
-+                "autoTurnLast": 2,
-+                "bgm": "stop",
-@@ -113 +121 @@
--                        "pos": 0
-+                        "pos": 2
-@@ -121 +129 @@
--                        "pos": 2,
-+                        "pos": 0,
-@@ -124,0 +133,10 @@
-+                "turnChangeIn": "fadeIn"
-+            },
-+            {
-+                "bg": "bg_adv_21141.jpg",
-+                "bgm": "bgm03_story07",
-+                "chara": [
-+                    {
-+                        "id": 100301
-+                    }
-+                ],
-@@ -128,2 +146 @@
--#BELLA=textLeft=SPINA#
--                "turnChangeIn": "fadeIn",
-+#BELLA=textRight=SPINA#
-@@ -140 +157 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -151 +168 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -164 +181 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -177 +194 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -189 +206 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -199 +216 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -211 +228 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -223 +240 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -236 +253 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -246 +263 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -258 +275 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -269 +286 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -281 +298 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -293 +310 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -306 +323 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -318 +335 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -330 +347 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -340 +357 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -352 +369 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -362 +379 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -375 +392 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -386 +403 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -399 +416 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -410 +427 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -420 +437 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -431 +448 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -442 +459 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -453 +470 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -464 +481 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -476 +493 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -489 +506 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -501 +518 @@
--#BELLA=textLeft=SPINA#
-+#BELLA=textRight=SPINA#
-@@ -514 +531 @@
--#BELLA=textRight=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -522 +539 @@
 -    "version": 2
 +    "version": 3
 diff -ru0 en/scenario_3/310041-4.json jp/scenario_3/310041-4.json
@@ -13698,69 +12973,6 @@ diff -ru0 en/scenario_3/311072-4.json jp/scenario_3/311072-4.json
 -#BELLA=textRight=SPINA#
 +#BELLA=nameLeft=SPINA#
 +#BELLA=textLeft=SPINA#
-diff -ru0 en/scenario_3/311081-1.json jp/scenario_3/311081-1.json
---- en/scenario_3/311081-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311081-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -6 +6 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311081-2.json jp/scenario_3/311081-2.json
---- en/scenario_3/311081-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311081-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -27 +27 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-@@ -597 +597 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-@@ -713 +713 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311081-3.json jp/scenario_3/311081-3.json
---- en/scenario_3/311081-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311081-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -6 +6 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311082-3.json jp/scenario_3/311082-3.json
---- en/scenario_3/311082-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311082-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -64 +64 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311082-4.json jp/scenario_3/311082-4.json
---- en/scenario_3/311082-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311082-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -6 +6 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311083-1.json jp/scenario_3/311083-1.json
---- en/scenario_3/311083-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311083-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -6 +6 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-@@ -452 +452 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-diff -ru0 en/scenario_3/311083-4.json jp/scenario_3/311083-4.json
---- en/scenario_3/311083-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311083-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -657 +657 @@
--                                "duration": 0.5,
-+                                "duration": 0.4,
-@@ -664 +664 @@
--                        "scale": 4,
-+                        "scale": 6,
-diff -ru0 en/scenario_3/311083-5.json jp/scenario_3/311083-5.json
---- en/scenario_3/311083-5.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/311083-5.json	2017-03-17 18:39:13.000000000 +0800
-@@ -340 +340 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
-@@ -430 +430 @@
--                "bg": "bg_adv_21025.jpg",
-+                "bg": "bg_adv_21491.jpg",
 diff -ru0 en/scenario_3/311101-4.json jp/scenario_3/311101-4.json
 --- en/scenario_3/311101-4.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/311101-4.json	2017-03-17 18:39:13.000000000 +0800
@@ -20220,287 +19432,33 @@ diff -ru0 en/scenario_3/330441-3.json jp/scenario_3/330441-3.json
 @@ -802 +802 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
-diff -ru0 en/scenario_3/330522-1.json jp/scenario_3/330522-1.json
---- en/scenario_3/330522-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330522-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -11 +11 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -18 +18 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -41 +41 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -63 +63 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -76 +76 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -94 +94 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -105 +105 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -117 +117 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -127 +127 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -140 +140 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -162 +162 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -187 +187 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -211 +211 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -218 +218 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -231 +231 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -243 +243 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -253 +253 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -264 +264 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -277 +277 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -291 +291 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -302 +302 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -313 +313 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -324 +324 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -334 +334 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -347 +347 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -360 +360 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -371 +371 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -385 +385 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -426 +426 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -460 +460 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -474,2 +474,2 @@
+diff -ru0 en/scenario_3/330532-2.json jp/scenario_3/330532-2.json
+--- en/scenario_3/330532-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/330532-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -240,16 +239,0 @@
 -                        "effect": "fadeout",
--                        "id": 305201
-+                        "id": 303501,
-+                        "pos": 2
-@@ -484 +484 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -488,10 +487,0 @@
+-                        "id": 800800
 -                    },
 -                    {
--                        "cheek": 1,
--                        "effect": "shake",
--                        "eyeClose": 0,
--                        "face": "mtn_ex_050.exp.json",
--                        "id": 303501,
--                        "motion": 0,
--                        "mouthOpen": 0,
--                        "pos": 2
-@@ -507 +497 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -533 +523 @@
--                        "face": "mtn_ex_011.exp.json",
-+                        "face": "mtn_ex_011.exp3.json",
-@@ -547 +537 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -559,2 +549,2 @@
 -                        "effect": "fadeout",
--                        "id": 305201
-+                        "id": 305201,
-+                        "pos": 2
-@@ -570 +560 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -574,8 +563,0 @@
--                    },
+-                        "id": 801000
+-                    }
+-                ],
+-#BELLA=nameNarration=SPINA#
+-#BELLA=narration=SPINA#
+-                "narrationBg": "bg_adv_narration.jpg",
+-                "narrationEffect": "in"
+-            },
+-            {
+-                "chara": [
 -                    {
--                        "cheek": 0,
--                        "face": "mtn_ex_030.exp.json",
--                        "id": 305201,
--                        "lipSynch": 0,
--                        "motion": 1,
--                        "pos": 2
-@@ -591 +573 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -605 +587 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -642 +624 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -653 +635 @@
--                        "face": "mtn_ex_030.exp.json",
-+                        "face": "mtn_ex_030.exp3.json",
-@@ -692 +674 @@
--                        "face": "mtn_ex_050.exp.json",
-+                        "face": "mtn_ex_050.exp3.json",
-@@ -721 +703 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-@@ -732 +714 @@
--                        "face": "mtn_ex_010.exp.json",
-+                        "face": "mtn_ex_010.exp3.json",
-diff -ru0 en/scenario_3/330523-3.json jp/scenario_3/330523-3.json
---- en/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330523-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -111 +111,10 @@
--                        "motion": 0
-+                        "motion": 0,
-+                        "pos": 0
-+                    }
-+                ],
-+                "item": [
-+                    {
-+                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
-+                        "posX": 300,
-+                        "posY": 0,
-+                        "visible": "appear"
-@@ -130 +139 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -138 +147 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -150 +159 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-diff -ru0 en/scenario_3/330523-4.json jp/scenario_3/330523-4.json
---- en/scenario_3/330523-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330523-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -554,0 +555,15 @@
-+                "chara": [
-+                    {
-+                        "id": 305201,
-+                        "pos": 0
-+                    }
-+                ],
-+                "item": [
-+                    {
-+                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
-+                        "posX": 300,
-+                        "posY": 0,
-+                        "scale": 1,
-+                        "setVisible": 1
-+                    }
-+                ],
-@@ -570,0 +586 @@
-+#BELLA=nameLeft=SPINA#
-@@ -572 +588 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -582 +598 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -596 +612 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -607 +623 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -615 +631 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -705 +721 @@
--                        "pos": 1,
-+                        "pos": 0,
-@@ -708,0 +725,9 @@
-+                "item": [
-+                    {
-+                        "path": "resource/scenario/img/51126_tower_Ashley/51126_kumanosuke.png",
-+                        "posX": 300,
-+                        "posY": 0,
-+                        "scale": 1,
-+                        "setVisible": 1
-+                    }
-+                ],
-@@ -726,2 +751,2 @@
--#BELLA=nameCenter=SPINA#
--#BELLA=textCenter=SPINA#
-+#BELLA=nameLeft=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -738 +763 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -747 +772 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -758 +783 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -768 +793 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -779 +804 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -788 +813 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -799 +824 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -819 +844 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-@@ -830 +855 @@
--#BELLA=textCenter=SPINA#
-+#BELLA=textLeft=SPINA#
-diff -ru0 en/scenario_3/330531-2.json jp/scenario_3/330531-2.json
---- en/scenario_3/330531-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330531-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -171 +171 @@
--                "bg": "bg_adv_21041.jpg",
-+                "bg": "bg_adv_21401.jpg",
-diff -ru0 en/scenario_3/330531-4.json jp/scenario_3/330531-4.json
---- en/scenario_3/330531-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330531-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -212 +212 @@
--                "bg": "bg_adv_21041.jpg",
-+                "bg": "bg_adv_21401.jpg",
-diff -ru0 en/scenario_3/330532-1.json jp/scenario_3/330532-1.json
---- en/scenario_3/330532-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/330532-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -625,0 +626 @@
-+                        "lipSynch": 0,
+@@ -270,0 +255,6 @@
++#BELLA=nameNarration=SPINA#
++#BELLA=narration=SPINA#
++                "narrationBg": "bg_adv_narration.jpg",
++                "narrationEffect": "in"
++            },
++            {
 diff -ru0 en/scenario_3/330543-3.json jp/scenario_3/330543-3.json
 --- en/scenario_3/330543-3.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/330543-3.json	2017-03-17 18:39:13.000000000 +0800
@@ -21417,33 +20375,6 @@ diff -ru0 en/scenario_3/340252-1.json jp/scenario_3/340252-1.json
 -                    },
 -                    {
 -                        "id": 402400
-diff -ru0 en/scenario_3/340261-1.json jp/scenario_3/340261-1.json
---- en/scenario_3/340261-1.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_3/340261-1.json	2017-03-17 18:39:13.000000000 +0800
-@@ -40,0 +41 @@
-+                        "live2dName": "live2d_0",
-@@ -47 +48,2 @@
--                        "id": 760090,
-+                        "id": 760000,
-+                        "live2dName": "live2d_1",
-@@ -61 +63,2 @@
--                        "id": 760000
-+                        "id": 760000,
-+                        "live2dName": "live2d_0"
-@@ -74 +77,2 @@
--                        "id": 760000
-+                        "id": 760000,
-+                        "live2dName": "live2d_0"
-@@ -78 +82,2 @@
--                        "id": 760090
-+                        "id": 760000,
-+                        "live2dName": "live2d_1"
-@@ -95 +100 @@
--                        "id": 402900,
-+                        "id": 831100,
-@@ -106 +111 @@
--                        "id": 402900
-+                        "id": 831100
 diff -ru0 en/scenario_3/340261-2.json jp/scenario_3/340261-2.json
 --- en/scenario_3/340261-2.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340261-2.json	2017-03-17 18:39:13.000000000 +0800
@@ -21516,20 +20447,12 @@ diff -ru0 en/scenario_3/340261-3.json jp/scenario_3/340261-3.json
 @@ -734 +734 @@
 -                        "id": 402900
 +                        "id": 831100
-@@ -745,0 +746 @@
-+                        "live2dName": "live2d_0",
-@@ -752 +753,2 @@
+@@ -753 +753 @@
 -                        "id": 760090,
 +                        "id": 760000,
-+                        "live2dName": "live2d_1",
-@@ -766 +768,2 @@
--                        "id": 760000
+@@ -773 +773 @@
+-                        "id": 760090,
 +                        "id": 760000,
-+                        "live2dName": "live2d_0"
-@@ -770 +773,2 @@
--                        "id": 760090
-+                        "id": 760000,
-+                        "live2dName": "live2d_1"
 diff -ru0 en/scenario_3/340261-4.json jp/scenario_3/340261-4.json
 --- en/scenario_3/340261-4.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_3/340261-4.json	2017-03-17 18:39:13.000000000 +0800
@@ -22111,11 +21034,82 @@ diff -ru0 en/scenario_3/340523-5.json jp/scenario_3/340523-5.json
 +                ]
 +            },
 +            {
+diff -ru0 en/scenario_4/400001-1.json jp/scenario_4/400001-1.json
+--- en/scenario_4/400001-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400001-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -578,0 +579 @@
++                        "live2dName": "live2d_0",
+@@ -611,0 +613 @@
++                        "live2dName": "live2d_0",
+@@ -639 +641,2 @@
+-                        "id": 100100
++                        "id": 100100,
++                        "live2dName": "live2d_0"
+diff -ru0 en/scenario_4/400025-1.json jp/scenario_4/400025-1.json
+--- en/scenario_4/400025-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_4/400025-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -379,18 +378,0 @@
+-                        "effect": "fadeout",
+-                        "id": 301300
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 301500
+-                    }
+-                ],
+-#BELLA=nameNarration=SPINA#
+-#BELLA=narration=SPINA#
+-                "narrationBg": "black",
+-                "narrationEffect": "in",
+-                "narrationFontSize": 40
+-            },
+-            {
+-                "autoTurnLast": 0.01,
+-                "chara": [
+-                    {
+@@ -410 +392,6 @@
+-                ]
++                ],
++#BELLA=nameNarration=SPINA#
++#BELLA=narration=SPINA#
++                "narrationBg": "black",
++                "narrationEffect": "in",
++                "narrationFontSize": 40
 diff -ru0 en/scenario_4/420171-1.json jp/scenario_4/420171-1.json
 --- en/scenario_4/420171-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_4/420171-1.json	2017-03-17 18:39:13.000000000 +0800
 @@ -618,0 +619 @@
 +#BELLA=nameLeft=SPINA#
+diff -ru0 en/scenario_5/501104-1_qbLmT.json jp/scenario_5/501104-1_qbLmT.json
+--- en/scenario_5/501104-1_qbLmT.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/501104-1_qbLmT.json	2017-03-17 18:39:13.000000000 +0800
+@@ -86,2 +86,5 @@
+-                        "effect": "fadeout",
+-                        "id": 302801
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 301101,
++                        "motion": 0,
++                        "pos": 0
+@@ -90,2 +93,5 @@
+-                        "effect": "fadeout",
+-                        "id": 100501
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 302801,
++                        "motion": 0,
++                        "pos": 2
+@@ -105,9 +111 @@
+-                        "motion": 1,
+-                        "pos": 0
+-                    },
+-                    {
+-                        "cheek": 0,
+-                        "face": "mtn_ex_010.exp.json",
+-                        "id": 302801,
+-                        "motion": 0,
+-                        "pos": 2
++                        "motion": 1
 diff -ru0 en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
 --- en/scenario_5/501107-2_1tFKL.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/501107-2_1tFKL.json	2017-03-17 18:39:13.000000000 +0800
@@ -22207,66 +21201,27 @@ diff -ru0 en/scenario_5/502802-18.json jp/scenario_5/502802-18.json
 @@ -368 +368 @@
 -                "narrationLineSpace": 5,
 +                "narrationLineSpace": 15,
-diff -ru0 en/scenario_5/502901-2.json jp/scenario_5/502901-2.json
---- en/scenario_5/502901-2.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_5/502901-2.json	2017-03-17 18:39:13.000000000 +0800
-@@ -502,0 +503 @@
-+                        "iPhoneXScale": 1,
-@@ -504 +505 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -507 +507,0 @@
--                        "scale": 1,
-diff -ru0 en/scenario_5/502901-3.json jp/scenario_5/502901-3.json
---- en/scenario_5/502901-3.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_5/502901-3.json	2017-03-17 18:39:13.000000000 +0800
-@@ -113,0 +114 @@
-+                        "iPhoneXScale": 1,
-@@ -115 +116 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-diff -ru0 en/scenario_5/502901-4.json jp/scenario_5/502901-4.json
---- en/scenario_5/502901-4.json	2017-03-17 18:39:13.000000000 +0800
-+++ jp/scenario_5/502901-4.json	2017-03-17 18:39:13.000000000 +0800
-@@ -23,0 +24 @@
-+                        "iPhoneXScale": 1,
-@@ -25 +26 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -347 +348 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
 diff -ru0 en/scenario_5/502901-5.json jp/scenario_5/502901-5.json
 --- en/scenario_5/502901-5.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/502901-5.json	2017-03-17 18:39:13.000000000 +0800
-@@ -114,0 +115 @@
-+                        "iPhoneXScale": 1,
-@@ -116 +117 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -119 +119,0 @@
--                        "scale": 1,
-@@ -574,0 +575 @@
-+                        "iPhoneXScale": 1,
-@@ -576 +577 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -712 +713 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -745,0 +747 @@
-+                        "iPhoneXScale": 1,
-@@ -747 +749 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -885 +887 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -942,0 +945 @@
-+                        "iPhoneXScale": 1,
-@@ -944 +947 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
+@@ -189,0 +190 @@
++                        "cheek": 0,
+@@ -191 +192,5 @@
+-                        "id": 200302
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 200302,
++                        "motion": 0,
++                        "pos": 1,
++                        "posX": 0
+@@ -201 +205,0 @@
+-                        "cheek": 0,
+@@ -203,5 +207 @@
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 200302,
+-                        "motion": 0,
+-                        "pos": 1,
+-                        "posX": 0
++                        "id": 200302
 diff -ru0 en/scenario_5/503010-1.json jp/scenario_5/503010-1.json
 --- en/scenario_5/503010-1.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/503010-1.json	2017-03-17 18:39:13.000000000 +0800
@@ -23978,6 +22933,58 @@ diff -ru0 en/scenario_5/504010-9.json jp/scenario_5/504010-9.json
 +++ jp/scenario_5/504010-9.json	2017-03-17 18:39:13.000000000 +0800
 @@ -8,0 +9 @@
 +                        "iPhoneXScale": 1,
+diff -ru0 en/scenario_5/504101-6.json jp/scenario_5/504101-6.json
+--- en/scenario_5/504101-6.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/504101-6.json	2017-03-17 18:39:13.000000000 +0800
+@@ -595,13 +594,0 @@
+-                "autoTurnLast": 0.01,
+-                "chara": [
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 301101
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 300801
+-                    }
+-                ]
+-            },
+-            {
+@@ -792 +778,0 @@
+-                "autoTurnLast": 0.1,
+@@ -796,13 +781,0 @@
+-                "se": "7208_wander_into",
+-                "chara": [
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 300801
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 200701
+-                    }
+-                ]
+-            },
+-            {
+@@ -824,0 +798 @@
++                "se": "7208_wander_into",
+diff -ru0 en/scenario_5/504101-7.json jp/scenario_5/504101-7.json
+--- en/scenario_5/504101-7.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/504101-7.json	2017-03-17 18:39:13.000000000 +0800
+@@ -1069,13 +1068,0 @@
+-                "autoTurnLast": 0.1,
+-                "chara": [
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 301100
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 200700
+-                    }
+-                ]
+-            },
+-            {
 diff -ru0 en/scenario_5/504501-6_yJVgp.json jp/scenario_5/504501-6_yJVgp.json
 --- en/scenario_5/504501-6_yJVgp.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/504501-6_yJVgp.json	2017-03-17 18:39:13.000000000 +0800
@@ -24239,6 +23246,18 @@ diff -ru0 en/scenario_5/505005-3_YOPuu.json jp/scenario_5/505005-3_YOPuu.json
 @@ -1017 +1017 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
+diff -ru0 en/scenario_5/505005-4_YOPuu.json jp/scenario_5/505005-4_YOPuu.json
+--- en/scenario_5/505005-4_YOPuu.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/505005-4_YOPuu.json	2017-03-17 18:39:13.000000000 +0800
+@@ -812,8 +811,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 801202
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 200652
 diff -ru0 en/scenario_5/505006-5_YOPuu.json jp/scenario_5/505006-5_YOPuu.json
 --- en/scenario_5/505006-5_YOPuu.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/505006-5_YOPuu.json	2017-03-17 18:39:13.000000000 +0800
@@ -27200,14 +26219,22 @@ diff -ru0 en/scenario_5/505901-36.json jp/scenario_5/505901-36.json
 +#BELLA=nameCenter=SPINA#
 @@ -1098 +1152,0 @@
 -                "turnChangeIn": "whiteIn",
-@@ -1169,0 +1224 @@
+@@ -1101,0 +1156,7 @@
++                "chara": [
++                    {
++                        "effect": "fadeout",
++                        "id": 302701,
++                        "pos": 1
++                    }
++                ],
+@@ -1162,0 +1224 @@
 +                "autoTurnLast": 0.01,
-@@ -1171 +1225,0 @@
+@@ -1164 +1225,0 @@
 -                "bgm": "stop",
-@@ -1176 +1230 @@
+@@ -1169 +1230 @@
 -                        "motion": 200,
 +                        "motion": 0,
-@@ -1179,0 +1234,11 @@
+@@ -1172,0 +1234,11 @@
 +                "turnChangeIn": "whiteIn",
 +                "turnEffect": "stop"
 +            },
@@ -27219,7 +26246,7 @@ diff -ru0 en/scenario_5/505901-36.json jp/scenario_5/505901-36.json
 +                        "motion": 200
 +                    }
 +                ],
-@@ -1184,3 +1249 @@
+@@ -1177,3 +1249 @@
 -                "turnChangeIn": "whiteIn",
 -                "turnChangeOut": "whiteOut",
 -                "turnEffect": "stop"
@@ -28518,6 +27545,14 @@ diff -ru0 en/scenario_5/506113-3.json jp/scenario_5/506113-3.json
 -                "narrationLineSpace": 20,
 +                "narrationLineMargin": 15,
 +                "narrationLineSpace": 10,
+diff -ru0 en/scenario_5/506210-7_0l84M.json jp/scenario_5/506210-7_0l84M.json
+--- en/scenario_5/506210-7_0l84M.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/506210-7_0l84M.json	2017-03-17 18:39:13.000000000 +0800
+@@ -98,4 +97,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 800700
 diff -ru0 en/scenario_5/506301-14_3X7EZ.json jp/scenario_5/506301-14_3X7EZ.json
 --- en/scenario_5/506301-14_3X7EZ.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506301-14_3X7EZ.json	2017-03-17 18:39:13.000000000 +0800
@@ -29534,9 +28569,8 @@ diff -ru0 en/scenario_5/506512-4_S2bQ5.json jp/scenario_5/506512-4_S2bQ5.json
 @@ -351 +351 @@
 -                "autoTurnLast": 0.01,
 +                "autoTurnLast": 0.1,
-@@ -355,2 +355,28 @@
+@@ -355 +355,27 @@
 -                "autoTurnLast": 1.6,
--                "bg": "bg_adv_20081.jpg",
 +                "armatureList": [
 +                    {
 +                        "animation": [
@@ -29564,7 +28598,6 @@ diff -ru0 en/scenario_5/506512-4_S2bQ5.json jp/scenario_5/506512-4_S2bQ5.json
 +            },
 +            {
 +                "autoTurnLast": 2,
-+                "bg": "bg_adv_31121.jpg",
 @@ -361 +387 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
@@ -35571,14 +34604,22 @@ diff -ru0 en/scenario_5/510051-36.json jp/scenario_5/510051-36.json
 +#BELLA=nameCenter=SPINA#
 @@ -1098 +1152,0 @@
 -                "turnChangeIn": "whiteIn",
-@@ -1169,0 +1224 @@
+@@ -1101,0 +1156,7 @@
++                "chara": [
++                    {
++                        "effect": "fadeout",
++                        "id": 302701,
++                        "pos": 1
++                    }
++                ],
+@@ -1162,0 +1224 @@
 +                "autoTurnLast": 0.01,
-@@ -1171 +1225,0 @@
+@@ -1164 +1225,0 @@
 -                "bgm": "stop",
-@@ -1176 +1230 @@
+@@ -1169 +1230 @@
 -                        "motion": 200,
 +                        "motion": 0,
-@@ -1179,0 +1234,11 @@
+@@ -1172,0 +1234,11 @@
 +                "turnChangeIn": "whiteIn",
 +                "turnEffect": "stop"
 +            },
@@ -35590,7 +34631,7 @@ diff -ru0 en/scenario_5/510051-36.json jp/scenario_5/510051-36.json
 +                        "motion": 200
 +                    }
 +                ],
-@@ -1184,3 +1249 @@
+@@ -1177,3 +1249 @@
 -                "turnChangeIn": "whiteIn",
 -                "turnChangeOut": "whiteOut",
 -                "turnEffect": "stop"
@@ -39342,9 +38383,8 @@ diff -ru0 en/scenario_5/510112-4_ZvuTl.json jp/scenario_5/510112-4_ZvuTl.json
 @@ -351 +351 @@
 -                "autoTurnLast": 0.01,
 +                "autoTurnLast": 0.1,
-@@ -355,2 +355,28 @@
+@@ -355 +355,27 @@
 -                "autoTurnLast": 1.6,
--                "bg": "bg_adv_20081.jpg",
 +                "armatureList": [
 +                    {
 +                        "animation": [
@@ -39372,7 +38412,6 @@ diff -ru0 en/scenario_5/510112-4_ZvuTl.json jp/scenario_5/510112-4_ZvuTl.json
 +            },
 +            {
 +                "autoTurnLast": 2,
-+                "bg": "bg_adv_31121.jpg",
 @@ -361 +387 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
@@ -39954,43 +38993,49 @@ diff -ru0 en/scenario_5/510201-2_m4VmX.json jp/scenario_5/510201-2_m4VmX.json
 @@ -147 +147 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
-@@ -221 +221 @@
+@@ -181,5 +180,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 6601,
+-                        "name": "sprite_0"
+@@ -226 +221 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -229 +229 @@
+@@ -234 +229 @@
 -                        "face": "mtn_ex_031.exp.json",
 +                        "face": "mtn_ex_031.exp3.json",
-@@ -242 +242 @@
+@@ -247 +242 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
-@@ -255 +255 @@
+@@ -260 +255 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -268 +268 @@
+@@ -273 +268 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
-@@ -283 +283 @@
+@@ -288 +283 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -304 +304 @@
+@@ -309 +304 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -376 +376 @@
+@@ -381 +376 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -383 +383 @@
+@@ -388 +383 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -444 +444 @@
+@@ -449 +444 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -482 +482 @@
+@@ -487 +482 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -517 +517 @@
+@@ -522 +517 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -528 +528 @@
+@@ -533 +528 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
 diff -ru0 en/scenario_5/510201-3_m4VmX.json jp/scenario_5/510201-3_m4VmX.json
@@ -57813,6 +56858,15 @@ diff -ru0 en/scenario_5/513263-63_wFvmE.json jp/scenario_5/513263-63_wFvmE.json
 +                    {
 +                        "cheek": 0,
 +                        "face": "mtn_ex_030.exp.json",
+diff -ru0 en/scenario_5/513410-4_eaiwn.json jp/scenario_5/513410-4_eaiwn.json
+--- en/scenario_5/513410-4_eaiwn.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/513410-4_eaiwn.json	2017-03-17 18:39:13.000000000 +0800
+@@ -49,5 +48,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 800100,
+-                        "live2dName": "live2d_0"
 diff -ru0 en/scenario_5/513919-19_ceiHF.json jp/scenario_5/513919-19_ceiHF.json
 --- en/scenario_5/513919-19_ceiHF.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/513919-19_ceiHF.json	2017-03-17 18:39:13.000000000 +0800
@@ -58153,43 +57207,49 @@ diff -ru0 en/scenario_5/515801-2_6sJsp.json jp/scenario_5/515801-2_6sJsp.json
 @@ -147 +147 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
-@@ -221 +221 @@
+@@ -181,5 +180,0 @@
+-                    },
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 6601,
+-                        "name": "sprite_0"
+@@ -226 +221 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -229 +229 @@
+@@ -234 +229 @@
 -                        "face": "mtn_ex_031.exp.json",
 +                        "face": "mtn_ex_031.exp3.json",
-@@ -242 +242 @@
+@@ -247 +242 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
-@@ -255 +255 @@
+@@ -260 +255 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -268 +268 @@
+@@ -273 +268 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
-@@ -283 +283 @@
+@@ -288 +283 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -304 +304 @@
+@@ -309 +304 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -376 +376 @@
+@@ -381 +376 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -383 +383 @@
+@@ -388 +383 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -444 +444 @@
+@@ -449 +444 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -482 +482 @@
+@@ -487 +482 @@
 -                        "face": "mtn_ex_000.exp.json",
 +                        "face": "mtn_ex_000.exp3.json",
-@@ -517 +517 @@
+@@ -522 +517 @@
 -                        "face": "mtn_ex_050.exp.json",
 +                        "face": "mtn_ex_050.exp3.json",
-@@ -528 +528 @@
+@@ -533 +528 @@
 -                        "face": "mtn_ex_020.exp.json",
 +                        "face": "mtn_ex_020.exp3.json",
 diff -ru0 en/scenario_5/515801-3_6sJsp.json jp/scenario_5/515801-3_6sJsp.json
