@@ -6698,142 +6698,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/310133-3.json jp/sc
                         "cheek": 0,					  |	                        "cheek": -1,
                         "cheek": 0,					  |	                        "cheek": -1,
     "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310151-2.json jp/scenario_3/310151-2.json
-									  >	                "armatureList": [
-									  >	                    {
-									  >	                        "animation": [
-									  >	                            "action"
-									  >	                        ],
-									  >	                        "armatureId": 1,
-									  >	                        "filePath": "resource/image_native/effect/stor
-									  >	                        "zOrder": "messageBack"
-									  >	                    },
-									  >	                    {
-									  >	                        "animation": [
-									  >	                            "action"
-									  >	                        ],
-									  >	                        "armatureId": 2,
-									  >	                        "filePath": "resource/image_native/effect/stor
-									  >	                        "zOrder": "bgFront"
-									  >	                    }
-									  >	                ],
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                "turnEffect": "thinking"				  <
-                "turnEffect": "stop"					  <
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-									  >	                "deleteArmatureList": [
-									  >	                    1,
-									  >	                    2
-									  >	                ],
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310151-3.json jp/scenario_3/310151-3.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310152-1.json jp/scenario_3/310152-1.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310152-2.json jp/scenario_3/310152-2.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310152-3.json jp/scenario_3/310152-3.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310152-4.json jp/scenario_3/310152-4.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/310153-3.json jp/scenario_3/310153-3.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/310163-2.json jp/scenario_3/310163-2.json
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
@@ -7551,11 +7415,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/312092-4.json jp/sc
                     {							  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/312101-4.json jp/scenario_3/312101-4.json
                         "lipSynch": 1					  |	                        "lipSynch": 0
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/320012-1.json jp/scenario_3/320012-1.json
-#BELLA=nameRight=SPINA#							  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/320012-2.json jp/scenario_3/320012-2.json
-                "bg": "bg_adv_21041.jpg",				  |	                "bg": "bg_adv_21401.jpg",
-    "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/320021-3.json jp/scenario_3/320021-3.json
 									  >	#BELLA=nameLeft=SPINA#
 #BELLA=nameLeft=SPINA#							  <
@@ -9541,14 +9400,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330093-4.json jp/sc
                         "id": 300900					  |	                        "id": 300902
                         "id": 300900,					  |	                        "id": 300902,
                         "id": 300900,					  |	                        "id": 300902,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330101-3.json jp/scenario_3/330101-3.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330101-4.json jp/scenario_3/330101-4.json
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
-                "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330111-4.json jp/scenario_3/330111-4.json
                         "cheek": 0,					  |	                        "cheek": -1,
 #BELLA=narration=SPINA#							  <
@@ -9880,21 +9731,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330203-2.json jp/sc
                 "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_11101.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330213-2.json jp/scenario_3/330213-2.json
 #BELLA=nameLeft=SPINA#							  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330252-1.json jp/scenario_3/330252-1.json
-                "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-                "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-                "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_13111.jpg",
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330252-3.json jp/scenario_3/330252-3.json
-                "bg": "bg_adv_21161.jpg",				  |	                "bg": "bg_adv_16101.jpg",
-                "bg": "bg_adv_21161.jpg",				  |	                "bg": "bg_adv_16101.jpg",
-                "narrationBg": "bg_adv_21161.jpg",			  |	                "narrationBg": "bg_adv_16101.jpg",
-                "narrationBg": "bg_adv_21161.jpg",			  |	                "narrationBg": "bg_adv_16101.jpg",
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330253-3.json jp/scenario_3/330253-3.json
-    "version": 2							  |	    "version": 3
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330262-1.json jp/scenario_3/330262-1.json
                 "bg": "bg_adv_21221.jpg",				  |	                "bg": "bg_adv_19221.jpg",
     "version": 2							  |	    "version": 3
@@ -10242,12 +10078,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330273-4.json jp/sc
                         "cheek": 0,					  |	                        "cheek": -1,
                         "cheek": 0,					  <
                         "face": "mtn_ex_010.exp.json",			  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330291-2.json jp/scenario_3/330291-2.json
-                        "motion": 0,					  |	                        "lipSynch": 0,
-                        "mouthOpen": 0					  |	                        "motion": 0
-    "version": 2							  |	    "version": 3
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330291-3.json jp/scenario_3/330291-3.json
-                "bg": "bg_adv_13062.jpg",				  |	                "bg": "bg_adv_14101.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330301-1.json jp/scenario_3/330301-1.json
                 "bg": "bg_adv_21241.jpg",				  |	                "bg": "bg_adv_11101.jpg",
                 "narrationBg": "bg_adv_21241.jpg",			  |	                "narrationBg": "bg_adv_11101.jpg",
@@ -10671,58 +10501,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/330403-2.json jp/sc
             {								  <
                 "chara": [						  <
                     {							  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330431-1.json jp/scenario_3/330431-1.json
-									  >	                        "iPhoneXScale": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330431-2.json jp/scenario_3/330431-2.json
-									  >	                        "iPhoneXScale": 1,
-									  >	                        "iPhoneXScale": 1,
-									  >	                        "iPhoneXScale": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330431-3.json jp/scenario_3/330431-3.json
-									  >	                        "iPhoneXScale": 1,
-									  >	                        "iPhoneXScale": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330431-4.json jp/scenario_3/330431-4.json
-									  >	                        "iPhoneXScale": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330432-1.json jp/scenario_3/330432-1.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330432-3.json jp/scenario_3/330432-3.json
-									  >	                "bg": "bg_adv_21401.jpg",
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330432-4.json jp/scenario_3/330432-4.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-diff -ry '--width=150' --suppress-common-lines en/scenario_3/330433-1.json jp/scenario_3/330433-1.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/330441-3.json jp/scenario_3/330441-3.json
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
@@ -11324,6 +11102,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_3/340263-4.json jp/sc
                         "id": 402900					  |	                        "id": 831100
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340281-3.json jp/scenario_3/340281-3.json
                 "se": "7205_magic_girl",				  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_3/340513-2.json jp/scenario_3/340513-2.json
+                "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.01,
 diff -ry '--width=150' --suppress-common-lines en/scenario_3/340521-4.json jp/scenario_3/340521-4.json
 									  >	                "autoTurnFirst": 1.8,
 									  >	                "bg": "bg_adv_narration.jpg",
@@ -12790,132 +12570,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/505410-7.json jp/sc
 									  >	#BELLA=nameLeft=SPINA#
                 "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.3,
                         "id": 304302					  |	                        "id": 101403
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/505410-9.json jp/scenario_5/505410-9.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/adv_souljem_01.	  |	                        "path": "resource/scenario/img/adv_souljem_01.
-                        "path": "resource/scenario/img/adv_souljem_01.	  |	                        "path": "resource/scenario/img/adv_souljem_01.
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/505420-10.json jp/scenario_5/505420-10.json
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_051.exp.json",			  |	                        "face": "mtn_ex_051.exp3.json",
-                        "face": "mtn_ex_040.exp.json",			  |	                        "face": "mtn_ex_040.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_051.exp.json",			  |	                        "face": "mtn_ex_051.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_014.exp.json",			  |	                        "face": "mtn_ex_014.exp3.json",
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_040.exp.json",			  |	                        "face": "mtn_ex_040.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
-                        "face": "mtn_ex_014.exp.json",			  |	                        "face": "mtn_ex_014.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_011.exp.json",			  |	                        "face": "mtn_ex_011.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_021.exp.json",			  |	                        "face": "mtn_ex_021.exp3.json",
-                        "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_014.exp.json",			  |	                        "face": "mtn_ex_014.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                            "name": "PARAM_BRACELET"			  |	                            "name": "PARAM_BRACELET",
-									  >	                            "value": 1
-                        "face": "mtn_ex_000.exp.json",			  |	                        "face": "mtn_ex_000.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                            "name": "PARAM_BRACELET"			  |	                            "name": "PARAM_BRACELET",
-									  >	                            "value": 1
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "id": 100701,					  |	                        "id": 100770,
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-                        "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/505420-8.json jp/scenario_5/505420-8.json
-									  >	                        "iPhoneXScale": 1,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/505420-9.json jp/scenario_5/505420-9.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/505710-1_ycatl.json jp/scenario_5/505710-1_ycatl.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/505802-17.json jp/scenario_5/505802-17.json
                 "autoTurnFirst": 0.7,					  |	                "autoTurnLast": 0.2,
                 ]							  |	                ],
@@ -16191,204 +15845,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506512-9_S2bQ5.json
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506710-1_SeR1D.json jp/scenario_5/506710-1_SeR1D.json
                         "scale": 4,					  |	                        "scale": 6,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506710-8_SeR1D.json jp/scenario_5/506710-8_SeR1D.json
-                                "duration": 0.4,			  |	                                "duration": 0.3,
-                        "scale": 4,					  |	                        "scale": 6,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506901-1_ZgSfd.json jp/scenario_5/506901-1_ZgSfd.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506902-2_FsHqe.json jp/scenario_5/506902-2_FsHqe.json
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506903-3_7e5jL.json jp/scenario_5/506903-3_7e5jL.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506904-4_UxVuR.json jp/scenario_5/506904-4_UxVuR.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506905-5_ifs6e.json jp/scenario_5/506905-5_ifs6e.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506906-6_SapFU.json jp/scenario_5/506906-6_SapFU.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506907-7_3I3sA.json jp/scenario_5/506907-7_3I3sA.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506908-8_55z9N.json jp/scenario_5/506908-8_55z9N.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506909-9_Arnzs.json jp/scenario_5/506909-9_Arnzs.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                "narrationLineMargin": 25,				  |	                "narrationLineMargin": 10,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506910-10_T1FME.json jp/scenario_5/506910-10_T1FME.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506910-11_T1FME.json jp/scenario_5/506910-11_T1FME.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701					  |	                        "id": 100770
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506910-12_T1FME.json jp/scenario_5/506910-12_T1FME.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-diff -ry '--width=150' --suppress-common-lines en/scenario_5/506910-13_T1FME.json jp/scenario_5/506910-13_T1FME.json
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403					  |	                        "id": 101471
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
                                 "duration": 0.4,			  |	                                "duration": 0.3,
                         "scale": 4,					  |	                        "scale": 6,
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/507110-3_cZhmI.json jp/scenario_5/507110-3_cZhmI.json
@@ -31332,6 +30788,12 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/516520-16_819Mg.jso
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/517120-6_rJz0C.json jp/scenario_5/517120-6_rJz0C.json
                         "id": 101501,					  |	                        "id": 101501
                         "motion": 0					  <
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/518310-14_sw8iW.json jp/scenario_5/518310-14_sw8iW.json
+                "bg": "bg_adv_13141.jpg",				  |	                "bg": "bg_adv_13144.jpg",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/518310-15_sw8iW.json jp/scenario_5/518310-15_sw8iW.json
+                "bg": "bg_adv_13141.jpg",				  |	                "bg": "bg_adv_13144.jpg",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/518310-9_sw8iW.json jp/scenario_5/518310-9_sw8iW.json
+                "bg": "bg_adv_13141.jpg",				  |	                "bg": "bg_adv_13144.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_6/603901-2_lo9Zw.json jp/scenario_6/603901-2_lo9Zw.json
                         "face": "mtn_ex_020.exp.json",			  <
                         "id": 300201,					  <
@@ -31404,14 +30866,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_6/616801-9_tNge9.json
             },								  <
             {								  <
 #BELLA=narration=SPINA#							  <
-diff -ry '--width=150' --suppress-common-lines en/scenario_6/617501-1_RZLYm.json jp/scenario_6/617501-1_RZLYm.json
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701					  |	                        "id": 100770
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 101403,					  |	                        "id": 101471,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
-                        "id": 100701,					  |	                        "id": 100770,
 diff -ry '--width=150' --suppress-common-lines en/scenario_6/631901-3_mc9Lt.json jp/scenario_6/631901-3_mc9Lt.json
                         "id": 100802,					  |	                        "id": 100801,
                         "id": 101202,					  |	                        "id": 101201,
