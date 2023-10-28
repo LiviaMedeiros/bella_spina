@@ -41,16 +41,16 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 ```asm
       0 broken_en
       0 bom_en
-   7477 all_en
+   7484 all_en
    9411 all_jp
    2992 all_na
    2484 same_na
     508 changed_na
-      7 only_en
-   1941 only_jp
-   7470 comparable
+     13 only_en
+   1940 only_jp
+   7471 comparable
      43 same
-   6687 perfect
+   6688 perfect
     783 outdated
      11 invalid
     556 valid
