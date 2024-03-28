@@ -60,5 +60,5 @@ files in `/invalid/` directory are successfully (0 hunk rejections, 0 special li
 3044 onepiece-rfc6902.json
 1860 onepiece-sbs.diff
 1840 onepiece.diff
-4364 onepiece.patch
+4360 onepiece.patch
 ```
