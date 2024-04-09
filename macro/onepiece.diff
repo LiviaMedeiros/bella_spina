@@ -10805,6 +10805,25 @@ diff -r en/scenario_3/321023-2.json jp/scenario_3/321023-2.json
 <                         "visible": "hide"
 ---
 >                         "setVisible": 0
+diff -r en/scenario_3/322022-1.json jp/scenario_3/322022-1.json
+102,108d101
+<                     },
+<                     {
+<                         "path": "resource/scenario/img/51049_storyselect_homura/51049_frame.png",
+<                         "posX": 0,
+<                         "posY": 0,
+<                         "visible": "appear",
+<                         "zOrder": "charaFront"
+110,111c103
+<                 ],
+<                 "turnChangeIn": "fadeIn"
+---
+>                 ]
+121,122c113
+<                 "narrationLineSpace": 20,
+<                 "turnChangeOut": "fadeOut"
+---
+>                 "narrationLineSpace": 20
 diff -r en/scenario_3/324002-2.json jp/scenario_3/324002-2.json
 323,330d322
 <                 "chara": [

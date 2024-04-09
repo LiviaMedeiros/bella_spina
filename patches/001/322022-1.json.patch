@@ -1,0 +1,30 @@
+--- en/scenario_3/322022-1.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/322022-1.json	2017-03-17 18:39:13.000000000 +0800
+@@ -99,16 +99,8 @@
+                         "posY": 0,
+                         "visible": "appear",
+                         "zOrder": "charaBack"
+-                    },
+-                    {
+-                        "path": "resource/scenario/img/51049_storyselect_homura/51049_frame.png",
+-                        "posX": 0,
+-                        "posY": 0,
+-                        "visible": "appear",
+-                        "zOrder": "charaFront"
+                     }
+-                ],
+-                "turnChangeIn": "fadeIn"
++                ]
+             },
+             {
+ #BELLA=narration=SPINA#
+@@ -118,8 +110,7 @@
+                 "narrationEffect": "in",
+                 "narrationFontSize": 30,
+                 "narrationLineMargin": 10,
+-                "narrationLineSpace": 20,
+-                "turnChangeOut": "fadeOut"
++                "narrationLineSpace": 20
+             },
+             {
+                 "autoTurnLast": 0.1,
