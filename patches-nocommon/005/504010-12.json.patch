@@ -1,0 +1,617 @@
+--- en/scenario_5/504010-12.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/504010-12.json	2017-03-17 18:39:13.000000000 +0800
+@@ -15,2 +15,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390100,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802201,
+@@ -25,6 +24,0 @@
+-                "chara": [
+-                    {
+-                        "id": 390100,
+-                        "motion": 200
+-                    }
+-                ],
+@@ -36 +30 @@
+-                "surround": "3901A04"
++                "se": "6017_hit_shooting_11_h"
+@@ -39 +33 @@
+-                "autoTurnLast": 0.8,
++                "autoTurnLast": 0.5,
+@@ -49 +43 @@
+-                "surround": "3901A07"
++                "se": "6077_hit_strike_18a_s"
+@@ -63,10 +56,0 @@
+-                "autoTurnLast": 0.2,
+-                "chara": [
+-                    {
+-                        "effect": "fadeout",
+-                        "id": 390100
+-                    }
+-                ],
+-                "textClear": 1
+-            },
+-            {
+@@ -79 +63 @@
+-                "autoTurnLast": 0.2,
++                "autoTurnLast": 0.5,
+@@ -83 +67 @@
+-                        "face": "mtn_ex_051.exp3.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -91,12 +74,0 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390100,
+-                        "motion": 0,
+-                        "pos": 2
+-                    }
+-                ]
+-            },
+-            {
+-                "autoTurnLast": 0.5,
+-                "chara": [
+-                    {
+-                        "cheek": 0,
+@@ -104,2 +76,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200,
+@@ -120 +92 @@
+-                        "id": 390101
++                        "id": 802200
+@@ -122,0 +95 @@
++#BELLA=nameLeft=SPINA#
+@@ -130 +103 @@
+-                        "face": "mtn_ex_010.exp3.json",
++                        "face": "mtn_ex_010.exp.json",
+@@ -135 +107,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -142,3 +114,2 @@
+-                        "face": "mtn_ex_014.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -153 +124 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -164,3 +135,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 1
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -176,2 +146,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -186,2 +156,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -217,3 +187,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 200
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -228 +197 @@
+-                        "face": "mtn_ex_020.exp3.json",
++                        "face": "mtn_ex_020.exp.json",
+@@ -251,3 +220,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 400
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -286,3 +254,7 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101,
+-                        "motion": 300,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200,
++                        "live2dParam": {
++                            "name": "PARAM_MASK",
++                            "value": 1
++                        },
++                        "motion": 0,
+@@ -298,2 +270,3 @@
+-                        "eyeClose": 1,
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -308,2 +281,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -317,2 +290,3 @@
+-                        "eyeClose": 0,
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -327,3 +301,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 0
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -338 +311 @@
+-                        "face": "mtn_ex_030.exp3.json",
++                        "face": "mtn_ex_030.exp.json",
+@@ -392 +365 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -411,3 +384,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101,
+-                        "motion": 200
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -421 +393,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -429 +403,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -437,2 +413,3 @@
+-                        "id": 390101,
+-                        "motion": 1
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -446 +423,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -454,2 +433,3 @@
+-                        "eyeClose": 1,
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -464,4 +444,2 @@
+-                        "eyeClose": 0,
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 400
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -476,2 +454,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -494,3 +472,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -505,2 +482,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -515,3 +492,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 1
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -526 +502 @@
+-                        "face": "mtn_ex_051.exp3.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -535 +511,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -543,2 +521,3 @@
+-                        "id": 390101,
+-                        "motion": 200
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -552 +531,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -561,2 +542,2 @@
+-                        "face": "mtn_ex_014.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -571 +552 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -582,3 +563,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 0
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -594,2 +574,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -603 +583,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -613 +595 @@
+-                        "face": "mtn_ex_051.exp3.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -624,3 +606,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 400
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -634 +615,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -643,3 +626,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101,
+-                        "motion": 1
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -649 +631 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -659 +641,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_051.exp.json",
++                        "id": 802200
+@@ -662 +646,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -671,3 +657,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101,
+-                        "motion": 300
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -681 +666,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -689 +676,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -698 +687 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -718,3 +707,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 0
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -729,2 +717,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -742 +730,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -750 +740,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -758 +750,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -767,3 +761,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -778,2 +771,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -789,4 +781,0 @@
+-                    },
+-                    {
+-                        "id": 390101,
+-                        "motion": 0
+@@ -809 +798 @@
+-                        "face": "mtn_ex_020.exp3.json",
++                        "face": "mtn_ex_020.exp.json",
+@@ -820,3 +809,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 300
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -831 +819 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -842 +830 @@
+-                        "face": "mtn_ex_030.exp3.json",
++                        "face": "mtn_ex_030.exp.json",
+@@ -852,3 +840,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101,
+-                        "motion": 1
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -862 +849,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -870 +859,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -879,3 +870,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 200
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -889 +879,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -897 +889,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -915,3 +909,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -926 +919 @@
+-                        "face": "mtn_ex_030.exp3.json",
++                        "face": "mtn_ex_030.exp.json",
+@@ -936,2 +929,3 @@
+-                        "id": 390101,
+-                        "motion": 0
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -946,2 +940,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -956,3 +950,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101,
+-                        "motion": 400
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -966 +959,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -974 +969,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -983,3 +980,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -993 +989,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -1001 +999,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -1013,4 +1012,0 @@
+-                    },
+-                    {
+-                        "id": 390101,
+-                        "motion": 1
+@@ -1032,3 +1028,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390101,
+-                        "motion": 200
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -1042 +1037,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -1051 +1048 @@
+-                        "face": "mtn_ex_051.exp3.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -1058,2 +1055,3 @@
+-                        "id": 390101,
+-                        "motion": 1
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -1069,2 +1067,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -1079,2 +1077,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1089,2 +1087,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1099,2 +1097,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -1108 +1106,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -1117 +1117 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -1127,3 +1127,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1138,2 +1137,2 @@
+-                        "face": "mtn_ex_011.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -1148,2 +1147,2 @@
+-                        "face": "mtn_ex_030.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -1157 +1156,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -1165 +1166,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_030.exp.json",
++                        "id": 802200
+@@ -1174,3 +1177,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 300
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1184 +1186,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1192 +1196,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1201,2 +1207,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200
+@@ -1211,3 +1217,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101,
+-                        "motion": 1
++                        "face": "mtn_ex_011.exp.json",
++                        "id": 802200
+@@ -1246,3 +1251,2 @@
+-                        "face": "mtn_ex_020.exp3.json",
+-                        "id": 390101,
+-                        "motion": 200
++                        "face": "mtn_ex_020.exp.json",
++                        "id": 802200
+@@ -1257 +1261 @@
+-                        "face": "mtn_ex_033.exp3.json",
++                        "face": "mtn_ex_033.exp.json",
+@@ -1265,3 +1269,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101,
+-                        "motion": 0
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1270 +1273 @@
+-#BELLA=nameRight=SPINA#
++#BELLA=nameLeft=SPINA#
+@@ -1277,2 +1280,2 @@
+-                        "face": "mtn_ex_000.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_01１.exp.json",
++                        "id": 802200
+@@ -1287,2 +1290,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1297,2 +1300,2 @@
+-                        "face": "mtn_ex_010.exp3.json",
+-                        "id": 390101
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1307,3 +1310,2 @@
+-                        "face": "mtn_ex_014.exp3.json",
+-                        "id": 390101,
+-                        "motion": 100
++                        "face": "mtn_ex_010.exp.json",
++                        "id": 802200
+@@ -1319 +1321 @@
+-                        "id": 390101
++                        "id": 802200
+@@ -1328 +1330 @@
+-                        "face": "mtn_ex_051.exp3.json",
++                        "face": "mtn_ex_051.exp.json",
+@@ -1334 +1335,0 @@
+-#BELLA=nameLeft=SPINA#
+@@ -1341,2 +1342,2 @@
+-                        "face": "mtn_ex_050.exp3.json",
+-                        "id": 390101,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200,
+@@ -1343,0 +1345,4 @@
++                        "live2dParam": {
++                            "name": "PARAM_MASK",
++                            "value": 1
++                        },
+@@ -1354 +1359 @@
+-                        "face": "mtn_ex_030.exp3.json",
++                        "face": "mtn_ex_030.exp.json",
+@@ -1364 +1369,3 @@
+-                        "id": 390101
++                        "cheek": 0,
++                        "face": "mtn_ex_050.exp.json",
++                        "id": 802200

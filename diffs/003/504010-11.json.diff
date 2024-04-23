@@ -1,0 +1,287 @@
+38c38
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+65c65
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+79c79
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+111c111
+<                         "face": "mtn_ex_020.exp3.json",
+---
+>                         "face": "mtn_ex_020.exp.json",
+144c144
+<                         "face": "mtn_ex_010.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+165c165
+<                         "face": "mtn_ex_011.exp3.json",
+---
+>                         "face": "mtn_ex_011.exp.json",
+203c203
+<                         "face": "mtn_ex_010.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+230c230
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+243c243
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+254c254
+<                         "face": "mtn_ex_020.exp3.json",
+---
+>                         "face": "mtn_ex_020.exp.json",
+265c265
+<                         "face": "mtn_ex_010.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+286c286
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+297c297
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+309c309
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+337c337
+<                         "face": "mtn_ex_010.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+347c347
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+396c396
+<                         "face": "mtn_ex_020.exp3.json",
+---
+>                         "face": "mtn_ex_020.exp.json",
+419c419
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+441c441
+<                         "face": "mtn_ex_010.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp.json",
+463c463
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+493c493
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+517c517
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+592c592
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+642c642
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+661c661
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+679c679
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+690c690
+<                         "face": "mtn_ex_033.exp3.json",
+---
+>                         "face": "mtn_ex_033.exp.json",
+719c719
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+773c773
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+819c819
+<                 "surround": "3901A04"
+---
+>                 "se": "6017_hit_shooting_11_h"
+832c832
+<                 "surround": "3901A07"
+---
+>                 "se": "6077_hit_strike_18a_s"
+850c850
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+853c853
+<                         "pos": 1,
+---
+>                         "pos": 0,
+867,868c867
+< #BELLA=nameCenter=SPINA#
+< #BELLA=textCenter=SPINA#
+---
+> #BELLA=textLeft=SPINA#
+872,881c871
+<                 "autoTurnLast": 0.2,
+<                 "chara": [
+<                     {
+<                         "cheek": 0,
+<                         "face": "mtn_ex_020.exp3.json",
+<                         "id": 390100,
+<                         "motion": 0,
+<                         "pos": 1
+<                     }
+<                 ],
+---
+>                 "autoTurnLast": 0.01,
+885a876,879
+>                 "turnChangeOut": "rollOutFast"
+>             },
+>             {
+>                 "autoTurnLast": 1,
+888c882,886
+<                         "id": 390100
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 802201,
+>                         "motion": 0,
+>                         "pos": 1
+890,891c888
+<                 ],
+<                 "turnChangeOut": "rollOutFast"
+---
+>                 ]
+896c893
+<                         "id": 390100,
+---
+>                         "id": 802201,
+904c901
+<                 "autoTurnLast": 1,
+---
+>                 "autoTurnLast": 0.01,
+907,908c904,905
+<                         "id": 390100,
+<                         "motion": 200
+---
+>                         "id": 802201,
+>                         "pos": 2
+911,912d907
+<                 "flashEffect": "flashWhite2",
+<                 "surround": "3901A04",
+916,925c911
+<                 "autoTurnLast": 0.2,
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 390100
+<                     }
+<                 ]
+<             },
+<             {
+<                 "autoTurnLast": 0.2,
+---
+>                 "autoTurnLast": 1,
+935c921
+<                         "pos": 2
+---
+>                         "pos": 1
+940c926,931
+<                 "autoTurnLast": 0.8,
+---
+>                 "autoTurnLast": 1,
+>                 "flashEffect": "flashWhite2",
+>                 "se": "6017_hit_shooting_11_h"
+>             },
+>             {
+>                 "autoTurnLast": 0.5,
+946,947c937
+<                         "name": "sprite_0",
+<                         "pos": 0
+---
+>                         "name": "sprite_0"
+952,953c942
+<                         "name": "sprite_1",
+<                         "pos": 2
+---
+>                         "name": "sprite_1"
+957c946
+<                 "surround": "3901A07"
+---
+>                 "se": "6077_hit_strike_18a_s"
+980c969
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+1005,1007c994,996
+<                         "face": "mtn_ex_020.exp3.json",
+<                         "id": 390100,
+<                         "motion": 1,
+---
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 802201,
+>                         "motion": 0,
+1009,1013d997
+<                     },
+<                     {
+<                         "id": 810000,
+<                         "pos": 2,
+<                         "posX": 40
+1022,1023c1006,1013
+<                         "face": "mtn_ex_050.exp3.json",
+<                         "id": 390100
+---
+>                         "face": "mtn_ex_050.exp.json",
+>                         "id": 802201
+>                     },
+>                     {
+>                         "id": 810000,
+>                         "pos": 2,
+>                         "posX": 40,
+>                         "posY": 0
+1034c1024
+<                         "id": 390100
+---
+>                         "id": 802201
+1049,1051c1039,1040
+<                         "face": "mtn_ex_030.exp3.json",
+<                         "id": 390100,
+<                         "motion": 300
+---
+>                         "face": "mtn_ex_030.exp.json",
+>                         "id": 802201
+1060,1062c1049,1050
+<                         "face": "mtn_ex_020.exp3.json",
+<                         "id": 390100,
+<                         "motion": 100
+---
+>                         "face": "mtn_ex_010.exp.json",
+>                         "id": 802201
+1070,1072c1058
+<                         "cheek": 0,
+<                         "face": "mtn_ex_010.exp3.json",
+<                         "id": 390100
+---
+>                         "id": 802201
+1082c1068
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
+1095c1081
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",

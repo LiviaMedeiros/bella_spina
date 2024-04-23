@@ -1,0 +1,70 @@
+15c15,16
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "eyeClose": 1,
+>                         "face": "mtn_ex_030.exp.json",
+17d17
+<                         "motion": 0,
+24,27d23
+<                 "autoTurnLast": 0.1,
+<                 "turnChangeOut": "fadeOut"
+<             },
+<             {
+29,51c25
+<                 "bgEffect": "shakeLarge",
+<                 "chara": [
+<                     {
+<                         "cheek": 0,
+<                         "effect": "shake",
+<                         "face": "mtn_ex_060.exp3.json",
+<                         "id": 200700,
+<                         "motion": 400
+<                     }
+<                 ],
+<                 "flashEffect": "flashRed2",
+<                 "se": "3001_chara_damage"
+<             },
+<             {
+<                 "autoTurnLast": 2,
+<                 "chara": [
+<                     {
+<                         "effect": "fadeout",
+<                         "id": 200700
+<                     }
+<                 ],
+<                 "se": "3002_chara_dead",
+<                 "textClear": 1
+---
+>                 "turnChangeOut": "fadeOut"
+58,60c32,34
+<                         "face": "mtn_ex_020.exp3.json",
+<                         "id": 390100,
+<                         "motion": 200,
+---
+>                         "face": "mtn_ex_020.exp.json",
+>                         "id": 802201,
+>                         "motion": 0,
+66c40
+<                 "autoTurnLast": 1,
+---
+>                 "autoTurnLast": 0.5,
+68c42
+<                 "surround": "3901A04",
+---
+>                 "se": "6017_hit_shooting_11_h",
+72c46
+<                 "autoTurnLast": 1,
+---
+>                 "autoTurnLast": 0.5,
+82c56
+<                 "surround": "3901A07"
+---
+>                 "se": "6077_hit_strike_18a_s"
+102c76
+<                         "face": "mtn_ex_030.exp3.json",
+---
+>                         "face": "mtn_ex_030.exp.json",
+159c133
+<                         "face": "mtn_ex_051.exp3.json",
+---
+>                         "face": "mtn_ex_051.exp.json",
