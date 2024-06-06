@@ -25831,6 +25831,60 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/518310-15_sw8iW.jso
                 "bg": "bg_adv_13141.jpg",				  |	                "bg": "bg_adv_13144.jpg",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/518310-9_sw8iW.json jp/scenario_5/518310-9_sw8iW.json
                 "bg": "bg_adv_13141.jpg",				  |	                "bg": "bg_adv_13144.jpg",
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/519601-4_BPssF.json jp/scenario_5/519601-4_BPssF.json
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "id": 105301,
+									  >	                        "pos": 2
+									  >	                    }
+									  >	                ],
+									  >	#BELLA=nameRight=SPINA#
+									  >	#BELLA=textRight=SPINA#
+									  >	            },
+									  >	            {
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/519602-3_wzPd8.json jp/scenario_5/519602-3_wzPd8.json
+                "bgEffect": "shakeSmall",				  |	                "bgEffect": "shakeLarge",
+                "autoTurnLast": 0.2,					  |	                "autoTurnLast": 2,
+diff -ry '--width=150' --suppress-common-lines en/scenario_5/519602-6_wzPd8.json jp/scenario_5/519602-6_wzPd8.json
+									  >	                        "live2dName": "live2d_0",
+                        "pos": 0					  |	                        "pos": 0,
+									  >	                        "zOrder": -1
+									  >	                    },
+									  >	                    {
+									  >	                        "cheek": 0,
+									  >	                        "face": "mtn_ex_020.exp3.json",
+									  >	                        "id": 834900,
+									  >	                        "live2dName": "live2d_1",
+									  >	                        "motion": 0,
+									  >	                        "pos": 1,
+									  >	                        "zOrder": 1
+                        "pos": 0					  |	                        "live2dName": "live2d_1",
+									  >	                        "pos": 1
+#BELLA=nameLeft=SPINA#							  |	#BELLA=nameCenter=SPINA#
+#BELLA=textLeft=SPINA#							  |	#BELLA=textCenter=SPINA#
+									  >	                "autoTurnLast": 0.25,
+									  >	                "chara": [
+									  >	                    {
+									  >	                        "effect": "fadeout",
+									  >	                        "id": 834900,
+									  >	                        "live2dName": "live2d_0"
+									  >	                    },
+									  >	                    {
+									  >	                        "effect": "fadeout",
+									  >	                        "id": 834900,
+									  >	                        "live2dName": "live2d_1"
+									  >	                    }
+									  >	                ],
+									  >	                "textClear": 1
+									  >	            },
+									  >	            {
+									  >	                "autoTurnLast": 2,
+									  >	                "narrationEffect": "out"
+									  >	            },
+									  >	            {
+                "narrationEffect": "out",				  <
+                "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.5,
+									  >	                "textBg": "shout",
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/520420-3_qofw8.json jp/scenario_5/520420-3_qofw8.json
 #BELLA=nameRight=SPINA#							  |	#BELLA=nameLeft=SPINA#
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/521310-12_ybpvM.json jp/scenario_5/521310-12_ybpvM.json

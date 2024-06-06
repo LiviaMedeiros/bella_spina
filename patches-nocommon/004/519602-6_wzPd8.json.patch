@@ -1,0 +1,55 @@
+--- en/scenario_5/519602-6_wzPd8.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/519602-6_wzPd8.json	2017-03-17 18:39:13.000000000 +0800
+@@ -217,0 +218 @@
++                        "live2dName": "live2d_0",
+@@ -219 +220,11 @@
+-                        "pos": 0
++                        "pos": 0,
++                        "zOrder": -1
++                    },
++                    {
++                        "cheek": 0,
++                        "face": "mtn_ex_020.exp3.json",
++                        "id": 834900,
++                        "live2dName": "live2d_1",
++                        "motion": 0,
++                        "pos": 1,
++                        "zOrder": 1
+@@ -236 +247,2 @@
+-                        "pos": 0
++                        "live2dName": "live2d_1",
++                        "pos": 1
+@@ -239,2 +251,2 @@
+-#BELLA=nameLeft=SPINA#
+-#BELLA=textLeft=SPINA#
++#BELLA=nameCenter=SPINA#
++#BELLA=textCenter=SPINA#
+@@ -256,0 +269,16 @@
++                "autoTurnLast": 0.25,
++                "chara": [
++                    {
++                        "effect": "fadeout",
++                        "id": 834900,
++                        "live2dName": "live2d_0"
++                    },
++                    {
++                        "effect": "fadeout",
++                        "id": 834900,
++                        "live2dName": "live2d_1"
++                    }
++                ],
++                "textClear": 1
++            },
++            {
+@@ -1117,0 +1146,4 @@
++                "autoTurnLast": 2,
++                "narrationEffect": "out"
++            },
++            {
+@@ -1129 +1160,0 @@
+-                "narrationEffect": "out",
+@@ -1133 +1164 @@
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.5,
+@@ -1163,0 +1195 @@
++                "textBg": "shout",

@@ -63067,6 +63067,85 @@ diff -r en/scenario_5/518310-9_sw8iW.json jp/scenario_5/518310-9_sw8iW.json
 <                 "bg": "bg_adv_13141.jpg",
 ---
 >                 "bg": "bg_adv_13144.jpg",
+diff -r en/scenario_5/519601-4_BPssF.json jp/scenario_5/519601-4_BPssF.json
+585a586,595
+>                 "chara": [
+>                     {
+>                         "id": 105301,
+>                         "pos": 2
+>                     }
+>                 ],
+> #BELLA=nameRight=SPINA#
+> #BELLA=textRight=SPINA#
+>             },
+>             {
+diff -r en/scenario_5/519602-3_wzPd8.json jp/scenario_5/519602-3_wzPd8.json
+442c442
+<                 "bgEffect": "shakeSmall",
+---
+>                 "bgEffect": "shakeLarge",
+672c672
+<                 "autoTurnLast": 0.2,
+---
+>                 "autoTurnLast": 2,
+diff -r en/scenario_5/519602-6_wzPd8.json jp/scenario_5/519602-6_wzPd8.json
+217a218
+>                         "live2dName": "live2d_0",
+219c220,230
+<                         "pos": 0
+---
+>                         "pos": 0,
+>                         "zOrder": -1
+>                     },
+>                     {
+>                         "cheek": 0,
+>                         "face": "mtn_ex_020.exp3.json",
+>                         "id": 834900,
+>                         "live2dName": "live2d_1",
+>                         "motion": 0,
+>                         "pos": 1,
+>                         "zOrder": 1
+236c247,248
+<                         "pos": 0
+---
+>                         "live2dName": "live2d_1",
+>                         "pos": 1
+239,240c251,252
+< #BELLA=nameLeft=SPINA#
+< #BELLA=textLeft=SPINA#
+---
+> #BELLA=nameCenter=SPINA#
+> #BELLA=textCenter=SPINA#
+256a269,284
+>                 "autoTurnLast": 0.25,
+>                 "chara": [
+>                     {
+>                         "effect": "fadeout",
+>                         "id": 834900,
+>                         "live2dName": "live2d_0"
+>                     },
+>                     {
+>                         "effect": "fadeout",
+>                         "id": 834900,
+>                         "live2dName": "live2d_1"
+>                     }
+>                 ],
+>                 "textClear": 1
+>             },
+>             {
+1117a1146,1149
+>                 "autoTurnLast": 2,
+>                 "narrationEffect": "out"
+>             },
+>             {
+1129d1160
+<                 "narrationEffect": "out",
+1133c1164
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.5,
+1163a1195
+>                 "textBg": "shout",
 diff -r en/scenario_5/520420-3_qofw8.json jp/scenario_5/520420-3_qofw8.json
 777c777
 < #BELLA=nameRight=SPINA#
