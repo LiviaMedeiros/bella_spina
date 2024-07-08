@@ -59548,6 +59548,44 @@
             "value": "resource/scenario/img/black.png"
         }
     ],
+    "scenario_5/509601-17_B5s36.json": [
+        {
+            "op": "replace",
+            "path": "/story/group_1/54/autoTurnLast",
+            "value": 0.2
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/54/chara/0/effect"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/54/chara/0/pos",
+            "value": 0
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/55"
+        },
+        {
+            "op": "replace",
+            "path": "/story/group_1/77/autoTurnLast",
+            "value": 0.2
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/77/chara/0/effect"
+        },
+        {
+            "op": "add",
+            "path": "/story/group_1/77/chara/0/pos",
+            "value": 0
+        },
+        {
+            "op": "remove",
+            "path": "/story/group_1/78"
+        }
+    ],
     "scenario_5/509810-1_SeR1D.json": [
         {
             "op": "replace",
