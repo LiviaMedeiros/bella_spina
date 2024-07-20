@@ -12605,19 +12605,40 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506301-14_3X7EZ.jso
                         "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
                         "scale": 1,					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506301-17_3X7EZ.json jp/scenario_5/506301-17_3X7EZ.json
-									  >	                        "iPhoneXScale": 1,
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
-                        "scale": 1,					  <
-                        "path": "resource/scenario/img/black.jpg",	  |	                        "path": "resource/scenario/img/black.png",
+                "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.2,
+                        "effect": "fadeout"				  |	                        "pos": 0
+                "autoTurnLast": 0.1,					  <
+                "chara": [						  <
+                    {							  <
+                        "cheek": 0,					  <
+                        "effect": "ef_adv_07",				  <
+                        "face": "mtn_ex_020.exp.json",			  <
+                        "id": 405100,					  <
+                        "lipSynch": 0,					  <
+                        "live2dName": "live2d_0",			  <
+                        "motion": 1,					  <
+                        "pos": 0					  <
+                    }							  <
+                ]							  <
+            },								  <
+            {								  <
+                "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.2,
+                        "effect": "fadeout"				  |	                        "pos": 0
+                "autoTurnLast": 0.1,					  <
+                "chara": [						  <
+                    {							  <
+                        "cheek": 0,					  <
+                        "effect": "ef_adv_07",				  <
+                        "face": "mtn_ex_020.exp.json",			  <
+                        "id": 405100,					  <
+                        "live2dName": "live2d_0",			  <
+                        "motion": 300,					  <
+                        "pos": 0					  <
+                    }							  <
+                ]							  <
+            },								  <
+            {								  <
                 "autoTurnLast": 0.01,					  |	                "autoTurnLast": 0.1,
-                        "path": "resource/scenario/img/51063_singlerai	  <
-                        "visible": "hide"				  <
-                    },							  <
-                    {							  <
-                    {							  <
-                        "path": "resource/scenario/img/51063_singlerai	  <
-                        "visible": "hide"				  <
-                    },							  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506301-3_TFOmk.json jp/scenario_5/506301-3_TFOmk.json
 #BELLA=nameLeft=SPINA#							  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506301-5_TFOmk.json jp/scenario_5/506301-5_TFOmk.json
@@ -12876,6 +12897,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506509-3_S2bQ5.json
 									  >	                        "iPhoneXScale": 1,
                         "visible": "appear"				  |	                        "visible": "appear",
 									  >	                        "zOrder": "charaFront"
+                        "motion": 0,					  |	                        "motion": 0
+                        "pos": 2					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/506509-4_S2bQ5.json jp/scenario_5/506509-4_S2bQ5.json
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
@@ -13130,7 +13153,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/506512-5_S2bQ5.json
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_031.exp.json",			  |	                        "face": "mtn_ex_031.exp3.json",
-                "bg": "bg_adv_20081.jpg",				  |	                "bg": "bg_adv_31121.jpg",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
@@ -17407,6 +17429,8 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510109-3_ZvuTl.json
 									  >	                        "iPhoneXScale": 1,
                         "visible": "appear"				  |	                        "visible": "appear",
 									  >	                        "zOrder": "charaFront"
+                        "motion": 0,					  |	                        "motion": 0
+                        "pos": 2					  <
 diff -ry '--width=150' --suppress-common-lines en/scenario_5/510109-4_ZvuTl.json jp/scenario_5/510109-4_ZvuTl.json
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",
@@ -17661,7 +17685,6 @@ diff -ry '--width=150' --suppress-common-lines en/scenario_5/510112-5_ZvuTl.json
                         "face": "mtn_ex_050.exp.json",			  |	                        "face": "mtn_ex_050.exp3.json",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_031.exp.json",			  |	                        "face": "mtn_ex_031.exp3.json",
-                "bg": "bg_adv_20081.jpg",				  |	                "bg": "bg_adv_31121.jpg",
                         "face": "mtn_ex_030.exp.json",			  |	                        "face": "mtn_ex_030.exp3.json",
                         "face": "mtn_ex_010.exp.json",			  |	                        "face": "mtn_ex_010.exp3.json",
                         "face": "mtn_ex_020.exp.json",			  |	                        "face": "mtn_ex_020.exp3.json",

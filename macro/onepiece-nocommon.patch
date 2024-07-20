@@ -21782,29 +21782,52 @@ diff -ru0 en/scenario_5/506301-14_3X7EZ.json jp/scenario_5/506301-14_3X7EZ.json
 diff -ru0 en/scenario_5/506301-17_3X7EZ.json jp/scenario_5/506301-17_3X7EZ.json
 --- en/scenario_5/506301-17_3X7EZ.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506301-17_3X7EZ.json	2017-03-17 18:39:13.000000000 +0800
-@@ -854,0 +855 @@
-+                        "iPhoneXScale": 1,
-@@ -856 +857 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -859 +859,0 @@
--                        "scale": 1,
-@@ -898 +898 @@
--                        "path": "resource/scenario/img/black.jpg",
-+                        "path": "resource/scenario/img/black.png",
-@@ -1996 +1996 @@
+@@ -723 +723 @@
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.2,
+@@ -728 +728 @@
+-                        "effect": "fadeout"
++                        "pos": 0
+@@ -734,15 +733,0 @@
+-                "autoTurnLast": 0.1,
+-                "chara": [
+-                    {
+-                        "cheek": 0,
+-                        "effect": "ef_adv_07",
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 405100,
+-                        "lipSynch": 0,
+-                        "live2dName": "live2d_0",
+-                        "motion": 1,
+-                        "pos": 0
+-                    }
+-                ]
+-            },
+-            {
+@@ -1067 +1052 @@
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.2,
+@@ -1072 +1057 @@
+-                        "effect": "fadeout"
++                        "pos": 0
+@@ -1078,14 +1062,0 @@
+-                "autoTurnLast": 0.1,
+-                "chara": [
+-                    {
+-                        "cheek": 0,
+-                        "effect": "ef_adv_07",
+-                        "face": "mtn_ex_020.exp.json",
+-                        "id": 405100,
+-                        "live2dName": "live2d_0",
+-                        "motion": 300,
+-                        "pos": 0
+-                    }
+-                ]
+-            },
+-            {
+@@ -2025 +1996 @@
 -                "autoTurnLast": 0.01,
 +                "autoTurnLast": 0.1,
-@@ -1999,4 +1998,0 @@
--                        "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1361.jpg",
--                        "visible": "hide"
--                    },
--                    {
-@@ -2018,4 +2013,0 @@
--                    {
--                        "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1364.jpg",
--                        "visible": "hide"
--                    },
 diff -ru0 en/scenario_5/506301-3_TFOmk.json jp/scenario_5/506301-3_TFOmk.json
 --- en/scenario_5/506301-3_TFOmk.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506301-3_TFOmk.json	2017-03-17 18:39:13.000000000 +0800
@@ -22562,6 +22585,10 @@ diff -ru0 en/scenario_5/506509-3_S2bQ5.json jp/scenario_5/506509-3_S2bQ5.json
 -                        "visible": "appear"
 +                        "visible": "appear",
 +                        "zOrder": "charaFront"
+@@ -822,2 +824 @@
+-                        "motion": 0,
+-                        "pos": 2
++                        "motion": 0
 diff -ru0 en/scenario_5/506509-4_S2bQ5.json jp/scenario_5/506509-4_S2bQ5.json
 --- en/scenario_5/506509-4_S2bQ5.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/506509-4_S2bQ5.json	2017-03-17 18:39:13.000000000 +0800
@@ -23065,9 +23092,6 @@ diff -ru0 en/scenario_5/506512-5_S2bQ5.json jp/scenario_5/506512-5_S2bQ5.json
 @@ -335 +335 @@
 -                        "face": "mtn_ex_031.exp.json",
 +                        "face": "mtn_ex_031.exp3.json",
-@@ -347 +347 @@
--                "bg": "bg_adv_20081.jpg",
-+                "bg": "bg_adv_31121.jpg",
 @@ -352 +352 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",
@@ -29843,6 +29867,10 @@ diff -ru0 en/scenario_5/510109-3_ZvuTl.json jp/scenario_5/510109-3_ZvuTl.json
 -                        "visible": "appear"
 +                        "visible": "appear",
 +                        "zOrder": "charaFront"
+@@ -822,2 +824 @@
+-                        "motion": 0,
+-                        "pos": 2
++                        "motion": 0
 diff -ru0 en/scenario_5/510109-4_ZvuTl.json jp/scenario_5/510109-4_ZvuTl.json
 --- en/scenario_5/510109-4_ZvuTl.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_5/510109-4_ZvuTl.json	2017-03-17 18:39:13.000000000 +0800
@@ -30346,9 +30374,6 @@ diff -ru0 en/scenario_5/510112-5_ZvuTl.json jp/scenario_5/510112-5_ZvuTl.json
 @@ -335 +335 @@
 -                        "face": "mtn_ex_031.exp.json",
 +                        "face": "mtn_ex_031.exp3.json",
-@@ -347 +347 @@
--                "bg": "bg_adv_20081.jpg",
-+                "bg": "bg_adv_31121.jpg",
 @@ -352 +352 @@
 -                        "face": "mtn_ex_030.exp.json",
 +                        "face": "mtn_ex_030.exp3.json",

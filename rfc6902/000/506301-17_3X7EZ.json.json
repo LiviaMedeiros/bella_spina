@@ -1,34 +1,43 @@
 [
     {
+        "op": "replace",
+        "path": "/story/group_1/54/autoTurnLast",
+        "value": 0.2
+    },
+    {
         "op": "remove",
-        "path": "/story/group_1/61/item/0/scale"
+        "path": "/story/group_1/54/chara/0/effect"
     },
     {
         "op": "add",
-        "path": "/story/group_1/61/item/0/iPhoneXScale",
-        "value": 1
+        "path": "/story/group_1/54/chara/0/pos",
+        "value": 0
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/55"
     },
     {
         "op": "replace",
-        "path": "/story/group_1/61/item/0/path",
-        "value": "resource/scenario/img/black.png"
+        "path": "/story/group_1/77/autoTurnLast",
+        "value": 0.2
     },
     {
-        "op": "replace",
-        "path": "/story/group_1/64/item/0/path",
-        "value": "resource/scenario/img/black.png"
+        "op": "remove",
+        "path": "/story/group_1/77/chara/0/effect"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/77/chara/0/pos",
+        "value": 0
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/78"
     },
     {
         "op": "replace",
         "path": "/story/group_1/154/autoTurnLast",
         "value": 0.1
-    },
-    {
-        "op": "remove",
-        "path": "/story/group_1/154/item/0"
-    },
-    {
-        "op": "remove",
-        "path": "/story/group_1/156/item/0"
     }
 ]
