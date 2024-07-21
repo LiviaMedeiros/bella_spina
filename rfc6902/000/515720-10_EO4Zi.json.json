@@ -1,0 +1,36 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/137/item/0/action/spawn/0/moveTo/duration",
+        "value": 17
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/138",
+        "value": {
+            "autoTurnLast": 1
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/140/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/145/narrationEffect"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/145/autoTurnLast",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/146",
+        "value": {
+            "autoTurnLast": 1.5,
+            "narrationEffect": "out"
+        }
+    }
+]

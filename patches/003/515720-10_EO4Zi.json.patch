@@ -1,0 +1,42 @@
+--- en/scenario_5/515720-10_EO4Zi.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_5/515720-10_EO4Zi.json	2017-03-17 18:39:13.000000000 +0800
+@@ -1562,7 +1562,7 @@
+                             "spawn": [
+                                 {
+                                     "moveTo": {
+-                                        "duration": 15,
++                                        "duration": 17,
+                                         "posX": 0,
+                                         "posY": -125
+                                     }
+@@ -1576,6 +1576,9 @@
+                 "turnChangeOutTime": 1
+             },
+             {
++                "autoTurnLast": 1
++            },
++            {
+ #BELLA=nameNarration=SPINA#
+ #BELLA=narration=SPINA#
+                 "narrationAnchor": "bottom",
+@@ -1586,7 +1589,7 @@
+                 "narrationLineSpace": 20
+             },
+             {
+-                "autoTurnLast": 0.1,
++                "autoTurnLast": 0.5,
+                 "narrationEffect": "out"
+             },
+             {
+@@ -1613,7 +1616,10 @@
+ #BELLA=narration=SPINA#
+             },
+             {
+-                "autoTurnLast": 2,
++                "autoTurnLast": 0.5
++            },
++            {
++                "autoTurnLast": 1.5,
+                 "narrationEffect": "out"
+             },
+             {

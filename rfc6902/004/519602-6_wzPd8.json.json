@@ -71,34 +71,53 @@
         }
     },
     {
-        "op": "remove",
-        "path": "/story/group_1/85/bg"
+        "op": "replace",
+        "path": "/story/group_1/79/item/0/action/spawn/0/moveTo/duration",
+        "value": 20
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/80",
+        "value": {
+            "autoTurnLast": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/82",
+        "value": {
+            "autoTurnLast": 1
+        }
     },
     {
         "op": "remove",
-        "path": "/story/group_1/85/chara"
+        "path": "/story/group_1/87/bg"
     },
     {
         "op": "remove",
-        "path": "/story/group_1/85/turnChangeIn"
+        "path": "/story/group_1/87/chara"
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/87/turnChangeIn"
     },
     {
         "op": "replace",
-        "path": "/story/group_1/85/autoTurnLast",
+        "path": "/story/group_1/87/autoTurnLast",
         "value": 2
     },
     {
         "op": "remove",
-        "path": "/story/group_1/86/turnChangeOut"
+        "path": "/story/group_1/88/turnChangeOut"
     },
     {
         "op": "add",
-        "path": "/story/group_1/86/bg",
+        "path": "/story/group_1/88/bg",
         "value": "bg_adv_20314.jpg"
     },
     {
         "op": "add",
-        "path": "/story/group_1/86/chara",
+        "path": "/story/group_1/88/chara",
         "value": [
             {
                 "cheek": 0,
@@ -111,39 +130,44 @@
     },
     {
         "op": "add",
-        "path": "/story/group_1/86/turnChangeIn",
+        "path": "/story/group_1/88/turnChangeIn",
         "value": "fadeIn"
     },
     {
+        "op": "add",
+        "path": "/story/group_1/88/turnChangeInTime",
+        "value": 1.2
+    },
+    {
         "op": "replace",
-        "path": "/story/group_1/86/autoTurnLast",
+        "path": "/story/group_1/88/autoTurnLast",
         "value": 1
     },
     {
         "op": "remove",
-        "path": "/story/group_1/87/chara"
+        "path": "/story/group_1/89/chara"
     },
     {
         "op": "remove",
-        "path": "/story/group_1/87/nameCenter"
+        "path": "/story/group_1/89/nameCenter"
     },
     {
         "op": "remove",
-        "path": "/story/group_1/87/textCenter"
+        "path": "/story/group_1/89/textCenter"
     },
     {
         "op": "add",
-        "path": "/story/group_1/87/autoTurnLast",
+        "path": "/story/group_1/89/autoTurnLast",
         "value": 0.5
     },
     {
         "op": "add",
-        "path": "/story/group_1/87/turnChangeOut",
+        "path": "/story/group_1/89/turnChangeOut",
         "value": "fadeOut"
     },
     {
         "op": "add",
-        "path": "/story/group_1/90",
+        "path": "/story/group_1/92",
         "value": {
             "chara": [
                 {

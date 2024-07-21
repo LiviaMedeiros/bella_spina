@@ -30,10 +30,18 @@
 									  >	                "textClear": 1
 									  >	            },
 									  >	            {
+                                        "duration": 15,			  |	                                        "duration": 20,
+									  >	                "autoTurnLast": 1
+									  >	            },
+									  >	            {
+									  >	                "autoTurnLast": 1
+									  >	            },
+									  >	            {
 									  >	                "autoTurnLast": 2,
 									  >	                "narrationEffect": "out"
 									  >	            },
 									  >	            {
-                "narrationEffect": "out",				  <
+                "narrationEffect": "out",				  |	                "turnChangeIn": "fadeIn",
+                "turnChangeIn": "fadeIn"				  |	                "turnChangeInTime": 1.2
                 "autoTurnLast": 0.1,					  |	                "autoTurnLast": 0.5,
 									  >	                "textBg": "shout",
