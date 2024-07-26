@@ -451,19 +451,6 @@
         "*Gasp*": 1,
         "Um…": 1
     },
-    "…？": {
-        "...?": 21,
-        "Huh?": 5,
-        "Hm?": 3,
-        "?": 3,
-        "*Puzzled*": 2,
-        "What?!": 1,
-        "Huh?!": 1,
-        "Hmm?": 1,
-        "Hm...?": 1,
-        "Hnh...?": 1,
-        "What?": 1
-    },
     "え？": {
         "Huh?": 64,
         "What?": 19,
@@ -492,6 +479,19 @@
         "Ah!": 1,
         "Grrr...": 1,
         "Hah!": 1
+    },
+    "…？": {
+        "...?": 21,
+        "Huh?": 5,
+        "Hm?": 3,
+        "?": 3,
+        "*Puzzled*": 2,
+        "What?!": 1,
+        "Huh?!": 1,
+        "Hmm?": 1,
+        "Hm...?": 1,
+        "Hnh...?": 1,
+        "What?": 1
     },
     "…え？": {
         "Huh?": 53,
@@ -622,6 +622,14 @@
         "| ... |": 57,
         "｜...｜": 2
     },
+    "えっ!?": {
+        "What?!": 31,
+        "Huh?!": 7,
+        "Eh?": 1,
+        "Huh?": 1,
+        "Wha?!": 1,
+        "Excuse me?": 1
+    },
     "はいっ！": {
         "Yes!": 24,
         "Yeah!": 12,
@@ -651,14 +659,6 @@
         "Well said!": 1,
         "Me neither!": 1,
         "That's right!": 1
-    },
-    "えっ!?": {
-        "What?!": 31,
-        "Huh?!": 7,
-        "Eh?": 1,
-        "Huh?": 1,
-        "Wha?!": 1,
-        "Excuse me?": 1
     },
     "でも…": {
         "But...": 39,
@@ -1487,6 +1487,11 @@
         "Ugh!": 1,
         "Oh...": 1
     },
+    "（でも…）": {
+        "(But...)": 10,
+        "(However...)": 1,
+        "(Oh, but...)": 1
+    },
     "…はぁ…": {
         "*Sigh*": 24,
         "Excuse me?": 1
@@ -1526,11 +1531,6 @@
         "Uh, well, I—": 1,
         "Ergh?!": 1,
         "What do you mean?!": 1
-    },
-    "（でも…）": {
-        "(But...)": 10,
-        "(However...)": 1,
-        "(Oh, but...)": 1
     },
     "えぇ…": {
         "Yes...": 9,
@@ -1622,6 +1622,18 @@
         "Also...": 1,
         "And finally...": 1
     },
+    "だから…": {
+        "So...": 6,
+        "That's why...": 2,
+        "Come…": 1,
+        "So…": 1,
+        "That's my girl...": 1,
+        "It made me feel kinda...": 1,
+        "I mean...it could help.": 1,
+        "So I made my wish.": 1,
+        "I knew it...": 1,
+        "That's why....": 1
+    },
     "――っ!!": {
         "...!": 14,
         "!!!": 10,
@@ -1661,18 +1673,6 @@
         "Sure.": 1,
         "It is.": 1,
         "Mmhmm.": 1
-    },
-    "だから…": {
-        "So...": 6,
-        "That's why...": 2,
-        "Come…": 1,
-        "So…": 1,
-        "That's my girl...": 1,
-        "It made me feel kinda...": 1,
-        "I mean...it could help.": 1,
-        "So I made my wish.": 1,
-        "I knew it...": 1,
-        "That's why....": 1
     },
     "そうよ": {
         "Yes.": 11,
@@ -1718,6 +1718,15 @@
         "Yes. This is...": 1,
         "Here...": 1
     },
+    "なるほど…": {
+        "I see...": 6,
+        "I see.": 1,
+        "Yeah...": 1,
+        "Ooohhh!": 1,
+        "I see…": 1,
+        "Ah, I see your point.": 1,
+        "Of course.": 1
+    },
     "おう！": {
         "Yeah!": 6,
         "Okay!": 2,
@@ -1735,15 +1744,6 @@
         "I'm on it!": 1,
         "Uh-huh!": 1,
         "Yup!": 1
-    },
-    "なるほど…": {
-        "I see...": 6,
-        "I see.": 1,
-        "Yeah...": 1,
-        "Ooohhh!": 1,
-        "I see…": 1,
-        "Ah, I see your point.": 1,
-        "Of course.": 1
     },
     "うっ…": {
         "Ugh...": 10,
@@ -1912,6 +1912,14 @@
         "Hehe...": 1,
         "*Chuckle*...": 1
     },
+    "あ…！": {
+        "Oh!": 3,
+        "Ah!": 2,
+        "But...": 1,
+        "Oh...": 1,
+        "Wait!": 1,
+        "Hey!": 1
+    },
     "そうそう": {
         "Yeah, her.": 1,
         "I heard about that.": 1,
@@ -1923,14 +1931,6 @@
         "Oh, you certainly can!": 1,
         "Yeah!": 1,
         "Yeah, really.": 1
-    },
-    "あ…！": {
-        "Oh!": 3,
-        "Ah!": 2,
-        "But...": 1,
-        "Oh...": 1,
-        "Wait!": 1,
-        "Hey!": 1
     },
     "…はい！": {
         "Yeah!": 4,
@@ -2140,6 +2140,15 @@
         "You did?": 1,
         "Wha—?": 1
     },
+    "おー！": {
+        "Yeah!": 6,
+        "Roger!": 1,
+        "Yup!": 1,
+        "Ooh!": 1,
+        "Whoooa!": 1,
+        "Yay!": 1,
+        "Yaaay!": 1
+    },
     "？": {
         "?": 12,
         "Huh?": 9,
@@ -2202,14 +2211,18 @@
         "Yes?": 1,
         "Sure.": 1
     },
-    "おー！": {
-        "Yeah!": 6,
-        "Roger!": 1,
-        "Yup!": 1,
-        "Ooh!": 1,
-        "Whoooa!": 1,
-        "Yay!": 1,
-        "Yaaay!": 1
+    "うん、そうだね": {
+        "Yes, let's go.": 2,
+        "Yeah, we totally do.": 2,
+        "Yes, let's!": 1,
+        "All right.": 1,
+        "Yes, you're right.": 1,
+        "Yeah, seems like it.": 1,
+        "You're right about that.": 1,
+        "We sure did.": 1,
+        "They sure do.": 1,
+        "Okay, I will.": 1,
+        "Yeah!": 1
     },
     "ぐっ…！": {
         "Ugh!": 6,
@@ -2224,19 +2237,6 @@
         "Hahhh!": 3,
         "Wait!": 1,
         "*Gasp*": 1
-    },
-    "うん、そうだね": {
-        "Yes, let's go.": 2,
-        "Yeah, we totally do.": 2,
-        "Yes, let's!": 1,
-        "All right.": 1,
-        "Yes, you're right.": 1,
-        "Yeah, seems like it.": 1,
-        "You're right about that.": 1,
-        "We sure did.": 1,
-        "They sure do.": 1,
-        "Okay, I will.": 1,
-        "Yeah!": 1
     },
     "ぐっ…": {
         "Kgh...": 2,
@@ -2454,6 +2454,18 @@
         "Yeah.": 1,
         "Here goes nothin'...": 1
     },
+    "じゃあ…": {
+        "Then...": 2,
+        "Okay...": 1,
+        "So then...": 1,
+        "In any case...": 1,
+        "Well then.": 1,
+        "But that means...": 1,
+        "So...": 1,
+        "Okay then...": 1,
+        "Never mind that.": 1,
+        "Well, then...": 1
+    },
     "では…": {
         "Here I go...": 2,
         "Goodbye...": 1,
@@ -2527,18 +2539,6 @@
         "Oh!": 6,
         "Ah!": 1,
         "Huh?": 1
-    },
-    "じゃあ…": {
-        "Then...": 2,
-        "Okay...": 1,
-        "So then...": 1,
-        "In any case...": 1,
-        "Well then.": 1,
-        "But that means...": 1,
-        "So...": 1,
-        "Okay then...": 1,
-        "Never mind that.": 1,
-        "Well, then...": 1
     },
     "もちろん": {
         "Of course.": 5,
@@ -2910,6 +2910,14 @@
         "I don't mean to be harsh...": 1,
         "I'm sorry, I'm not making any sense.": 1
     },
+    "こんにちはー": {
+        "Hello!": 5,
+        "Hello.": 2,
+        "Hi there!": 1,
+        "Hiii!": 1,
+        "HI GUYS!": 1,
+        "Heya, Kako!": 1
+    },
     "…う～ん…": {
         "Hmmm.": 5,
         "Hmm...": 4,
@@ -2942,20 +2950,18 @@
         "Ow...": 1,
         "Uh...": 1
     },
+    "あれ？": {
+        "Huh?": 4,
+        "Oh but wait...": 1,
+        "\"The thing\"?": 1,
+        "Oh?": 1
+    },
     "そうです！": {
         "Yes!": 3,
         "That's right!": 1,
         "Yes, I am!": 1,
         "Indeed!": 1,
         "I agree!": 1
-    },
-    "こんにちはー": {
-        "Hello!": 5,
-        "Hello.": 2,
-        "Hi there!": 1,
-        "Hiii!": 1,
-        "HI GUYS!": 1,
-        "Heya, Kako!": 1
     },
     "わかった": {
         "All right.": 4,
@@ -3009,12 +3015,6 @@
         "What happened?!": 1,
         "Whuh?": 1,
         "...!": 1
-    },
-    "あれ？": {
-        "Huh?": 4,
-        "Oh but wait...": 1,
-        "\"The thing\"?": 1,
-        "Oh?": 1
     },
     "ありがとうなの！": {
         "Thanks!": 3,
@@ -3348,6 +3348,12 @@
         "Oh, we did...": 1,
         "Well, okay...": 1
     },
+    "ほっ？": {
+        "Huh?": 4,
+        "Hwuh?": 2,
+        "Oh!": 1,
+        "Yeah?": 1
+    },
     "あぁ…": {
         "Oh...": 4,
         "Yes...": 2,
@@ -3490,12 +3496,6 @@
         "Isn't it tasty?": 1,
         "Right?!": 1
     },
-    "ほっ？": {
-        "Huh?": 4,
-        "Hwuh?": 2,
-        "Oh!": 1,
-        "Yeah?": 1
-    },
     "私…": {
         "I...": 10,
         "I'm...": 1,
@@ -3523,6 +3523,11 @@
         "Are you all right?": 5,
         "Are you okay?": 2,
         "Will you be all right?": 1
+    },
+    "みんな…": {
+        "Guys...": 2,
+        "You guys...": 2,
+        "Aw, guys...": 1
     },
     "大丈夫！": {
         "We got this!": 1,
@@ -3624,6 +3629,10 @@
         "It's...?": 1,
         "And that is?": 1
     },
+    "いろは…": {
+        "Iroha...": 9,
+        "Iroha....": 1
+    },
     "うい…": {
         "Ui...": 9,
         "Ui...!": 1
@@ -3661,11 +3670,6 @@
         "Oh.": 1,
         "...I see.": 1
     },
-    "みんな…": {
-        "Guys...": 2,
-        "You guys...": 2,
-        "Aw, guys...": 1
-    },
     "そうだよね…": {
         "You're right.": 1,
         "That's all right...": 1
@@ -3689,6 +3693,10 @@
         "PLEASE!": 1,
         "Yes!": 1,
         "Please enjoy!": 1
+    },
+    "ハァ…": {
+        "*Sigh*": 8,
+        "*Sigh*...": 1
     },
     "…くっ…！": {
         "Ugh!": 5,
@@ -3727,10 +3735,6 @@
         "What's the matter?": 1,
         "So what was it?": 1
     },
-    "いろは…": {
-        "Iroha...": 9,
-        "Iroha....": 1
-    },
     "鹿目さん…": {
         "Madoka...": 11,
         "Madoka...?": 1,
@@ -3743,6 +3747,11 @@
         "Right.": 1,
         "That is correct.": 1,
         "That's the one.": 1
+    },
+    "やちよさん…！": {
+        "Yachiyo!": 5,
+        "Wow, Yachiyo!": 1,
+        "Yachiyo...!": 1
     },
     "だね！": {
         "Right!": 1,
@@ -3808,10 +3817,6 @@
         "Yes.": 2,
         "...Okay.": 1
     },
-    "ハァ…": {
-        "*Sigh*": 8,
-        "*Sigh*...": 1
-    },
     "…うーん…": {
         "Hmmm...": 5,
         "Uhh...": 1,
@@ -3846,6 +3851,15 @@
     "ザバンッ！": {
         "*Splash*": 7,
         "*Splish*": 3
+    },
+    "よしっ！": {
+        "All right!": 1,
+        "I can do it!": 1,
+        "I can do this!": 1,
+        "Great!": 1,
+        "Here goes!": 1,
+        "All right, then!": 1,
+        "Yeahhh!": 1
     },
     "やった！": {
         "Great!": 2,
@@ -3896,11 +3910,6 @@
         "I'm glad...": 1,
         "Thank goodness...": 1,
         "Good.": 1
-    },
-    "やちよさん…！": {
-        "Yachiyo!": 5,
-        "Wow, Yachiyo!": 1,
-        "Yachiyo...!": 1
     },
     "まったく…": {
         "Geeze...": 2,
@@ -4014,15 +4023,6 @@
         "Goingooone!": 7,
         "Goingon!": 1
     },
-    "よしっ！": {
-        "All right!": 1,
-        "I can do it!": 1,
-        "I can do this!": 1,
-        "Great!": 1,
-        "Here goes!": 1,
-        "All right, then!": 1,
-        "Yeahhh!": 1
-    },
     "どうしたんですか？": {
         "What's wrong?": 3,
         "What is it?": 1,
@@ -4040,6 +4040,10 @@
         "Y-yes, thank you!": 1,
         "Ah, thank you so much!": 1,
         "Oh, th-thank you!": 1
+    },
+    "は？": {
+        "Huh?": 5,
+        "What?": 2
     },
     "そっかぁ…": {
         "I see...": 3,
@@ -4100,6 +4104,11 @@
         "...What?": 1,
         "...Say what?": 1,
         "Huh?": 1
+    },
+    "ですが…": {
+        "However...": 4,
+        "But...": 1,
+        "Until...": 1
     },
     "…へっ？": {
         "Huh?": 3,
@@ -4164,10 +4173,6 @@
         "O-okay.": 3,
         "Y-yeah.": 3,
         "R-right.": 1
-    },
-    "は？": {
-        "Huh?": 5,
-        "What?": 2
     },
     "そういえば…": {
         "Oh, that reminds me...": 1,
@@ -4267,11 +4272,6 @@
     "…すみません": {
         "Sorry...": 2,
         "I'm sorry.": 1
-    },
-    "ですが…": {
-        "However...": 4,
-        "But...": 1,
-        "Until...": 1
     },
     "カリカリ…": {
         "*Scribble*": 3,
@@ -4676,6 +4676,10 @@
         "I get it...": 1,
         "So it's done.": 1
     },
+    "大丈夫です": {
+        "I'm all right.": 1,
+        "It's okay.": 1
+    },
     "…えっ…": {
         "What...": 1,
         "What?": 1,
@@ -4719,6 +4723,13 @@
         "Ah, good!": 1,
         "Thanks!": 1,
         "That is delightful to hear!": 1
+    },
+    "あ、あの…！": {
+        "Oh, um, hey!": 1,
+        "A-actually!": 1,
+        "Um, wait!": 1,
+        "U-um!": 1,
+        "Um, excuse me!": 1
     },
     "オッケー！": {
         "Okay!": 2,
@@ -4933,10 +4944,6 @@
         "Of course!": 1,
         "You know it!": 1
     },
-    "大丈夫です": {
-        "I'm all right.": 1,
-        "It's okay.": 1
-    },
     "行きましょう！": {
         "Let's go!": 5,
         "Yeah, let's go!": 1,
@@ -5059,13 +5066,6 @@
         "Aha!": 1,
         "Oh my goodness!": 1
     },
-    "あ、あの…！": {
-        "Oh, um, hey!": 1,
-        "A-actually!": 1,
-        "Um, wait!": 1,
-        "U-um!": 1,
-        "Um, excuse me!": 1
-    },
     "…む？": {
         "Hm?": 2,
         "Mm?": 1,
@@ -5109,6 +5109,10 @@
     "なんですか？": {
         "About what?": 1,
         "What?": 1
+    },
+    "ふふ": {
+        "*Giggle*": 3,
+        "*Chuckle*": 1
     },
     "…………え？": {
         "Wait...": 2,
@@ -5391,6 +5395,11 @@
         "Would ya?!": 1,
         "You'll do it?!": 1
     },
+    "ねー！": {
+        "For sure!": 3,
+        "I know, right?": 1,
+        "Right, Seika?": 1
+    },
     "わ！": {
         "Whoa!": 3,
         "Ahhh!": 2,
@@ -5429,6 +5438,10 @@
         "But...": 4,
         "Well, yeah, but...": 1,
         "But when I got to the park...": 1
+    },
+    "そうだったんですか…": {
+        "I see...": 3,
+        "Yeah, we had no idea.": 1
     },
     "ザシュッ": {
         "*Slash*": 2,
@@ -5497,10 +5510,6 @@
     "…………あっ": {
         "...Oh!": 1,
         "Oh!": 1
-    },
-    "ふふ": {
-        "*Giggle*": 3,
-        "*Chuckle*": 1
     },
     "そーだよ！": {
         "We sure do!": 2,
@@ -5618,6 +5627,10 @@
         "Yes?": 1,
         "Yeah?": 1
     },
+    "ふふ、ありがとう": {
+        "*Giggle* Thank you.": 1,
+        "*Chuckle* Thank you.": 1
+    },
     "フェリシア…": {
         "Felicia...": 3,
         "That's Felicia...": 1,
@@ -5675,6 +5688,10 @@
         "We're home!": 1,
         "I'm home.": 1
     },
+    "どうぞ": {
+        "Here you go.": 1,
+        "Here, take it.": 1
+    },
     "え…！": {
         "Er...!": 1,
         "Huh?!": 1,
@@ -5723,11 +5740,6 @@
         "Click-click!": 6,
         "*Squirt*": 1
     },
-    "ねー！": {
-        "For sure!": 3,
-        "I know, right?": 1,
-        "Right, Seika?": 1
-    },
     "…見つけた": {
         "There...": 1,
         "Found one.": 1
@@ -5763,10 +5775,6 @@
     "その…": {
         "Umm...": 2,
         "Um...": 1
-    },
-    "そうだったんですか…": {
-        "I see...": 3,
-        "Yeah, we had no idea.": 1
     },
     "うぐっ！": {
         "Urgh!": 2,
@@ -5972,10 +5980,6 @@
         "Hmm...": 2,
         "Hmmm...": 1
     },
-    "ふふ、ありがとう": {
-        "*Giggle* Thank you.": 1,
-        "*Chuckle* Thank you.": 1
-    },
     "…あのさ…": {
         "Well...": 1,
         "...You know what?": 1,
@@ -6063,10 +6067,6 @@
         "Seriously?!": 1,
         "Sorry?!": 1,
         "What?!": 1
-    },
-    "どうぞ": {
-        "Here you go.": 1,
-        "Here, take it.": 1
     },
     "ふぅ～…": {
         "*Sigh*": 2,
@@ -7077,6 +7077,10 @@
         "Ugh!": 1,
         "Agh!": 1
     },
+    "ありがとうございましたー！": {
+        "Thank you so much!": 2,
+        "Thanks for everything!": 1
+    },
     "あ、ありがとう": {
         "Oh, thanks.": 1,
         "Th-thanks.": 1,
@@ -7887,10 +7891,6 @@
         "How interesting...": 1,
         "Interesting...": 1
     },
-    "ありがとうございましたー！": {
-        "Thank you so much!": 2,
-        "Thanks for everything!": 1
-    },
     "あやめ！": {
         "Right, Ayame?!": 1,
         "Ayame!": 1
@@ -8235,6 +8235,10 @@
     "はっ…!?": {
         "What?!": 1,
         "Ah?!": 1
+    },
+    "ええ…！": {
+        "Yeah!": 1,
+        "Agreed!": 1
     },
     "わーっ！": {
         "Waaaaaagh!": 2,
@@ -8693,6 +8697,10 @@
     "そうですよ": {
         "It is.": 1,
         "Yeah, of course you don't.": 1
+    },
+    "ありがとな": {
+        "Thanks.": 1,
+        "So, thanks!": 1
     },
     "はわわ…": {
         "W-wow...": 1,
@@ -9457,10 +9465,6 @@
         "But...": 1,
         "Oh, but...": 1
     },
-    "ええ…！": {
-        "Yeah!": 1,
-        "Agreed!": 1
-    },
     "目が覚めると、どうなるの？": {
         "Then what will happen?": 1,
         "What will happen after we wake up?": 1
@@ -10210,10 +10214,6 @@
     "はい、コレ": {
         "Mm, here you go.": 1,
         "Here you are.": 1
-    },
-    "ありがとな": {
-        "Thanks.": 1,
-        "So, thanks!": 1
     },
     "ちょっと待ってください！": {
         "Woah, hold on!": 1,
