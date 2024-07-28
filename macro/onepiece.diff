@@ -7982,6 +7982,10 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                 "bgm": "bgm01_anime05",
 ---
 >                 "autoTurnLast": 0.01,
+10c10
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 12,13c12
 <                         "lipSynch": 0,
 <                         "motion": 100,
@@ -8023,6 +8027,10 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                 "bg": "bg_adv_11021.jpg",
 ---
 >                 "autoTurnLast": 0.01,
+69c76
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 71,72c78
 <                         "lipSynch": 0,
 <                         "motion": 100,
@@ -8048,48 +8056,50 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 96,97d100
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
-106a110,120
+107,108d109
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+114a116
+>                 "turnEffect": "stop"
+119,124c121,132
+<                         "cheek": 1,
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 101101,
+<                         "motion": 1,
+<                         "pos": 2
+<                     },
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp3.json",
 >                         "id": 100901,
 >                         "lipSynch": 0,
->                         "motion": 0
+>                         "motion": 400
 >                     }
 >                 ],
 > #BELLA=textCenter=SPINA#
->                 "turnEffect": "stop"
 >             },
 >             {
->                 "chara": [
->                     {
-111c125
-<                         "motion": 0
----
->                         "motion": 400
-116a131
 >                 "autoTurnLast": 0.01,
-118a134,140
->                         "cheek": 0,
->                         "face": "mtn_ex_030.exp.json",
->                         "id": 101001,
->                         "motion": 0,
->                         "pos": 0
+>                 "chara": [
+127c135
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+130a139,153
 >                     },
 >                     {
-124c146,151
-<                     },
----
+>                         "cheek": 1,
+>                         "face": "mtn_ex_030.exp3.json",
+>                         "id": 101101,
+>                         "motion": 1,
+>                         "pos": 2
 >                     }
 >                 ],
 >                 "turnChangeIn": "rollInFast"
 >             },
 >             {
 >                 "chara": [
-126,130c153
-<                         "cheek": 0,
-<                         "face": "mtn_ex_030.exp.json",
-<                         "id": 101001,
-<                         "motion": 0,
-<                         "pos": 0
----
+>                     {
 >                         "id": 101101
 136d158
 <                 "turnChangeIn": "rollInFast",
@@ -8100,11 +8110,17 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 ---
 >                         "id": 101001,
 >                         "motion": 100
-154,155c175
+153,155c174,175
+<                         "face": "mtn_ex_010.exp.json",
 <                         "id": 101001,
 <                         "motion": 100
 ---
+>                         "face": "mtn_ex_010.exp3.json",
 >                         "id": 101001
+178c198
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 191,192d210
 <                         "cheek": 1,
 <                         "face": "mtn_ex_030.exp.json",
@@ -8133,6 +8149,14 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 ---
 >                 "autoTurnLast": 1,
 >                 "bgm": "stop",
+230c248
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+237c255
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 242a261,272
 >                 "narrationEffect": "out",
 >                 "turnChangeIn": "fadeIn"
@@ -8154,7 +8178,15 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 255c282
 <                         "face": "mtn_ex_050.exp.json",
 ---
->                         "face": "mtn_ex_030.exp.json",
+>                         "face": "mtn_ex_030.exp3.json",
+266c293
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+277c304
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 286,287d312
 <                         "cheek": 1,
 <                         "face": "mtn_ex_030.exp.json",
@@ -8163,22 +8195,36 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 ---
 >                         "lipSynch": 0,
 >                         "motion": 300
+299c325
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+310c336
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
 321c347
 <                         "face": "mtn_ex_050.exp.json",
 ---
->                         "face": "mtn_ex_041.exp.json",
+>                         "face": "mtn_ex_041.exp3.json",
 323c349
 <                         "motion": 1
 ---
 >                         "motion": 100
+332c358
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 334,335c360
 <                         "motion": 100,
 <                         "mouthOpen": 1
 ---
 >                         "motion": 100
-345c370,371
+344,345c369,371
+<                         "face": "mtn_ex_030.exp.json",
 <                         "id": 101001
 ---
+>                         "face": "mtn_ex_030.exp3.json",
 >                         "id": 101001,
 >                         "motion": 200
 353,354d378
@@ -8189,6 +8235,10 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                         "mouthOpen": 0
 ---
 >                         "motion": 300
+366c389
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 368c391
 <                         "motion": 100
 ---
@@ -8196,17 +8246,21 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 377c400
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_031.exp.json",
+>                         "face": "mtn_ex_031.exp3.json",
 378a402
 >                         "motion": 200,
 388c412
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_050.exp.json",
+>                         "face": "mtn_ex_050.exp3.json",
 390c414
 <                         "motion": 0
 ---
 >                         "motion": 400
+399c423
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 406a431
 >                 "autoTurnLast": 0.01,
 408,409c433
@@ -8214,8 +8268,11 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                 "bgm": "bgm03_story08",
 ---
 >                 "bgm": "stop",
-418d441
+418,419c442
 <                         "effect": "ef_adv_05",
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
 425c448,465
 <                 "flashEffect": "flashWhite2",
 ---
@@ -8231,7 +8288,7 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 >                     {
 >                         "cheek": 0,
 >                         "effect": "ef_adv_05",
->                         "face": "mtn_ex_020.exp.json",
+>                         "face": "mtn_ex_020.exp3.json",
 >                         "id": 101000,
 >                         "motion": 1,
 >                         "pos": 2
@@ -8251,13 +8308,25 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                 "se": "6100_hit_slash_01_s",
 448d482
 <                 "bgEffect": "shakeSmall",
+452c486
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
 458,459d491
 <                 "flashEffect": "flashWhite2",
 <                 "se": "6101_hit_slash_01_vh",
 467c499
 <                         "face": "mtn_ex_020.exp.json",
 ---
->                         "face": "mtn_ex_030.exp.json",
+>                         "face": "mtn_ex_030.exp3.json",
+483c515
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+497c529
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 507,508c539
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
@@ -8284,11 +8353,15 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                         "face": "mtn_ex_030.exp.json",
 554d578
 <                         "face": "mtn_ex_030.exp.json",
+571c595
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 580a605,612
 >                 "chara": [
 >                     {
 >                         "cheek": 1,
->                         "face": "mtn_ex_020.exp.json",
+>                         "face": "mtn_ex_020.exp3.json",
 >                         "id": 101000,
 >                         "motion": 0
 >                     }
@@ -8303,37 +8376,34 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                         "effect": "ef_adv_05",
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_060.exp.json",
-613c645,650
+>                         "face": "mtn_ex_060.exp3.json",
+613c645,661
 <                         "id": 100900
 ---
 >                         "effect": "ef_adv_05",
->                         "face": "mtn_ex_060.exp.json",
+>                         "face": "mtn_ex_060.exp3.json",
 >                         "id": 100900,
 >                         "motion": 400,
 >                         "pos": 2,
 >                         "tear": 1
-616c653
-< #BELLA=textRight=SPINA#
----
->                 "se": "7205_magic_girl"
-621c658
-<                         "cheek": 1,
----
->                         "cheek": 2,
-624d660
-<                         "lipSynch": 0,
-630a667,676
->                 "chara": [
->                     {
->                         "id": 100900,
->                         "lipSynch": 0,
->                         "motion": 300
 >                     }
 >                 ],
-> #BELLA=textRight=SPINA#
+>                 "se": "7205_magic_girl"
 >             },
 >             {
+>                 "chara": [
+>                     {
+>                         "cheek": 2,
+>                         "face": "mtn_ex_030.exp3.json",
+>                         "id": 100900,
+>                         "tear": 0
+621,622d668
+<                         "cheek": 1,
+<                         "face": "mtn_ex_030.exp.json",
+625c671
+<                         "tear": 0
+---
+>                         "motion": 300
 638,639d683
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
@@ -8342,12 +8412,13 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 649,650d693
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
-659c702,703
+659,660c702,714
 <                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
 ---
 >                         "cheek": 1,
 >                         "effect": "ef_adv_05",
-660a705,714
+>                         "face": "mtn_ex_030.exp3.json",
 >                         "id": 101000,
 >                         "motion": 1,
 >                         "pos": 2
@@ -8381,10 +8452,18 @@ diff -r en/scenario_3/310093-1.json jp/scenario_3/310093-1.json
 <                 "narrationBg": "bg_adv_11093.jpg",
 ---
 >                 "narrationBg": "bg_adv_narration.jpg",
+691c734
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.6,
 697c740
 <                 "narrationBg": "narration",
 ---
 >                 "narrationBg": "bg_adv_narration.jpg",
+702c745
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.6,
 710c753
 <                 "narrationBg": "black.jpg",
 ---
@@ -16133,6 +16212,99 @@ diff -r en/scenario_3/330441-3.json jp/scenario_3/330441-3.json
 <                         "face": "mtn_ex_020.exp.json",
 ---
 >                         "face": "mtn_ex_020.exp3.json",
+diff -r en/scenario_3/330462-3.json jp/scenario_3/330462-3.json
+11c11
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+77c77
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+100c100
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+119c119
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+163c163
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+222c222
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+265c265
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+287c287
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+310c310
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+329c329
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+356c356
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+393c393
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+404c404
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+414c414
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+424c424
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+435c435
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+469c469
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+496c496
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+514c514
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+524c524
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+535c535
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+554c554
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+595c595
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 diff -r en/scenario_3/330532-2.json jp/scenario_3/330532-2.json
 240,255d239
 <                         "effect": "fadeout",
@@ -16395,27 +16567,537 @@ diff -r en/scenario_3/340041-1.json jp/scenario_3/340041-1.json
 <             {
 <                 "chara": [
 <                     {
+diff -r en/scenario_3/340123-1.json jp/scenario_3/340123-1.json
+11c11
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+18c18
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+71c71
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+82c82
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+94c94
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+105c105
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+117c117
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+130c130
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+151c151
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+174c174
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+187c187
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+199c199
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+212c212
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+226c226
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+238c238
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+258c258
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+270c270
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+295c295
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+302c302
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+332c332
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+379c379
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+407c407
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+414c414
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+427c427
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+443c443
+<                         "face": "mtn_ex_001.exp.json",
+---
+>                         "face": "mtn_ex_001.exp3.json",
+diff -r en/scenario_3/340211-1.json jp/scenario_3/340211-1.json
+82c82
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+113c113
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+172c172
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+186c186
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+193c193
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+217c217
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+227c227
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+248c248
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+259c259
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+278c278
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+289c289
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+308c308
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+336c336
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+364c364
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+375c375
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+395c395
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+420c420
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+438c438
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
 diff -r en/scenario_3/340211-3.json jp/scenario_3/340211-3.json
 9c9
 <                         "face": "mtn_ex_020.exp.json",
 ---
 >                         "face": "mtn_ex_020.exp3.json",
 diff -r en/scenario_3/340212-1.json jp/scenario_3/340212-1.json
+10c10
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+17c17
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+53c53
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+65c65
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+85c85
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+96c96
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+116c116
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+137c137
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+149c149
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+160c160
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+180c180
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+192c192
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+203c203
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+242c242
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+255c255
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+274c274
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+302c302
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+325c325
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+360c360
+<                 "autoTurnFirst": 1,
+---
+>                 "autoTurnLast": 1,
+365c365
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
 373,374c373
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
-477,478c476
+390c389
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+401c400
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+418c417
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+426c425
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.5,
+428d426
+<                 "narrationEffect": "out",
+440c438
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+464c462
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.6,
+469c467
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+477,478c475
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
-567,568c565
+534c531
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+567,568c564
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
+586c582
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+597c593
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+608c604
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+diff -r en/scenario_3/340212-3.json jp/scenario_3/340212-3.json
+14c14
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+72c72
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+79c79
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+93c93
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+104c104
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+118c118
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+129c129
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+140c140
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+168c168
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+197c197
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+204c204
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+259c259
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+263c263
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+270c270
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+294c294
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+305c305
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+324c324
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+340c340
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+diff -r en/scenario_3/340213-1.json jp/scenario_3/340213-1.json
+19c19
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+33c33
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+49c49
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+56c56
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+105c105
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+116c116
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+143c143
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+162c162
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+175c175
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+188c188
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+198c198
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+208c208
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+218c218
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.1,
+222c222
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+229c229
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+252c252
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+292c292
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+302c302
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+345c345
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+349c349
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+378c378
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+419c419
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+424c424
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+431c431
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+463c463
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+473c473
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+484c484
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+511c511
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+522c522
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+530c530
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.2,
+552c552
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+559c559
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+599c599
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+609c609
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 diff -r en/scenario_3/340213-4.json jp/scenario_3/340213-4.json
 62,63c62
 <                         "posX": 0,
@@ -16584,26 +17266,158 @@ diff -r en/scenario_3/340223-3.json jp/scenario_3/340223-3.json
 ---
 >                         "posX": 40
 diff -r en/scenario_3/340223-4.json jp/scenario_3/340223-4.json
+11c11
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 19,20c19
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
+76c75
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+89c88
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+101c100
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+112c111
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+132c131
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+142c141
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+153c152
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+164c163
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+185c184
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+217c216
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+229c228
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+240c239
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+250c249
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+264c263
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+272c271
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+307c306
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+327c326
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
 339,340c338
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
+366c364
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+408c406
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+437c435
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+450c448
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+469c467
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
 500,501c498
 <                         "posX": 0,
 <                         "posY": 0
 ---
 >                         "posX": -50
+518c515
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+545c542
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+553c550
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.6,
+592c589
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 600,601c597
 <                         "posX": 40,
 <                         "posY": 0
 ---
 >                         "posX": 40
+657c653
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+669c665
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+692c688
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+702c698
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+713c709
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+738c734
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 diff -r en/scenario_3/340231-1.json jp/scenario_3/340231-1.json
 500,501c500
 <                         "pos": 2,
@@ -17762,6 +18576,107 @@ diff -r en/scenario_5/501107-2_1tFKL.json jp/scenario_5/501107-2_1tFKL.json
 <                         "path": "resource/scenario/img/51011_tower_ny/51011_end.png",
 ---
 >                         "path": "resource/scenario/img/51011_tower_ny/51011_end.jpg",
+diff -r en/scenario_5/501501-5.json jp/scenario_5/501501-5.json
+10c10
+<                         "face": "mtn_ex_000.exp3.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+41c41
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+68c68
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+76c76
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+91c91
+<                         "face": "mtn_ex_051.exp.json",
+---
+>                         "face": "mtn_ex_051.exp3.json",
+98c98
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+122c122
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+135c135
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+157c157
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+164c164
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+188c188
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+251c251
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+259c259
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+277c277
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+285c285
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+310c310
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+323c323
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+334c334
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+358c358
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+370c370
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+407c407
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+419c419
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+430c430
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+443c443
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+451c451
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 diff -r en/scenario_5/501513-3.json jp/scenario_5/501513-3.json
 490,491c490,491
 <                 "narrationLineMargin": 50,
@@ -18228,6 +19143,349 @@ diff -r en/scenario_5/503202-17.json jp/scenario_5/503202-17.json
 ---
 >                 ],
 >                 "textClear": 1
+diff -r en/scenario_5/503202-27.json jp/scenario_5/503202-27.json
+20c20
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+27c27
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+85c85
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+108c108
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+116c116
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+124c124
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+156c156
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+169c169
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+189c189
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+197c197
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+205c205
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+237c237
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+250c250
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+271c271
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+278c278
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+285c285
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+325c325
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+337c337
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+348c348
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+359c359
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+370c370
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+390c390
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+397c397
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+404c404
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+435c435
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+453c453
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+456,457c456,457
+<                         "id": 303300,
+<                         "pos": 0
+---
+>                         "effect": "fadeout",
+>                         "id": 303300
+466c466
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+474c474
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+482c482
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+493c493
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+514c514
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+521c521
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+531c531
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+548c548
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+555c555
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+578c578
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+591c591
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+604c604
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+617c617
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+630c630
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+643c643
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+657c657
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+680c680
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+692c692
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+699c699
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+721c721
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+731c731
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+748c748
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+769c769
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+777c777
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+790c790
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+798c798
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+824c824
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+830c830
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+842c842
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+863c863
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+875c875
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+886c886
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+899c899
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+910c910
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+921c921
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+932c932
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+951c951
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+968c968
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+989c989
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+997c997
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+1010c1010
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+1023c1023
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1035c1035
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+1057c1057
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+1079c1079
+<                         "face": "mtn_ex_040.exp.json",
+---
+>                         "face": "mtn_ex_040.exp3.json",
+1092c1092
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1141c1141
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1148c1148
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1171c1171
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1183c1183
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1201c1201
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1208c1208
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1231c1231
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1243c1243
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1261c1261
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1268c1268
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+1290c1290
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1302c1302
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
 diff -r en/scenario_5/503301-4.json jp/scenario_5/503301-4.json
 36c36
 <                         "scale": 4,
@@ -19598,6 +20856,349 @@ diff -r en/scenario_5/505802-17.json jp/scenario_5/505802-17.json
 ---
 >                 ],
 >                 "textClear": 1
+diff -r en/scenario_5/505802-27.json jp/scenario_5/505802-27.json
+20c20
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+27c27
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+85c85
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+108c108
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+116c116
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+124c124
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+156c156
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+169c169
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+189c189
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+197c197
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+205c205
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+237c237
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+250c250
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+271c271
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+278c278
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+285c285
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+325c325
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+337c337
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+348c348
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+359c359
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+370c370
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+390c390
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+397c397
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+404c404
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+435c435
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+453c453
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+456,457c456,457
+<                         "id": 303300,
+<                         "pos": 0
+---
+>                         "effect": "fadeout",
+>                         "id": 303300
+466c466
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+474c474
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+482c482
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+493c493
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+514c514
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+521c521
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+531c531
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+548c548
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+555c555
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+578c578
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+591c591
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+604c604
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
+617c617
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+630c630
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+643c643
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+657c657
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+680c680
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+692c692
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+699c699
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+721c721
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+731c731
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+748c748
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+769c769
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+777c777
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+790c790
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+798c798
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+824c824
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+830c830
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+842c842
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+863c863
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+875c875
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+886c886
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+899c899
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+910c910
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+921c921
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+932c932
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+951c951
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+968c968
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+989c989
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+997c997
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.25,
+1010c1010
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+1023c1023
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1035c1035
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+1057c1057
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+1079c1079
+<                         "face": "mtn_ex_040.exp.json",
+---
+>                         "face": "mtn_ex_040.exp3.json",
+1092c1092
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1141c1141
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1148c1148
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1171c1171
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1183c1183
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1201c1201
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1208c1208
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1231c1231
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1243c1243
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1261c1261
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+1268c1268
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+1290c1290
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+1302c1302
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
 diff -r en/scenario_5/505901-1.json jp/scenario_5/505901-1.json
 4a5
 >                 "autoTurnLast": 0.01,
@@ -23778,25 +25379,123 @@ diff -r en/scenario_5/506101-1.json jp/scenario_5/506101-1.json
 >                         "id": 760000,
 >                         "live2dName": "live2d_1",
 diff -r en/scenario_5/506101-5.json jp/scenario_5/506101-5.json
+10c10
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+17c17
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+41c41
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+68c68
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 69a70
 >                         "live2dName": "live2d_0",
-76c77,78
+75,76c76,78
+<                         "face": "mtn_ex_000.exp.json",
 <                         "id": 760090,
 ---
+>                         "face": "mtn_ex_000.exp3.json",
 >                         "id": 760000,
 >                         "live2dName": "live2d_1",
+89c91
+<                         "face": "mtn_ex_051.exp.json",
+---
+>                         "face": "mtn_ex_051.exp3.json",
+96c98
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+120c122
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+133c135
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+155c157
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+162c164
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+186c188
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+249c251
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 250a253
 >                         "live2dName": "live2d_0",
-257c260,261
+256,257c259,261
+<                         "face": "mtn_ex_000.exp.json",
 <                         "id": 760090,
 ---
+>                         "face": "mtn_ex_000.exp3.json",
 >                         "id": 760000,
 >                         "live2dName": "live2d_1",
+273c277
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+281c285
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
+306c310
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+319c323
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+330c334
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+354c358
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+366c370
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
+403c407
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+415c419
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+426c430
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+439c443
+<                         "face": "mtn_ex_000.exp.json",
+---
+>                         "face": "mtn_ex_000.exp3.json",
 440a445
 >                         "live2dName": "live2d_0",
-447c452,453
+446,447c451,453
+<                         "face": "mtn_ex_000.exp.json",
 <                         "id": 760090,
 ---
+>                         "face": "mtn_ex_000.exp3.json",
 >                         "id": 760000,
 >                         "live2dName": "live2d_1",
 diff -r en/scenario_5/506103-5.json jp/scenario_5/506103-5.json
@@ -53040,6 +54739,23 @@ diff -r en/scenario_5/512430-7.json jp/scenario_5/512430-7.json
 <                     {
 <                         "effect": "fadeout",
 <                         "id": 200100
+diff -r en/scenario_5/512610-0.json jp/scenario_5/512610-0.json
+22c22
+<                         "face": "mtn_ex_011.exp.json",
+---
+>                         "face": "mtn_ex_011.exp3.json",
+54c54
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+80c80
+<                 "autoTurnLast": 0.01,
+---
+>                 "autoTurnLast": 0.2,
+93c93
+<                 "autoTurnFirst": 1,
+---
+>                 "autoTurnLast": 1,
 diff -r en/scenario_5/513263-63_wFvmE.json jp/scenario_5/513263-63_wFvmE.json
 640a641,651
 >                         "id": 300800
@@ -64190,6 +65906,16 @@ diff -r en/scenario_5/517320-3_xNzXO.json jp/scenario_5/517320-3_xNzXO.json
 < #BELLA=nameRight=SPINA#
 ---
 > #BELLA=nameLeft=SPINA#
+diff -r en/scenario_5/518110-7_9Vluy.json jp/scenario_5/518110-7_9Vluy.json
+450c450
+<                 "narrationLineMargin": 35,
+---
+>                 "narrationLineMargin": 10,
+diff -r en/scenario_5/518120-9_AY1KP.json jp/scenario_5/518120-9_AY1KP.json
+824c824
+<                 "narrationLineMargin": 35,
+---
+>                 "narrationLineMargin": 10,
 diff -r en/scenario_5/518310-14_sw8iW.json jp/scenario_5/518310-14_sw8iW.json
 23c23
 <                 "bg": "bg_adv_13141.jpg",

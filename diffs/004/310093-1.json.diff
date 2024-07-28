@@ -5,6 +5,10 @@
 <                 "bgm": "bgm01_anime05",
 ---
 >                 "autoTurnLast": 0.01,
+10c10
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 12,13c12
 <                         "lipSynch": 0,
 <                         "motion": 100,
@@ -46,6 +50,10 @@
 <                 "bg": "bg_adv_11021.jpg",
 ---
 >                 "autoTurnLast": 0.01,
+69c76
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 71,72c78
 <                         "lipSynch": 0,
 <                         "motion": 100,
@@ -71,48 +79,50 @@
 96,97d100
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
-106a110,120
+107,108d109
+<                         "cheek": 0,
+<                         "face": "mtn_ex_050.exp.json",
+114a116
+>                 "turnEffect": "stop"
+119,124c121,132
+<                         "cheek": 1,
+<                         "face": "mtn_ex_030.exp.json",
+<                         "id": 101101,
+<                         "motion": 1,
+<                         "pos": 2
+<                     },
+---
+>                         "cheek": 0,
+>                         "face": "mtn_ex_050.exp3.json",
 >                         "id": 100901,
 >                         "lipSynch": 0,
->                         "motion": 0
+>                         "motion": 400
 >                     }
 >                 ],
 > #BELLA=textCenter=SPINA#
->                 "turnEffect": "stop"
 >             },
 >             {
->                 "chara": [
->                     {
-111c125
-<                         "motion": 0
----
->                         "motion": 400
-116a131
 >                 "autoTurnLast": 0.01,
-118a134,140
->                         "cheek": 0,
->                         "face": "mtn_ex_030.exp.json",
->                         "id": 101001,
->                         "motion": 0,
->                         "pos": 0
+>                 "chara": [
+127c135
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+130a139,153
 >                     },
 >                     {
-124c146,151
-<                     },
----
+>                         "cheek": 1,
+>                         "face": "mtn_ex_030.exp3.json",
+>                         "id": 101101,
+>                         "motion": 1,
+>                         "pos": 2
 >                     }
 >                 ],
 >                 "turnChangeIn": "rollInFast"
 >             },
 >             {
 >                 "chara": [
-126,130c153
-<                         "cheek": 0,
-<                         "face": "mtn_ex_030.exp.json",
-<                         "id": 101001,
-<                         "motion": 0,
-<                         "pos": 0
----
+>                     {
 >                         "id": 101101
 136d158
 <                 "turnChangeIn": "rollInFast",
@@ -123,11 +133,17 @@
 ---
 >                         "id": 101001,
 >                         "motion": 100
-154,155c175
+153,155c174,175
+<                         "face": "mtn_ex_010.exp.json",
 <                         "id": 101001,
 <                         "motion": 100
 ---
+>                         "face": "mtn_ex_010.exp3.json",
 >                         "id": 101001
+178c198
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 191,192d210
 <                         "cheek": 1,
 <                         "face": "mtn_ex_030.exp.json",
@@ -156,6 +172,14 @@
 ---
 >                 "autoTurnLast": 1,
 >                 "bgm": "stop",
+230c248
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+237c255
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 242a261,272
 >                 "narrationEffect": "out",
 >                 "turnChangeIn": "fadeIn"
@@ -177,7 +201,15 @@
 255c282
 <                         "face": "mtn_ex_050.exp.json",
 ---
->                         "face": "mtn_ex_030.exp.json",
+>                         "face": "mtn_ex_030.exp3.json",
+266c293
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+277c304
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 286,287d312
 <                         "cheek": 1,
 <                         "face": "mtn_ex_030.exp.json",
@@ -186,22 +218,36 @@
 ---
 >                         "lipSynch": 0,
 >                         "motion": 300
+299c325
+<                         "face": "mtn_ex_010.exp.json",
+---
+>                         "face": "mtn_ex_010.exp3.json",
+310c336
+<                         "face": "mtn_ex_050.exp.json",
+---
+>                         "face": "mtn_ex_050.exp3.json",
 321c347
 <                         "face": "mtn_ex_050.exp.json",
 ---
->                         "face": "mtn_ex_041.exp.json",
+>                         "face": "mtn_ex_041.exp3.json",
 323c349
 <                         "motion": 1
 ---
 >                         "motion": 100
+332c358
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 334,335c360
 <                         "motion": 100,
 <                         "mouthOpen": 1
 ---
 >                         "motion": 100
-345c370,371
+344,345c369,371
+<                         "face": "mtn_ex_030.exp.json",
 <                         "id": 101001
 ---
+>                         "face": "mtn_ex_030.exp3.json",
 >                         "id": 101001,
 >                         "motion": 200
 353,354d378
@@ -212,6 +258,10 @@
 <                         "mouthOpen": 0
 ---
 >                         "motion": 300
+366c389
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 368c391
 <                         "motion": 100
 ---
@@ -219,17 +269,21 @@
 377c400
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_031.exp.json",
+>                         "face": "mtn_ex_031.exp3.json",
 378a402
 >                         "motion": 200,
 388c412
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_050.exp.json",
+>                         "face": "mtn_ex_050.exp3.json",
 390c414
 <                         "motion": 0
 ---
 >                         "motion": 400
+399c423
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 406a431
 >                 "autoTurnLast": 0.01,
 408,409c433
@@ -237,8 +291,11 @@
 <                 "bgm": "bgm03_story08",
 ---
 >                 "bgm": "stop",
-418d441
+418,419c442
 <                         "effect": "ef_adv_05",
+<                         "face": "mtn_ex_020.exp.json",
+---
+>                         "face": "mtn_ex_020.exp3.json",
 425c448,465
 <                 "flashEffect": "flashWhite2",
 ---
@@ -254,7 +311,7 @@
 >                     {
 >                         "cheek": 0,
 >                         "effect": "ef_adv_05",
->                         "face": "mtn_ex_020.exp.json",
+>                         "face": "mtn_ex_020.exp3.json",
 >                         "id": 101000,
 >                         "motion": 1,
 >                         "pos": 2
@@ -274,13 +331,25 @@
 <                 "se": "6100_hit_slash_01_s",
 448d482
 <                 "bgEffect": "shakeSmall",
+452c486
+<                         "face": "mtn_ex_060.exp.json",
+---
+>                         "face": "mtn_ex_060.exp3.json",
 458,459d491
 <                 "flashEffect": "flashWhite2",
 <                 "se": "6101_hit_slash_01_vh",
 467c499
 <                         "face": "mtn_ex_020.exp.json",
 ---
->                         "face": "mtn_ex_030.exp.json",
+>                         "face": "mtn_ex_030.exp3.json",
+483c515
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
+497c529
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 507,508c539
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
@@ -307,11 +376,15 @@
 <                         "face": "mtn_ex_030.exp.json",
 554d578
 <                         "face": "mtn_ex_030.exp.json",
+571c595
+<                         "face": "mtn_ex_030.exp.json",
+---
+>                         "face": "mtn_ex_030.exp3.json",
 580a605,612
 >                 "chara": [
 >                     {
 >                         "cheek": 1,
->                         "face": "mtn_ex_020.exp.json",
+>                         "face": "mtn_ex_020.exp3.json",
 >                         "id": 101000,
 >                         "motion": 0
 >                     }
@@ -326,37 +399,34 @@
 <                         "effect": "ef_adv_05",
 <                         "face": "mtn_ex_030.exp.json",
 ---
->                         "face": "mtn_ex_060.exp.json",
-613c645,650
+>                         "face": "mtn_ex_060.exp3.json",
+613c645,661
 <                         "id": 100900
 ---
 >                         "effect": "ef_adv_05",
->                         "face": "mtn_ex_060.exp.json",
+>                         "face": "mtn_ex_060.exp3.json",
 >                         "id": 100900,
 >                         "motion": 400,
 >                         "pos": 2,
 >                         "tear": 1
-616c653
-< #BELLA=textRight=SPINA#
----
->                 "se": "7205_magic_girl"
-621c658
-<                         "cheek": 1,
----
->                         "cheek": 2,
-624d660
-<                         "lipSynch": 0,
-630a667,676
->                 "chara": [
->                     {
->                         "id": 100900,
->                         "lipSynch": 0,
->                         "motion": 300
 >                     }
 >                 ],
-> #BELLA=textRight=SPINA#
+>                 "se": "7205_magic_girl"
 >             },
 >             {
+>                 "chara": [
+>                     {
+>                         "cheek": 2,
+>                         "face": "mtn_ex_030.exp3.json",
+>                         "id": 100900,
+>                         "tear": 0
+621,622d668
+<                         "cheek": 1,
+<                         "face": "mtn_ex_030.exp.json",
+625c671
+<                         "tear": 0
+---
+>                         "motion": 300
 638,639d683
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
@@ -365,12 +435,13 @@
 649,650d693
 <                         "cheek": 0,
 <                         "face": "mtn_ex_030.exp.json",
-659c702,703
+659,660c702,714
 <                         "cheek": 0,
+<                         "face": "mtn_ex_030.exp.json",
 ---
 >                         "cheek": 1,
 >                         "effect": "ef_adv_05",
-660a705,714
+>                         "face": "mtn_ex_030.exp3.json",
 >                         "id": 101000,
 >                         "motion": 1,
 >                         "pos": 2
@@ -404,10 +475,18 @@
 <                 "narrationBg": "bg_adv_11093.jpg",
 ---
 >                 "narrationBg": "bg_adv_narration.jpg",
+691c734
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.6,
 697c740
 <                 "narrationBg": "narration",
 ---
 >                 "narrationBg": "bg_adv_narration.jpg",
+702c745
+<                 "autoTurnLast": 0.1,
+---
+>                 "autoTurnLast": 0.6,
 710c753
 <                 "narrationBg": "black.jpg",
 ---

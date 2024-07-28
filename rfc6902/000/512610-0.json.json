@@ -1,0 +1,26 @@
+[
+    {
+        "op": "replace",
+        "path": "/story/group_1/0/chara/0/face",
+        "value": "mtn_ex_011.exp3.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/2/chara/0/face",
+        "value": "mtn_ex_010.exp3.json"
+    },
+    {
+        "op": "replace",
+        "path": "/story/group_1/5/autoTurnLast",
+        "value": 0.2
+    },
+    {
+        "op": "remove",
+        "path": "/story/group_1/6/autoTurnFirst"
+    },
+    {
+        "op": "add",
+        "path": "/story/group_1/6/autoTurnLast",
+        "value": 1
+    }
+]
