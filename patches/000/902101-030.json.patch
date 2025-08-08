@@ -1,0 +1,186 @@
+--- en/scenario_9/902101-030.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902101-030.json	2017-03-17 18:39:13.000000000 +0800
+@@ -34,7 +34,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -51,8 +51,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Mornin, folks!)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(おはようございます)"
+             },
+             {
+                 "chara": [
+@@ -65,7 +65,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-2"
+                     }
+                 ],
+-                "progressFnarration": "(And good NIGHT!)"
++                "progressFnarration": "(おやすみなさい)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -95,7 +95,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -112,8 +112,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-3"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Oh, desk...@Sweet, sweet desk...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(ううう…つくえ…つくえ…)"
+             },
+             {
+                 "chara": [
+@@ -124,7 +124,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-4"
+                     }
+                 ],
+-                "progressFnarration": "(You're always there for me.@How I cherish our@time together...)"
++                "progressFnarration": "(授業までの短い時間@私の眠気を受け止めてくれる)"
+             },
+             {
+                 "chara": [
+@@ -135,7 +135,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-5"
+                     }
+                 ],
+-                "progressFnarration": "(You're so good to me.@If not for my kotatsu at home,@I'd run away with you...)"
++                "progressFnarration": "(最高だよ、机ちゃん…@コタツちゃんの次に愛してる…)"
+             },
+             {
+                 "chara": [
+@@ -147,7 +147,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-6"
+                     }
+                 ],
+-                "progressFnarration": "(I love you...)"
++                "progressFnarration": "(あいして…)"
+             },
+             {
+                 "chara": [
+@@ -158,7 +158,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-7"
+                     }
+                 ],
+-                "progressFnarration": "(...love...y...)"
++                "progressFnarration": "(あい…して…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -182,7 +182,7 @@
+                 "turnChangeInTime": 1.5
+             },
+             {
+-                "Fnarration": "Mabayu.",
++                "Fnarration": "まばゆさん",
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+@@ -196,7 +196,7 @@
+                 "FnarrationWidth": 200,
+                 "FnarrationX": 0,
+                 "FnarrationY": 0,
+-                "nameFnarration": "???",
++                "nameFnarration": "？？？",
+                 "surround": "7202_telepathy",
+                 "turnChangeOut": "fadeOut",
+                 "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-8"
+@@ -238,8 +238,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-9"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20][surround:8014_standup][chara:200912:effect_emotion_surprise_0][se:7226_shock]Y-yes!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "[surround:8014_standup][chara:200912:effect_emotion_surprise_0][se:7226_shock]は、はいっ!!",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut",
+                 "turnChangeOutTime": 0.1
+@@ -251,8 +251,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]...[wait:1.0][chara:200912:cheek_0][chara:200912:motion_0][chara:200912:lipSynch_1][chara:200912:voiceFull_fullvoice/section_104201/vo_full_902101-030-10]Huh?"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "…………[wait:1.0][chara:200912:cheek_0][chara:200912:motion_0][chara:200912:lipSynch_1][chara:200912:voiceFull_fullvoice/section_104201/vo_full_902101-030-10]あれ？"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -284,9 +284,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Teacher",
++                "nameAvRight": "先生",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Thank you, Aki! It's rare@for you to volunteer."
++                "textAvRight": "お、愛生@自分で立つなんて珍しいな"
+             },
+             {
+                 "chara": [
+@@ -297,8 +297,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-12"
+                     }
+                 ],
+-                "nameAvRight": "Teacher",
+-                "textAvRight": "[fontSize:20]Come on up and solve this for us."
++                "nameAvRight": "先生",
++                "textAvRight": "じゃあ、この式を解きなさい"
+             },
+             {
+                 "chara": [
+@@ -308,9 +308,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-13"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]But. That voice just now..."
++                "textAvLeft": "え？今の声って…"
+             },
+             {
+                 "chara": [
+@@ -319,9 +319,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-14"
+                     }
+                 ],
+-                "nameAvRight": "Teacher",
++                "nameAvRight": "先生",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Come on, get over here!"
++                "textAvRight": "ほら、早く！"
+             },
+             {
+                 "chara": [
+@@ -333,9 +333,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-030-15"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]C-coming..."
++                "textAvLeft": "あ、は…はい…"
+             },
+             {
+                 "autoTurnLast": 2,

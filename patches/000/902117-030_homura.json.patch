@@ -1,0 +1,534 @@
+--- en/scenario_9/902117-030_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902117-030_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -40,9 +40,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Let's do our best today to find@Witches with our Soul Gems!",
++                "textAvRight": "今日もソウルジェムで@魔女捜し、がんばろう！",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -54,9 +54,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I...I'm sorry..."
++                "textAvLeft": "あの…ごめんなさい…"
+             },
+             {
+                 "chara": [
+@@ -64,8 +64,8 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]If only I remembered all the details@of what happened during the last loop..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私が、前の周の出来事を@全部記憶していれば…"
+             },
+             {
+                 "chara": [
+@@ -73,8 +73,8 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Miss Shizuki wouldn't have gotten hurt..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "志筑さんのケガも@防げたはずなのに…"
+             },
+             {
+                 "chara": [
+@@ -86,9 +86,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Oh no, Homura!@That's not your fault!"
++                "textAvRight": "あっ、ううん@ほむらちゃんのせいじゃないよ！"
+             },
+             {
+                 "chara": [
+@@ -104,9 +104,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]You contracted during@Walpurgisnacht, right?"
++                "textAvRight": "暁美さんの契約は@ワルプルギスの夜だったのよね"
+             },
+             {
+                 "chara": [
+@@ -114,8 +114,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]So it's not your fault that you don't@have information prior to that."
++                "nameAvRight": "マミ",
++                "textAvRight": "それ以前の情報を知らないのは@無理もないわ"
+             },
+             {
+                 "chara": [
+@@ -126,9 +126,9 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]...Yes. Thank you."
++                "textAvLeft": "…はい、ありがとうございます"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -168,8 +168,8 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20][se:7201_detect_magic][chara:200301:effect_ef_adv_01][chara:200101:effect_ef_adv_01]Ah...this sensation...",
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "[se:7201_detect_magic][chara:200301:effect_ef_adv_01][chara:200101:effect_ef_adv_01]あ…この気配は…",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -179,9 +179,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]A Witch's Labyrinth!"
++                "textAvRight": "魔女の結界！"
+             },
+             {
+                 "chara": [
+@@ -193,9 +193,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]No, this is probably from a Familiar."
++                "textAvRight": "いいえ、これは恐らく@使い魔のものね"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -241,9 +241,9 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]If it's a Familiar, then that means it@hasn't turned into a Witch yet, right?",
++                "textAvLeft": "使い魔ってことは、まだ魔女に@なってないんですよね？",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -252,9 +252,9 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Still, we can't let our guard down."
++                "textAvRight": "それでも、油断は禁物だよ"
+             },
+             {
+                 "chara": [
+@@ -266,9 +266,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]If we leave it be,@it's going to harm people."
++                "textAvRight": "それに、放っておけば人間に@危害を及ぼすようになるわ"
+             },
+             {
+                 "chara": [
+@@ -276,8 +276,8 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]So, either way..."
++                "nameAvRight": "マミ",
++                "textAvRight": "いずれにせよ…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -349,12 +349,12 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]The only option is to defeat it now."
++                "nameAvRight": "マミ",
++                "textAvRight": "ここで倒すより他に、手はない…"
+             },
+             {
+-                "nameAvCenter": "Kyoko's Voice",
+-                "textAvCenter": "[fontSize:20]You sure 'bout that?",
++                "nameAvCenter": "杏子の声",
++                "textAvCenter": "そいつはどうかな？",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -372,9 +372,9 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]...?!"
++                "textAvRight": "…!?"
+             },
+             {
+                 "chara": [
+@@ -383,9 +383,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Another Magical Girl?"
++                "textAvLeft": "新しい、魔法少女？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -418,9 +418,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Kyoko Sakura...right?"
++                "textAvLeft": "佐倉、杏子さん…ですよね？"
+             },
+             {
+                 "chara": [
+@@ -430,9 +430,9 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Hm?[chara:200600:lipSynch_0][wait:1.2][chara:200600:cheek_0][chara:200600:face_mtn_ex_000.exp3.json:motion_300][chara:200600:lipSynch_1] Oh...you're that little newbie@from the car factory."
++                "textAvRight": "ん？[chara:200600:lipSynch_0][wait:1.2][chara:200600:cheek_0][chara:200600:face_mtn_ex_000.exp3.json:motion_300][chara:200600:lipSynch_1]ああ、あんたは…@自動車工場にいたひよっこか"
+             },
+             {
+                 "chara": [
+@@ -442,9 +442,9 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Thank you for saving me back there."
++                "textAvLeft": "先日は、助けてもらってどうも@ありがとうございました"
+             },
+             {
+                 "chara": [
+@@ -453,9 +453,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Don't get the wrong idea."
++                "textAvRight": "勘違いするなって"
+             },
+             {
+                 "chara": [
+@@ -463,8 +463,8 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]I just wanted a Grief Seed."
++                "nameAvRight": "杏子",
++                "textAvRight": "あたしはただ、グリーフシードを@もらいたかっただけだ"
+             },
+             {
+                 "chara": [
+@@ -476,9 +476,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Is that what you're here for today too?"
++                "textAvLeft": "じゃあ、今日も…"
+             },
+             {
+                 "chara": [
+@@ -490,9 +490,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]We need to hurry,@the Familiar is going to..."
++                "textAvLeft": "急いで、使い魔が逃げる…"
+             },
+             {
+                 "bgm": "stop",
+@@ -511,8 +511,8 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20][surround:8027_lift][chara:200300:effect_7001_attack02]Ah!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "[surround:8027_lift][chara:200300:effect_7001_attack02]きゃっ"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -580,9 +580,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Didn't ya hear me?@I'm only here for Grief Seeds."
++                "textAvRight": "だから言ってんだろ？あたしの@狙いはグリーフシードだって"
+             },
+             {
+                 "chara": [
+@@ -594,9 +594,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]What...?"
++                "textAvLeft": "え…"
+             },
+             {
+                 "chara": [
+@@ -608,9 +608,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Familiars don't drop Grief Seeds."
++                "textAvRight": "使い魔はグリーフシードを@落とさない"
+             },
+             {
+                 "chara": [
+@@ -618,8 +618,8 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]So she's waiting for it@to turn into a Witch."
++                "nameAvRight": "マミ",
++                "textAvRight": "だから、魔女になるのを@待てっていうのね"
+             },
+             {
+                 "chara": [
+@@ -631,9 +631,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]But if you do that,@people are going to get hurt..."
++                "textAvLeft": "そんな、それじゃあ@誰かが襲われることに…"
+             },
+             {
+                 "chara": [
+@@ -645,9 +645,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Doesn't matter."
++                "textAvRight": "関係ないね"
+             },
+             {
+                 "chara": [
+@@ -657,9 +657,9 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]But, why..."
++                "textAvLeft": "そんな…"
+             },
+             {
+                 "chara": [
+@@ -669,9 +669,9 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Survival of the fittest. The weak@get eaten, that's how it goes."
++                "textAvRight": "弱肉強食って言うじゃないか@弱い奴が食われんのは運命さ"
+             },
+             {
+                 "chara": [
+@@ -683,9 +683,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]That's..."
++                "textAvLeft": "そんなこと…"
+             },
+             {
+                 "chara": [
+@@ -697,9 +697,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]I can't allow you to do that."
++                "textAvLeft": "そんなことは、させないわ"
+             },
+             {
+                 "chara": [
+@@ -711,9 +711,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]What, you wanna scrap?"
++                "textAvRight": "やる気かい？"
+             },
+             {
+                 "chara": [
+@@ -723,8 +723,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Sorry, but my goal is makin'@sure this golden egg runs free."
++                "nameAvRight": "杏子",
++                "textAvRight": "残念だけど、あたしの目的は@金の卵を逃がすこと"
+             },
+             {
+                 "chara": [
+@@ -733,8 +733,8 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Our fight's gonna have to wait."
++                "nameAvRight": "杏子",
++                "textAvRight": "巴マミと戦うのはまだ先さ"
+             },
+             {
+                 "autoTurnFirst": 1.5,
+@@ -744,9 +744,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20][flashEffect:flashWhite2][surround:8007_ribbon]Hold on!"
++                "textAvLeft": "[flashEffect:flashWhite2][surround:8007_ribbon]待ちなさい！"
+             },
+             {
+                 "autoTurnFirst": 1.5,
+@@ -780,8 +780,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]She got away...",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "逃げられちゃった…",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -811,9 +811,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Who is she, Mami?"
++                "textAvRight": "マミさん、佐倉さんって…？"
+             },
+             {
+                 "chara": [
+@@ -822,9 +822,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]She used to fight Witches with me."
++                "textAvLeft": "彼女はかつて、私と一緒に@魔女と戦ったわ"
+             },
+             {
+                 "chara": [
+@@ -832,8 +832,8 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]But..."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "でも…"
+             },
+             {
+                 "chara": [
+@@ -842,8 +842,8 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]We're no longer partners anymore."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "今はもう、仲間じゃない"
+             },
+             {
+                 "autoTurnLast": 2,

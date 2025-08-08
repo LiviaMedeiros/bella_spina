@@ -1,0 +1,245 @@
+--- en/scenario_9/902110-040_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902110-040_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -38,10 +38,10 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "surround": "7007_evening_townbuzz",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Where are we heading, Miss Akemi?",
++                "textAvRight": "暁美さん、どこに行くの？",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -51,9 +51,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]We're almost there. Just around@this time, it should..."
++                "textAvLeft": "もう少しです@ちょうど、このくらいの時間で…"
+             },
+             {
+                 "chara": [
+@@ -65,9 +65,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20][se:7201_detect_magic][chara:200501:effect_ef_adv_01]Hm...this sensation, could it be...?"
++                "textAvRight": "[se:7201_detect_magic][chara:200501:effect_ef_adv_01]ん…この気配は、まさか"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -108,9 +108,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]A Witch's Labyrinth?!"
++                "textAvRight": "魔女の結界!?"
+             },
+             {
+                 "chara": [
+@@ -118,9 +118,9 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Yes, that's correct."
++                "textAvLeft": "はい、そうです"
+             },
+             {
+                 "chara": [
+@@ -128,8 +128,8 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Last time, I wandered inside,@and that's when I met you two."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私は前回、ここに迷い込んで@鹿目さんたちと出会いました"
+             },
+             {
+                 "chara": [
+@@ -138,8 +138,8 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]This is proof that I came from the future!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "これが、私が未来から来た@証拠です！"
+             },
+             {
+                 "chara": [
+@@ -151,9 +151,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I see...@That certainly lends some credence."
++                "textAvRight": "なるほど…@確かに一理はあるわね"
+             },
+             {
+                 "chara": [
+@@ -163,8 +163,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]But before we talk any further,@we need to take care of this Witch."
++                "nameAvRight": "マミ",
++                "textAvRight": "でも検討の前に、こうなったら@まず魔女を倒さないと"
+             },
+             {
+                 "chara": [
+@@ -173,9 +173,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Of course, leave it to me!"
++                "textAvLeft": "はい、任せて下さい！"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -193,9 +193,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "se": "7205_magic_girl",
+-                "textAvLeft": "[fontSize:20]Last time, I was too scared@to do anything..."
++                "textAvLeft": "前回は、怖くて@見ているだけでしたけど…"
+             },
+             {
+                 "chara": [
+@@ -205,8 +205,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]But now, with my magic,@I can actually help you both!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "今回は、私の魔法の力で@ふたりの役に立ちます！"
+             },
+             {
+                 "chara": [
+@@ -218,9 +218,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Huh? Miss Akemi...?"
++                "textAvRight": "えっ？@暁美さん…？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -240,8 +240,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Yah!",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "やあっ！",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -270,8 +270,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]See? Look!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "ほらっ、ふたりとも見て下さい！"
+             },
+             {
+                 "chara": [
+@@ -279,8 +279,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]I have the ability to stop time!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "私、時間を止めることが@できるんです！"
+             },
+             {
+                 "chara": [
+@@ -288,8 +288,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]So, if I take this opportunity to defeat..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "だから、この隙に敵を@やっつけちゃえば…"
+             },
+             {
+                 "autoTurnLast": 0.6,
+@@ -342,9 +342,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]......",
++                "textAvRight": "…………",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -354,9 +354,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -382,8 +382,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Wait―what?",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "あ、あれ…？",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -393,8 +393,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]They're both frozen in time..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "ふたりも一緒に@止まっちゃった…"
+             },
+             {
+                 "autoTurnLast": 2,

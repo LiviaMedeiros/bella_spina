@@ -1,0 +1,242 @@
+--- en/scenario_9/902106-030_madoka.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902106-030_madoka.json	2017-03-17 18:39:13.000000000 +0800
+@@ -52,8 +52,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]A new Witch...!",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "新しい魔女…！",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -65,9 +65,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
++                "nameAvCenter": "まどか",
+                 "surround": "7202_telepathy",
+-                "textAvCenter": "[fontSize:20]Mami!",
++                "textAvCenter": "マミさん！",
+                 "textAvColor": "textMadoka",
+                 "turnEffect": "ef_adv_02"
+             },
+@@ -76,12 +76,12 @@
+                 "textAvClear": 1
+             },
+             {
+-                "Fnarration": "Yes, I can hear you.",
++                "Fnarration": "ええ、聞こえるわ",
+                 "FnarrationAnchor": "center",
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -91,7 +91,7 @@
+                 "FnarrationWidth": 300,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mami's Voice"
++                "nameFnarration": "マミ"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -104,8 +104,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Um, I'm in a Witch's Labyrinth@right now, and―",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "わたし今、魔女の結界にいて…",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -113,12 +113,12 @@
+                 "textAvClear": 1
+             },
+             {
+-                "Fnarration": "Sorry!",
++                "Fnarration": "ごめんなさい！",
+                 "FnarrationAnchor": "center",
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -128,10 +128,10 @@
+                 "FnarrationWidth": 300,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mami's Voice"
++                "nameFnarration": "マミ"
+             },
+             {
+-                "Fnarration": "Give me some time, I'll be@there as soon as I can!"
++                "Fnarration": "少し待っていて@すぐに向かうから！"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -144,8 +144,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Thank you, I...",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "お願いしま…",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -164,8 +164,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashRed1][se:3001_chara_damage][chara:200100:effect_shake][bgEffect:shakeSmall]Aah!",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "[flashEffect:flashRed1][se:3001_chara_damage][chara:200100:effect_shake][bgEffect:shakeSmall]きゃっ！",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -176,7 +176,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -193,8 +193,8 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameFnarration": "Madoka",
+-                "progressFnarration": "(At this rate, I don't know if I can@hold out until Mami arrives...)",
++                "nameFnarration": "まどか",
++                "progressFnarration": "(だめだ、マミさんが来るまで@もたないかも…)",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -202,9 +202,9 @@
+                 "autoTurnLast": 0.01
+             },
+             {
+-                "nameAvRight": "???'s Voice",
++                "nameAvRight": "？？？の声",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20][flashEffect:flashWhite2][surround:2006A01]Take this!"
++                "textAvRight": "[flashEffect:flashWhite2][surround:2006A01]せいっ!!"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -263,8 +263,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Huh?",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "えっ",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -287,9 +287,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Are you new or somethin'?"
++                "textAvRight": "あんた、新入りかい？"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -299,7 +299,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -316,8 +316,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameFnarration": "Madoka",
+-                "progressFnarration": "(Is she...a Magical Girl?)",
++                "nameFnarration": "まどか",
++                "progressFnarration": "(この人は…魔法少女？)",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -332,9 +332,9 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Well, you better keep this in mind..."
++                "textAvRight": "だったら、肝に銘じておくんだね"
+             },
+             {
+                 "chara": [
+@@ -343,8 +343,8 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Trespassin' thieves don't got the@right to complain if they get killed."
++                "nameAvRight": "杏子",
++                "textAvRight": "縄張りを荒らす泥棒猫は@殺されたって文句は言えない"
+             },
+             {
+                 "chara": [
+@@ -355,9 +355,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Ah..."
++                "textAvLeft": "ぁ…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -412,8 +412,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]This is MY territory...",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "ここはあたしの縄張りで…",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -424,8 +424,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20][flashEffect:explosion][surround:2006A04]...and I'm gonna take 'em all down myself!"
++                "nameAvCenter": "杏子",
++                "textAvCenter": "[flashEffect:explosion][surround:2006A04]こいつはあたしの獲物なのさ！"
+             },
+             {
+                 "autoTurnLast": 2,

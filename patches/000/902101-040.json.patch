@@ -1,0 +1,442 @@
+--- en/scenario_9/902101-040.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902101-040.json	2017-03-17 18:39:13.000000000 +0800
+@@ -35,8 +35,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-1"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]*Sigh*",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "はあぁ…",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -48,7 +48,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -65,8 +65,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-2"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Ugh. I can't believe I answered@out loud. In my sleep.@Talk about humiliating...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(寝ぼけて返事するなんて@はずかしい…)"
+             },
+             {
+                 "chara": [
+@@ -79,7 +79,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-3"
+                     }
+                 ],
+-                "progressFnarration": "(That voice―what WAS that?)"
++                "progressFnarration": "(でも…あの声@なんだったんでしょうか？)"
+             },
+             {
+                 "chara": [
+@@ -91,7 +91,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-4"
+                     }
+                 ],
+-                "progressFnarration": "(It didn't feel like@part of a dream.)"
++                "progressFnarration": "(夢の中で聞こえたのとは@違うと思うんですが…)"
+             },
+             {
+                 "chara": [
+@@ -102,7 +102,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-5"
+                     }
+                 ],
+-                "progressFnarration": "(But it didn't really@sound real, either...)"
++                "progressFnarration": "(でも確かに、リアルな声とも@ちょっと違っていたような…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -119,8 +119,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-6"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]......"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "…………"
+             },
+             {
+                 "chara": [
+@@ -134,8 +134,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-7"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Wait―"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "…あれ？"
+             },
+             {
+                 "chara": [
+@@ -144,13 +144,13 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-8"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]What was I just thinking about?@I feel like I was forgetting something..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "なんだろ@なんか…忘れてる？"
+             },
+             {
+-                "nameAvLeft": "Sakie",
++                "nameAvLeft": "咲笑の声",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20]Yoo-hoo! Mabayu!@Heading out already?",
++                "textAvLeft": "あらあら？@まばゆちゃん、どこに行くの？",
+                 "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-9"
+             },
+             {
+@@ -186,9 +186,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Oh―hey Sakie."
++                "textAvRight": "あ、咲笑さん"
+             },
+             {
+                 "chara": [
+@@ -198,9 +198,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-11"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
++                "nameAvLeft": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20]We're absolutely DROWNING in customers@today. You wouldn't believe it!"
++                "textAvLeft": "今日はお客さんがたくさんで@大忙しなのよぉ"
+             },
+             {
+                 "chara": [
+@@ -211,8 +211,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-12"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
+-                "textAvLeft": "[fontSize:20]Any chance you could hop in@and help a little early...?"
++                "nameAvLeft": "咲笑",
++                "textAvLeft": "はやく、お手伝いしてくれると@うれしいんだけど…"
+             },
+             {
+                 "chara": [
+@@ -221,9 +221,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-13"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Yeah, yeah. Coming."
++                "textAvRight": "はーい"
+             },
+             {
+                 "autoTurnLast": 1,
+@@ -267,9 +267,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-14"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Welcome to Recompense.",
++                "textAvLeft": "いらっしゃいませ",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -279,8 +279,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-15"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Are you ready to order?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "ご注文は何になさいますか？"
+             },
+             {
+                 "chara": [
+@@ -291,7 +291,7 @@
+                 ],
+                 "nameAvRight": "",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Um... I'll have the cake set, with@the seasonal tart and a hot coffee."
++                "textAvRight": "ええと…ケーキセット@季節のタルトと、ブレンドを"
+             },
+             {
+                 "autoTurnFirst": 2.9,
+@@ -307,7 +307,7 @@
+                     }
+                 ],
+                 "nameAvRight": "",
+-                "textAvRight": "[fontSize:20]I'll have the same, with a Charlotte and...@Sorry, this caffe macchiato, does it―"
++                "textAvRight": "私はシャルロットに…この@カフェ・マキアートって…？"
+             },
+             {
+                 "chara": [
+@@ -330,9 +330,9 @@
+                         "voiceFullStop": "fullvoice/section_104201/vo_full_902101-040-17"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Ah, yes..."
++                "textAvLeft": "あ、はい"
+             },
+             {
+                 "chara": [
+@@ -341,9 +341,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-18b"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]It comes with latte art. You can let us know@if there's something you want drawn on it."
++                "textAvLeft": "リクエストがあれば、@ご注文の絵を描いてお出しします"
+             },
+             {
+                 "chara": [
+@@ -354,7 +354,7 @@
+                 ],
+                 "nameAvRight": "",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Wow! It's hand-drawn?"
++                "textAvRight": "もしかして、店員さんが@やってくれるんですか？"
+             },
+             {
+                 "chara": [
+@@ -365,9 +365,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-20"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Yeah. Well, not me...@The owner does it..."
++                "textAvLeft": "あ、私じゃなくて、店長が…"
+             },
+             {
+                 "chara": [
+@@ -380,7 +380,7 @@
+                 ],
+                 "nameAvRight": "",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh. Really?"
++                "textAvRight": "ああ、そうなんですか"
+             },
+             {
+                 "chara": [
+@@ -392,7 +392,7 @@
+                     }
+                 ],
+                 "nameAvRight": "",
+-                "textAvRight": "[fontSize:20]In that case... I'll have a cat!"
++                "textAvRight": "えっと…それじゃあネコちゃん@描いてもらえますか？"
+             },
+             {
+                 "chara": [
+@@ -402,9 +402,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-23"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]G-got it."
++                "textAvLeft": "か、かしこまりました"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -429,7 +429,7 @@
+                 ],
+                 "nameAvLeft": "",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20]Hey, aren't the uniforms here cute?"
++                "textAvLeft": "ねえねえ、ここの制服、ステキだね"
+             },
+             {
+                 "chara": [
+@@ -439,7 +439,7 @@
+                     }
+                 ],
+                 "nameAvRight": "",
+-                "textAvRight": "[fontSize:20]Yeah. And that cashier's adorable!@She's so tiny."
++                "textAvRight": "店員さんも、ちっちゃくて@かわいい"
+             },
+             {
+                 "chara": [
+@@ -449,7 +449,7 @@
+                     }
+                 ],
+                 "nameAvRight": "",
+-                "textAvRight": "[fontSize:20]How old you think she is?"
++                "textAvRight": "いくつなんだろ？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -482,7 +482,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -499,8 +499,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-26"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(What am I,@a circus show?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(うー、ちんちくりんで@悪かったですね)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -512,7 +512,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-73"
+                     }
+                 ],
+-                "progressFnarration": "(It's not like I'm here@because I want to be.)"
++                "progressFnarration": "(私だって、好きで手伝ってる@わけじゃないですよ)"
+             },
+             {
+                 "chara": [
+@@ -525,7 +525,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-74"
+                     }
+                 ],
+-                "progressFnarration": "(Not that I'm complaining.@Aunt Sakie was nice@enough to take me in...)"
++                "progressFnarration": "(でも、咲笑さんは私を@引き取ってくれた大切な人だし)"
+             },
+             {
+                 "chara": [
+@@ -537,7 +537,7 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-75"
+                     }
+                 ],
+-                "progressFnarration": "(...And the money's nice.@Video rentals don't@come cheap.)"
++                "progressFnarration": "(あと、ビデオレンタルで@金欠病なので、おこづかいが…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -560,9 +560,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-76"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
++                "nameAvLeft": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20]Mabayu, can you bring this@to the table in the back?"
++                "textAvLeft": "まばゆちゃん@これ、奥の席にお願いね"
+             },
+             {
+                 "chara": [
+@@ -576,9 +576,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-77"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Coming!"
++                "textAvRight": "あ、はーい"
+             },
+             {
+                 "chara": [
+@@ -589,8 +589,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-78"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]Uh...Sakie?"
++                "nameAvRight": "まばゆ",
++                "textAvRight": "…って、あれ？咲笑さん？"
+             },
+             {
+                 "chara": [
+@@ -602,9 +602,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-79"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
++                "nameAvLeft": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20]Cute, right? I'd say it's@some of my best work."
++                "textAvLeft": "あらあら？ラテアートの@出来映えに感心しちゃった？"
+             },
+             {
+                 "chara": [
+@@ -617,9 +617,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-80"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]You're a master of realism.@It belongs in a museum."
++                "textAvRight": "確かに超リアルです@リアルですけど…"
+             },
+             {
+                 "chara": [
+@@ -629,8 +629,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-81"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]But it's a dog.@Didn't the lady ask for a cat?"
++                "nameAvRight": "まばゆ",
++                "textAvRight": "これ、イヌ…ですよね？@注文はネコだったんですけど"
+             },
+             {
+                 "chara": [
+@@ -641,9 +641,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-82"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
++                "nameAvLeft": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvLeft": "[fontSize:20][chara:833500:effect_emotion_surprise_0][se:7226_shock]Oh?"
++                "textAvLeft": "[chara:833500:effect_emotion_surprise_0][se:7226_shock]えっ？"
+             },
+             {
+                 "chara": [
+@@ -655,8 +655,8 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-83"
+                     }
+                 ],
+-                "nameAvLeft": "Sakie",
+-                "textAvLeft": "[fontSize:20]Oh gosh... Hee hee...@I must have heard you wrong!"
++                "nameAvLeft": "咲笑",
++                "textAvLeft": "あ、あらあら、やだあ…うふふふふ…"
+             },
+             {
+                 "chara": [
+@@ -669,9 +669,9 @@
+                         "voiceFullAuto": "fullvoice/section_104201/vo_full_902101-040-84"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]You're...not going to fix it?"
++                "textAvRight": "あ…笑ってごまかした"
+             },
+             {
+                 "autoTurnLast": 2,

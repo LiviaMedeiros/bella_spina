@@ -1,0 +1,415 @@
+--- en/scenario_9/902124-020_kyoko.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902124-020_kyoko.json	2017-03-17 18:39:13.000000000 +0800
+@@ -33,8 +33,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]Walpurgisnacht, huh.",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "ワルプルギスの夜…か",
+                 "textAvColor": "textKyoko",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -46,7 +46,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -62,8 +62,8 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameFnarration": "Kyoko",
+-                "progressFnarration": "(Look at all these documents...)",
++                "nameFnarration": "杏子",
++                "progressFnarration": "(大量に資料が並んでる)",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -74,7 +74,7 @@
+                         "id": 200601
+                     }
+                 ],
+-                "progressFnarration": "(Is this thing seriously gonna@strike Mitakihara?)"
++                "progressFnarration": "(まさか本当に@見滝原を襲うってのか？)"
+             },
+             {
+                 "chara": [
+@@ -82,7 +82,7 @@
+                         "id": 200601
+                     }
+                 ],
+-                "progressFnarration": "(And there's just no way@Mami would've lost to@an enemy that weak.)"
++                "progressFnarration": "(それに、そもそもマミがあんな@ザコにやられるわけがない)"
+             },
+             {
+                 "chara": [
+@@ -90,7 +90,7 @@
+                         "id": 200601
+                     }
+                 ],
+-                "progressFnarration": "(So what the heck caused@that change in her?)"
++                "progressFnarration": "(一体マミに何の@異変があったってんだ？)"
+             },
+             {
+                 "chara": [
+@@ -99,7 +99,7 @@
+                         "id": 200601
+                     }
+                 ],
+-                "progressFnarration": "(Is it connected to that corpse@she was with yesterday...?)"
++                "progressFnarration": "(昨日、一緒にあった@死体と、何か関係が…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -121,9 +121,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
++                "nameAvCenter": "杏子",
+                 "narrationEffect": "out",
+-                "textAvCenter": "[fontSize:20]Hm?"
++                "textAvCenter": "ん…？"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -160,8 +160,8 @@
+                     }
+                 ],
+                 "flashEffect": "flashWhiteSlow1",
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]Wha―?!"
++                "nameAvCenter": "杏子",
++                "textAvCenter": "なっ!?"
+             },
+             {
+                 "bgm": "bgm01_anime05",
+@@ -171,9 +171,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]Don't move!"
++                "textAvRight": "動かないで下さい！"
+             },
+             {
+                 "chara": [
+@@ -181,8 +181,8 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]Where'd you two come from...?!",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "おまえら、いつの間に…？",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -196,9 +196,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]You met with Mami yesterday,@didn't you?"
++                "textAvLeft": "佐倉さん@昨日、マミさんに会いましたね？"
+             },
+             {
+                 "chara": [
+@@ -210,8 +210,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]...Sure did.",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "…ああ",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -224,8 +224,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]A Witch's Familiar got to her,@and she died."
++                "nameAvCenter": "杏子",
++                "textAvCenter": "魔女の使い魔にやられて@アイツは死んだよ"
+             },
+             {
+                 "chara": [
+@@ -235,9 +235,9 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]What...?"
++                "textAvRight": "え…"
+             },
+             {
+                 "chara": [
+@@ -249,9 +249,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]No way..."
++                "textAvLeft": "嘘…"
+             },
+             {
+                 "chara": [
+@@ -259,8 +259,8 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]There's no way Mami could've...@That's not possible...!"
++                "nameAvLeft": "まどか",
++                "textAvLeft": "マミさんがやられるなんて@そんな…そんなこと…！"
+             },
+             {
+                 "chara": [
+@@ -271,8 +271,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]Mami was always so strong...@and amazing..."
++                "nameAvLeft": "まどか",
++                "textAvLeft": "だって、マミさんはものすごく@強くて…カッコよくて…"
+             },
+             {
+                 "chara": [
+@@ -280,8 +280,8 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]She said that we'd beat@Walpurgisnacht together..."
++                "nameAvLeft": "まどか",
++                "textAvLeft": "わたしと一緒に、ワルプルギスの@夜を倒そうって…"
+             },
+             {
+                 "chara": [
+@@ -293,9 +293,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Walpurgisnacht...?"
++                "textAvRight": "ワルプルギスの、夜…？"
+             },
+             {
+                 "chara": [
+@@ -307,9 +307,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Did you kill Miss Tomoe?"
++                "textAvLeft": "あなたが、巴さんを@殺したんですか？"
+             },
+             {
+                 "chara": [
+@@ -321,9 +321,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]If I said no...would ya believe me?"
++                "textAvRight": "あたしじゃない…って言えば@信じるか？"
+             },
+             {
+                 "chara": [
+@@ -332,9 +332,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Sometimes, Magical Girls will@fight over Grief Seeds."
++                "textAvLeft": "グリーフシードを巡って@魔法少女が争うこともある"
+             },
+             {
+                 "chara": [
+@@ -342,8 +342,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]That's what she told us."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "そう、巴さんは言っていました"
+             },
+             {
+                 "chara": [
+@@ -353,8 +353,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]So, if you ended up killing her..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "もし、あなたが彼女を@殺したのなら…"
+             },
+             {
+                 "chara": [
+@@ -365,9 +365,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Then what?"
++                "textAvRight": "だったら、どうする？"
+             },
+             {
+                 "chara": [
+@@ -375,8 +375,8 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]You're gonna kill me for revenge?"
++                "nameAvRight": "杏子",
++                "textAvRight": "復讐で、あたしを殺すかい？"
+             },
+             {
+                 "chara": [
+@@ -386,9 +386,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -400,9 +400,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]That's..."
++                "textAvLeft": "それは…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -425,8 +425,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]You can try whenever you'd like.",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "やりたきゃいつでも@相手になるぜ",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -436,8 +436,8 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]But..."
++                "nameAvCenter": "杏子",
++                "textAvCenter": "もっとも…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -495,9 +495,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20][surround:2006A03][chara:200100:effect_7003_damage02][bgEffect:shakeSmall]Ah!"
++                "textAvLeft": "[surround:2006A03][chara:200100:effect_7003_damage02][bgEffect:shakeSmall]きゃっ"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -509,9 +509,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20][surround:2006A03][chara:200300:effect_7002_damage01][bgEffect:shakeSmall]No!"
++                "textAvRight": "[surround:2006A03][chara:200300:effect_7002_damage01][bgEffect:shakeSmall]いやっ！"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -537,8 +537,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]I ain't gonna lose against newbies@like you.",
++                "nameAvCenter": "杏子",
++                "textAvCenter": "今のあんたたちに@負けるあたしじゃないけどな",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -549,8 +549,8 @@
+                         "id": 200600
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]If you're serious about revenge,@you better train up first."
++                "nameAvCenter": "杏子",
++                "textAvCenter": "復讐したいなら、もっと強く@なってから出直しな"
+             },
+             {
+                 "autoTurnLast": 1,
+@@ -579,9 +579,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Miss Sakura!"
++                "textAvLeft": "佐倉さん！"
+             },
+             {
+                 "chara": [
+@@ -591,9 +591,9 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]...She got away."
++                "textAvRight": "…逃げられちゃった"
+             },
+             {
+                 "autoTurnLast": 2,

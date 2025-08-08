@@ -1,0 +1,258 @@
+--- en/scenario_9/902111-040_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902111-040_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -59,9 +59,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20][flashEffect:flashWhiteSlow1]Aah!"
++                "textAvLeft": "[flashEffect:flashWhiteSlow1]きゃっ"
+             },
+             {
+                 "chara": [
+@@ -70,9 +70,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]It's okay, I'll protect you!"
++                "textAvRight": "大丈夫、わたしが守る！"
+             },
+             {
+                 "chara": [
+@@ -80,8 +80,8 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]You haven't had much experience@fighting Witches yet, right?"
++                "nameAvRight": "まどか",
++                "textAvRight": "ほむらちゃん、魔女と@戦ったこと、まだ少ないよね"
+             },
+             {
+                 "chara": [
+@@ -92,8 +92,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]You can just leave it@to me and Mami, so..."
++                "nameAvRight": "まどか",
++                "textAvRight": "ここはわたしとマミさんに任せ…"
+             },
+             {
+                 "chara": [
+@@ -105,9 +105,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]No, I can't!"
++                "textAvLeft": "だめですっ！"
+             },
+             {
+                 "chara": [
+@@ -117,9 +117,9 @@
+                         "id": 200100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Homura?"
++                "textAvRight": "ほむらちゃん？"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -129,7 +129,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -145,12 +145,12 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(Instead of Miss Kaname@protecting me...)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(鹿目さんに守られる@私じゃなくて…)",
+                 "textAvColor": "textHomura"
+             },
+             {
+-                "progressFnarration": "(I want to become strong@enough to protect her.)"
++                "progressFnarration": "(鹿目さんを守る@私になりたい)"
+             },
+             {
+                 "chara": [
+@@ -159,7 +159,7 @@
+                         "id": 200300
+                     }
+                 ],
+-                "progressFnarration": "(That was my reason for@making the contract, so...)"
++                "progressFnarration": "(そう祈って@契約したんだから…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -173,8 +173,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]This time, I'm going to protect you!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "今度は私が、鹿目さんを守る！"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -218,9 +218,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -229,9 +229,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I wasn't able to do anything last time...@But today, I brought a weapon."
++                "textAvLeft": "前回は何もできなかったけど…@今日は、武器を持ってきたから…"
+             },
+             {
+                 "chara": [
+@@ -239,8 +239,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I'll defeat the Witch while@the time is stopped!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "時間が止まってる間に@私が魔女をやっつける！"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -313,8 +313,8 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Aaahhh!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "うわああああああっ!!"
+             },
+             {
+                 "chara": [
+@@ -323,8 +323,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][se:4053_landing_throw2][flashEffect:flashWhite2]Hyah!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[se:4053_landing_throw2][flashEffect:flashWhite2]えいっ!!"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -385,8 +385,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Wha―?!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "えっ!?"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -396,7 +396,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -406,8 +406,8 @@
+                 "FnarrationWidth": 320,
+                 "FnarrationX": 200,
+                 "FnarrationY": 160,
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(Hitting the Witch with@the golf club made it@start moving again?!)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(ゴルフクラブが当たったら@魔女が、動き出しちゃった!?)",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -465,8 +465,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashRed2][se:3001_chara_damage][chara:200300:effect_shake][bgEffect:shakeLarge]Aaaaaahhh!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashRed2][se:3001_chara_damage][chara:200300:effect_shake][bgEffect:shakeLarge]きゃあああああああっ！"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -505,13 +505,13 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Huh? Where did Homura..."
++                "textAvRight": "あれ？ほむらちゃんは…"
+             },
+             {
+-                "nameAvCenter": "Homura's Voice",
+-                "textAvCenter": "[fontSize:20]Heeelp!!!",
++                "nameAvCenter": "ほむらの声",
++                "textAvCenter": "助けてえええっ!!",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -528,9 +528,9 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Did she teleport?!"
++                "textAvRight": "瞬間移動!?"
+             },
+             {
+                 "chara": [
+@@ -542,9 +542,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Hang in there!@I'm coming to help you!"
++                "textAvLeft": "待ってて暁美さん！@今、助けるわ！"
+             },
+             {
+                 "autoTurnLast": 2,

@@ -1,0 +1,170 @@
+--- en/scenario_9/902132-020_madoka.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902132-020_madoka.json	2017-03-17 18:39:13.000000000 +0800
+@@ -52,10 +52,10 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "surround": "7004_rain",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Nhh...",
++                "textAvLeft": "うぅ…",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -66,8 +66,8 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20][chara:200101:effect_shake]Nghhh!"
++                "nameAvLeft": "まどか",
++                "textAvLeft": "[chara:200101:effect_shake]うううッ！"
+             },
+             {
+                 "chara": [
+@@ -76,9 +76,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]What's wrong? Miss Kaname!@Hold on!!"
++                "textAvRight": "どうしたの!?@ねぇ鹿目さんしっかりして！"
+             },
+             {
+                 "chara": [
+@@ -87,9 +87,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]B-but...why? Ngh...!"
++                "textAvLeft": "ど、どうして…うっ！"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -114,7 +114,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -132,8 +132,8 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameFnarration": "Madoka",
+-                "progressFnarration": "(Everyone...everyone died.)",
++                "nameFnarration": "まどか",
++                "progressFnarration": "(みんな…みんな@死んじゃった)",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -142,7 +142,7 @@
+                         "id": 200101
+                     }
+                 ],
+-                "progressFnarration": "(Mami, and Miss Sakura...)"
++                "progressFnarration": "(マミさんも、佐倉さんも…)"
+             },
+             {
+                 "chara": [
+@@ -152,7 +152,7 @@
+                         "motion": 0
+                     }
+                 ],
+-                "progressFnarration": "(Sayaka too, right?@And everyone else...)"
++                "progressFnarration": "(そしてたぶん…@さやかちゃんも)"
+             },
+             {
+                 "chara": [
+@@ -161,7 +161,7 @@
+                         "motion": 300
+                     }
+                 ],
+-                "progressFnarration": "(It's because I was too weak.@I couldn't protect them.)"
++                "progressFnarration": "(わたしが弱いから@みんなを守れなかった)"
+             },
+             {
+                 "chara": [
+@@ -169,7 +169,7 @@
+                         "id": 200101
+                     }
+                 ],
+-                "progressFnarration": "(I thought that if I became@a Magical Girl, I might finally@be able to help others...)"
++                "progressFnarration": "(せっかく、魔法少女になって@皆の役に立てると思ったのに…)"
+             },
+             {
+                 "chara": [
+@@ -177,7 +177,7 @@
+                         "id": 200101
+                     }
+                 ],
+-                "progressFnarration": "(But in the end, I'm just...@completely useless...)"
++                "progressFnarration": "(わたしは、全然@役立たずで…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -194,8 +194,8 @@
+                         "mouthOpen": 1
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Aaaaaaaaaaaargh!!!",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "あああああああああああっ！",
+                 "turnEffect": "blackPromist"
+             },
+             {
+@@ -229,8 +229,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]...!!@[chara:200300:lipSynch_0][wait:1.2][chara:200300:lipSynch_1]What...?!",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "!!@[chara:200300:lipSynch_0][wait:1.2][chara:200300:lipSynch_1]何…？",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -335,8 +335,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]...!!!",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "ッ!!",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -347,8 +347,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]No, why...@Why is this..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "どうして…なんで…"
+             },
+             {
+                 "chara": [
+@@ -356,8 +356,8 @@
+                         "id": 200300
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]This can't be...!!!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "こんな…!!"
+             },
+             {
+                 "autoTurnLast": 2,

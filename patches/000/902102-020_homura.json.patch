@@ -1,0 +1,187 @@
+--- en/scenario_9/902102-020_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/902102-020_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -34,7 +34,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -49,12 +49,12 @@
+                         "id": 230105
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(In the end, I had to stay at the@hospital right up until the day@I transferred.)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(結局、転入ギリギリまで@入院になっちゃった)",
+                 "textAvColor": "textHomura"
+             },
+             {
+-                "progressFnarration": "(I worked so hard to come back...@I wanted to see Miss Kaname@as soon as possible.)"
++                "progressFnarration": "(せっかくやり直せたんだから@早く鹿目さんに逢いたいのに…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -68,8 +68,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]*Sigh*",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "はぁ…",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -92,8 +92,8 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "…………",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -123,9 +123,9 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Oh, Kyubey!"
++                "textAvLeft": "あ…キュゥべえ！"
+             },
+             {
+                 "chara": [
+@@ -133,9 +133,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]How surprising."
++                "textAvRight": "驚いたな"
+             },
+             {
+                 "chara": [
+@@ -143,8 +143,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]Do you already know about me?"
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "キミはボクのことを@知っているのかい？"
+             },
+             {
+                 "chara": [
+@@ -153,9 +153,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Oh...right."
++                "textAvLeft": "あ…そっか"
+             },
+             {
+                 "chara": [
+@@ -163,8 +163,8 @@
+                         "id": 230105
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]In this world, we haven't actually met."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "この世界じゃ、キュゥべえはまだ@私と会っていないんだ"
+             },
+             {
+                 "chara": [
+@@ -172,9 +172,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]\"In this world\"...?@What do you mean?"
++                "textAvRight": "この世界…@それはどういう意味だい？"
+             },
+             {
+                 "chara": [
+@@ -186,9 +186,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]My name is Homura Akemi."
++                "textAvLeft": "私の名前は暁美ほむら"
+             },
+             {
+                 "chara": [
+@@ -196,8 +196,8 @@
+                         "id": 230105
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I made a contract with you@before going back in time."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "時間を巻き戻す前に@あなたと契約をしました"
+             },
+             {
+                 "chara": [
+@@ -205,9 +205,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]...I see."
++                "textAvRight": "…なるほど"
+             },
+             {
+                 "chara": [
+@@ -215,8 +215,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]An uncontracted Magical Girl is quite@unusual, so I came by to check in..."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "未契約の魔法少女が珍しくて@様子を見にきたんだけれど…"
+             },
+             {
+                 "chara": [
+@@ -224,8 +224,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]But if you made a contract in the@future, that would explain things."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "キミが未来で契約したのだと@すれば、整合性がとれる"
+             },
+             {
+                 "chara": [
+@@ -233,8 +233,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]Can you tell me more@about your situation?"
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "その話、詳しく聞かせて@くれないかい？"
+             },
+             {
+                 "autoTurnLast": 2,
