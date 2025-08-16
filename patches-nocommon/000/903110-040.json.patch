@@ -1,0 +1,545 @@
+--- en/scenario_9/903110-040.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903110-040.json	2017-03-17 18:39:13.000000000 +0800
+@@ -37,2 +37,2 @@
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20][chara:200912:effect_emotion_joy_0][se:7222_happy]All right―rare loot secured!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "[chara:200912:effect_emotion_joy_0][se:7222_happy]よーし、レア物確保完了！",
+@@ -51 +51 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -68,2 +68,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Good thing those bargain bin@relics were still there.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(一度やったこととはいえ@残っていて良かった…)"
+@@ -82 +82 @@
+-                "progressFnarration": "(Weirdly, though, it doesn't feel@as thrilling this time...)"
++                "progressFnarration": "(とはいえ、前回ほどの@トキメキは感じないというか…)"
+@@ -92 +92 @@
+-                "progressFnarration": "(More like \"okay, quest done.@Moving on.\")"
++                "progressFnarration": "(むしろ、義務を果たした@安堵感の方が強いというか…)"
+@@ -105 +105 @@
+-                "progressFnarration": "(Talk about first-world problems.)"
++                "progressFnarration": "(うーむ、贅沢な悩みか)"
+@@ -112 +112 @@
+-                "nameAvRight": "???",
++                "nameAvRight": "？？？",
+@@ -114 +114 @@
+-                "textAvRight": "[fontSize:20]Ugh―I am SO over that@dumb transfer student!",
++                "textAvRight": "もう、なんなんだよー@あの転校生は！",
+@@ -126 +126 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -147,2 +147,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I know that voice...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(む？この声は…)",
+@@ -185 +185 @@
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+@@ -187 +187 @@
+-                "textAvRight": "[fontSize:20]She had another \"special thing\"@with Madoka today..."
++                "textAvRight": "今日もまどかと用事が@あるってさぁ"
+@@ -196,2 +196,2 @@
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]...and she flat-out told@her not to bring us along!"
++                "nameAvRight": "さやか",
++                "textAvRight": "しかも、ついてくるな@って言うんだよ？"
+@@ -207,2 +207,2 @@
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]What on earth are they doing@behind our backs every single day?!"
++                "nameAvRight": "さやか",
++                "textAvRight": "毎日毎日あたしたちに隠れて@一体何をしてるんだか…"
+@@ -218 +218 @@
+-                "nameAvLeft": "Hitomi",
++                "nameAvLeft": "仁美",
+@@ -220 +220 @@
+-                "textAvLeft": "[fontSize:20]Oh my..."
++                "textAvLeft": "あらまあ…"
+@@ -231 +231 @@
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+@@ -233 +233 @@
+-                "textAvRight": "[fontSize:20]Huh? What's with that look?"
++                "textAvRight": "ん、何？"
+@@ -242 +242 @@
+-                "nameAvLeft": "Hitomi",
++                "nameAvLeft": "仁美",
+@@ -244 +244 @@
+-                "textAvLeft": "[fontSize:20]Sayaka... Don't tell me you@actually have feelings for Mado―"
++                "textAvLeft": "さやかさんって、まさか本当に@まどかさんのことを…？"
+@@ -256 +256 @@
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+@@ -258 +258 @@
+-                "textAvRight": "[fontSize:20]As if."
++                "textAvRight": "茶化さない"
+@@ -270,2 +270,2 @@
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]Madoka's just...really innocent, y'know?@She'll follow anyone who seems nice."
++                "nameAvRight": "さやか",
++                "textAvRight": "まどかはさ、めちゃくちゃ@純粋な子じゃない？"
+@@ -280,2 +280,2 @@
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]I don't want her getting@wrapped up with someone shady."
++                "nameAvRight": "さやか",
++                "textAvRight": "ヤなヤツに騙されるんじゃないか@気が気じゃないんだよね"
+@@ -293 +293 @@
+-                "nameAvLeft": "Hitomi",
++                "nameAvLeft": "仁美",
+@@ -295 +295 @@
+-                "textAvLeft": "[fontSize:20]You really think that transfer@student's hiding something?"
++                "textAvLeft": "あの転校生を@疑っているんですの？"
+@@ -306,2 +306,2 @@
+-                "nameAvLeft": "Hitomi",
+-                "textAvLeft": "[fontSize:20]She doesn't really seem like@the type to trick someone..."
++                "nameAvLeft": "仁美",
++                "textAvLeft": "まどかさんを騙すタイプには@見えませんでしたけど…"
+@@ -319 +319 @@
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+@@ -321 +321 @@
+-                "textAvRight": "[fontSize:20]Yeah, maybe not."
++                "textAvRight": "まあ、確かにそうなんだけどさ"
+@@ -332,2 +332,2 @@
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]But still―something's off!"
++                "nameAvRight": "さやか",
++                "textAvRight": "なーんか、隠してそうなんだよね"
+@@ -367 +367 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -384,2 +384,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(That Sayaka Miki girl@is pretty sharp.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(美樹さやかさん…でしたっけ@なかなか鋭いですね)"
+@@ -395 +395 @@
+-                "progressFnarration": "(Still, I guess even best friends@don't get to hear about@the Magical Girl stuff.)"
++                "progressFnarration": "(まあ、親友でも魔法少女の@秘密は打ち明けられないですか)"
+@@ -408 +408 @@
+-                "progressFnarration": "(Being a Magical Girl sure@seems complicated...)"
++                "progressFnarration": "(魔法少女ってのも@難儀なものですねぇ…)"
+@@ -444 +444 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -461,2 +461,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Anyway, mission accomplished.@Time to resume surveillance...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(さて、獲物もゲットできた@ことですし、再び尾行を…)",
+@@ -487 +487 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -504,2 +504,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Wait... Huh?)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(…あ、あれ？)"
+@@ -515 +515 @@
+-                "progressFnarration": "(This feels familiar...)"
++                "progressFnarration": "(この感じって…)"
+@@ -538 +538 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -540 +540 @@
+-                "textAvRight": "[fontSize:20]There you are, Mabayu!@Perfect timing!"
++                "textAvRight": "まばゆ、いいところに！"
+@@ -552 +552 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -554 +554 @@
+-                "textAvLeft": "[fontSize:20]Kyubey."
++                "textAvLeft": "キュゥべえ"
+@@ -563 +563 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -565 +565 @@
+-                "textAvLeft": "[fontSize:20]I've got a bad feeling all of a sudden..."
++                "textAvLeft": "あの、私@何か今すごく嫌な予感が…"
+@@ -574 +574 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -576 +576 @@
+-                "textAvRight": "[fontSize:20]You noticed it too?@Look―over there."
++                "textAvRight": "気づいたかい@ほら、あそこを見てごらん"
+@@ -609 +609 @@
+-                "textAvCenter": "[fontSize:20]Need...more...@I need more...",
++                "textAvCenter": "欲しい…もっと、欲しい…",
+@@ -649 +649 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -651 +651 @@
+-                "textAvLeft": "[fontSize:20]That woman...something's@definitely wrong with her..."
++                "textAvLeft": "あの人、なんか…様子が変"
+@@ -660 +660 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -662 +662 @@
+-                "textAvRight": "[fontSize:20]Do you see that mark on her neck?"
++                "textAvRight": "首のところに、不思議な@模様があるだろう？"
+@@ -671,2 +671,2 @@
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]It's a mark that appears on those@who have been targeted by a Witch."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "魔女のターゲットになった@人間に現れる印なんだ"
+@@ -682 +682 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -684 +684 @@
+-                "textAvLeft": "[fontSize:20]Wait―that's right!"
++                "textAvLeft": "あ…そうだ、そういえば！"
+@@ -693,2 +693,2 @@
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Today's the day that robbery happened!"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "確か今日って、@強盗事件があった日で…！"
+@@ -704,2 +704,2 @@
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Are you saying that was@a Witch's doing, too?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "もしかしてあれも@魔女のせいだったんですか!?"
+@@ -714 +714 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -716 +716 @@
+-                "textAvRight": "[fontSize:20]It's certainly a strong possibility."
++                "textAvRight": "可能性は十分に考えられるよ"
+@@ -725,2 +725,2 @@
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]What are you going to do, Mabayu?"
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "どうする、まばゆ？"
+@@ -739 +739 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -741 +741 @@
+-                "textAvLeft": "[fontSize:20]Me?@I'm not really..."
++                "textAvLeft": "え、どうするって、それは…"
+@@ -754,2 +754,2 @@
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]E-either way, we have to follow her!"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "…と、とにかくあの人を@追いかけないと！"
+@@ -811 +811 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -813 +813 @@
+-                "textAvLeft": "[fontSize:20]Oh. This is...",
++                "textAvLeft": "ここは…",
+@@ -823 +823 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -825 +825 @@
+-                "textAvRight": "[fontSize:20]A Witch's Labyrinth."
++                "textAvRight": "魔女の結界だ"
+@@ -835 +835 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -837 +837 @@
+-                "textAvLeft": "[fontSize:20]So the \"robbery\" incident was definitely―"
++                "textAvLeft": "それじゃあやっぱり@強盗事件は…"
+@@ -840,2 +840,2 @@
+-                "nameAvCenter": "Sayaka's Voice",
+-                "textAvCenter": "[fontSize:20]This isn't funny!@What's going on here?!",
++                "nameAvCenter": "さやかの声",
++                "textAvCenter": "ああ、もうどうなってんのさ！",
+@@ -856 +856 @@
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+@@ -858 +858 @@
+-                "textAvLeft": "[fontSize:20]Miss Miki?@What's she doing here?!"
++                "textAvLeft": "あ、あれは…美樹さん!?"
+@@ -916,2 +916,2 @@
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashRed2][chara:200401:effect_shake][se:3001_chara_damage][bgEffect:shakeSmall]Get away from me!",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "[flashEffect:flashRed2][chara:200401:effect_shake][se:3001_chara_damage][bgEffect:shakeSmall]やっ",
+@@ -967 +967 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -985,2 +985,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(She wandered in?@I have to help her!)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(迷い込んだんだ@助けなきゃ！)"
+@@ -998 +998 @@
+-                "progressFnarration": "(But...)"
++                "progressFnarration": "(でも…)"
+@@ -1009 +1009 @@
+-                "progressFnarration": "(Help her how?)"
++                "progressFnarration": "(助けるって、どうすれば…？)"
+@@ -1096 +1096 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -1113,2 +1113,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I only know buffs. Vision@enhancement, camouflage...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(私が使える魔法って、視力を@強化したり、身を隠したり…)"
+@@ -1125 +1125 @@
+-                "progressFnarration": "(No offensive magic,@no weapons, nothing!)"
++                "progressFnarration": "(攻撃する方法が@全然ないんですけど！)"
+@@ -1136 +1136 @@
+-                "progressFnarration": "(Even if I hide, with that many@of them crawling around,@it's pointless...)"
++                "progressFnarration": "(姿を隠したところで、あれだけ@ワラワラ湧いてると、無駄…)"
+@@ -1146 +1146 @@
+-                "progressFnarration": "(But I can't just leave her@there to die!)"
++                "progressFnarration": "(いや、でも、このまま@美樹さんを見捨てるなんて…)"
+@@ -1161,2 +1161,2 @@
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Kyubey, what should I―",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "キュゥべえ、私、どうすれば…",
+@@ -1174,2 +1174,2 @@
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Huh? Kyubey?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あ、あれ？キュゥべえ？",
+@@ -1214 +1214 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -1216 +1216 @@
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+@@ -1228 +1228 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1230 +1230 @@
+-                "textAvLeft": "[fontSize:20]Wh-what the―?! Are you...@some kind of stuffed animal?"
++                "textAvLeft": "な、なに!?@あなたは、ぬいぐるみ…？"
+@@ -1239 +1239 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1241 +1241 @@
+-                "textAvLeft": "[fontSize:20]And this voice...in my head!"
++                "textAvLeft": "それにこの声@頭の中に直接…！"
+@@ -1249 +1249 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -1251 +1251 @@
+-                "textAvRight": "......"
++                "textAvRight": "…………"
+@@ -1263 +1263 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1265 +1265 @@
+-                "textAvLeft": "[fontSize:20]You mean...@I'm going to die in here?!"
++                "textAvLeft": "そんな…！あたしが、死ぬ…？"
+@@ -1299 +1299 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -1316,2 +1316,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Kyubey's talking to Miss Miki.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(キュゥべえが、美樹さんと@話してる…？)"
+@@ -1327 +1327 @@
+-                "progressFnarration": "(But he's only visible to those@with \"potential,\" right?)"
++                "progressFnarration": "(確かキュゥべえって、素質の@ある人にしか見えないんじゃ…)"
+@@ -1360 +1360 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1362 +1362 @@
+-                "textAvLeft": "[fontSize:20]No―of course I don't want to die here!"
++                "textAvLeft": "いや、あたし、こんなところで@死にたくなんてない！"
+@@ -1370 +1370 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -1372 +1372 @@
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+@@ -1384 +1384 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1386 +1386 @@
+-                "textAvLeft": "[fontSize:20]A...way to survive?"
++                "textAvLeft": "生き延びる方法…？"
+@@ -1394 +1394 @@
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+@@ -1396 +1396 @@
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+@@ -1409 +1409 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -1411 +1411 @@
+-                "textAvLeft": "[fontSize:20]...If I make a contract, I'll really―"
++                "textAvLeft": "契約、すれば、本当に…"
+@@ -1455,2 +1455,2 @@
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20][chara:200900:effect_emotion_surprise_0][se:7226_shock]...?!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "[chara:200900:effect_emotion_surprise_0][se:7226_shock]――っ!?",
+@@ -1467 +1467 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -1484,2 +1484,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Time has stopped.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(時間が、止まった)",
+@@ -1498 +1498 @@
+-                "progressFnarration": "(That means―@That Akemi girl!)"
++                "progressFnarration": "(ってことは、暁美さんが…)"
+@@ -1509 +1509 @@
+-                "progressFnarration": "(I have to hide!)"
++                "progressFnarration": "(まずい、隠れなきゃ！)"
+@@ -1558,2 +1558,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]*Pant*...*Pant*...@Th-thank goodness... I made it in time.",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "はぁ…っ、はぁ…っ、はぁ…っ@ま、間に合った…",
+@@ -1578,2 +1578,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Miss Miki...you're still safe.",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "美樹さん@まだ、無事ですね",
+@@ -1592,2 +1592,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]Kyubey!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "…キュゥべえ!?"
+@@ -1604,2 +1604,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]I thought you'd stay out of this.@Trying to lure Miss Miki away..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "大人しくしていると思ったら@美樹さんを誘うつもりだなんて"
+@@ -1616,2 +1616,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]I won't allow that!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "そんなことはさせないっ！"
+@@ -1627,2 +1627,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1][surround:8076_throwbomb]Haaa!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1][surround:8076_throwbomb]えいっ！"
+@@ -1638,2 +1638,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1][surround:8076_throwbomb]Hyah!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1][surround:8076_throwbomb]やっ！"
+@@ -1649,2 +1649,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1][surround:8076_throwbomb]There!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1][surround:8076_throwbomb]そこっ！"
+@@ -1680 +1680 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -1697,2 +1697,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Her bombs are frozen midair.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(暁美さんの投げた爆弾が、@空中で固まってる…)"
+@@ -1708 +1708 @@
+-                "progressFnarration": "(Time freezes for them as soon as@they leave her body. She's using@that to her advantage.)"
++                "progressFnarration": "(体を離れると時間が止まるから@それを利用して…)"
+@@ -1737,2 +1737,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]*Pant* *Pant*",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "はぁ…はぁ…うん",
+@@ -1759,2 +1759,2 @@
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]This time...@I'll find a way to keep you safe!"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "今度こそは、美樹さんを@助けてみせる…！"
+@@ -1770 +1770 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -1780,2 +1780,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(\"This time\"?@So in the last loop...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(え？@今度こそって…)",
+@@ -1924,2 +1924,2 @@
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]*Gasp*",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "ッ!?",
+@@ -1992 +1992 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -2009,2 +2009,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Incredible...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(すごい…)"
+@@ -2019 +2019 @@
+-                "progressFnarration": "(So this is how@she's been fighting.)"
++                "progressFnarration": "(暁美さんはこうやって@戦ってたんですね…)"
+@@ -2063,2 +2063,2 @@
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]Wh-what?! I was saved?",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "な、なに!?助かったの…？",
+@@ -2077,2 +2077,2 @@
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]Hang on...",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "っていうか…",
+@@ -2104 +2104 @@
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+@@ -2106 +2106 @@
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+@@ -2118 +2118 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -2120 +2120 @@
+-                "textAvLeft": "[fontSize:20]You!@What are you doing here?!"
++                "textAvLeft": "転校生！なんであんたがここに？"
+@@ -2129 +2129 @@
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+@@ -2131 +2131 @@
+-                "textAvRight": "[fontSize:20]It's better for you not to know."
++                "textAvRight": "知らない方がいいこともあります"
+@@ -2143 +2143 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -2145 +2145 @@
+-                "textAvLeft": "[fontSize:20]Huh?@Seriously, what's your problem?"
++                "textAvLeft": "は？ちょっと意味がわかんない…"
+@@ -2156 +2156 @@
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+@@ -2158 +2158 @@
+-                "textAvRight": "[fontSize:20]However, you should@remember this one thing."
++                "textAvRight": "でもひとつ@これだけは覚えておいてください"
+@@ -2167,2 +2167,2 @@
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]Do not believe a thing Kyubey says."
++                "nameAvRight": "ほむら",
++                "textAvRight": "キュゥべえの言葉を信じちゃだめ"
+@@ -2178,2 +2178,2 @@
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]And don't entertain the@idea of making a contract."
++                "nameAvRight": "ほむら",
++                "textAvRight": "契約しようなんて@考えないでください"
+@@ -2203 +2203 @@
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+@@ -2205 +2205 @@
+-                "textAvLeft": "[fontSize:20]Hey, wait!"
++                "textAvLeft": "ちょ、ちょっと！"
+@@ -2238 +2238 @@
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+@@ -2255,2 +2255,2 @@
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(There she goes again.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(まただ)"
+@@ -2266 +2266 @@
+-                "progressFnarration": "(Another warning not@to trust Kyubey...)"
++                "progressFnarration": "(また、キュゥべえのことを@信じちゃダメって…)"
+@@ -2277 +2277 @@
+-                "progressFnarration": "(Why is it she hates him@so much?)"
++                "progressFnarration": "(どうしてそんなに@キュゥべえを嫌うんですか？)"

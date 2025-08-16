@@ -1,0 +1,243 @@
+--- en/scenario_9/903105-010_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903105-010_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -34,7 +34,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -50,8 +50,8 @@
+                         "id": 230104
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(It's okay...it'll be fine...)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(大丈夫…大丈夫…)",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -61,7 +61,7 @@
+                         "id": 230104
+                     }
+                 ],
+-                "progressFnarration": "(It's not like I'm stealing@or anything...)"
++                "progressFnarration": "(私は別に、泥棒をしたり@してるわけじゃないんだから…)"
+             },
+             {
+                 "chara": [
+@@ -70,7 +70,7 @@
+                         "id": 230104
+                     }
+                 ],
+-                "progressFnarration": "(All I'm doing to making use of@memories from the last loop...)"
++                "progressFnarration": "(ただ、前回の記憶を、ちょっと@利用してるだけ…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -97,8 +97,8 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Hello."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "すみません"
+             },
+             {
+                 "chara": [
+@@ -106,9 +106,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh, welcome. Are you here@to buy a lottery ticket?"
++                "textAvRight": "はい、いらっしゃい@クジを買いに来たの？"
+             },
+             {
+                 "chara": [
+@@ -116,9 +116,9 @@
+                         "id": 230104
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]The winning number@was...3951, right?"
++                "textAvLeft": "これ…当選番号@3951ですよね"
+             },
+             {
+                 "chara": [
+@@ -127,8 +127,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]It looks like I won first prize..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "一等が、当たった@みたいなんですけど…"
+             },
+             {
+                 "chara": [
+@@ -138,9 +138,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh my, that's amazing!@[chara:800800:lipSynch_0][wait:1.0][chara:800800:cheek_0][chara:800800:face_mtn_ex_010.exp3.json][chara:800800:lipSynch_1:effect_emotion_joy_0][se:7222_happy]Congratulations!"
++                "textAvRight": "あらまあ、すごいわね！@[chara:800800:lipSynch_0][wait:1.0][chara:800800:cheek_0][chara:800800:face_mtn_ex_010.exp3.json][chara:800800:lipSynch_1:effect_emotion_joy_0][se:7222_happy]おめでとう！"
+             },
+             {
+                 "chara": [
+@@ -148,9 +148,9 @@
+                         "id": 230104
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Y-yes. Thank you."
++                "textAvLeft": "は、はい@ありがとうございます"
+             },
+             {
+                 "chara": [
+@@ -160,9 +160,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Are you a middle schooler? Can you@get in contact with your parents?"
++                "textAvRight": "お嬢ちゃん、中学生？@保護者に連絡取れるかしら？"
+             },
+             {
+                 "chara": [
+@@ -174,9 +174,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Oh, um..."
++                "textAvLeft": "いや、その…"
+             },
+             {
+                 "chara": [
+@@ -186,9 +186,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]When the prize exceeds 500,000 yen,@we need to process personal@identification with the bank."
++                "textAvRight": "賞金が50万円を超えると@銀行で本人確認が必要なの"
+             },
+             {
+                 "chara": [
+@@ -197,9 +197,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Personal identification...?"
++                "textAvLeft": "え、本人確認…？"
+             },
+             {
+                 "chara": [
+@@ -207,9 +207,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Hold on, let me just get the pamphlet..."
++                "textAvRight": "ちょっと待っててね@今、パンフレットを…"
+             },
+             {
+                 "chara": [
+@@ -221,9 +221,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]U-um!@In that case, I don't need it!"
++                "textAvLeft": "あ、あの！じゃあ、結構です！"
+             },
+             {
+                 "chara": [
+@@ -233,9 +233,9 @@
+                         "id": 800800
+                     }
+                 ],
+-                "nameAvRight": "Store Clerk",
++                "nameAvRight": "店員",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Huh?@What's wrong, where are you going?"
++                "textAvRight": "ちょっと？お嬢ちゃん！@どうしちゃったの？"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -275,7 +275,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -290,8 +290,8 @@
+                         "id": 230104
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(Oh, no! Don't follow me!)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(いやっ、ちょ、来ないでっ！)",
+                 "textAvColor": "textHomura",
+                 "turnChangeOut": "rollOutFast"
+             },
+@@ -304,7 +304,7 @@
+                         "motion": 300
+                     }
+                 ],
+-                "progressFnarration": "(I'm sorry I tried to cheat!)"
++                "progressFnarration": "(ズルをしちゃって@ごめんなさい！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -345,7 +345,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -361,8 +361,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(I'll need to find a different@way to get money...)",
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(もっと別の方法で@お金を手に入れないと…)",
+                 "textAvColor": "textHomura"
+             },
+             {

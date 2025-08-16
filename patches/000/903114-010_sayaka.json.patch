@@ -1,0 +1,517 @@
+--- en/scenario_9/903114-010_sayaka.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903114-010_sayaka.json	2017-03-17 18:39:13.000000000 +0800
+@@ -41,9 +41,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Good morning, Sayaka."
++                "textAvRight": "おはようございます、さやかさん"
+             },
+             {
+                 "chara": [
+@@ -55,9 +55,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Morning, Hitomi."
++                "textAvLeft": "おはよう、仁美"
+             },
+             {
+                 "chara": [
+@@ -65,8 +65,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]Looks like Madoka's heading@to school separately today."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "今日、まどかは別登校だって"
+             },
+             {
+                 "chara": [
+@@ -78,9 +78,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh my. She's really taken a liking@to Miss Akemi, hasn't she?"
++                "textAvRight": "あらあら、本当に@暁美さんと急接近ですのね"
+             },
+             {
+                 "chara": [
+@@ -92,9 +92,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Yep...so it seems..."
++                "textAvLeft": "まあ、ね…"
+             },
+             {
+                 "chara": [
+@@ -106,9 +106,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Do cheer up, Sayaka."
++                "textAvRight": "元気出してくださいな"
+             },
+             {
+                 "chara": [
+@@ -118,9 +118,9 @@
+                         "id": 810600
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColor": "",
+-                "textAvRight": "[fontSize:20]Why, you've still got me,@your best friend, haven't you?"
++                "textAvRight": "さやかさんには、親友の@私がいるじゃありませんか"
+             },
+             {
+                 "chara": [
+@@ -129,9 +129,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]That's true. Thanks, Hitomi."
++                "textAvLeft": "うん@仁美、ありがとう"
+             },
+             {
+                 "chara": [
+@@ -142,9 +142,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -156,9 +156,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Hm? What's up?"
++                "textAvLeft": "ん…なに？"
+             },
+             {
+                 "chara": [
+@@ -167,9 +167,9 @@
+                         "lipSynch": 1
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Such a normal, sincere response..."
++                "textAvRight": "まともにそんな返答を@するなんて…"
+             },
+             {
+                 "chara": [
+@@ -178,9 +178,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColor": "",
+-                "textAvRight": "[fontSize:20]Sayaka...there IS something@wrong with you!"
++                "textAvRight": "さやかさん…やっぱり@様子がおかしいですわ！"
+             },
+             {
+                 "chara": [
+@@ -192,9 +192,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]No way, I'm totally fine!"
++                "textAvLeft": "え、やだなあ@そんなことないってば！"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -217,10 +217,10 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "surround": "7202_telepathy",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Do you regret giving up on the contract?",
++                "textAvRight": "やはり、契約を諦めたことを@後悔しているのかい？",
+                 "turnEffect": "ef_adv_02"
+             },
+             {
+@@ -233,9 +233,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Huh...?"
++                "textAvLeft": "え…"
+             },
+             {
+                 "bgm": "bgm01_anime05",
+@@ -244,9 +244,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]I'd be happy to make a contract@with you even now."
++                "textAvRight": "ボクとしては、今から契約を@してもらってもかまわない"
+             },
+             {
+                 "chara": [
+@@ -254,8 +254,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]The offer is always open."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "いつでも歓迎するよ"
+             },
+             {
+                 "chara": [
+@@ -266,9 +266,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -276,9 +276,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Are you afraid of fighting Witches?"
++                "textAvRight": "やっぱりキミも、魔女と戦うのが@怖いのかい？"
+             },
+             {
+                 "chara": [
+@@ -288,9 +288,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Sure...I can't deny@that's a part of it, but..."
++                "textAvLeft": "まあ…そういう理由も@ないワケじゃないけどさ"
+             },
+             {
+                 "chara": [
+@@ -302,8 +302,8 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]I just don't really like the@idea of having a wish granted."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "あたし、願い事を叶えてもらう@ってのが、気に食わないんだ"
+             },
+             {
+                 "chara": [
+@@ -311,9 +311,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Don't you have desires?"
++                "textAvRight": "欲しいものはないのかい？"
+             },
+             {
+                 "chara": [
+@@ -321,9 +321,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]...Well, I guess I do.@[chara:200401:lipSynch_0][wait:1.2][chara:200401:cheek_0][chara:200401:face_mtn_ex_030.exp3.json][chara:200401:lipSynch_1]But still..."
++                "textAvLeft": "…まあ、なくはない、かな@[chara:200401:lipSynch_0][wait:1.2][chara:200401:cheek_0][chara:200401:face_mtn_ex_030.exp3.json][chara:200401:lipSynch_1]でも…でもね"
+             },
+             {
+                 "chara": [
+@@ -332,8 +332,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]If I got what I wanted by taking a shortcut,@I don't think I could forgive myself."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "ズルしてそれを手に入れたら@自分を許せなくなると思う"
+             },
+             {
+                 "chara": [
+@@ -341,9 +341,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Hm? I don't quite understand."
++                "textAvRight": "？@よくわからないな"
+             },
+             {
+                 "chara": [
+@@ -351,8 +351,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]Isn't acting on one's desires@a basic human trait?"
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "欲求のために行動するのは@人間の基本的な性質だろう？"
+             },
+             {
+                 "chara": [
+@@ -364,9 +364,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Just shut up.@This conversation is over."
++                "textAvLeft": "うるさいな@もう、この話は終わり"
+             },
+             {
+                 "chara": [
+@@ -375,8 +375,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]Don't ever talk to me again, okay?!"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "あんたも二度と@あたしに話しかけないで！"
+             },
+             {
+                 "chara": [
+@@ -384,9 +384,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]If you say so."
++                "textAvRight": "わかったよ"
+             },
+             {
+                 "chara": [
+@@ -394,8 +394,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]I really wanted to see you fighting@alongside Madoka, your best friend..."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "キミが親友のまどかと一緒に@活躍する所が見たかったけど…"
+             },
+             {
+                 "chara": [
+@@ -403,8 +403,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]It's unfortunate, but it is what it is."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "残念だけど、仕方ないね"
+             },
+             {
+                 "chara": [
+@@ -414,9 +414,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]...Hey.@Just out of curiosity―"
++                "textAvLeft": "…あのさ@ちなみになんだけど"
+             },
+             {
+                 "chara": [
+@@ -428,8 +428,8 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]What did Madoka wish for@when she became a Magical Girl?"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "まどかって、何を願って@魔法少女になったの？"
+             },
+             {
+                 "chara": [
+@@ -437,8 +437,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]I can't really imagine@what she'd wish for."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "あの子の願い事って、なんだか@想像がつかなくてさ"
+             },
+             {
+                 "chara": [
+@@ -446,9 +446,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]A cat."
++                "textAvRight": "ネコだよ"
+             },
+             {
+                 "chara": [
+@@ -460,9 +460,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]What?"
++                "textAvLeft": "え"
+             },
+             {
+                 "chara": [
+@@ -470,9 +470,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]She wanted to save the life of a dying@cat. One that was run over by a car."
++                "textAvRight": "交通事故で命を失いかけた@ネコを生き返らせようとした"
+             },
+             {
+                 "chara": [
+@@ -483,9 +483,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -494,8 +494,8 @@
+                         "lipSynch": 1
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]...You can't be serious."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "…嘘"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -520,9 +520,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]...?"
++                "textAvRight": "…………？"
+             },
+             {
+                 "chara": [
+@@ -531,8 +531,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]Are you all right, Sayaka?"
++                "nameAvRight": "仁美",
++                "textAvRight": "どうかなさいましたか@さやかさん？"
+             },
+             {
+                 "chara": [
+@@ -541,8 +541,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]You suddenly went quiet―@and your face is so pale..."
++                "nameAvRight": "仁美",
++                "textAvRight": "黙り込んだかと思ったら@急に顔色が…"
+             },
+             {
+                 "chara": [
+@@ -553,9 +553,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Oh, uh..."
++                "textAvLeft": "あ、いや…"
+             },
+             {
+                 "chara": [
+@@ -566,8 +566,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]It's nothing. Nothing at all."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "うん、なんでもないよ@なんでも"
+             },
+             {
+                 "autoTurnLast": 2,

@@ -1,0 +1,774 @@
+--- en/scenario_9/903111-020.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903111-020.json	2017-03-17 18:39:13.000000000 +0800
+@@ -42,7 +42,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -60,8 +60,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(All right. Lunchtime.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(さて、お昼休みです)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -72,7 +72,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-2"
+                     }
+                 ],
+-                "progressFnarration": "(My highest priority@right now is figuring out@Miss Akemi's secret.)"
++                "progressFnarration": "(私が今、探るべきは暁美さんの@秘密ではありますが…)"
+             },
+             {
+                 "chara": [
+@@ -82,7 +82,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-3"
+                     }
+                 ],
+-                "progressFnarration": "(But especially after this morning,@I don't want to leave@Miss Miki unchecked...)"
++                "progressFnarration": "(朝の様子を見ると美樹さんの@ことも気になります)"
+             },
+             {
+                 "chara": [
+@@ -94,7 +94,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-4"
+                     }
+                 ],
+-                "progressFnarration": "(If only I could be@in two places at once.)"
++                "progressFnarration": "(さーて、どうしたものか)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -124,8 +124,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-5"
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "…………",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -170,7 +170,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -187,8 +187,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-6"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Oh?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(おや…？)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -199,7 +199,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-7"
+                     }
+                 ],
+-                "progressFnarration": "(She got up.)"
++                "progressFnarration": "(巴さんが、席を立った)"
+             },
+             {
+                 "chara": [
+@@ -210,7 +210,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-8"
+                     }
+                 ],
+-                "progressFnarration": "(I bet I know where she's going.)"
++                "progressFnarration": "(これは、もしかして…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -254,9 +254,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-9"
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]So you're Mami Tomoe?",
++                "textAvLeft": "あなたが、巴マミさん？",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -267,9 +267,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-10"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]That's right. I assume you're@the one who called me here?"
++                "textAvRight": "ええ、そうよ@私を呼び出したのは、あなたね"
+             },
+             {
+                 "chara": [
+@@ -282,9 +282,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-11"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Sorry for the trouble.@Sayaka here is my friend..."
++                "textAvLeft": "わざわざ、すみません@さやかちゃんはわたしの友だちで…"
+             },
+             {
+                 "chara": [
+@@ -293,8 +293,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-12"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]You see, yesterday, at the mall,@she was attacked by a Witch..."
++                "nameAvLeft": "まどか",
++                "textAvLeft": "昨日、ショッピングセンターで@魔女に襲われたところを…"
+             },
+             {
+                 "chara": [
+@@ -307,9 +307,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-13"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I saved her."
++                "textAvLeft": "私が、助けました"
+             },
+             {
+                 "chara": [
+@@ -322,9 +322,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-14"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]You..."
++                "textAvRight": "暁美さん…"
+             },
+             {
+                 "chara": [
+@@ -342,9 +342,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Miss Miki, why were you with Kyubey?@I told you, you mustn't let him―"
++                "textAvLeft": "美樹さん、私、言いましたよね？@キュゥべえは、信じないでって"
+             },
+             {
+                 "chara": [
+@@ -357,9 +357,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-16"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]What are you saying?@Madoka's my friend."
++                "textAvRight": "あんた、なに言ってるの？@まどかはあたしの友だちなの"
+             },
+             {
+                 "chara": [
+@@ -368,8 +368,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-17"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]She's been acting so weird lately!@I'm really worried about her!"
++                "nameAvRight": "さやか",
++                "textAvRight": "最近ずっと、いつもと様子が@違うって心配してた"
+             },
+             {
+                 "chara": [
+@@ -380,8 +380,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-18"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]Then I find out she's been out@fighting monsters like that..."
++                "nameAvRight": "さやか",
++                "textAvRight": "あんなバケモノと戦ってるなんて@知ったら…"
+             },
+             {
+                 "chara": [
+@@ -392,8 +392,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-19"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]Of course I'm gonna@ask what's going on!"
++                "nameAvRight": "さやか",
++                "textAvRight": "なにが起こってるのか@聞かないわけないじゃない！"
+             },
+             {
+                 "chara": [
+@@ -406,9 +406,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-20"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Sayaka..."
++                "textAvLeft": "さやかちゃん…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -433,9 +433,9 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-020-21"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]You already know about Witches,@so it can't be helped."
++                "textAvRight": "そう…あなたはもう@魔女のことを知っているのね"
+             },
+             {
+                 "chara": [
+@@ -457,8 +457,8 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903111-020-21"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Rest assured, I'll take@good care of Madoka."
++                "nameAvRight": "マミ",
++                "textAvRight": "心配しないで、鹿目さんは@私がしっかり面倒を見るわ"
+             },
+             {
+                 "chara": [
+@@ -469,8 +469,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-23"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]What's more, by fighting Witches, she's@keeping the city's people out of danger."
++                "nameAvRight": "マミ",
++                "textAvRight": "それに魔女退治は、この町の人を@危険から遠ざけることでもあるの"
+             },
+             {
+                 "chara": [
+@@ -487,9 +487,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Why should that be Madoka's job?@We're just kids!"
++                "textAvLeft": "どうしてまどかなの？@あたしたちまだ子どもだよ"
+             },
+             {
+                 "chara": [
+@@ -501,8 +501,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-25"
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]What miracle is worth@risking your life?!"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "どんな奇跡を願ったとしても@釣り合うわけないじゃない"
+             },
+             {
+                 "autoTurnFirst": 1.6,
+@@ -513,8 +513,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-020-26"
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]There's something seriously@wrong with all this!"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "あんなの絶対、おかしいよ！"
+             },
+             {
+                 "chara": [
+@@ -547,9 +547,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-27"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Sayaka..."
++                "textAvLeft": "さやかちゃん…"
+             },
+             {
+                 "chara": [
+@@ -558,9 +558,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-28"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Let's go, Madoka."
++                "textAvRight": "行こう、まどか"
+             },
+             {
+                 "chara": [
+@@ -569,8 +569,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-29"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]You shouldn't hang out with@dangerous people like them."
++                "nameAvRight": "さやか",
++                "textAvRight": "こんな危ない奴らと@つるんじゃだめだ"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -591,9 +591,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-30"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Wait!"
++                "textAvLeft": "あ、待って…"
+             },
+             {
+                 "autoTurnLast": 3,
+@@ -626,10 +626,10 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "surround": "stop",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Miss Akemi."
++                "textAvRight": "暁美さん"
+             },
+             {
+                 "chara": [
+@@ -639,8 +639,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-32"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Thank you for saving@Miss Miki's life."
++                "nameAvRight": "マミ",
++                "textAvRight": "美樹さんの命を助けてくれて@ありがとう"
+             },
+             {
+                 "chara": [
+@@ -649,8 +649,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-33"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I assume it was also you who warned Miss Kaname@about the Witch's whereabouts yesterday?"
++                "nameAvRight": "マミ",
++                "textAvRight": "もしかして、昨日の魔女の@居場所を鹿目さんに伝えたのも…"
+             },
+             {
+                 "chara": [
+@@ -660,9 +660,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-34"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Yes. That was me."
++                "textAvLeft": "はい、私です"
+             },
+             {
+                 "chara": [
+@@ -674,9 +674,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-35"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]That's what I thought."
++                "textAvRight": "やっぱりね"
+             },
+             {
+                 "chara": [
+@@ -689,8 +689,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-35b"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Can I ask how you and@Miss Kaname got acquainted?"
++                "nameAvRight": "マミ",
++                "textAvRight": "鹿目さんと@いつの間に仲良くなったの？"
+             },
+             {
+                 "chara": [
+@@ -699,8 +699,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-36"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I don't know anything about you.@I'd like to know your intentions..."
++                "nameAvRight": "マミ",
++                "textAvRight": "私としてはいい加減、あなたの@正体を知りたいのだけれども…"
+             },
+             {
+                 "chara": [
+@@ -713,9 +713,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-37"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]You're saying you@still don't trust me."
++                "textAvLeft": "今はまだ、私のこと@信じられませんよね"
+             },
+             {
+                 "chara": [
+@@ -727,9 +727,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-38"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]No, I don't. Not until@you tell me the truth."
++                "textAvRight": "ええ、あなたが本当のことを@教えてくれない限りはね"
+             },
+             {
+                 "chara": [
+@@ -739,9 +739,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-39"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]If I agreed to tell you..."
++                "textAvLeft": "もし本当の事を伝えたとして…"
+             },
+             {
+                 "chara": [
+@@ -750,8 +750,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-40"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Could you promise not@to share it with Kyubey?"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "それをキュゥべえに話さないって@約束してくれますか？"
+             },
+             {
+                 "chara": [
+@@ -764,9 +764,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-41"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I cannot."
++                "textAvRight": "できないわ"
+             },
+             {
+                 "chara": [
+@@ -775,8 +775,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-42"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Kyubey is my dear confidant."
++                "nameAvRight": "マミ",
++                "textAvRight": "キュゥべえは、私の大切な@仲間よ"
+             },
+             {
+                 "chara": [
+@@ -785,8 +785,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-43"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I can't promise that before I know@what it is you have to say."
++                "nameAvRight": "マミ",
++                "textAvRight": "話の中身を知る前に@そんな約束は不可能だもの"
+             },
+             {
+                 "chara": [
+@@ -798,9 +798,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-44"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]In that case..."
++                "textAvLeft": "だったら…"
+             },
+             {
+                 "chara": [
+@@ -810,9 +810,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-45"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Yes?"
++                "textAvRight": "だったら、どうするの？"
+             },
+             {
+                 "chara": [
+@@ -822,9 +822,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-46"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Well, um..."
++                "textAvLeft": "それは…"
+             },
+             {
+                 "chara": [
+@@ -833,9 +833,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-47"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I'm waiting."
++                "textAvRight": "それは…？"
+             },
+             {
+                 "bgm": "stop",
+@@ -847,9 +847,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-48"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]P-please! Take me with@you to hunt Witches!"
++                "textAvLeft": "お願いします！私も一緒に@魔女退治に連れて行って下さい！"
+             },
+             {
+                 "chara": [
+@@ -860,9 +860,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-49"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Sorry, what?"
++                "textAvRight": "え…？"
+             },
+             {
+                 "bgm": "bgm01_anime06",
+@@ -873,9 +873,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-50"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]If you can't trust me yet..."
++                "textAvLeft": "巴さんが、私のことを@信じられないなら…"
+             },
+             {
+                 "chara": [
+@@ -884,8 +884,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-51"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]T-then allow me to...@prove I can be trusted!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私が信じられるって証明すれば@良いんだって、思ったから"
+             },
+             {
+                 "chara": [
+@@ -895,8 +895,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-52"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Please! Let me come with you!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "だから、お願いします！@私を連れて行って下さい！"
+             },
+             {
+                 "chara": [
+@@ -906,9 +906,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-53"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]...Well, that's unexpected.@I was bracing for a fight."
++                "textAvRight": "…予想外の展開ね@ちょっと、拍子抜けしちゃった"
+             },
+             {
+                 "chara": [
+@@ -919,8 +919,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-54"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I honestly thought you'd@turn out to be an enemy."
++                "nameAvRight": "マミ",
++                "textAvRight": "暁美さんは、私の敵になるのだと@ばかり思っていたわ"
+             },
+             {
+                 "chara": [
+@@ -933,9 +933,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-55"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]N-no! I'd never―"
++                "textAvLeft": "そ、そんな…@巴さんの、敵だなんて…！"
+             },
+             {
+                 "chara": [
+@@ -948,9 +948,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-56"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Whatever your reasons―you want@to hunt Witches too, right?"
++                "textAvRight": "理由はどうあれ、あなたも魔女を@倒したいと思っているのよね？"
+             },
+             {
+                 "chara": [
+@@ -963,9 +963,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-57"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Yes!"
++                "textAvLeft": "はい！"
+             },
+             {
+                 "chara": [
+@@ -975,9 +975,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-58"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Then the enemy of my enemy@is my friend."
++                "textAvRight": "敵の敵は味方"
+             },
+             {
+                 "chara": [
+@@ -989,8 +989,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-58b"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Right now, we need@all the help we can get."
++                "nameAvRight": "マミ",
++                "textAvRight": "ひとりでも多く@仲間が必要だったの"
+             },
+             {
+                 "chara": [
+@@ -1000,8 +1000,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-59"
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]All right.@We'll be counting on you."
++                "nameAvRight": "マミ",
++                "textAvRight": "こちらこそ@よろしくお願いするわ"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -1040,7 +1040,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -1057,8 +1057,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-60"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(W-wait, what?@That's weird...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あ、あれ？@おかしいですね)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -1106,8 +1106,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-020-61"
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]I will kill you.",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "私は、あなたを、殺すわ",
+                 "textAvColor": "textMami",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -1155,7 +1155,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -1172,8 +1172,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-62"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(She was so cold to me before.@Immediately hostile.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あの時は、あんなに強く@私を拒絶したのに…)",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut",
+                 "turnEffect": "thinking"
+@@ -1188,7 +1188,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-020-63"
+                     }
+                 ],
+-                "progressFnarration": "(What could have changed?)"
++                "progressFnarration": "(なにか、違いが@あるんでしょうか…？)"
+             },
+             {
+                 "FnarrationEffect": "out",

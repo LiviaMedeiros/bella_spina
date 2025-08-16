@@ -1,0 +1,516 @@
+--- en/scenario_9/903111-010.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903111-010.json	2017-03-17 18:39:13.000000000 +0800
+@@ -84,8 +84,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-1"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]*Yawn*",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "ふわぁあぁあ…",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -98,7 +98,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -118,8 +118,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-2"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Ugh... I remember why@I hate mornings.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(ね、眠い…早起きつらい…)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -131,7 +131,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-3"
+                     }
+                 ],
+-                "progressFnarration": "(It's a miracle I'm even walking.@I usually sleep until the@last possible second...)"
++                "progressFnarration": "(いつも遅刻ギリギリまで@寝てましたもんね)"
+             },
+             {
+                 "chara": [
+@@ -142,7 +142,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-4"
+                     }
+                 ],
+-                "progressFnarration": "(Sakie even clapped for me when@I got up early this morning.)"
++                "progressFnarration": "(おかげで咲笑さんには@褒められてますけれど)"
+             },
+             {
+                 "chara": [
+@@ -154,7 +154,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-5"
+                     }
+                 ],
+-                "progressFnarration": "(Since I'm here, though, I need to@get a jump on Miss Akemi before―)"
++                "progressFnarration": "(まあとにかく、先回りして@暁美さんの様子を…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -170,8 +170,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-6"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Hmm? Is that..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "ん？あれは…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -206,9 +206,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Sayaka's late!"
++                "textAvLeft": "さやかちゃん、遅いね"
+             },
+             {
+                 "chara": [
+@@ -218,9 +218,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-8"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Yes, this is quite unusual."
++                "textAvRight": "ええ、こんなこと珍しいですわ"
+             },
+             {
+                 "chara": [
+@@ -229,8 +229,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-9"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]I always thought it was your@job to be the late one."
++                "nameAvRight": "仁美",
++                "textAvRight": "遅れてくるのはまどかさんの@役目だとばかり…"
+             },
+             {
+                 "chara": [
+@@ -243,9 +243,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-10"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]What?! Was I the designated@slowpoke this whole time?"
++                "textAvLeft": "えー？@わたし、遅刻係だったの!?"
+             },
+             {
+                 "chara": [
+@@ -258,9 +258,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-11"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Maybe it's time for@a change in leadership..."
++                "textAvRight": "もしかしたら、そろそろ@政権交代の時期かもしれませんね"
+             },
+             {
+                 "chara": [
+@@ -273,9 +273,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-12"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]\"Leadership\"? Really?"
++                "textAvLeft": "政権って…"
+             },
+             {
+                 "chara": [
+@@ -292,13 +292,13 @@
+                         "id": 810600
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]Oh!@Speak of the devil."
++                "nameAvLeft": "まどか",
++                "textAvLeft": "あ、噂をすれば"
+             },
+             {
+                 "bgm": "stop",
+-                "nameAvCenter": "Sayaka's Voice",
+-                "textAvCenter": "[fontSize:20]Madoka!",
++                "nameAvCenter": "さやかの声",
++                "textAvCenter": "まどか！",
+                 "textAvColor": "textSayaka",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-14"
+             },
+@@ -310,9 +310,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20][chara:200101:effect_emotion_surprise_0:voiceFull_fullvoice/section_104202/vo_full_903111-010-15][se:7226_shock]Huh?!"
++                "textAvLeft": "[chara:200101:effect_emotion_surprise_0:voiceFull_fullvoice/section_104202/vo_full_903111-010-15][se:7226_shock]えっ!?"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -371,7 +371,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -382,8 +382,8 @@
+                 "FnarrationX": 220,
+                 "FnarrationY": -50,
+                 "bgm": "bgm01_anime04",
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Is that Kyubey on her shoulder?!)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(美樹さんの肩に@キュゥべえが乗ってる…!?)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-16"
+             },
+@@ -421,9 +421,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]...!"
++                "textAvLeft": "…………！"
+             },
+             {
+                 "chara": [
+@@ -435,9 +435,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-18"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Madoka? What's wrong?"
++                "textAvRight": "どうかしましたか、まどかさん？"
+             },
+             {
+                 "chara": [
+@@ -451,9 +451,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-19"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Uh―nothing!@Just..."
++                "textAvLeft": "え、いや、その…"
+             },
+             {
+                 "chara": [
+@@ -467,9 +467,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-20"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Why didn't you tell me?!"
++                "textAvRight": "どうして話してくれなかったの？"
+             },
+             {
+                 "chara": [
+@@ -478,9 +478,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-21"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]U-uhh... Well..."
++                "textAvLeft": "ええと、それは…"
+             },
+             {
+                 "chara": [
+@@ -489,9 +489,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-22"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]It's fine. Kyubey already told me@all about Magical Girls, you know."
++                "textAvRight": "キュゥべえが、魔法少女のことを@色々教えてくれたんだよ"
+             },
+             {
+                 "chara": [
+@@ -504,9 +504,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-23"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]\"Kyubey\"? What on earth are@you girls talking about?"
++                "textAvRight": "キュゥべえ…？@なんのことですの？"
+             },
+             {
+                 "autoTurnFirst": 1.4,
+@@ -518,9 +518,9 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-010-24"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]N-nothing!@Haha..."
++                "textAvLeft": "いや、その、あははは…"
+             },
+             {
+                 "chara": [
+@@ -547,9 +547,9 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903111-010-24"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -560,9 +560,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -571,9 +571,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -583,9 +583,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -602,9 +602,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Hey, you two.@What's going on?"
++                "textAvRight": "おふたりともさっきから@どうしたんです？"
+             },
+             {
+                 "chara": [
+@@ -613,8 +613,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-30"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]You've been staring so intently@into one another's eyes..."
++                "nameAvRight": "仁美",
++                "textAvRight": "しきりに目配せしてますけど"
+             },
+             {
+                 "autoTurnFirst": 1,
+@@ -628,9 +628,9 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-010-31"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Huh? Oh, n-no, there's@nothing...going on..."
++                "textAvLeft": "いや、これは、あの、その…"
+             },
+             {
+                 "chara": [
+@@ -655,7 +655,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -665,17 +665,17 @@
+                 "FnarrationWidth": 320,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Ah.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あー、これは…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-32"
+             },
+             {
+-                "progressFnarration": "(They're definitely talking@through telepathy.)",
++                "progressFnarration": "(ふたりとも、たぶん@心の声で会話していますね)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-33"
+             },
+             {
+-                "progressFnarration": "(To someone who doesn't know@about Magical Girls, this must@be total nonsense.)",
++                "progressFnarration": "(魔法少女を知らなければ@全く意味不明でしょうが)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-34"
+             },
+             {
+@@ -697,9 +697,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]No, don't tell me― You're already close enough@to communicate through your eyes alone?!"
++                "textAvRight": "まさかふたりともすでに目と目で@わかり合う間柄ですの？"
+             },
+             {
+                 "chara": [
+@@ -709,8 +709,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-36"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]But you can't!"
++                "nameAvRight": "仁美",
++                "textAvRight": "でもいけませんわ"
+             },
+             {
+                 "autoTurnFirst": 2,
+@@ -721,8 +721,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-010-37"
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
+-                "textAvRight": "[fontSize:20]You're both girls, after all! Don't you see@that it's a love that can never beeeee?!"
++                "nameAvRight": "仁美",
++                "textAvRight": "女の子同士でそれは@禁断の恋の形ですのよー！"
+             },
+             {
+                 "chara": [
+@@ -756,9 +756,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-38"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Hitomi! Wait!"
++                "textAvLeft": "あっ、仁美ちゃん！"
+             },
+             {
+                 "chara": [
+@@ -772,10 +772,10 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-39"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "surround": "stop",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Uh oh. I think we gave@her the wrong idea..."
++                "textAvRight": "あー、なんか妙な勘違い@させちゃった？"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -785,7 +785,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -795,8 +795,8 @@
+                 "FnarrationWidth": 340,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(That girl really does have@the most old-fashioned@ideas about romance.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(かなーり古風な恋愛観の@持ち主ですね…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903111-010-40"
+             },
+@@ -819,9 +819,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Well, I'll smooth things@over with her later."
++                "textAvRight": "まあ、仁美には後で謝っとくけど"
+             },
+             {
+                 "autoTurnFirst": 2.2,
+@@ -836,8 +836,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903111-010-42"
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]But you owe me ALL of the@Magical Girl info, got it?"
++                "nameAvRight": "さやか",
++                "textAvRight": "それはそれとして、魔法少女の@話は後で聞かせてもらうからね"
+             },
+             {
+                 "chara": [
+@@ -860,9 +860,9 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903111-010-42"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Okay..."
++                "textAvLeft": "うん、わかった…"
+             },
+             {
+                 "autoTurnLast": 2,

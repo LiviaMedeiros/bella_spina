@@ -1,0 +1,542 @@
+--- en/scenario_9/903123-045_kyoko.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903123-045_kyoko.json	2017-03-17 18:39:13.000000000 +0800
+@@ -31,9 +31,9 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
++                "nameAvCenter": "杏子",
+                 "se": "7107_arrivalone",
+-                "textAvCenter": "[fontSize:20]You sure didn't make it easy@to find you.",
++                "textAvCenter": "やっと見つけた",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -58,9 +58,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -69,9 +69,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]How long were you planning to@go on being stubborn like this?"
++                "textAvRight": "あんたさ、いつまで@強情張ってるわけ"
+             },
+             {
+                 "chara": [
+@@ -79,9 +79,9 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]You can't expect to survive if you@keep misjudgin' your own strength."
++                "textAvRight": "自分の実力を見誤って@生き延びられるほど甘くない"
+             },
+             {
+                 "chara": [
+@@ -92,9 +92,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]It doesn't matter."
++                "textAvLeft": "別にいいよ"
+             },
+             {
+                 "chara": [
+@@ -102,9 +102,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I'm not looking to survive."
++                "textAvLeft": "あたしの目的は@生き延びることじゃない"
+             },
+             {
+                 "chara": [
+@@ -113,9 +113,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I don't care if I die."
++                "textAvLeft": "この身が滅んだって構わない"
+             },
+             {
+                 "chara": [
+@@ -125,9 +125,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I didn't go into this contract@thinking it'd be easy."
++                "textAvLeft": "甘っちょろい意識で@契約したわけじゃないからさ"
+             },
+             {
+                 "chara": [
+@@ -139,9 +139,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]I use my powers for my own sake."
++                "textAvRight": "あたしはあたしのために@魔法を使う"
+             },
+             {
+                 "chara": [
+@@ -149,9 +149,9 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]So if I keel over today,@that's all on me."
++                "textAvRight": "だから、今日ここで死んでも@そりゃ自業自得ってヤツさ"
+             },
+             {
+                 "chara": [
+@@ -162,9 +162,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]But you...@You're fighting for others, right?"
++                "textAvRight": "でも…あんたは、誰かのために@魔法を使うんだろう？"
+             },
+             {
+                 "chara": [
+@@ -175,9 +175,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Yeah? What's your point?"
++                "textAvLeft": "は？だから何…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -225,9 +225,9 @@
+                         "zOrder": 100
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Sayaka!"
++                "textAvLeft": "さやかちゃん！"
+             },
+             {
+                 "chara": [
+@@ -235,8 +235,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]There you are!",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "美樹さん！",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -245,9 +245,9 @@
+                         "id": 200301
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]Y-you were here...all along?"
++                "textAvRight": "こ、ここにいたんですか…？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -285,10 +285,10 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "surround": "stop",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Wha―"
++                "textAvLeft": "な…"
+             },
+             {
+                 "chara": [
+@@ -300,9 +300,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Did you bring them here, Kyoko?"
++                "textAvLeft": "杏子、あんたが呼んだの？"
+             },
+             {
+                 "chara": [
+@@ -311,9 +311,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]If an ally of justice fights for others..."
++                "textAvRight": "正義の味方が誰かのために@戦うなら…"
+             },
+             {
+                 "chara": [
+@@ -321,9 +321,9 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]...then she's got people@that'll fight for her too."
++                "textAvRight": "あんたのために戦う@仲間だっている"
+             },
+             {
+                 "chara": [
+@@ -333,9 +333,9 @@
+                         "id": 200601
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Don't throw yourself away."
++                "textAvRight": "自分を粗末にするんじゃねぇよ"
+             },
+             {
+                 "chara": [
+@@ -345,9 +345,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -359,9 +359,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Sayaka, we were so worried@about you."
++                "textAvRight": "さやかちゃん@心配、したんだよ"
+             },
+             {
+                 "chara": [
+@@ -370,9 +370,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You were fighting a bunch of@Witches on your own, weren't you?"
++                "textAvRight": "ひとりでたくさん@魔女と戦ったんだよね"
+             },
+             {
+                 "chara": [
+@@ -380,9 +380,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]We'll help you, so please@take this Grief Seed and..."
++                "textAvRight": "わたしたちも一緒にがんばるから@このグリーフシードで…"
+             },
+             {
+                 "chara": [
+@@ -392,9 +392,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]...!!!"
++                "textAvLeft": "ッ!!"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -432,9 +432,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Ah..."
++                "textAvRight": "ぁっ…"
+             },
+             {
+                 "chara": [
+@@ -442,9 +442,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Stop..."
++                "textAvLeft": "やめてよ"
+             },
+             {
+                 "chara": [
+@@ -452,9 +452,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I can't...accept something like that..."
++                "textAvLeft": "あたし…そんなの、もらえない"
+             },
+             {
+                 "chara": [
+@@ -466,9 +466,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]I'm sorry, Sayaka."
++                "textAvRight": "ごめんね、さやかちゃん"
+             },
+             {
+                 "chara": [
+@@ -476,9 +476,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Even though we were always close, I didn't@realize what you were going through..."
++                "textAvRight": "ずっと、そばにいたのに@悩みがわからなくて…"
+             },
+             {
+                 "chara": [
+@@ -487,9 +487,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]So let's talk more, okay?"
++                "textAvRight": "だから…もっといっぱい@お話しよう？"
+             },
+             {
+                 "chara": [
+@@ -497,9 +497,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]We can all work together@to protect the peace."
++                "textAvRight": "みんなで一緒に、正義の味方@がんばろう？"
+             },
+             {
+                 "chara": [
+@@ -508,9 +508,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]I'm sure if we all just talk, we'll be able to@find a way to tackle it, no matter the problem."
++                "textAvRight": "どんなことだって、皆で話せば@きっとうまく行く方法が…"
+             },
+             {
+                 "chara": [
+@@ -522,9 +522,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]You're so nice, Madoka."
++                "textAvLeft": "まどかは、優しいよね"
+             },
+             {
+                 "chara": [
+@@ -532,9 +532,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]So nice...too nice..."
++                "textAvLeft": "優しくて…優しすぎて…"
+             },
+             {
+                 "chara": [
+@@ -546,9 +546,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Not anything like me."
++                "textAvLeft": "あたしなんかとは、大違いだ"
+             },
+             {
+                 "chara": [
+@@ -558,9 +558,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Sayaka...?"
++                "textAvRight": "さやかちゃん…？"
+             },
+             {
+                 "chara": [
+@@ -573,9 +573,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Sorry, Madoka."
++                "textAvLeft": "ごめんね、まどか"
+             },
+             {
+                 "chara": [
+@@ -583,9 +583,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I don't think I can become like@you and Mami after all..."
++                "textAvLeft": "あたし、やっぱり@あなたやマミさんみたいな…"
+             },
+             {
+                 "chara": [
+@@ -597,9 +597,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I can't become an ally of justice."
++                "textAvLeft": "正義の味方には、なれないんだ"
+             },
+             {
+                 "autoTurnLast": 1,
+@@ -625,9 +625,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Sayaka?!"
++                "textAvRight": "さやかちゃん!?"
+             },
+             {
+                 "chara": [
+@@ -639,9 +639,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Ah, no...!"
++                "textAvLeft": "ああっ、だめ…！"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -723,9 +723,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Kyoko",
++                "nameAvLeft": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvLeft": "[fontSize:20]H-hey! She's...!"
++                "textAvLeft": "お、おい！これは…"
+             },
+             {
+                 "chara": [
+@@ -733,9 +733,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]This can't be true..."
++                "textAvRight": "嘘…"
+             },
+             {
+                 "chara": [
+@@ -744,9 +744,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Magical Girls...really do@become Witches...?!"
++                "textAvRight": "本当に…魔法少女が、魔女に…!?"
+             },
+             {
+                 "autoTurnLast": 2,

@@ -1,0 +1,420 @@
+--- en/scenario_9/903120-010_mami.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903120-010_mami.json	2017-03-17 18:39:13.000000000 +0800
+@@ -32,9 +32,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Sayaka",
++                "nameAvCenter": "さやか",
+                 "surround": "7003_wind",
+-                "textAvCenter": "[fontSize:20]......",
++                "textAvCenter": "…………",
+                 "textAvColor": "textSayaka",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -45,8 +45,8 @@
+                         "lipSynch": 1
+                     }
+                 ],
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]\"Congrats on your recovery.\""
++                "nameAvCenter": "さやか",
++                "textAvCenter": "「退院、おめでとう」"
+             },
+             {
+                 "chara": [
+@@ -58,8 +58,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]...It's so simple.@Why can't I say it?"
++                "nameAvCenter": "さやか",
++                "textAvCenter": "…なんで、言えないんだ、あたし"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -81,9 +81,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Miss Miki?"
++                "textAvRight": "美樹さん…？"
+             },
+             {
+                 "chara": [
+@@ -95,9 +95,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Oh... Hi Mami."
++                "textAvLeft": "あ…マミさん"
+             },
+             {
+                 "bgm": "bgm01_anime04",
+@@ -107,10 +107,10 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "surround": "stop",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]What are you doing out here?"
++                "textAvRight": "こんな所で何してるの？"
+             },
+             {
+                 "chara": [
+@@ -118,9 +118,9 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Uh, well...I was just..."
++                "textAvLeft": "えっと、なんていうか、その…"
+             },
+             {
+                 "chara": [
+@@ -132,8 +132,8 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]Zoning out, I guess."
++                "nameAvLeft": "さやか",
++                "textAvLeft": "黄昏れてました"
+             },
+             {
+                 "chara": [
+@@ -143,9 +143,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I see..."
++                "textAvRight": "そう…"
+             },
+             {
+                 "chara": [
+@@ -157,8 +157,8 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]A lot of things must have changed@since you've become a Magical Girl."
++                "nameAvRight": "マミ",
++                "textAvRight": "魔法少女になって、色んなことが@変わったものね"
+             },
+             {
+                 "chara": [
+@@ -166,8 +166,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]It's important to take some time@to organize your thoughts."
++                "nameAvRight": "マミ",
++                "textAvRight": "一度ゆっくり考えを@整理することも必要だわ"
+             },
+             {
+                 "chara": [
+@@ -179,9 +179,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Um..."
++                "textAvLeft": "あの…"
+             },
+             {
+                 "chara": [
+@@ -189,8 +189,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]Madoka...made a contract@to save a cat, right?"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "まどかは、ネコを救うために@契約したって言ってましたよね"
+             },
+             {
+                 "chara": [
+@@ -202,9 +202,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Yes. It's a very Madoka thing@to do, isn't it?"
++                "textAvRight": "ええ、彼女らしいわよね"
+             },
+             {
+                 "chara": [
+@@ -213,9 +213,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]What did you wish for when@you made your contract, Mami?"
++                "textAvLeft": "マミさんは、なんのために@契約したんですか？"
+             },
+             {
+                 "chara": [
+@@ -225,9 +225,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I was in a car accident."
++                "textAvRight": "交通事故よ"
+             },
+             {
+                 "chara": [
+@@ -239,9 +239,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]A car accident...?"
++                "textAvLeft": "交通事故…"
+             },
+             {
+                 "chara": [
+@@ -250,9 +250,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]I suffered fatal injuries,@and knew I wasn't going to survive."
++                "textAvRight": "命に関わるケガで、このままじゃ@死ぬのはわかりきっていたから"
+             },
+             {
+                 "chara": [
+@@ -260,8 +260,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]There was no time to weigh my options. I didn't@even have the luxury of thinking about it."
++                "nameAvRight": "マミ",
++                "textAvRight": "選択の余地も@考える余裕もなかったわ"
+             },
+             {
+                 "chara": [
+@@ -270,8 +270,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I just clung to Kyubey's@sudden offer to live."
++                "nameAvRight": "マミ",
++                "textAvRight": "目の前に現れたキュゥべえに@縋っただけ"
+             },
+             {
+                 "chara": [
+@@ -282,9 +282,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]I see..."
++                "textAvLeft": "そうだったんですか…"
+             },
+             {
+                 "chara": [
+@@ -294,9 +294,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]After becoming a Magical Girl..."
++                "textAvRight": "魔法少女になって@ちょっと驚いたんだけど…"
+             },
+             {
+                 "chara": [
+@@ -304,8 +304,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I was surprised by how many girls use@their wish for someone else's sake."
++                "nameAvRight": "マミ",
++                "textAvRight": "誰かのために祈る人は@意外と多いのよね"
+             },
+             {
+                 "chara": [
+@@ -314,9 +314,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]For someone else?"
++                "textAvLeft": "誰かのために…？"
+             },
+             {
+                 "chara": [
+@@ -325,9 +325,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Wanting to make another person's dream@come true, rather than your own..."
++                "textAvRight": "自分の願いを叶えることよりも@誰かの願いを叶えてあげたい…"
+             },
+             {
+                 "chara": [
+@@ -336,8 +336,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]It's hard to stop someone whose heart@is so set on helping another."
++                "nameAvRight": "マミ",
++                "textAvRight": "純粋な願いを叶えることは@誰にも止められない"
+             },
+             {
+                 "chara": [
+@@ -347,8 +347,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]I'm a little envious of people@who can have such pure resolve."
++                "nameAvRight": "マミ",
++                "textAvRight": "私、誰かのために願える人が@少し、羨ましいのかもね"
+             },
+             {
+                 "chara": [
+@@ -357,9 +357,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Pure?@I don't know about that..."
++                "textAvLeft": "純粋な願いだなんて、そんな…"
+             },
+             {
+                 "chara": [
+@@ -371,9 +371,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Of course, I have no regrets@about my own contract."
++                "textAvRight": "もちろん私も、自分の契約を@後悔なんてしていないわ"
+             },
+             {
+                 "chara": [
+@@ -381,8 +381,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]But...since I had my own wish granted..."
++                "nameAvRight": "マミ",
++                "textAvRight": "でも…自分が願いを@叶えてもらったぶん…"
+             },
+             {
+                 "chara": [
+@@ -391,8 +391,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Now, I want to do the same for others."
++                "nameAvRight": "マミ",
++                "textAvRight": "私以外の誰かの願いを@叶えてあげたい…"
+             },
+             {
+                 "chara": [
+@@ -402,8 +402,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]That might be the reason@why I keep fighting."
++                "nameAvRight": "マミ",
++                "textAvRight": "それが、私の戦う理由かも@しれないわね"
+             },
+             {
+                 "chara": [
+@@ -412,9 +412,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Mami..."
++                "textAvLeft": "マミさん…"
+             },
+             {
+                 "chara": [
+@@ -426,9 +426,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]Speaking of which...@what was your wish?"
++                "textAvRight": "あ、そういえば、美樹さん@あなたの願い事って…"
+             },
+             {
+                 "chara": [
+@@ -440,9 +440,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Uh, ahaha..."
++                "textAvLeft": "えと、あはははは…"
+             },
+             {
+                 "chara": [
+@@ -450,8 +450,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
+-                "textAvLeft": "[fontSize:20]Sorry!@I'll tell you some other time!"
++                "nameAvLeft": "さやか",
++                "textAvLeft": "ごめんなさい@その話は、また後日！"
+             },
+             {
+                 "autoTurnLast": 2,

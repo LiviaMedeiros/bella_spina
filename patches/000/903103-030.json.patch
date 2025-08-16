@@ -1,0 +1,579 @@
+--- en/scenario_9/903103-030.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903103-030.json	2017-03-17 18:39:13.000000000 +0800
+@@ -31,10 +31,10 @@
+             },
+             {
+                 "bgm": "bgm01_anime07",
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "surround": "7202_telepathy",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mabayu, can you hear me?",
++                "textAvRight": "まばゆ、聞こえるかい",
+                 "turnEffect": "ef_adv_02",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-1"
+             },
+@@ -45,14 +45,14 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-2"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I can hear you.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "ええ、聞こえますけど",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Why do I have to hide myself?",
++                "textAvRight": "どうしてボクが隠れなきゃ@ならないんだい？",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-3"
+             },
+             {
+@@ -62,8 +62,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-4"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Well, um...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "それは…",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -112,8 +112,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903103-030-5"
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]I will kill you.",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "私は、あなたを、殺すわ",
+                 "textAvColor": "textMami",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -164,9 +164,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-6"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
++                "nameAvCenter": "まばゆ",
+                 "surround": "7202_telepathy",
+-                "textAvCenter": "[fontSize:20]Mami Tomoe tried to kill me@during my dream.",
++                "textAvCenter": "私、夢の中で巴マミに@殺されかけたんです",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut",
+                 "turnEffect": "ef_adv_02"
+@@ -178,8 +178,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-7"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I couldn't figure out what was happening@at the time... But now I can guess."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "その時は意味がわからなかった@けど、今なら想像がつきます"
+             },
+             {
+                 "chara": [
+@@ -189,8 +189,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-8"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]She'd probably figured out@I was a Magical Girl."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "私、魔法少女だってことが@彼女にバレたんだって"
+             },
+             {
+                 "chara": [
+@@ -201,8 +201,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-9"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]And that's why she tried to kill me."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "だから、彼女に命を@狙われたんだって"
+             },
+             {
+                 "chara": [
+@@ -212,8 +212,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-10"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Unless I want to repeat that, I need to@hide the fact that I'm a Magical Girl."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あの夢が現実にならないように@魔法少女の秘密を隠したい"
+             },
+             {
+                 "chara": [
+@@ -222,13 +222,13 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-11"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I can't let anyone see me@talking to you."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あなたと話しているところを@見られるわけにはいかないんです"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]I see.@You're a very cautious person.",
++                "textAvRight": "なるほど…キミはずいぶん@用心深い性格なんだね",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-12"
+             },
+             {
+@@ -240,8 +240,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-13"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I have been told I take caution@to a self-sabotaging level.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "昔、石橋を叩いて壊す@タイプと呼ばれたことがあります",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -255,8 +255,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-14"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Anyway...@Agh. I'm toast."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "しかし…参りましたね"
+             },
+             {
+                 "chara": [
+@@ -265,8 +265,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-15"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I'm a walking target!@I don't know how to fight..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "まさか自分が、あの戦いの@当事者になってしまうだなんて"
+             },
+             {
+                 "chara": [
+@@ -278,8 +278,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-16"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Not even a million lives would get@me through those death matches."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あんなの、命がいくらあったって@足りませんよ"
+             },
+             {
+                 "chara": [
+@@ -289,8 +289,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-17"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]And I don't even remember@making a wish."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "願いを叶えてもらった記憶も@ないですし…"
+             },
+             {
+                 "chara": [
+@@ -300,13 +300,13 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-18"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]This really feels like a raw deal."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "なんか、めちゃくちゃ@損した気分"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]You don't remember@how to use your magic, then?",
++                "textAvRight": "まばゆは魔法の@使い方を覚えていないのかい？",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-19"
+             },
+             {
+@@ -320,8 +320,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-20"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I've tried a few things. Like wishing@super hard for time to stop.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "何度か、時間停止を@願ってみたりもしたんですが",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -331,18 +331,18 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-21"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]But it never works the way@I want it to."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "全然、上手く行かなくて"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]I see.",
++                "textAvRight": "そうだったのか",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-22"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]It's true that your case is highly rare.@You're what we call an \"irregularity.\"",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "そもそもキミは、この世界で@数少ないイレギュラーだ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-23"
+             },
+             {
+@@ -353,34 +353,34 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-24"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]\"Irregularity\"?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "イレギュラー？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]There is no record of your contract.",
++                "textAvRight": "キミの魔法少女の契約は@記憶されていない",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-25"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]I don't know when, where,@or how you became a Magical Girl.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "いつ、どこで、どうやって@契約したのかが、わからないんだ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-26"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]Under normal circumstances,@that should be impossible.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "本来ならあり得ないことだよ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-27"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]If I knew what you had wished for, I could make@assumptions as to the nature of your magic...",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "願いの内容がわかれば、魔法の@傾向も想像がつくんだけれども",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-28"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]But as it stands, you may have@to resort to trial and error.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "当てずっぽうに、キミの能力を@探っていくしかないかもね",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-29"
+             },
+             {
+@@ -394,8 +394,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-30"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Trial and error?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "当てずっぽうに…？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -407,8 +407,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-31"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]True..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "いや、でも…"
+             },
+             {
+                 "chara": [
+@@ -418,8 +418,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-32"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]If I'm gonna be caught up in@this whole Magical Girl war..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "魔法少女の戦いに巻き込まれる@かもしれないなら…"
+             },
+             {
+                 "chara": [
+@@ -432,8 +432,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-33"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Then I'll at least need to@be able to defend myself."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "せめて、自分の身くらいは@守れるようになっておかないと"
+             },
+             {
+                 "chara": [
+@@ -442,14 +442,14 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]In that case, why don't we@try testing something now?",
++                "textAvRight": "それじゃあ、何か試してみようか",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-34"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]Do you see that building@outside the classroom window?",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "教室の窓の外にビルが見えるね？",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-35"
+             },
+             {
+@@ -461,19 +461,19 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-36"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Uh...yeah?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あ…はい",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Concentrate on that rectangular@shape. Visualize it in your mind.",
++                "textAvRight": "四角に意識を集中して@心の中で、イメージするんだ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-37"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]When you're ready, try dividing your field@of vision into a three-by-three grid.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "まず、視界を縦横の線で９の@ブロックに分割する",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-38"
+             },
+             {
+@@ -487,14 +487,14 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-39"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]O-okay...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "は、はあ",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Now lock onto the center square―zoom in@on it in your mind. Closer... Closer...",
++                "textAvRight": "真ん中のブロックに集中して@四角にどんどん近寄って…",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-40"
+             },
+             {
+@@ -521,20 +521,20 @@
+                     }
+                 ],
+                 "flashEffect": "flashWhiteSlow2",
+-                "nameAvCenter": "Mabayu",
++                "nameAvCenter": "まばゆ",
+                 "surround": "8086_magiceyes",
+-                "textAvCenter": "[fontSize:20]I don't―@H-huh?! Oh...",
++                "textAvCenter": "え…あ、あれ…？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Once that block fills your entire@vision, create another grid.",
++                "textAvRight": "そのブロックが視界いっぱいに@広がったら、また９分割",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-42"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]Focus on the new center,@and zoom in once more...",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "その真ん中のブロックに@集中して、さらに近寄ると…",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-43"
+             },
+             {
+@@ -559,9 +559,9 @@
+                     }
+                 ],
+                 "flashEffect": "flashWhiteSlow2",
+-                "nameAvCenter": "Mabayu",
++                "nameAvCenter": "まばゆ",
+                 "surround": "8086_magiceyes",
+-                "textAvCenter": "[fontSize:20]Whoa! What the heck?!",
++                "textAvCenter": "あっ、え、すごい？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -571,8 +571,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-45"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]It's zoomed-in! Like, ULTRA zoomed-in!"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "拡大して、めちゃくちゃ大きく@見えます！"
+             },
+             {
+                 "chara": [
+@@ -585,8 +585,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-46"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I can see right into the building! Even the people in@the meeting room through the window―clear as day!"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "ビルの中、窓の向こうで@会議をしている人も、はっきり！"
+             },
+             {
+                 "chara": [
+@@ -595,19 +595,19 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Just as I thought.",
++                "textAvRight": "うん、思った通りだね",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-47"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]It seems your magic has something@to do with manipulating light.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "どうもキミは、光に関係する@魔法の素質があるみたいだ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-48"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]If you keep exploring that path, you may@uncover the secret behind your contract as well.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "その方面を探っていけば@契約の秘密もきっと…",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-49"
+             },
+             {
+@@ -631,8 +631,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-50"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Wait...@Does this mean...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "もしかしてこの力があれば…",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -646,18 +646,18 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-51"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I can ace everything? Spy my way@through every test the rest of my life?!"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "カンニングもし放題なのでは!?"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]...Mabayu.",
++                "textAvRight": "…まばゆ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-52"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]I should probably warn you―@overusing your magic is dangerous.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "一応言っておくけど@魔法の使いすぎは禁物だよ",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-53"
+             },
+             {
+@@ -671,24 +671,24 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-54"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Really?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "え…そうなんですか？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]I mentioned this before,@but using magic taints your Soul Gem.",
++                "textAvRight": "言っただろう？@魔法を使うとソウルジェムが濁る",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-55"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]Supportive magic like that is useful,@but alone it won't help you kill Witches.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "補助的な魔法だけじゃ@魔女を倒すことは難しい",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-56"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
+-                "textAvRight": "[fontSize:20]If you can't defeat Witches, you won't@get the Grief Seeds you need to purify it.",
++                "nameAvRight": "キュゥべえの声",
++                "textAvRight": "魔女を倒せなければ、穢れをとる@グリーフシードは手に入らない",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-57"
+             },
+             {
+@@ -702,8 +702,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-58"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]So that's how things work...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "なるほど…そういう理屈ですか",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -717,13 +717,13 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-59"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Understood!@I will cheat only when necessary!"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "わかりました！カンニングは@ここぞというときに限ります！"
+             },
+             {
+-                "nameAvRight": "Kyubey's Voice",
++                "nameAvRight": "キュゥべえの声",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]......",
++                "textAvRight": "…………",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903103-030-60"
+             },
+             {

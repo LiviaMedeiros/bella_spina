@@ -1,0 +1,262 @@
+--- en/scenario_9/903114-020.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903114-020.json	2017-03-17 18:39:13.000000000 +0800
+@@ -29,7 +29,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -47,8 +47,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I just don't know...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(とは、いうものの)",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -61,7 +61,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-2"
+                     }
+                 ],
+-                "progressFnarration": "(Is it really okay to keep trailing@Miss Akemi like this?)"
++                "progressFnarration": "(このまま暁美さんの後を@つけて、本当にいいものか…)"
+             },
+             {
+                 "chara": [
+@@ -73,7 +73,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-3"
+                     }
+                 ],
+-                "progressFnarration": "(It's starting to feel like@I'm just a creepy stalker...)"
++                "progressFnarration": "(なんだかただのストーカー@みたいな気持ちですよ、私)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -96,9 +96,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-4"
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh! Mabayu!"
++                "textAvRight": "あら？まばゆちゃん"
+             },
+             {
+                 "chara": [
+@@ -111,9 +111,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-5"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Uh... Yeah?"
++                "textAvLeft": "あ…はい、なんですか？"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -136,9 +136,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-6"
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Don't tell me..."
++                "textAvRight": "この、ラテアート@もしかして…"
+             },
+             {
+                 "chara": [
+@@ -149,8 +149,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-7"
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]Did you draw this penguin yourself?"
++                "nameAvRight": "咲笑",
++                "textAvRight": "ペンギンさん？"
+             },
+             {
+                 "chara": [
+@@ -163,9 +163,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-8"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20][chara:200904:effect_emotion_surprise_0][se:7226_shock]!!!"
++                "textAvLeft": "[chara:200904:effect_emotion_surprise_0][se:7226_shock]!!"
+             },
+             {
+                 "chara": [
+@@ -178,9 +178,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-9"
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mabayu?! Wh-what's wrong?"
++                "textAvRight": "ど…どうしたの、まばゆちゃん？"
+             },
+             {
+                 "chara": [
+@@ -197,9 +197,9 @@
+                         "visible": "hide"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Sorry, just... I never@thought this day would come."
++                "textAvLeft": "い、いえ…ちょっと感動を…"
+             },
+             {
+                 "chara": [
+@@ -209,8 +209,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-11"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]It's the first time you've EVER@guessed what I was trying to draw."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "初めて咲笑さんに、アートの@中身を当ててもらえたので…"
+             },
+             {
+                 "chara": [
+@@ -223,9 +223,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-12"
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh dear.@Was I really that bad at it?"
++                "textAvRight": "あらら？私、そんなにカンが@悪かったかしら…？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -251,7 +251,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -271,8 +271,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-13"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(She would think that,@wouldn't she.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(咲笑さんはそう思いますよね)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -284,7 +284,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-14"
+                     }
+                 ],
+-                "progressFnarration": "(I've just had a whole extra loop's@worth of practice.)"
++                "progressFnarration": "(私の場合、前周含めての@記憶ですし…)"
+             },
+             {
+                 "chara": [
+@@ -298,7 +298,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-15"
+                     }
+                 ],
+-                "progressFnarration": "(Still...maybe I really@have gotten better?)"
++                "progressFnarration": "(ともあれ、私も少しは上達した@…ということですか)"
+             },
+             {
+                 "chara": [
+@@ -311,7 +311,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-16"
+                     }
+                 ],
+-                "progressFnarration": "(I better have, after practically@getting caffeine poisoned@last time.)"
++                "progressFnarration": "(前回は確か、カフェインの@取り過ぎで夜も眠れず…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -329,8 +329,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-17"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]...Oh. Right.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あ…そうだ",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -342,8 +342,8 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
+-                "FnarrationHeight": 120,
++                "FnarrationFontSize": 23,
++                "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+                 "FnarrationOutlineColor": "textBlack",
+@@ -359,8 +359,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-18"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I just remembered.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(思い出しましたよ…)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -372,7 +372,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-19"
+                     }
+                 ],
+-                "progressFnarration": "(Last time, this is the day I saw@that Sakura girl in the park after@work. She showed up and saved@me from those Familiars.)"
++                "progressFnarration": "(確か前回は、帰り道の公園で@佐倉さんに助けられた日です！)"
+             },
+             {
+                 "chara": [
+@@ -385,7 +385,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-20"
+                     }
+                 ],
+-                "progressFnarration": "(She seemed like she had@some beef with Miss Akemi@and the others, though...)"
++                "progressFnarration": "(彼女は、暁美さんたちとは@対立しているようでしたが…)"
+             },
+             {
+                 "chara": [
+@@ -395,7 +395,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-21"
+                     }
+                 ],
+-                "progressFnarration": "(What's their story?@Is there bad blood?)"
++                "progressFnarration": "(なにか、因縁が@あるのでしょうか？)"
+             },
+             {
+                 "chara": [
+@@ -406,7 +406,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-020-22"
+                     }
+                 ],
+-                "progressFnarration": "(I should look into her again.)"
++                "progressFnarration": "(彼女も一度、探ってみた方が@いいかも…)"
+             },
+             {
+                 "FnarrationEffect": "out",

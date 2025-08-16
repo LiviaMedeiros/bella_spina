@@ -1,0 +1,744 @@
+--- en/scenario_9/903121-020.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903121-020.json	2017-03-17 18:39:13.000000000 +0800
+@@ -81,8 +81,8 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
+-                "FnarrationHeight": 120,
++                "FnarrationFontSize": 23,
++                "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+                 "FnarrationOutlineColor": "textBlack",
+@@ -98,8 +98,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Both of them are really@doing everything they can...@Even Miss Kaname's trying@to figure out her place.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(暁美さんも鹿目さんも@自分に何ができるかを考えてる)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -111,7 +111,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-2"
+                     }
+                 ],
+-                "progressFnarration": "(Me...what the heck@do I think I'm doing?)"
++                "progressFnarration": "(でも…私は一体何が@できるんでしょうか？)"
+             },
+             {
+                 "chara": [
+@@ -122,7 +122,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-3"
+                     }
+                 ],
+-                "progressFnarration": "(Is it really okay to just keep@watching from the sidelines?)"
++                "progressFnarration": "(このまま、傍観者で@いいのかなあ…)"
+             },
+             {
+                 "chara": [
+@@ -134,7 +134,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-4"
+                     }
+                 ],
+-                "progressFnarration": "(If I understood more about my@powers, I might at least―)"
++                "progressFnarration": "(せめて、自分の力がわかれば@いいんですけど)"
+             },
+             {
+                 "chara": [
+@@ -144,7 +144,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-5"
+                     }
+                 ],
+-                "progressFnarration": "(...Ugh. No. The way I am right@now, I'd only get in the way.)"
++                "progressFnarration": "(今の私じゃ…@足手まといにしかならない)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -180,7 +180,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -199,13 +199,13 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I've been saving magic, and I've still@got a Grief Seed or two...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(魔法を節約してるし@グリーフシードもあるから…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-6"
+             },
+             {
+-                "progressFnarration": "(My Soul Gem's doing fine@for now...but it's not like@that'll last forever.)",
++                "progressFnarration": "(まだ、ソウルジェムは@大丈夫ですが…)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-7"
+             },
+             {
+@@ -236,7 +236,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -253,8 +253,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-8"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I need a way to survive too, right?@When in Rome...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(でも、いつまでもこのままと@いうわけにはいきません)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -266,7 +266,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-9"
+                     }
+                 ],
+-                "progressFnarration": "(I need ways to get my own@Grief Seeds... Maybe I need@to be opportunistic.)"
++                "progressFnarration": "(私でも、グリーフシードに@ありつける方法はないですかね)"
+             },
+             {
+                 "chara": [
+@@ -279,7 +279,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-10"
+                     }
+                 ],
+-                "progressFnarration": "(Not stealing―obviously.@More like... Scavenger's@rights? Finders keepers?)"
++                "progressFnarration": "(なんかこう…@漁夫の利、みたいな？)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -302,8 +302,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-11"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Hm?",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あ、あれ？",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -313,8 +313,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-12"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]That sound..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "この音って、もしかして…"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -354,16 +354,16 @@
+             },
+             {
+                 "autoTurnLast": 1,
+-                "nameAvRight": "Kyoko's Voice",
++                "nameAvRight": "杏子の声",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20][flashEffect:flashWhite2][surround:2006A01]Hiiyah!",
++                "textAvRight": "[flashEffect:flashWhite2][surround:2006A01]でやあああっ!!",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-13"
+             },
+             {
+                 "autoTurnLast": 2,
+-                "nameAvLeft": "Mami's Voice",
++                "nameAvLeft": "マミの声",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20][flashEffect:flashWhite2][se:5002_shooting_02_s]Tiro Finale!",
++                "textAvLeft": "[flashEffect:flashWhite2][se:5002_shooting_02_s]ティロ・フィナーレ!!",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-14"
+             },
+             {
+@@ -424,9 +424,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-15"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]......",
++                "textAvRight": "…………",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -437,9 +437,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-16"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -449,7 +449,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -460,17 +460,17 @@
+                 "FnarrationX": 0,
+                 "FnarrationY": 0,
+                 "bgm": "bgm01_anime05",
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Miss Tomoe...@and that Sakura girl?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(巴さんと…佐倉さん？)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-17"
+             },
+             {
+-                "progressFnarration": "(They're staring each other@down―is that a Grief Seed@between them?)",
++                "progressFnarration": "(グリーフシードを挟んで@向き合って…)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-18"
+             },
+             {
+-                "progressFnarration": "(Are they...fighting over it?!)",
++                "progressFnarration": "(奪い合うつもりですか…!?)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-19"
+             },
+             {
+@@ -485,9 +485,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-20"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]You've certainly improved."
++                "textAvLeft": "ずいぶんと、腕を上げたみたいね"
+             },
+             {
+                 "chara": [
+@@ -499,9 +499,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-21"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]And YOU'VE gone soft."
++                "textAvRight": "あんたはずいぶん@腑抜けちまったな"
+             },
+             {
+                 "chara": [
+@@ -510,8 +510,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-22"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]What's wrong, Grandma? Thought you could sit back@and let your little entourage do the heavy lifting?"
++                "nameAvRight": "杏子",
++                "textAvRight": "ズラズラ子分を引き連れて@ノンキにご隠居気分かい？"
+             },
+             {
+                 "chara": [
+@@ -523,8 +523,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-23"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]You used to actually give me a run@for my money. Now look at you."
++                "nameAvRight": "杏子",
++                "textAvRight": "以前のあんたなら@もっとシャンとしてたはずだよ"
+             },
+             {
+                 "chara": [
+@@ -535,9 +535,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-24"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]You certainly don't hold back."
++                "textAvLeft": "…言ってくれるわね"
+             },
+             {
+                 "chara": [
+@@ -549,8 +549,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-25"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]Is that why you came back to this city?"
++                "nameAvLeft": "マミ",
++                "textAvLeft": "それが、あなたがこの町に@現れた理由？"
+             },
+             {
+                 "chara": [
+@@ -559,9 +559,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-26"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]I came 'cause I saw a bunch of@turkeys lining up for Thanksgiving."
++                "textAvRight": "葱背負ったカモをみすみす見逃す@間抜けじゃないさ"
+             },
+             {
+                 "chara": [
+@@ -573,8 +573,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-27"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Besides. I can't just sit back and watch your@rookies bite it thanks to your half-baked teaching."
++                "nameAvRight": "杏子",
++                "textAvRight": "それに、あんたの教育で道を踏み@外す後輩は、見てらんなくてね"
+             },
+             {
+                 "chara": [
+@@ -584,9 +584,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-28"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]What are you insinuating?"
++                "textAvLeft": "どういう意味かしら？"
+             },
+             {
+                 "chara": [
+@@ -596,9 +596,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-30"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]That Sayaka kid?@She's about to crack."
++                "textAvRight": "美樹さやか…あいつ@もう限界だよ"
+             },
+             {
+                 "chara": [
+@@ -610,9 +610,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-31"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]What?@But she's―"
++                "textAvLeft": "え…でも…"
+             },
+             {
+                 "chara": [
+@@ -622,9 +622,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-32"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Tch. Don't tell me you haven't noticed.@How senile are you these days?"
++                "textAvRight": "おいおい、気づいてないのかい@どこまでモーロクしたんだよ"
+             },
+             {
+                 "chara": [
+@@ -634,8 +634,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-33"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]She's been sneaking out at night. Goin' after@Familiars herself like it's a full-time job."
++                "nameAvRight": "杏子",
++                "textAvRight": "夜中に抜け出して、片っ端から@使い魔を退治して回ってる"
+             },
+             {
+                 "chara": [
+@@ -647,8 +647,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-34"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]She's cut down a whole army.@And not one Grief Seed to show for it."
++                "nameAvRight": "杏子",
++                "textAvRight": "いくら倒しても、グリーフシード@なんて落としやしないのに"
+             },
+             {
+                 "chara": [
+@@ -660,9 +660,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-35"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]...I didn't realize."
++                "textAvLeft": "…そうだったのね"
+             },
+             {
+                 "chara": [
+@@ -671,8 +671,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-36"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]I knew something was off, but..."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "最近様子がおかしいとは@思っていたけど…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -682,7 +682,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -692,13 +692,13 @@
+                 "FnarrationWidth": 340,
+                 "FnarrationX": 0,
+                 "FnarrationY": 0,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Now that she mentions it...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(確かに…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-37"
+             },
+             {
+-                "progressFnarration": "(She had a completely different@vibe about her when I saw her@at the hospital.)",
++                "progressFnarration": "(病院ですれ違ったときも@雰囲気が全然違いました)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-38"
+             },
+             {
+@@ -713,9 +713,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-39"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]But why would she push herself@like that all of a sudden?"
++                "textAvLeft": "でも、どうして急に…？"
+             },
+             {
+                 "chara": [
+@@ -726,9 +726,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-40"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Well..."
++                "textAvRight": "それは…"
+             },
+             {
+                 "chara": [
+@@ -739,8 +739,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-41"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]......"
++                "nameAvRight": "杏子",
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -755,8 +755,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-42"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]'Cause she swallowed all that baloney you fed her!@Bought into your little \"allies of justice\" fantasy!"
++                "nameAvRight": "杏子",
++                "textAvRight": "あんたの正義の味方ごっこに@つきあったせいさ"
+             },
+             {
+                 "chara": [
+@@ -765,8 +765,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-43"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Thinkin' she could fix someone else's life with@a wish―like that don't come with a price."
++                "nameAvRight": "杏子",
++                "textAvRight": "他人の願いを叶えられるなんて@思い上がり、ヘドが出るね"
+             },
+             {
+                 "chara": [
+@@ -776,8 +776,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-44"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]It's not some game. A Magical Girl fights@for herself. To survive. That's it!"
++                "nameAvRight": "杏子",
++                "textAvRight": "魔法少女は自分たちのために@生きるっきゃないのさ！"
+             },
+             {
+                 "chara": [
+@@ -788,9 +788,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-45"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -803,8 +803,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-46"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]Miss Sakura."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "ねえ、佐倉さん"
+             },
+             {
+                 "chara": [
+@@ -813,8 +813,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-47"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]Do you know what happens when@a Magical Girl runs out of magic?"
++                "nameAvLeft": "マミ",
++                "textAvLeft": "魔力を使い果たした少女が@どうなるか…知ってる？"
+             },
+             {
+                 "chara": [
+@@ -827,9 +827,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-48"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Huh?"
++                "textAvRight": "は？"
+             },
+             {
+                 "chara": [
+@@ -839,9 +839,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-49"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]When a Soul Gem gets completely@clouded over, a Magical Girl―"
++                "textAvLeft": "ソウルジェムが濁りきったとき@魔法少女は…"
+             },
+             {
+                 "chara": [
+@@ -854,9 +854,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-50"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Loses her magic and dies."
++                "textAvRight": "魔法が使えなくなって、死ぬ"
+             },
+             {
+                 "chara": [
+@@ -867,8 +867,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-51"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]...Is there anything else to it?"
++                "nameAvRight": "杏子",
++                "textAvRight": "…それ以外に、なんかあるか？"
+             },
+             {
+                 "chara": [
+@@ -878,9 +878,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-52"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Have you ever...seen it happen?"
++                "textAvLeft": "実際にそれを目にしたことは…"
+             },
+             {
+                 "chara": [
+@@ -890,9 +890,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-53"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Nope. I don't play mentor and keep@a pack of sidekicks like you do."
++                "textAvRight": "ないよ、あたしはあんたみたいに@子分とはつるまないからね"
+             },
+             {
+                 "chara": [
+@@ -902,9 +902,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-54"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]...I see."
++                "textAvLeft": "…そう"
+             },
+             {
+                 "chara": [
+@@ -914,9 +914,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-55"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]What's your point?"
++                "textAvRight": "それがなんだよ？"
+             },
+             {
+                 "chara": [
+@@ -929,9 +929,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-56"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]...No. It's nothing."
++                "textAvLeft": "ううん…なんでもないわ"
+             },
+             {
+                 "chara": [
+@@ -940,9 +940,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-57"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]Then quit it.@You're creepin' me out."
++                "textAvRight": "なんでもなかねぇだろ@気持ち悪いな…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -960,9 +960,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-58"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "se": "7205_magic_girl",
+-                "textAvRight": "[fontSize:20]Tch. What a letdown.@Forget it, I'm done."
++                "textAvRight": "…あー、拍子抜けしちまった@もういいや"
+             },
+             {
+                 "chara": [
+@@ -972,9 +972,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-59"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]What?"
++                "textAvLeft": "え…？"
+             },
+             {
+                 "chara": [
+@@ -987,9 +987,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-60"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
++                "nameAvRight": "杏子",
+                 "textAvColor": "textKyoko",
+-                "textAvRight": "[fontSize:20]I don't know you anymore. You're not@the Mami Tomoe I used to look up to."
++                "textAvRight": "今のあんたは、あたしが@憧れてた、巴マミじゃない"
+             },
+             {
+                 "chara": [
+@@ -998,8 +998,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-61"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Take the Grief Seed. Give it to Sayaka,@before she burns herself out."
++                "nameAvRight": "杏子",
++                "textAvRight": "グリーフシードは譲る@とっととさやかに使ってやんな"
+             },
+             {
+                 "chara": [
+@@ -1010,8 +1010,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-62"
+                     }
+                 ],
+-                "nameAvRight": "Kyoko",
+-                "textAvRight": "[fontSize:20]Just...get your act together@before the next time we fight."
++                "nameAvRight": "杏子",
++                "textAvRight": "次の勝負まで@ちっとはまともになっとくんだね"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -1031,9 +1031,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-63"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Miss Sakura..."
++                "textAvLeft": "佐倉さん…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -1043,7 +1043,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -1053,8 +1053,8 @@
+                 "FnarrationWidth": 300,
+                 "FnarrationX": 0,
+                 "FnarrationY": 0,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(She left...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あ…行っちゃった…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903121-020-64"
+             },

@@ -1,0 +1,410 @@
+--- en/scenario_9/903114-030.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903114-030.json	2017-03-17 18:39:13.000000000 +0800
+@@ -61,9 +61,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Is everyone ready?"
++                "textAvLeft": "みんな、準備はいい？"
+             },
+             {
+                 "chara": [
+@@ -73,8 +73,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-2"
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Yeah!",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "はいっ！",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -85,9 +85,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-3"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]I'm ready!"
++                "textAvRight": "いけます！"
+             },
+             {
+                 "autoTurnLast": 0.3,
+@@ -130,7 +130,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -147,8 +147,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-4"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Huh?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あ…あれ？)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -160,7 +160,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-5"
+                     }
+                 ],
+-                "progressFnarration": "(That's weird. Last time@it was that Sakura girl@who showed up to fight.)"
++                "progressFnarration": "(前の周では、佐倉さんが@戦っていたはずなのに…)"
+             },
+             {
+                 "chara": [
+@@ -170,7 +170,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-6"
+                     }
+                 ],
+-                "progressFnarration": "(But this time, it's these three?)"
++                "progressFnarration": "(今回は、この３人なんですね)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -237,9 +237,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20][flashEffect:flashWhiteSlow1]Ouch!"
++                "textAvRight": "[flashEffect:flashWhiteSlow1]きゃっ！"
+             },
+             {
+                 "chara": [
+@@ -249,8 +249,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-8"
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]Homura!",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "ほむらちゃんっ!!",
+                 "textAvColor": "textMadoka"
+             },
+             {
+@@ -278,9 +278,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-9"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]S-sorry..."
++                "textAvRight": "ご、ごめんなさい…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -319,7 +319,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -336,8 +336,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-10"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Oof. She's having a hard time.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(暁美さんが、苦戦してる…)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -348,7 +348,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-11"
+                     }
+                 ],
+-                "progressFnarration": "(She handled yesterday's Witch@because she already knew@how to fight it.)"
++                "progressFnarration": "(昨日の魔女との戦い方は@前の周で知ってたけど)"
+             },
+             {
+                 "chara": [
+@@ -358,7 +358,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-12"
+                     }
+                 ],
+-                "progressFnarration": "(But these things@are new to her, huh?)"
++                "progressFnarration": "(今日の敵とは、@まだ戦ったことがないから…)"
+             },
+             {
+                 "chara": [
+@@ -370,7 +370,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-13"
+                     }
+                 ],
+-                "progressFnarration": "(And with her abilities...she's not@really built for fighting in a team,@is she?)"
++                "progressFnarration": "(それに、暁美さんの戦い方は@集団戦には向かない…か)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -402,8 +402,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-14"
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]Fall back!@I'll take it from here!",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "下がって！ここは私が出るわ！",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -414,7 +414,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -424,13 +424,13 @@
+                 "FnarrationWidth": 330,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Miss Tomoe,@on the other hand...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(それに比べて、巴さんの@戦い方は…)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-15"
+             },
+             {
+-                "progressFnarration": "(She's great at controlling the@field, even when there are@multiple enemies.)",
++                "progressFnarration": "(敵が集団でも@十分に対応できます)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-16"
+             },
+             {
+@@ -446,8 +446,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-17"
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20][flashEffect:explosion][se:5003_shooting_02_vh]Tiro Finale!",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "[flashEffect:explosion][se:5003_shooting_02_vh]ティロ・フィナーレ!!",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -517,9 +517,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You did it! Way to go, Mami!"
++                "textAvRight": "やった！さすが、マミさん"
+             },
+             {
+                 "chara": [
+@@ -532,9 +532,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-19"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]I'm s-sorry for causing trouble..."
++                "textAvRight": "ご、ご迷惑、おかけしました…"
+             },
+             {
+                 "chara": [
+@@ -544,9 +544,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-20"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Don't worry about it.@That's what teammates are for."
++                "textAvLeft": "気にしないで、みんなで@助け合うのが仲間だもの"
+             },
+             {
+                 "chara": [
+@@ -555,8 +555,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-21"
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]Let's all cover each other's@weak spots, alright?"
++                "nameAvLeft": "マミ",
++                "textAvLeft": "お互い、苦手なところは@補っていきましょう"
+             },
+             {
+                 "chara": [
+@@ -569,9 +569,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-22"
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Exactly!@I've got your back too, Homura."
++                "textAvLeft": "そうだよ、ほむらちゃん@わたしもそばについてるんだから"
+             },
+             {
+                 "chara": [
+@@ -581,9 +581,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-23"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]R-right."
++                "textAvRight": "う…うん"
+             },
+             {
+                 "chara": [
+@@ -594,8 +594,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-24"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]Thank you..."
++                "nameAvRight": "ほむら",
++                "textAvRight": "ありがとう…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -629,7 +629,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -648,8 +648,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903114-030-25"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(\"Friendship, hard work,@achievement!\" Words that aren't@part of my vocabulary.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(友情・努力・勝利@私には縁がない言葉ですね)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -672,7 +672,7 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903114-030-25"
+                     }
+                 ],
+-                "progressFnarration": "(Pass. I'm more of a \"lie, cheat,@win without a fight!\".)"
++                "progressFnarration": "(私が好きなのは@策略・チート・不戦勝)"
+             },
+             {
+                 "chara": [
+@@ -683,7 +683,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-27"
+                     }
+                 ],
+-                "progressFnarration": "(Why do you think I'm here biding@my time in the shadows?)"
++                "progressFnarration": "(じゃなきゃこんな風に@姿を隠して覗きなんて…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -721,8 +721,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20][se:7201_detect_magic][chara:200903:effect_ef_adv_01]...!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "[se:7201_detect_magic][chara:200903:effect_ef_adv_01]…………！",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -733,7 +733,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -750,8 +750,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-29"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Someone's watching... On that@rooftop over there!)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(向こうのビルから、気配が…)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -787,7 +787,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -799,8 +799,8 @@
+                 "FnarrationY": 150,
+                 "autoTurnLast": 2.5,
+                 "flashEffect": "flashWhiteSlow2",
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(That's―!)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あ、あれは…)",
+                 "surround": "8086_magiceyes",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-30"
+@@ -874,9 +874,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-31"
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
++                "nameAvCenter": "杏子",
+                 "surround": "7003_wind",
+-                "textAvCenter": "[fontSize:20]Tch. Look at 'em flailing around.",
++                "textAvCenter": "チッ@あんなに苦戦しやがって",
+                 "textAvColor": "textKyoko"
+             },
+             {
+@@ -886,8 +886,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-32"
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]You've seriously lost your edge, Mami."
++                "nameAvCenter": "杏子",
++                "textAvCenter": "マミ@あんたやっぱりおかしいよ"
+             },
+             {
+                 "chara": [
+@@ -900,8 +900,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903114-030-33"
+                     }
+                 ],
+-                "nameAvCenter": "Kyoko",
+-                "textAvCenter": "[fontSize:20]Keep slackin' like this, I might@just take this town for myself."
++                "nameAvCenter": "杏子",
++                "textAvCenter": "チンタラしてると、あたしが@この町、奪っちまうよ"
+             },
+             {
+                 "autoTurnLast": 2,

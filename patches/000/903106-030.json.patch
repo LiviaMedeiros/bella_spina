@@ -1,0 +1,1065 @@
+--- en/scenario_9/903106-030.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/903106-030.json	2017-03-17 18:39:13.000000000 +0800
+@@ -35,7 +35,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -52,8 +52,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(No doubt about it.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(ここ…間違いない)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -64,7 +64,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-2"
+                     }
+                 ],
+-                "progressFnarration": "(This is a Witch's@Labyrinth.)"
++                "progressFnarration": "(魔女の結界)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -109,8 +109,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Madoka",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "まどか",
++                "textAvCenter": "…………",
+                 "textAvColor": "textMadoka",
+                 "turnChangeOut": "rollOutFast"
+             },
+@@ -163,7 +163,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -180,8 +180,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-4"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Is that Madoka Kaname?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あそこにいるのって@鹿目まどかさん…？)",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "rollOutFast",
+                 "turnEffect": "thinking"
+@@ -194,7 +194,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-5"
+                     }
+                 ],
+-                "progressFnarration": "(The bull-looking thing must be@the Witch... Are they fighting?)"
++                "progressFnarration": "(牛の形をした…魔女？と@向かい合って…)"
+             },
+             {
+                 "chara": [
+@@ -207,7 +207,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-6"
+                     }
+                 ],
+-                "progressFnarration": "(Neither one of them@is moving, though.)"
++                "progressFnarration": "(でも、どっちも動いてない)"
+             },
+             {
+                 "chara": [
+@@ -219,7 +219,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-7"
+                     }
+                 ],
+-                "progressFnarration": "(Time's frozen.@That means―)"
++                "progressFnarration": "(時間が止まってる@つまり…)"
+             },
+             {
+                 "chara": [
+@@ -230,7 +230,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-8"
+                     }
+                 ],
+-                "progressFnarration": "(Miss Kaname ISN'T the@one stopping time.)"
++                "progressFnarration": "(時間停止の魔法を使うのは@鹿目さんじゃない)"
+             },
+             {
+                 "chara": [
+@@ -240,7 +240,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-9"
+                     }
+                 ],
+-                "progressFnarration": "(Which leaves...someone else.)"
++                "progressFnarration": "(となると、他に…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -292,9 +292,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-10"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]......",
++                "textAvLeft": "…………",
+                 "turnChangeOut": "rollOutFast"
+             },
+             {
+@@ -305,7 +305,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -316,25 +316,25 @@
+                 "FnarrationX": 0,
+                 "FnarrationY": -30,
+                 "bgm": "bgm01_anime05",
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(...!!)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(!!)",
+                 "textAvColor": "textMabayu",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-11"
+             },
+             {
+-                "progressFnarration": "(Homura Akemi!)",
++                "progressFnarration": "(暁美ほむらさん！)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-12"
+             },
+             {
+-                "progressFnarration": "(She's in full Magical Girl mode...@And she's able to move?)",
++                "progressFnarration": "(魔法少女の姿で…@動けるの？)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-13"
+             },
+             {
+-                "progressFnarration": "(SHE'S the one with@time-stopping magic?)",
++                "progressFnarration": "(時間停止の魔法を使えるのは@暁美さん？)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-14"
+             },
+             {
+-                "progressFnarration": "(Wait. She looks really tense.@Something's on her mind...)",
++                "progressFnarration": "(でも、なにか思い詰めてる@みたいに見えるけど…)",
+                 "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-15"
+             },
+             {
+@@ -349,9 +349,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-16"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Miss Kaname...please."
++                "textAvLeft": "鹿目さん…お願い"
+             },
+             {
+                 "chara": [
+@@ -360,8 +360,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-17"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Just listen to me. That's all I ask."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私の話を、聞いて"
+             },
+             {
+                 "autoTurnLast": 1.5,
+@@ -396,9 +396,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-18"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]If no one else is going to help, I'll―!"
++                "textAvRight": "こうなったら、わたしひとりで@戦うしか…！"
+             },
+             {
+                 "chara": [
+@@ -411,8 +411,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-19"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]Wait. Huh?@Everything just...stopped."
++                "nameAvRight": "まどか",
++                "textAvRight": "って、え？あれ？@なんか、動きが止まって…"
+             },
+             {
+                 "chara": [
+@@ -422,9 +422,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-20"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Miss Kaname."
++                "textAvLeft": "鹿目さん"
+             },
+             {
+                 "chara": [
+@@ -434,9 +434,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-21"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Er... You're that girl@from the other day."
++                "textAvRight": "えっ？わっ、こ、この間の…"
+             },
+             {
+                 "chara": [
+@@ -445,8 +445,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-22"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]Miss Akemi...right?"
++                "nameAvRight": "まどか",
++                "textAvRight": "暁美、さん？"
+             },
+             {
+                 "chara": [
+@@ -455,9 +455,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-23"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Stay close."
++                "textAvLeft": "離れないで"
+             },
+             {
+                 "chara": [
+@@ -467,8 +467,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-24"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I've frozen time with my magic.@You're safe when you're with me."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私の魔法で時間を止めてるの@だから、心配しなくて大丈夫"
+             },
+             {
+                 "autoTurnFirst": 2.5,
+@@ -480,9 +480,9 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903106-030-25"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You can do that?@That's amazing, Miss Akemi!"
++                "textAvRight": "え…そ、そうなんだ！@すごいね、暁美さん"
+             },
+             {
+                 "chara": [
+@@ -505,8 +505,8 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903106-030-25"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]Then―please!"
++                "nameAvRight": "まどか",
++                "textAvRight": "だったら…うん、お願い！"
+             },
+             {
+                 "chara": [
+@@ -515,8 +515,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-27"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]You have to help me fight the Witch!"
++                "nameAvRight": "まどか",
++                "textAvRight": "わたしと一緒に@魔女を倒す手伝いを…"
+             },
+             {
+                 "chara": [
+@@ -526,9 +526,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-28"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Miss Kaname, please. Just listen."
++                "textAvLeft": "鹿目さん、聞いて！"
+             },
+             {
+                 "chara": [
+@@ -541,9 +541,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-29"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]...What is it?"
++                "textAvRight": "え…暁美さん？"
+             },
+             {
+                 "chara": [
+@@ -553,9 +553,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-30"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I can stop time..."
++                "textAvLeft": "今はこうやって、時間を@止めているけれども…"
+             },
+             {
+                 "chara": [
+@@ -564,8 +564,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-31"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]But that's not all I can do."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私の力は、それだけじゃないの"
+             },
+             {
+                 "chara": [
+@@ -578,9 +578,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-32"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]What do you mean?"
++                "textAvRight": "それは…どういう意味？"
+             },
+             {
+                 "chara": [
+@@ -590,9 +590,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-33"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]In less than a month,@Walpurgisnacht is going to come."
++                "textAvLeft": "今から１ヶ月も経たないうちに@ワルプルギスの夜がやってくる"
+             },
+             {
+                 "chara": [
+@@ -604,8 +604,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-34"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]We won't be able to beat it. It's going@to destroy Mitakihara completely."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私たちは皆、歯が立たなくて@見滝原がめちゃくちゃになる"
+             },
+             {
+                 "chara": [
+@@ -618,8 +618,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-35"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I came from that future. I've come@back in time...to try and stop it."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私は、その未来から@この世界に戻ってきたの"
+             },
+             {
+                 "chara": [
+@@ -628,8 +628,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-36"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]To try and save you, Miss Kaname."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "鹿目さんを、助けるために"
+             },
+             {
+                 "chara": [
+@@ -639,9 +639,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-37"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You came back...to save me?"
++                "textAvRight": "わたしを…助けるために？"
+             },
+             {
+                 "chara": [
+@@ -652,9 +652,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-38"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I'm sorry."
++                "textAvLeft": "ごめんなさい"
+             },
+             {
+                 "chara": [
+@@ -663,8 +663,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-38b"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I know it sounds impossible,@hearing this so suddenly."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "急にこんなことを言っても@信じられないよね"
+             },
+             {
+                 "chara": [
+@@ -676,9 +676,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-39"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]No, I― It's not that I don't@believe you! It's only..."
++                "textAvRight": "暁美さん…あ、あの、わたしね@信じられないっていうよりも…"
+             },
+             {
+                 "chara": [
+@@ -687,8 +687,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-40"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]I can't keep up. It's so much to take in.@I don't know what to think yet..."
++                "nameAvRight": "まどか",
++                "textAvRight": "ビックリしちゃって@話に追いつけないっていうか…"
+             },
+             {
+                 "chara": [
+@@ -701,9 +701,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-41"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Miss Kaname..."
++                "textAvLeft": "鹿目さん！"
+             },
+             {
+                 "chara": [
+@@ -713,8 +713,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-42"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I was afraid."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私、怖かったの"
+             },
+             {
+                 "chara": [
+@@ -725,9 +725,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-43"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Afraid?"
++                "textAvRight": "怖かった…？"
+             },
+             {
+                 "chara": [
+@@ -737,9 +737,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-44"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I was scared that if I told you the@truth, that you wouldn't believe me."
++                "textAvLeft": "本当の事を話しても、鹿目さんが@信じてくれなかったらどうしよう"
+             },
+             {
+                 "chara": [
+@@ -748,8 +748,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-45"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]That you'd listen to Kyubey instead."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私よりもキュゥべえを信じたら@どうしようって"
+             },
+             {
+                 "chara": [
+@@ -759,8 +759,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-46"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]That's why, in front of Miss Tomoe...@I panicked. I ran away."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "だから…怖くて、巴さんの前から@逃げちゃって…"
+             },
+             {
+                 "chara": [
+@@ -770,9 +770,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-47"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You mean what happened the@other day at Mami's apartment?"
++                "textAvRight": "それって…この前の@マミさんの家の…？"
+             },
+             {
+                 "chara": [
+@@ -787,9 +787,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]B-but I couldn't stop thinking about it.@And I decided―I had to try again."
++                "textAvLeft": "でも、もう一回、考えて@考え直して、ここに来たの"
+             },
+             {
+                 "chara": [
+@@ -801,8 +801,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-49"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Because the time I spent with you...@it gave me courage."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "あなたと過ごした時の中で@私は勇気をもらった"
+             },
+             {
+                 "chara": [
+@@ -811,8 +811,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-50"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I used to be so timid, I―I couldn't do@anything. But now, I believe in myself."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "弱虫で、何もできなかった私でも@今は、皆の役に立てるって"
+             },
+             {
+                 "chara": [
+@@ -823,8 +823,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-51"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]This power I have―@I can use it to protect someone."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "魔法少女の力を使って@誰かを守ることができるって"
+             },
+             {
+                 "chara": [
+@@ -837,8 +837,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-52"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I only became this person because@you believed in me. So now..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "そんな私になれたのは、あなたが@私を信じてくれたおかげだから"
+             },
+             {
+                 "autoTurnFirst": 1.7,
+@@ -851,8 +851,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903106-030-53"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I...I want to believe in you."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "だから私も、鹿目さんを@信じようって…"
+             },
+             {
+                 "chara": [
+@@ -870,8 +870,8 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903106-030-53"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]That's why I came to you."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "そう決めて、ここに来たの！"
+             },
+             {
+                 "chara": [
+@@ -884,9 +884,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-55"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Miss Akemi..."
++                "textAvRight": "暁美さん…"
+             },
+             {
+                 "chara": [
+@@ -899,9 +899,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-56"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Ah... S-sorry."
++                "textAvLeft": "あ…ご、ごめんなさい"
+             },
+             {
+                 "chara": [
+@@ -910,8 +910,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-57"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I didn't mean to go on like that@all of a sudden..."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "急に、一方的に…"
+             },
+             {
+                 "bgm": "stop",
+@@ -923,9 +923,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-58"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]No―it's okay. I can tell@how much this means to you."
++                "textAvRight": "ううん、あなたの気持ち@よくわかったよ"
+             },
+             {
+                 "chara": [
+@@ -938,9 +938,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-59"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]R-really?"
++                "textAvLeft": "本当に…!?"
+             },
+             {
+                 "chara": [
+@@ -952,9 +952,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-60"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]I still have a lot of questions..."
++                "textAvRight": "まだ色々聞きたいことは@あるけれど…"
+             },
+             {
+                 "autoTurnFirst": 3.3,
+@@ -970,8 +970,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903106-030-61"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]That said, Miss Akemi...@Homura... I believe you!"
++                "nameAvRight": "まどか",
++                "textAvRight": "わたしは暁美さんを…@ほむらちゃんを、信じるよ！"
+             },
+             {
+                 "chara": [
+@@ -996,9 +996,9 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903106-030-61"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Okay..."
++                "textAvLeft": "…うん"
+             },
+             {
+                 "chara": [
+@@ -1012,8 +1012,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-63"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Thank you, Miss Kaname."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "ありがとう、鹿目さん！"
+             },
+             {
+                 "chara": [
+@@ -1025,9 +1025,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-64"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Now, let's take out the Witch!@Ready to unfreeze time?"
++                "textAvRight": "さあ、それじゃあ時間停止を@解いて…"
+             },
+             {
+                 "chara": [
+@@ -1040,9 +1040,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-65"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Hold on.@Your magic uses a bow, correct?"
++                "textAvLeft": "鹿目さん、あなたは弓矢を放つ@魔法を使えるよね？"
+             },
+             {
+                 "chara": [
+@@ -1054,9 +1054,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-66"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Mm-hm."
++                "textAvRight": "あ…うん"
+             },
+             {
+                 "chara": [
+@@ -1066,9 +1066,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-67"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]In stopped time, anything@we touch can still move."
++                "textAvLeft": "停止した時間の中で私たちが@触れたものは動いてしまう"
+             },
+             {
+                 "chara": [
+@@ -1077,8 +1077,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-68"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]If we hit the Witch directly, we lose@the advantage of immobilizing it."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "だから、魔女に直接触れたら@時間停止をする意味がないわ"
+             },
+             {
+                 "chara": [
+@@ -1089,9 +1089,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-69"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Right...@That makes sense."
++                "textAvRight": "そうなんだ"
+             },
+             {
+                 "chara": [
+@@ -1101,9 +1101,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-70"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]So instead, don't nock anything.@Just draw the string and let it go."
++                "textAvLeft": "その代わり、何もつがえずに@弓を鳴らしてみて"
+             },
+             {
+                 "chara": [
+@@ -1116,9 +1116,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-71"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]You want me to fire nothing?"
++                "textAvRight": "何も、つがえないで…？"
+             },
+             {
+                 "chara": [
+@@ -1128,9 +1128,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-72"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]\"Meigen\"―the resounding@string ceremony."
++                "textAvLeft": "そう、鳴弦っていって@悪霊を祓うおまじないみたいに"
+             },
+             {
+                 "chara": [
+@@ -1140,9 +1140,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-73"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]O-okay..."
++                "textAvRight": "こ、こうかな…？"
+             },
+             {
+                 "autoTurnFirst": 1,
+@@ -1158,8 +1158,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-74"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]Ah!@It pulled the air toward it..."
++                "nameAvRight": "まどか",
++                "textAvRight": "わっ！く、空気が吸い込まれて…"
+             },
+             {
+                 "chara": [
+@@ -1168,8 +1168,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-75"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]But not all the way?"
++                "nameAvRight": "まどか",
++                "textAvRight": "あれ？でも、途中で止まった？"
+             },
+             {
+                 "chara": [
+@@ -1179,9 +1179,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-76"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]It carries force. It can't go against my magic,@but the physics still work in our favor."
++                "textAvLeft": "魔法で干渉はできないけど@物理的な力は利用できるから"
+             },
+             {
+                 "chara": [
+@@ -1190,8 +1190,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-77"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Now... Do the same thing again,@but from a different angle."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "次は別の角度から@同じことを繰り返して"
+             },
+             {
+                 "chara": [
+@@ -1204,9 +1204,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-78"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Got it."
++                "textAvRight": "うん、わかった"
+             },
+             {
+                 "autoTurnFirst": 1,
+@@ -1217,8 +1217,8 @@
+                         "voiceFull": "fullvoice/section_104202/vo_full_903106-030-79"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20][flashEffect:flashWhite2][surround:8062_string]Like...this?"
++                "nameAvRight": "まどか",
++                "textAvRight": "[flashEffect:flashWhite2][surround:8062_string]こんな、感じかな…？"
+             },
+             {
+                 "flashEffect": "flashWhite2",
+@@ -1239,9 +1239,9 @@
+                         "voiceFullStop": "fullvoice/section_104202/vo_full_903106-030-79"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Perfect."
++                "textAvLeft": "良い調子"
+             },
+             {
+                 "chara": [
+@@ -1252,8 +1252,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-81"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Now then―"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "それじゃあそろそろ…"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -1403,10 +1403,10 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "se": "7205_magic_girl",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]I can't believe it..."
++                "textAvRight": "あ…う、うそ"
+             },
+             {
+                 "chara": [
+@@ -1416,8 +1416,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-83"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]We took it down so easily..."
++                "nameAvRight": "まどか",
++                "textAvRight": "簡単に、倒せちゃった…"
+             },
+             {
+                 "chara": [
+@@ -1426,9 +1426,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-84"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]The sound waves amplify each other when they@overlap just right. The force multiplies dramatically."
++                "textAvLeft": "波が大きく重なって@威力がグンと増すの"
+             },
+             {
+                 "chara": [
+@@ -1438,8 +1438,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-85"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]It's a technique we came up with...during@our training in the previous timeline."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私たちが、前の周の特訓で@見つけた必殺技だよ"
+             },
+             {
+                 "chara": [
+@@ -1449,9 +1449,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-86"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]A special technique..."
++                "textAvRight": "必殺技…"
+             },
+             {
+                 "chara": [
+@@ -1464,8 +1464,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-87"
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
+-                "textAvRight": "[fontSize:20]That's incredible, Homura!"
++                "nameAvRight": "まどか",
++                "textAvRight": "すごいよ、ほむらちゃん！"
+             },
+             {
+                 "chara": [
+@@ -1478,9 +1478,9 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-88"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]...Yeah."
++                "textAvLeft": "…うん"
+             },
+             {
+                 "chara": [
+@@ -1492,8 +1492,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-89"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]This time, we'll beat Walpurgisnacht,@just the two of us!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "今度は一緒に@ワルプルギスの夜を倒そう"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -1529,7 +1529,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -1546,8 +1546,8 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-90"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Uh...what?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(な…なんという…!!)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -1559,7 +1559,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-91"
+                     }
+                 ],
+-                "progressFnarration": "(Talk about a flood of information!)"
++                "progressFnarration": "(色々な新事実が@一気に発覚してしまいました)"
+             },
+             {
+                 "chara": [
+@@ -1570,7 +1570,7 @@
+                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-030-92"
+                     }
+                 ],
+-                "progressFnarration": "(I need to go home@and process all this.)"
++                "progressFnarration": "(これは一度家に帰って@情報を整理しなければ…)"
+             },
+             {
+                 "FnarrationEffect": "out",
