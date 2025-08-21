@@ -1,0 +1,469 @@
+--- en/scenario_9/905102-035_mami.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905102-035_mami.json	2017-03-17 18:39:13.000000000 +0800
+@@ -33,16 +33,16 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
++                "nameAvCenter": "マミ",
+                 "surround": "7003_wind",
+-                "textAvCenter": "[fontSize:20]......",
++                "textAvCenter": "…………",
+                 "textAvColor": "textMami",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+-                "nameAvRight": "???",
++                "nameAvRight": "？？？",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]You seem troubled, Mami Tomoe."
++                "textAvRight": "悩んでいる様子ね、巴マミ"
+             },
+             {
+                 "chara": [
+@@ -55,8 +55,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]Who's there?",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "誰？",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -79,9 +79,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]Homura Akemi.@A fellow Magical Girl."
++                "textAvRight": "暁美ほむら@あなたと同じ魔法少女よ"
+             },
+             {
+                 "chara": [
+@@ -89,9 +89,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]That's not a name I recognize.@Can I ask how you―"
++                "textAvLeft": "…聞いたことのない名前ね@どうして私を…"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -105,9 +105,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Ah..."
++                "textAvLeft": "そう"
+             },
+             {
+                 "bgm": "bgm01_anime14",
+@@ -118,10 +118,10 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "surround": "stop",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]You're the other irregularity@Kyubey mentioned, aren't you?"
++                "textAvLeft": "あなたが、キュゥべえの言って@いた、もう一人のイレギュラーね"
+             },
+             {
+                 "chara": [
+@@ -130,9 +130,9 @@
+                         "motion": 101
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]What were you thinking@about just now?"
++                "textAvRight": "なにを考えていたの？"
+             },
+             {
+                 "chara": [
+@@ -140,8 +140,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]Up here feeling lonely again?"
++                "nameAvRight": "ほむら",
++                "textAvRight": "ひとりぼっちが寂しくなって@しまったのかしら？"
+             },
+             {
+                 "chara": [
+@@ -153,9 +153,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]What are you trying to imply?"
++                "textAvLeft": "何の話？"
+             },
+             {
+                 "chara": [
+@@ -163,8 +163,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]How much do you know?@If you're involved in all of this..."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "あなた…何を知っているの@この異変と、関係が…"
+             },
+             {
+                 "chara": [
+@@ -174,9 +174,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]I don't need to answer that."
++                "textAvRight": "答える必要はないわ"
+             },
+             {
+                 "chara": [
+@@ -184,9 +184,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]If you won't talk..."
++                "textAvLeft": "答える気が無いのなら…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -219,9 +219,9 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
++                "nameAvCenter": "マミ",
+                 "se": "7205_magic_girl",
+-                "textAvCenter": "[fontSize:20]...I'll force the answers out of you.",
++                "textAvCenter": "力尽くで聞いても…",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -251,8 +251,8 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]...?!",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "!?",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -271,7 +271,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 80,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -281,11 +281,11 @@
+                 "FnarrationWidth": 330,
+                 "FnarrationX": 70,
+                 "FnarrationY": 160,
+-                "nameFnarration": "Mami",
+-                "progressFnarration": "(How did she get behind me?!)"
++                "nameFnarration": "マミ",
++                "progressFnarration": "(一瞬で、後ろに!?)"
+             },
+             {
+-                "progressFnarration": "(I didn't even sense her move...)"
++                "progressFnarration": "(全然、気配が掴めなかっ…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -298,9 +298,9 @@
+                         "motion": 101
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I understand your urgency.@But I'm not here to fight."
++                "textAvLeft": "焦る気持ちもわかるけれど@私は戦いに来たわけじゃない"
+             },
+             {
+                 "chara": [
+@@ -308,8 +308,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I'm here to offer a truce."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "休戦協定といきましょう"
+             },
+             {
+                 "chara": [
+@@ -321,9 +321,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]A truce?"
++                "textAvRight": "休戦協定？"
+             },
+             {
+                 "chara": [
+@@ -332,9 +332,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I'll be operating in this city@from now on."
++                "textAvLeft": "私はこれからこの街で活動する"
+             },
+             {
+                 "chara": [
+@@ -342,8 +342,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]And I'd prefer our relationship@to remain...amicable."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "あなたとは友好的な@関係でいたいの"
+             },
+             {
+                 "chara": [
+@@ -351,8 +351,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I want to provide you with information―@specifically, when and where Witches will appear."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "私は今後、あなたに@魔女の出現時間と場所を教えるわ"
+             },
+             {
+                 "chara": [
+@@ -360,8 +360,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]If we split the quarry, there should be more@than enough Grief Seeds for both of us."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "お互い、十分なグリーフシードを@手に入れることができるはずよ"
+             },
+             {
+                 "chara": [
+@@ -370,9 +370,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]You're awfully confident."
++                "textAvRight": "自信があるのね"
+             },
+             {
+                 "chara": [
+@@ -381,9 +381,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]However, there's one condition."
++                "textAvLeft": "ただし、この休戦協定には@条件がある"
+             },
+             {
+                 "chara": [
+@@ -392,8 +392,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]If the Magical Girl population increases,@there won't be enough Seeds to go around."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "もし魔法少女が増えれば@グリーフシードは枯渇するわ"
+             },
+             {
+                 "chara": [
+@@ -401,8 +401,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I understand you've made@a habit of...recruiting newcomers."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "時々あなたが行っている@新しい魔法少女の勧誘…"
+             },
+             {
+                 "chara": [
+@@ -410,8 +410,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I'd like you to put that@on hold. Just for now."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "それを、一時的に停止して@もらいたいの"
+             },
+             {
+                 "chara": [
+@@ -420,9 +420,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]You..."
++                "textAvRight": "あなた…"
+             },
+             {
+                 "chara": [
+@@ -430,8 +430,8 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]Are you some kind of clairvoyant?"
++                "nameAvRight": "マミ",
++                "textAvRight": "未来予知でもできるっていうの？"
+             },
+             {
+                 "chara": [
+@@ -440,9 +440,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Who's to say?"
++                "textAvLeft": "どうかしら？"
+             },
+             {
+                 "chara": [
+@@ -452,9 +452,9 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameAvRight": "Mami",
++                "nameAvRight": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvRight": "[fontSize:20]So you won't deny it?!"
++                "textAvRight": "答えないつもり!?"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -487,8 +487,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Mami",
+-                "textAvRight": "[fontSize:20]...?!"
++                "nameAvRight": "マミ",
++                "textAvRight": "…………!?"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -506,7 +506,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -521,25 +521,25 @@
+                         "id": 200500
+                     }
+                 ],
+-                "nameFnarration": "Mami",
+-                "progressFnarration": "(She vanished again.)"
++                "nameFnarration": "マミ",
++                "progressFnarration": "(また…一瞬で、消えた)"
+             },
+             {
+                 "FnarrationEffect": "out",
+                 "autoTurnLast": 0.01
+             },
+             {
+-                "nameAvLeft": "Homura's Voice",
++                "nameAvLeft": "ほむらの声",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]One more thing.@Consider it a warning―"
++                "textAvLeft": "最後にひとつ、忠告しておくわ"
+             },
+             {
+-                "nameAvLeft": "Homura's Voice",
+-                "textAvLeft": "[fontSize:20]Trust your instincts.@They're right."
++                "nameAvLeft": "ほむらの声",
++                "textAvLeft": "あなたの直感は、正しい"
+             },
+             {
+-                "nameAvLeft": "Homura's Voice",
+-                "textAvLeft": "[fontSize:20]For your own sake, be careful@what you share with Kyubey."
++                "nameAvLeft": "ほむらの声",
++                "textAvLeft": "キュゥべえには真実を@伝えない方が、身のためよ"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -555,8 +555,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Mami",
+-                "textAvCenter": "[fontSize:20]...!!!",
++                "nameAvCenter": "マミ",
++                "textAvCenter": "ッ!!",
+                 "textAvColor": "textMami"
+             },
+             {
+@@ -568,7 +568,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -584,8 +584,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameFnarration": "Mami",
+-                "progressFnarration": "(It's...as if she saw@straight through me.)"
++                "nameFnarration": "マミ",
++                "progressFnarration": "(彼女…まるで私の心を@見透かしたみたいに…)"
+             },
+             {
+                 "FnarrationEffect": "out",

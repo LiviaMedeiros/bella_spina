@@ -1,0 +1,184 @@
+--- en/scenario_9/904106-010_homura.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/904106-010_homura.json	2017-03-17 18:39:13.000000000 +0800
+@@ -32,8 +32,8 @@
+                         "id": 810200
+                     }
+                 ],
+-                "nameAvCenter": "Ms. Saotome",
+-                "textAvCenter": "[fontSize:20]We'll be returning to the school soon.",
++                "nameAvCenter": "早乙女先生",
++                "textAvCenter": "皆さん、そろそろ学校に@戻りますから",
+                 "textAvColorRGB": "255255255",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -43,8 +43,8 @@
+                         "id": 810200
+                     }
+                 ],
+-                "nameAvCenter": "Ms. Saotome",
+-                "textAvCenter": "[fontSize:20]So make sure you go to the bathroom@while you can, everyone!"
++                "nameAvCenter": "早乙女先生",
++                "textAvCenter": "今のうちに、トイレは@済ませておいて下さいね！"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -81,8 +81,8 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]Whoa, is it already that time?",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "あー、もうそんな時間か",
+                 "textAvColor": "textSayaka"
+             },
+             {
+@@ -93,9 +93,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]I think I'll take a little bathroom break."
++                "textAvLeft": "わたし、ちょっと行ってくるね"
+             },
+             {
+                 "chara": [
+@@ -106,8 +106,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvCenter": "Sayaka",
+-                "textAvCenter": "[fontSize:20]Oh, me too!",
++                "nameAvCenter": "さやか",
++                "textAvCenter": "あ、あたしも！",
+                 "textAvColor": "textSayaka"
+             },
+             {
+@@ -131,9 +131,9 @@
+                         "motion": 400
+                     }
+                 ],
+-                "nameAvRight": "Hitomi",
++                "nameAvRight": "仁美",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Take care not to be late, you two."
++                "textAvRight": "ふたりとも、遅れないように@気をつけて下さいまし"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -162,8 +162,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "…………",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -175,7 +175,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -194,8 +194,8 @@
+                         "motion": 101
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(I still ended up coming here,@in the end.)"
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(結局、この場所に@来てしまった)"
+             },
+             {
+                 "chara": [
+@@ -204,7 +204,7 @@
+                         "id": 230101
+                     }
+                 ],
+-                "progressFnarration": "(Last time, I saved Madoka when@she was attacked by a Witch.)"
++                "progressFnarration": "(私は前回、魔女に襲われる@まどかを助けた)"
+             },
+             {
+                 "chara": [
+@@ -212,7 +212,7 @@
+                         "id": 230101
+                     }
+                 ],
+-                "progressFnarration": "(That's how I earned her trust@and moved time forward.)"
++                "progressFnarration": "(そうして、彼女の信頼を得て@時間を進めた)"
+             },
+             {
+                 "chara": [
+@@ -222,7 +222,7 @@
+                         "motion": 0
+                     }
+                 ],
+-                "progressFnarration": "(If I do the same in@this loop, I can become@close with Madoka.)"
++                "progressFnarration": "(今回も同じ行動を取れば@まどかと親しくなれる)"
+             },
+             {
+                 "chara": [
+@@ -230,7 +230,7 @@
+                         "id": 230101
+                     }
+                 ],
+-                "progressFnarration": "(I know how that choice@plays out.)"
++                "progressFnarration": "(私はその未来を知っている)"
+             },
+             {
+                 "chara": [
+@@ -240,7 +240,7 @@
+                         "motion": 200
+                     }
+                 ],
+-                "progressFnarration": "(But...)"
++                "progressFnarration": "(でも…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -251,7 +251,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -267,8 +267,8 @@
+                         "id": 230101
+                     }
+                 ],
+-                "nameFnarration": "Homura",
+-                "progressFnarration": "(Should I really take that route?)"
++                "nameFnarration": "ほむら",
++                "progressFnarration": "(本当に、そうするべきなの？)"
+             },
+             {
+                 "chara": [
+@@ -276,7 +276,7 @@
+                         "id": 230101
+                     }
+                 ],
+-                "progressFnarration": "(I wasn't able to stop Madoka@from making a contract...)"
++                "progressFnarration": "(私は、まどかの契約を@防げなかった…)"
+             },
+             {
+                 "chara": [
+@@ -285,7 +285,7 @@
+                         "motion": 300
+                     }
+                 ],
+-                "progressFnarration": "(Is there any point to saving her,@if there's no salvation for her@in the end...?)"
++                "progressFnarration": "(救われない彼女を救うことに@一体何の意味があるの…？)"
+             },
+             {
+                 "FnarrationEffect": "out",

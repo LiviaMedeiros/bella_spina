@@ -1,0 +1,403 @@
+--- en/scenario_9/904103-040.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/904103-040.json	2017-03-17 18:39:13.000000000 +0800
+@@ -30,7 +30,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -48,8 +48,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Ohhh...Miss Akemi!@Where ARE you?)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(ううう…暁美さん！@どこにいるんですか？)",
+                 "surround": "7003_wind",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -61,7 +61,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-2"
+                     }
+                 ],
+-                "progressFnarration": "(She's not at school,@and she doesn't seem@to be at home either...)"
++                "progressFnarration": "(学校にもいないし@家にも気配がないし…)"
+             },
+             {
+                 "chara": [
+@@ -74,7 +74,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-3"
+                     }
+                 ],
+-                "progressFnarration": "(Welp. Guess I'm officially@ditching school now.)"
++                "progressFnarration": "(これじゃ完璧に@学校もサボりです)"
+             },
+             {
+                 "chara": [
+@@ -87,7 +87,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-4"
+                     }
+                 ],
+-                "progressFnarration": "(But I have to tell her@as soon as possible!)"
++                "progressFnarration": "(いや、でも今は@一刻も早く伝えないと！)"
+             },
+             {
+                 "chara": [
+@@ -97,7 +97,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-5"
+                     }
+                 ],
+-                "progressFnarration": "(Otherwise, Miss Kaname is going@to encounter Kyubey again...!)"
++                "progressFnarration": "(じゃないとまた@鹿目さんが、キュゥべえと…！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -113,8 +113,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-6"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Oh...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あ…",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -125,8 +125,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-7"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]She's back!"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "帰ってきた！"
+             },
+             {
+                 "autoTurnLast": 1,
+@@ -162,8 +162,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-8"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]...All right.",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "…よし",
+                 "textAvColor": "textHomura",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -174,8 +174,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-9"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]I need to collect resources, and@prepare plans for the next month..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "資料を集めて@これから１ヶ月分の計画を…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -199,9 +199,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-10"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Miss Akemi!"
++                "textAvRight": "暁美さん！"
+             },
+             {
+                 "chara": [
+@@ -213,9 +213,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-11"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Who are you?"
++                "textAvLeft": "あなたは？"
+             },
+             {
+                 "chara": [
+@@ -225,9 +225,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-12"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Kyubey is still alive!"
++                "textAvRight": "キュゥべえが、生きてます！"
+             },
+             {
+                 "chara": [
+@@ -236,9 +236,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-13"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]What?"
++                "textAvLeft": "え？"
+             },
+             {
+                 "chara": [
+@@ -248,9 +248,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-14"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Kyubey is still alive, so...!@At this rate, Miss Kaname is going to...!"
++                "textAvRight": "キュゥべえが、生きてるから！@このままだと、鹿目さんが…！"
+             },
+             {
+                 "chara": [
+@@ -261,9 +261,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-15"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Wait."
++                "textAvLeft": "待って"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -281,10 +281,10 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-16"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "se": "7205_magic_girl",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Who ARE you?"
++                "textAvLeft": "あなたは誰？"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -295,7 +295,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -315,8 +315,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-17"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(S-scary...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(こ、こわい…)"
+             },
+             {
+                 "chara": [
+@@ -327,7 +327,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-18"
+                     }
+                 ],
+-                "progressFnarration": "(One wrong step, and I'm@gonna end up full of holes...)"
++                "progressFnarration": "(下手したら私@撃たれちゃっても…)"
+             },
+             {
+                 "chara": [
+@@ -340,7 +340,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-19"
+                     }
+                 ],
+-                "progressFnarration": "(Still, I have to do this...!)"
++                "progressFnarration": "(いや、でも…！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -355,9 +355,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-20"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]My name is Mabayu Aki.@Sorry, I have to keep this short."
++                "textAvRight": "私の名前は愛生まばゆ@長く話している時間はないです"
+             },
+             {
+                 "chara": [
+@@ -366,8 +366,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-21"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]There's more than one Kyubey."
++                "nameAvRight": "まばゆ",
++                "textAvRight": "キュゥべえは、１体だけじゃない"
+             },
+             {
+                 "chara": [
+@@ -377,9 +377,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-22"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]What are you even..."
++                "textAvLeft": "なにを…"
+             },
+             {
+                 "chara": [
+@@ -389,9 +389,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-23"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Kyubey is still alive!"
++                "textAvRight": "キュゥべえは生きています！"
+             },
+             {
+                 "chara": [
+@@ -400,8 +400,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-24"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]At this rate, Miss Kaname is going to make@a contract and become a Magical Girl!"
++                "nameAvRight": "まばゆ",
++                "textAvRight": "このままだと鹿目さんが契約して@また魔法少女になるんですっ！"
+             },
+             {
+                 "chara": [
+@@ -411,9 +411,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-25"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Become a Magical Girl...?"
++                "textAvLeft": "魔法少女に…？"
+             },
+             {
+                 "chara": [
+@@ -425,8 +425,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-26"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Wait.@Today was...!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "あ、今日は確か…！"
+             },
+             {
+                 "chara": [
+@@ -436,9 +436,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-27"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Please, go to her as soon as you can!"
++                "textAvRight": "早く、鹿目さんの@ところに行ってください！"
+             },
+             {
+                 "chara": [
+@@ -447,8 +447,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-28"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]Don't let the life that@Miss Kaname sacrificed..."
++                "nameAvRight": "まばゆ",
++                "textAvRight": "鹿目さんが犠牲にした命を"
+             },
+             {
+                 "chara": [
+@@ -459,8 +459,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-29"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]...be for nothing!"
++                "nameAvRight": "まばゆ",
++                "textAvRight": "無駄にしないで下さい！"
+             },
+             {
+                 "chara": [
+@@ -470,9 +470,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-30"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]...?!"
++                "textAvLeft": "!?"
+             },
+             {
+                 "chara": [
+@@ -488,8 +488,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20].....[wait:0.8][chara:200200:lipSynch_1:eyeClose_1][chara:200200:voiceFull_fullvoice/section_104203/vo_full_904103-040-31]Ngh!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "…………[wait:0.8][chara:200200:lipSynch_1:eyeClose_1][chara:200200:voiceFull_fullvoice/section_104203/vo_full_904103-040-31]くッ!!"
+             },
+             {
+                 "chara": [
+@@ -501,8 +501,8 @@
+                         "voiceFullStop": "fullvoice/section_104203/vo_full_904103-040-31"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]After this is dealt with,@you'll tell me what you know!"
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "後で、話を聞かせてもらうわよ！"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -542,7 +542,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -560,8 +560,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-33"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(My words got through to her...!)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(説得が、通じた…!!)"
+             },
+             {
+                 "chara": [
+@@ -574,7 +574,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904103-040-34"
+                     }
+                 ],
+-                "progressFnarration": "(I better go, too!)"
++                "progressFnarration": "(私も、後を追いかけなきゃ！)"
+             },
+             {
+                 "FnarrationEffect": "out",

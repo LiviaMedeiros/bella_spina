@@ -1,0 +1,212 @@
+--- en/scenario_9/905110-010_sayaka.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905110-010_sayaka.json	2017-03-17 18:39:13.000000000 +0800
+@@ -31,8 +31,8 @@
+                         "id": 810200
+                     }
+                 ],
+-                "nameAvCenter": "Ms. Saotome",
+-                "textAvCenter": "[fontSize:20]Well, then!",
++                "nameAvCenter": "早乙女先生",
++                "textAvCenter": "はい、あとそれから…",
+                 "textAvColorRGB": "255255255",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -42,8 +42,8 @@
+                         "id": 810200
+                     }
+                 ],
+-                "nameAvCenter": "Ms. Saotome",
+-                "textAvCenter": "[fontSize:20]Now that that's out of the way,@let's welcome our new transfer student!",
++                "nameAvCenter": "早乙女先生",
++                "textAvCenter": "今日は皆さんに転校生を@紹介します",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -54,8 +54,8 @@
+                         "id": 810200
+                     }
+                 ],
+-                "nameAvCenter": "Ms. Saotome",
+-                "textAvCenter": "[fontSize:20]Come on in, Miss Akemi!",
++                "nameAvCenter": "早乙女先生",
++                "textAvCenter": "暁美さーん@いらっしゃーい",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -114,9 +114,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Whoa!"
++                "textAvRight": "うわっ"
+             },
+             {
+                 "chara": [
+@@ -124,10 +124,10 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "surround": "7202_telepathy",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Hey, Madoka.@Isn't that―",
++                "textAvRight": "ねえ、まどか@あれって…",
+                 "turnEffect": "ef_adv_02"
+             },
+             {
+@@ -137,9 +137,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Y-yeah."
++                "textAvLeft": "う…うん"
+             },
+             {
+                 "chara": [
+@@ -147,8 +147,8 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]She's the girl who came up@to us at the car factory."
++                "nameAvLeft": "まどか",
++                "textAvLeft": "この前自動車工場でわたしたちに@声をかけてきた人だね"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -183,9 +183,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Ms. Saotome",
++                "nameAvLeft": "早乙女先生",
+                 "textAvColor": "255255255",
+-                "textAvLeft": "[fontSize:20]Now, then! Why don't you tell@your classmates about yourself?"
++                "textAvLeft": "それじゃ自己紹介いってみよー"
+             },
+             {
+                 "chara": [
+@@ -194,9 +194,9 @@
+                         "motion": 101
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]My name is Homura Akemi.@Pleased to meet you."
++                "textAvRight": "暁美ほむらです@よろしくお願いします"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -236,10 +236,10 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "surround": "7202_telepathy",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Well THAT'S not suspicious at all.@Who even talks like that?",
++                "textAvRight": "なーんかうさんくさいんだよなー",
+                 "turnEffect": "ef_adv_02"
+             },
+             {
+@@ -248,8 +248,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]And remember how high-and-mighty@she was acting about Kyubey?"
++                "nameAvRight": "さやか",
++                "textAvRight": "キュゥべえの言葉は信じるな@だなんて偉そうに言っちゃってさ"
+             },
+             {
+                 "chara": [
+@@ -258,9 +258,9 @@
+                         "motion": 201
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Kyubey."
++                "textAvLeft": "キュゥべえ"
+             },
+             {
+                 "chara": [
+@@ -268,8 +268,8 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
+-                "textAvLeft": "[fontSize:20]That means Miss Akemi is@a Magical Girl, right?"
++                "nameAvLeft": "まどか",
++                "textAvLeft": "暁美さんって@やっぱり魔法少女なの？"
+             },
+             {
+                 "chara": [
+@@ -281,8 +281,8 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]That appears to be the case.",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "そうみたいだね",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -292,9 +292,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]I wonder what her wish was."
++                "textAvLeft": "じゃあ…やっぱり@何か願いを叶えたのかな"
+             },
+             {
+                 "chara": [
+@@ -307,9 +307,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Probably something dumb and selfish."
++                "textAvRight": "どうせろくでもない願いだって"
+             },
+             {
+                 "chara": [
+@@ -317,8 +317,8 @@
+                         "id": 200401
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
+-                "textAvRight": "[fontSize:20]She's just trying to keep Kyubey to herself@so no one else can make a contract."
++                "nameAvRight": "さやか",
++                "textAvRight": "キュゥべえを遠ざけろってのも@願いを独り占めしたいからでしょ"
+             },
+             {
+                 "chara": [
+@@ -327,9 +327,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]You really think so?@I wonder..."
++                "textAvLeft": "…本当に、そうなのかな？"
+             },
+             {
+                 "autoTurnLast": 2,

@@ -1,0 +1,166 @@
+--- en/scenario_9/905110-050.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905110-050.json	2017-03-17 18:39:13.000000000 +0800
+@@ -41,9 +41,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-1"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Was that really the best way...?",
++                "textAvRight": "本当に、あれで@良かったんでしょうか…？",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -54,9 +54,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-2"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]No need to feel guilty. Broken bones and@a hospital stay is nothing compared@to what could've been."
++                "textAvLeft": "骨折・入院で済んだのだから@あなたが気に病むことはないわ"
+             },
+             {
+                 "chara": [
+@@ -66,8 +66,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-3"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Sayaka Miki probably learned her lesson,@and won't think about contracting."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "これに懲りて、美樹さやかも@契約を諦めるでしょう"
+             },
+             {
+                 "chara": [
+@@ -78,8 +78,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-4"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]And Madoka had a firsthand taste of@the dangers of being a Magical Girl."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "まどかも、魔法少女の@危険を体感した"
+             },
+             {
+                 "chara": [
+@@ -88,8 +88,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-5"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]She won't be getting involved@with Witches from here on."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "これからは、魔女に近づこうとは@しないでしょうね"
+             },
+             {
+                 "chara": [
+@@ -99,9 +99,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-6"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]But...Miss Miki got hurt@because of us..."
++                "textAvRight": "でも…美樹さんは@私たちのせいで、ケガを…"
+             },
+             {
+                 "chara": [
+@@ -111,9 +111,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-7"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]If I turned back the clock now,@would you do anything different?"
++                "textAvLeft": "今時間を巻き戻したら@あなたは別の行動をとる？"
+             },
+             {
+                 "chara": [
+@@ -122,8 +122,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-8"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]Madoka might be exposed to danger@instead of Sayaka Miki."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "美樹さやかのために、まどかが@危険に遭うかもしれないのよ"
+             },
+             {
+                 "chara": [
+@@ -133,9 +133,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-9"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
++                "nameAvRight": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]...You're right, I couldn't."
++                "textAvRight": "…確かに、無理かも"
+             },
+             {
+                 "chara": [
+@@ -144,8 +144,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-10"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]I can't choose a different future."
++                "nameAvRight": "まばゆ",
++                "textAvRight": "私は、別の未来を選べない"
+             },
+             {
+                 "chara": [
+@@ -155,8 +155,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-11"
+                     }
+                 ],
+-                "nameAvRight": "Mabayu",
+-                "textAvRight": "[fontSize:20]I wouldn't be able to take that risk,@even if we did it over again 100 times..."
++                "nameAvRight": "まばゆ",
++                "textAvRight": "そんなリスクは、たとえ100回@やり直しても、犯せません…"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -189,7 +189,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 90,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -206,8 +206,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-12"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Fate...can't be changed.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(運命は…変えられない)"
+             },
+             {
+                 "chara": [
+@@ -217,7 +217,7 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-13"
+                     }
+                 ],
+-                "progressFnarration": "(That's how my magic is.)"
++                "progressFnarration": "(それが、私の魔法)"
+             },
+             {
+                 "chara": [
+@@ -229,7 +229,7 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905110-050-14"
+                     }
+                 ],
+-                "progressFnarration": "(...It really bothers me.)"
++                "progressFnarration": "(…すごく、モヤモヤします)"
+             },
+             {
+                 "FnarrationEffect": "out",

@@ -1,0 +1,287 @@
+--- en/scenario_9/905103-035.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905103-035.json	2017-03-17 18:39:13.000000000 +0800
+@@ -40,9 +40,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-1"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]According to the vision,@it should be around here...",
++                "textAvLeft": "たしか、未来予知の中では@このあたり…",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -86,9 +86,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Ah! Here it is."
++                "textAvLeft": "あった！ここです"
+             },
+             {
+                 "chara": [
+@@ -97,9 +97,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-3"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]It looks to just be a Familiar."
++                "textAvRight": "ただの使い魔みたいね"
+             },
+             {
+                 "chara": [
+@@ -109,8 +109,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-4"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]We can't afford to waste our magic.@Let's take it out quickly."
++                "nameAvRight": "ほむら",
++                "textAvRight": "魔力は無駄にできないわ@すぐに片づけるわよ"
+             },
+             {
+                 "chara": [
+@@ -122,9 +122,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-5"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]No worries."
++                "textAvLeft": "大丈夫です"
+             },
+             {
+                 "chara": [
+@@ -133,8 +133,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-6"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I've already seen how it plays out."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私にはすでに@結末が視えてますから"
+             },
+             {
+                 "chara": [
+@@ -146,8 +146,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-7"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]There's no need to stop time@for this one."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "今回は、時間を止めるまでも@ありませんよ"
+             },
+             {
+                 "chara": [
+@@ -157,9 +157,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-8"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]...All right. Show me."
++                "textAvRight": "…お手並み拝見"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -249,8 +249,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-9"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Okay, Miss Akemi.@It's right, left, left, right!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "暁美さん@右、左、左、右、です！",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -284,8 +284,8 @@
+                         "voiceFull": "fullvoice/section_104204/vo_full_905103-035-10"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Right...",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1]右…",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -311,8 +311,8 @@
+                         "voiceFull": "fullvoice/section_104204/vo_full_905103-035-11"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Left..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1]左…"
+             },
+             {
+                 "autoTurnLast": 1,
+@@ -336,8 +336,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-12"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Left..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1]左…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -353,17 +353,17 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-13"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Right..."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1]右…"
+             },
+             {
+                 "autoTurnLast": 0.01,
+                 "textAvClear": 1
+             },
+             {
+-                "nameAvRight": "Mabayu's Voice",
++                "nameAvRight": "まばゆの声",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Jump...",
++                "textAvRight": "跳んで…",
+                 "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-14"
+             },
+             {
+@@ -384,8 +384,8 @@
+                         "id": 200200
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][bgEffect:shakeSmall][se:4061_landing_jump5]Hmph!",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[bgEffect:shakeSmall][se:4061_landing_jump5]ふっ！",
+                 "textAvColor": "textHomura",
+                 "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-15"
+             },
+@@ -394,9 +394,9 @@
+                 "textAvClear": 1
+             },
+             {
+-                "nameAvRight": "Mabayu's Voice",
++                "nameAvRight": "まばゆの声",
+                 "textAvColor": "textMabayu",
+-                "textAvRight": "[fontSize:20]Then, the final blow!",
++                "textAvRight": "フィニッシュ！",
+                 "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-16"
+             },
+             {
+@@ -454,8 +454,8 @@
+                         "voiceFull": "fullvoice/section_104204/vo_full_905103-035-17"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1][surround:2002A01]Yah!",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "[flashEffect:flashWhite1][surround:2002A01]やあっ！",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -614,9 +614,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20][chara:200902:effect_emotion_joy_0][se:7222_happy]It worked!"
++                "textAvLeft": "[chara:200902:effect_emotion_joy_0][se:7222_happy]やった！"
+             },
+             {
+                 "chara": [
+@@ -625,9 +625,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-19"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]Without using any more magic@than we needed to..."
++                "textAvRight": "本当に、無駄な魔法を使わずに…"
+             },
+             {
+                 "chara": [
+@@ -639,8 +639,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-20"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]That was impressive, Mabayu."
++                "nameAvRight": "ほむら",
++                "textAvRight": "よくやったわね、まばゆ"
+             },
+             {
+                 "chara": [
+@@ -652,9 +652,9 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-21"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Hehehe... Oh, it wasn't@THAT impressive..."
++                "textAvLeft": "にひひひ…それほどでもない@というか…"
+             },
+             {
+                 "chara": [
+@@ -665,8 +665,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-22"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Thank you."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "ありがとうございます"
+             },
+             {
+                 "chara": [
+@@ -681,9 +681,9 @@
+                         "id": 200902
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]But now's not the time for that."
++                "textAvRight": "でも、安心してる場合じゃない"
+             },
+             {
+                 "chara": [
+@@ -692,8 +692,8 @@
+                         "voiceFullAuto": "fullvoice/section_104204/vo_full_905103-035-24"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]There's no telling when@Kyubey might appear."
++                "nameAvRight": "ほむら",
++                "textAvRight": "いつキュゥべえが近づくか@わからないわ"
+             },
+             {
+                 "chara": [
+@@ -710,8 +710,8 @@
+                         "id": 200902
+                     }
+                 ],
+-                "nameAvRight": "Homura",
+-                "textAvRight": "[fontSize:20]Let's hurry and get back@to where Madoka is."
++                "nameAvRight": "ほむら",
++                "textAvRight": "早くまどかのところに@戻りましょう"
+             },
+             {
+                 "autoTurnLast": 2,

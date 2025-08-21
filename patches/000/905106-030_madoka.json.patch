@@ -1,0 +1,212 @@
+--- en/scenario_9/905106-030_madoka.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905106-030_madoka.json	2017-03-17 18:39:13.000000000 +0800
+@@ -41,9 +41,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Uhh...we should really get back to the@bus. Everyone's probably waiting on us...",
++                "textAvRight": "ううう…バスに早く戻らないと@みんなを待たせちゃってるかな…",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -53,9 +53,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Sayaka",
++                "nameAvLeft": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvLeft": "[fontSize:20]Yeah...probably. But how the heck do we―@[chara:200401:lipSynch_0][wait:1.2][chara:200401:cheek_0][chara:200401:face_mtn_ex_050.exp3.json][chara:200401:lipSynch_1]Oh―hey! I think that's the exit over there!"
++                "textAvLeft": "かもしんない…[chara:200401:lipSynch_0][wait:1.2][chara:200401:cheek_0][chara:200401:face_mtn_ex_050.exp3.json][chara:200401:lipSynch_1]あっ！よかった@出口が見えてきた…"
+             },
+             {
+                 "chara": [
+@@ -66,9 +66,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvRight": "Madoka",
++                "nameAvRight": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvRight": "[fontSize:20]Wait...is that―@something's there."
++                "textAvRight": "あ、あれ？@なにか、変なのがいる？"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -102,8 +102,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "…………",
+                 "textAvColorRGB": "255255255",
+                 "turnChangeOut": "whiteOut"
+             },
+@@ -137,9 +137,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]What's this?@It's not...a squirrel, is it?"
++                "textAvRight": "何コレ？@リス…じゃないよね"
+             },
+             {
+                 "chara": [
+@@ -147,9 +147,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Maybe some kind of rabbit...?"
++                "textAvLeft": "ウサギ…かな？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -175,8 +175,8 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]I figured a Witch appearance would lead@me to you...looks like I was right.",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "魔女が現れているタイミングなら@もしかしてと思ったけど…",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -185,8 +185,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]It's good to finally meet you,@Madoka Kaname."
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "やっと会えたね、鹿目まどか"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -217,9 +217,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]W-woah, what?!"
++                "textAvRight": "えっ、ナニナニ!?"
+             },
+             {
+                 "chara": [
+@@ -227,9 +227,9 @@
+                         "id": 200101
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]Did it just talk?!"
++                "textAvLeft": "今、しゃべった!?"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -255,8 +255,8 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]Technically, I am not creating sound.@No air vibrations are involved.",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "空気の振動によって言語を@伝えているわけじゃないよ",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -265,8 +265,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]But you two have potential as Magical Girls.@That's why I can contact you this way."
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "キミたちには、魔法少女の@素質があるみたいだからね"
+             },
+             {
+                 "chara": [
+@@ -274,8 +274,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]I am speaking directly@into your minds."
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "頭の中に直接@コンタクトしているのさ"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -306,9 +306,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Sayaka",
++                "nameAvRight": "さやか",
+                 "textAvColor": "textSayaka",
+-                "textAvRight": "[fontSize:20]Is this like, telepathy?"
++                "textAvRight": "それって、テレパシー？"
+             },
+             {
+                 "chara": [
+@@ -317,9 +317,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Madoka",
++                "nameAvLeft": "まどか",
+                 "textAvColor": "textMadoka",
+-                "textAvLeft": "[fontSize:20]What's...a Magical Girl?"
++                "textAvLeft": "魔法少女って、なに…？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -351,9 +351,9 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
++                "nameAvCenter": "ほむら",
+                 "surround": "7003_wind",
+-                "textAvCenter": "[fontSize:20]Madoka, stay back!",
++                "textAvCenter": "離れて、まどか！",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -384,9 +384,9 @@
+                         "soulGem": 0
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Oh..."
++                "textAvRight": "おや…"
+             },
+             {
+                 "chara": [
+@@ -394,9 +394,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
++                "nameAvCenter": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]So, Homura Akemi. You were@the one getting in my way?"
++                "textAvRight": "暁美ほむら、やはり@邪魔していたのはキミかい？"
+             },
+             {
+                 "autoTurnLast": 2,

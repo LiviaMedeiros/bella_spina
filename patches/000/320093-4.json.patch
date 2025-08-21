@@ -1,0 +1,330 @@
+--- en/scenario_3/320093-4.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/320093-4.json	2017-03-17 18:39:13.000000000 +0800
+@@ -39,9 +39,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]I hear sounds from afar..."
++                "textAvLeft": "遠くから、音が…"
+             },
+             {
+                 "chara": [
+@@ -49,9 +49,9 @@
+                         "id": 833501
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]The center of town looks dangerous."
++                "textAvRight": "町の中心部は危ないみたいね"
+             },
+             {
+                 "chara": [
+@@ -59,8 +59,8 @@
+                         "id": 833501
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]Let's take shelter here@for the rest of the day."
++                "nameAvRight": "咲笑",
++                "textAvRight": "今日はこのまま、ここに@避難させてもらいましょう"
+             },
+             {
+                 "chara": [
+@@ -72,9 +72,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Yeah, I think that's a good idea."
++                "textAvLeft": "はい、それがいいと思います"
+             },
+             {
+                 "chara": [
+@@ -86,10 +86,10 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "surround": "stop",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Well then, I'm going to@help with volunteering."
++                "textAvRight": "それじゃ、私はボランティアの@お手伝いに行ってくるから"
+             },
+             {
+                 "chara": [
+@@ -97,8 +97,8 @@
+                         "id": 833501
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]Don't wander off alone this time."
++                "nameAvRight": "咲笑",
++                "textAvRight": "今度は、ひとりでどこかに@行ったりしないでよ"
+             },
+             {
+                 "chara": [
+@@ -110,9 +110,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Okay!"
++                "textAvLeft": "はーい"
+             },
+             {
+                 "chara": [
+@@ -120,8 +120,8 @@
+                         "id": 200902
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Sakie, please don't overdo it."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "咲笑さんも、あんまり@無理しないでくださいね"
+             },
+             {
+                 "chara": [
+@@ -133,9 +133,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Yes yes, I know."
++                "textAvRight": "はいはい、わかってます"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -162,7 +162,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -180,11 +180,11 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Even though she says that, she@might still push herself a bit.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(といっても、ちょっとは@無理しちゃうんだろうなあ)"
+             },
+             {
+-                "progressFnarration": "(She even ran out into the storm@to look for me.)"
++                "progressFnarration": "(私を探しに、当てもなく@嵐の中に飛び出すくらいだし)"
+             },
+             {
+                 "chara": [
+@@ -195,7 +195,7 @@
+                         "motion": 1
+                     }
+                 ],
+-                "progressFnarration": "(This time, I'll be the one@to help Sakie!)"
++                "progressFnarration": "(今度は私が、咲笑さんを@助けてあげなきゃ！)"
+             },
+             {
+                 "chara": [
+@@ -203,7 +203,7 @@
+                         "id": 200902
+                     }
+                 ],
+-                "progressFnarration": "(I can't let her worry anymore!)"
++                "progressFnarration": "(もうこれ以上、心配なんて@かけられないですからね！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -230,9 +230,9 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
++                "nameAvCenter": "まばゆ",
+                 "surround": "8056_stoppingtime",
+-                "textAvCenter": "[fontSize:20]Ah, time stopped again...",
++                "textAvCenter": "あ、また時間が…",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -244,7 +244,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -262,8 +262,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Seriously, what's up with@this power of mine...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(全く、なんなんですかね@私のこの力…)"
+             },
+             {
+                 "chara": [
+@@ -273,7 +273,7 @@
+                         "id": 200902
+                     }
+                 ],
+-                "progressFnarration": "(Maybe it's related to Mom's@fortune-telling after all?)"
++                "progressFnarration": "(やっぱり、お母さんの占いと@何か関係があるんでしょうか？)"
+             },
+             {
+                 "chara": [
+@@ -282,7 +282,7 @@
+                         "motion": 300
+                     }
+                 ],
+-                "progressFnarration": "(I'm still forgetting something...)"
++                "progressFnarration": "(私、まだまだ何かを@忘れてしまっていて…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -307,8 +307,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "…………",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -320,7 +320,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -338,8 +338,8 @@
+                         "id": 200902
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Oh well...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(でも、まあ…)"
+             },
+             {
+                 "bgm": "bgm02_anime17",
+@@ -350,13 +350,13 @@
+                         "motion": 1
+                     }
+                 ],
+-                "progressFnarration": "(Maybe that's not so bad...)"
++                "progressFnarration": "(それも、悪くはないのかも@しれませんね)"
+             },
+             {
+-                "progressFnarration": "(After all Mom was able to greet@her end with a smile...)"
++                "progressFnarration": "(お母さんが、笑顔で最期を@迎えられたのも…)"
+             },
+             {
+-                "progressFnarration": "(Thanks to that gentle@forgetfulness...)"
++                "progressFnarration": "(優しい忘却があったからで…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -371,8 +371,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]It must have a meaning.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "きっと、意味がある",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -419,8 +419,8 @@
+                         "pos": 1
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Huh?!",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "えっ!?",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -432,7 +432,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -442,8 +442,8 @@
+                 "FnarrationWidth": 340,
+                 "FnarrationX": -180,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Did the sky suddenly clear up?)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(急に、空が晴れた？)"
+             },
+             {
+                 "chara": [
+@@ -452,7 +452,7 @@
+                         "motion": 0
+                     }
+                 ],
+-                "progressFnarration": "(What's that dazzling light...?)"
++                "progressFnarration": "(なんだろう@あの眩しい光は…？)"
+             },
+             {
+                 "chara": [
+@@ -462,7 +462,7 @@
+                         "id": 200902
+                     }
+                 ],
+-                "progressFnarration": "(Strangely, my heart@feels warm...)"
++                "progressFnarration": "(不思議と心が温かくなって…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -475,8 +475,8 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]For some reason,@I can't help but smile...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "なんだか、不思議と@笑顔になっちゃいますね…",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -487,8 +487,8 @@
+                         "id": 200902
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Nyehehehe."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "にひひひひ"
+             },
+             {
+                 "autoTurnLast": 0.01,

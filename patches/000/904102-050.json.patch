@@ -1,0 +1,193 @@
+--- en/scenario_9/904102-050.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/904102-050.json	2017-03-17 18:39:13.000000000 +0800
+@@ -33,8 +33,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-1"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]Still, I couldn't let her know@about my presence in the end.",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "とはいえ結局、自分の存在を@伝えることはできませんでした",
+                 "textAvColor": "textMabayu",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -46,8 +46,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-2"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]I can't just let her go on@doing stuff like that..."
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "あんなことをする彼女を@このままにしておくワケには…"
+             },
+             {
+                 "chara": [
+@@ -57,8 +57,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]......[wait:0.8][chara:200901:cheek_0][chara:200901:motion_0:face_mtn_ex_050.exp3.json:eyeClose_0][chara:200901:lipSynch_1][chara:200901:voiceFull_fullvoice/section_104203/vo_full_904102-050-3]Hm?"
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "…………[wait:0.8][chara:200901:cheek_0][chara:200901:motion_0:face_mtn_ex_050.exp3.json:eyeClose_0][chara:200901:lipSynch_1][chara:200901:voiceFull_fullvoice/section_104203/vo_full_904102-050-3]ん？"
+             },
+             {
+                 "autoTurnLast": 0.2,
+@@ -82,9 +82,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-4"
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Who are you talking about?"
++                "textAvRight": "彼女って、誰のことかな？"
+             },
+             {
+                 "bgm": "bgm01_anime19",
+@@ -98,9 +98,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-5"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]?!?!?!"
++                "textAvLeft": "!?!?!?!?"
+             },
+             {
+                 "chara": [
+@@ -110,8 +110,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-6"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Wh―?!@Wait, huh?! No way!!!"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "な!?ちょ!?えっ!?嘘ォ!!"
+             },
+             {
+                 "chara": [
+@@ -120,9 +120,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-7"
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]It's only natural for you to be surprised@by something you're not used to seeing."
++                "textAvRight": "キミには見慣れないだろうから@驚くのも無理はないよ"
+             },
+             {
+                 "chara": [
+@@ -131,8 +131,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-8"
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]My name is Kyubey."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "ボクの名前はキュゥべえ"
+             },
+             {
+                 "chara": [
+@@ -141,8 +141,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-8b"
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]I came here because I have@something to discuss with you."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "キミに相談があって@やってきたんだ"
+             },
+             {
+                 "autoTurnFirst": 1.5,
+@@ -156,9 +156,9 @@
+                         "voiceFull": "fullvoice/section_104203/vo_full_904102-050-9"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Wait, wait, wait!@No way! Nooo, way!"
++                "textAvLeft": "いやいやいや！@いやいやいやいや！"
+             },
+             {
+                 "chara": [
+@@ -177,7 +177,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -198,8 +198,8 @@
+                         "voiceFullStop": "fullvoice/section_104203/vo_full_904102-050-9"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(You were just killed@by Miss Akemi!)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(だってあなた@さっき、暁美さんにやられて！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -216,8 +216,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-11"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Ah. Right.@It's a dream..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "そうだ、夢…"
+             },
+             {
+                 "chara": [
+@@ -226,8 +226,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-12"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]This can't be real... I must be sleep@deprived, and in the middle of a dream..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "こんなことがあるわけ…ない…@寝不足で、夢を見ている…"
+             },
+             {
+                 "chara": [
+@@ -236,9 +236,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-13"
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Unfortunately, this is reality."
++                "textAvRight": "残念だけれども現実だよ"
+             },
+             {
+                 "chara": [
+@@ -251,9 +251,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-050-14"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]That's what everyone in dreams say."
++                "textAvLeft": "夢の登場人物は@みんなそう言うんですよ"
+             },
+             {
+                 "autoTurnFirst": 5.7,
+@@ -268,8 +268,8 @@
+                         "voiceFull": "fullvoice/section_104203/vo_full_904102-050-15"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]*Yawn* I'll just...@call it a day for now..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "ふわぁああ…今日のところは@おやすみなさい…"
+             },
+             {
+                 "chara": [

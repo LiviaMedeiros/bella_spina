@@ -1,0 +1,206 @@
+--- en/scenario_9/905107-010_mami.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/905107-010_mami.json	2017-03-17 18:39:13.000000000 +0800
+@@ -39,9 +39,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mami. I have a proposal for you.",
++                "textAvRight": "マミ@キミに一つ、提案があるんだ",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -54,9 +54,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]A proposal?"
++                "textAvLeft": "提案？"
+             },
+             {
+                 "chara": [
+@@ -64,9 +64,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]I've identified two new girls with@the potential to become Magical Girls."
++                "textAvRight": "最近、魔法少女の素質を持った@人間をふたり、見つけたんだ"
+             },
+             {
+                 "chara": [
+@@ -74,8 +74,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]I was hoping you might help guide@them, like you've done before."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "いつものように、魔法少女の@手ほどきをしてくれないかな"
+             },
+             {
+                 "chara": [
+@@ -87,9 +87,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "chara": [
+@@ -97,9 +97,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mami? Is something wrong?"
++                "textAvRight": "マミ？どうかしたのかい？"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -110,7 +110,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 90,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -126,8 +126,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameFnarration": "Mami",
+-                "progressFnarration": "(Miss Akemi asked me@not to bring any new@Magical Girls into this...)"
++                "nameFnarration": "マミ",
++                "progressFnarration": "(暁美さんは、私に新たな@魔法少女をつくるなと言った)"
+             },
+             {
+                 "chara": [
+@@ -136,7 +136,7 @@
+                         "id": 200501
+                     }
+                 ],
+-                "progressFnarration": "(...and warned me against telling@Kyubey too much, as well.)"
++                "progressFnarration": "(それに…キュゥべえに@真実を伝えるな、とも)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -150,9 +150,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]You haven't contracted with them yet?"
++                "textAvLeft": "まだ、彼女たちは@契約していないのよね？"
+             },
+             {
+                 "chara": [
+@@ -160,9 +160,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]No. It seems they're still rather@hesitant about fighting Witches."
++                "textAvRight": "ああ、魔女と戦うことに少し@尻込みしているみたいだ"
+             },
+             {
+                 "chara": [
+@@ -171,9 +171,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]Maybe I've been too forceful@in the past."
++                "textAvLeft": "今まで、私の勧誘は@強引すぎたかも知れないわ"
+             },
+             {
+                 "chara": [
+@@ -181,8 +181,8 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]And with these new Magical Girls@showing up in Mitakihara lately..."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "正体の知れない魔法少女も@現れているみたいだし…"
+             },
+             {
+                 "chara": [
+@@ -191,8 +191,8 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
+-                "textAvLeft": "[fontSize:20]I think I'll hold off on recruitment―@at least for now."
++                "nameAvLeft": "マミ",
++                "textAvLeft": "少し、勧誘を控えようかと@思っているの"
+             },
+             {
+                 "chara": [
+@@ -200,9 +200,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -210,8 +210,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]I see. That's too bad."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "そうか、残念だ"
+             },
+             {
+                 "chara": [
+@@ -219,8 +219,8 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
+-                "textAvRight": "[fontSize:20]I thought seeing you in action@would inspire them to help."
++                "nameAvRight": "キュゥべえ",
++                "textAvRight": "キミの姿を見れば、彼女たちも@力になってくれると思ったけど"
+             },
+             {
+                 "chara": [
+@@ -229,9 +229,9 @@
+                         "id": 200501
+                     }
+                 ],
+-                "nameAvLeft": "Mami",
++                "nameAvLeft": "マミ",
+                 "textAvColor": "textMami",
+-                "textAvLeft": "[fontSize:20]I'm sorry.@Another time."
++                "textAvLeft": "ごめんなさい"
+             },
+             {
+                 "autoTurnLast": 2,

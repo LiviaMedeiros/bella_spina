@@ -1,0 +1,401 @@
+--- en/scenario_9/904102-040.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_9/904102-040.json	2017-03-17 18:39:13.000000000 +0800
+@@ -32,7 +32,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -49,8 +49,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-1"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Miss Kaname's house should@be somewhere around here...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(鹿目さんの家は@この近くのはず…)",
+                 "surround": "7009_night_townbuzz",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -83,8 +83,8 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvCenter": "Kyubey",
+-                "textAvCenter": "[fontSize:20]......",
++                "nameAvCenter": "キュゥべえ",
++                "textAvCenter": "…………",
+                 "textAvColorRGB": "255255255"
+             },
+             {
+@@ -96,7 +96,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -106,12 +106,12 @@
+                 "FnarrationWidth": 340,
+                 "FnarrationX": 220,
+                 "FnarrationY": 50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(He's here.)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(いた)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-3"
+             },
+             {
+-                "progressFnarration": "(Kyubey must be here to see@Miss Kaname, then...)",
++                "progressFnarration": "(やっぱりキュゥべえ@鹿目さんに会うつもりで…)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-4"
+             },
+             {
+@@ -143,10 +143,10 @@
+                         "posY": 0
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "surround": "stop",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Kyubey."
++                "textAvLeft": "キュゥべえ"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -157,7 +157,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -167,8 +167,8 @@
+                 "FnarrationWidth": 280,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Miss Akemi!)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(暁美さん！)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-6"
+             },
+             {
+@@ -183,9 +183,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-7"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I believe I warned you."
++                "textAvLeft": "警告はしたはずよ"
+             },
+             {
+                 "chara": [
+@@ -194,8 +194,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-8"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
+-                "textAvLeft": "[fontSize:20]I won't allow you to make@a contract with Madoka."
++                "nameAvLeft": "ほむら",
++                "textAvLeft": "まどかとの契約は@許さないって"
+             },
+             {
+                 "chara": [
+@@ -203,9 +203,9 @@
+                         "id": 810000
+                     }
+                 ],
+-                "nameAvRight": "Kyubey",
++                "nameAvRight": "キュゥべえ",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -215,9 +215,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-10"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]We're past negotiating now."
++                "textAvLeft": "問答無用よ"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -241,7 +241,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -251,12 +251,12 @@
+                 "FnarrationWidth": 300,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Ah...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(あ…)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-11"
+             },
+             {
+-                "progressFnarration": "(She suddenly@stopped time, and...)",
++                "progressFnarration": "(いきなり、時間を止めて…)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-12"
+             },
+             {
+@@ -281,10 +281,10 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-13"
+                     }
+                 ],
+-                "nameAvLeft": "Homura",
++                "nameAvLeft": "ほむら",
+                 "narrationEffect": "out",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]I'll do whatever it takes."
++                "textAvLeft": "もう、手段は選ばない"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -295,7 +295,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -305,8 +305,8 @@
+                 "FnarrationWidth": 250,
+                 "FnarrationX": 0,
+                 "FnarrationY": -50,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(What, no...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(え、嘘…)",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-14"
+             },
+             {
+@@ -358,15 +358,15 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-15"
+                     }
+                 ],
+-                "nameAvCenter": "Mabayu",
+-                "textAvCenter": "[fontSize:20]You can't...",
++                "nameAvCenter": "まばゆ",
++                "textAvCenter": "そんな…",
+                 "textAvColor": "textMabayu",
+                 "turnEffect": "thinking"
+             },
+             {
+-                "nameAvLeft": "Homura's Voice",
++                "nameAvLeft": "ほむらの声",
+                 "textAvColor": "textHomura",
+-                "textAvLeft": "[fontSize:20]Who's there?!",
++                "textAvLeft": "誰!?",
+                 "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-16"
+             },
+             {
+@@ -378,7 +378,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -398,8 +398,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-17"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(...!!)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(ッ!!)"
+             },
+             {
+                 "chara": [
+@@ -409,7 +409,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-18"
+                     }
+                 ],
+-                "progressFnarration": "(O-oh no! I said that@out loud...!)"
++                "progressFnarration": "(ま、まずいです！@つい声が…！)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -443,9 +443,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]Is someone there?!@Show yourself!"
++                "textAvRight": "誰かいるの!?@出てきなさい!!"
+             },
+             {
+                 "chara": [
+@@ -455,9 +455,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-20"
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]......"
++                "textAvLeft": "…………"
+             },
+             {
+                 "autoTurnLast": 0.01,
+@@ -468,7 +468,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -485,8 +485,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-21"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(I-I can't...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(だ…だめ…)"
+             },
+             {
+                 "chara": [
+@@ -496,7 +496,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-22"
+                     }
+                 ],
+-                "progressFnarration": "(She doesn't have anyone@on her side right now...)"
++                "progressFnarration": "(今の彼女に、味方はいない…)"
+             },
+             {
+                 "chara": [
+@@ -507,7 +507,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-23"
+                     }
+                 ],
+-                "progressFnarration": "(If she finds out that I've been@spying on her...)"
++                "progressFnarration": "(彼女の行動を@盗み見しているってバレたら…)"
+             },
+             {
+                 "chara": [
+@@ -517,7 +517,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-24"
+                     }
+                 ],
+-                "progressFnarration": "(She'll see me as an enemy.)"
++                "progressFnarration": "(私…敵って思われて…)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -532,9 +532,9 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-25"
+                     }
+                 ],
+-                "nameAvRight": "Homura",
++                "nameAvRight": "ほむら",
+                 "textAvColor": "textHomura",
+-                "textAvRight": "[fontSize:20]......"
++                "textAvRight": "…………"
+             },
+             {
+                 "autoTurnLast": 0.1,
+@@ -628,8 +628,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-26"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]...Was it just my imagination?",
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "気のせい…？",
+                 "textAvColor": "textHomura"
+             },
+             {
+@@ -640,8 +640,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-27"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]......"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "…………"
+             },
+             {
+                 "chara": [
+@@ -654,8 +654,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-28"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]With this, I was able to protect@Madoka from Kyubey."
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "これで私は、まどかを@キュゥべえから守った"
+             },
+             {
+                 "chara": [
+@@ -665,8 +665,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-29"
+                     }
+                 ],
+-                "nameAvCenter": "Homura",
+-                "textAvCenter": "[fontSize:20]...Right?"
++                "nameAvCenter": "ほむら",
++                "textAvCenter": "…そのはずよ"
+             },
+             {
+                 "autoTurnLast": 1.5,
+@@ -696,7 +696,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -714,8 +714,8 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-30"
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Th-thank goodness...)",
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(よ…よかった…)",
+                 "textAvColor": "textMabayu"
+             },
+             {
+@@ -727,7 +727,7 @@
+                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904102-040-31"
+                     }
+                 ],
+-                "progressFnarration": "(I managed to keep@my position hidden.)"
++                "progressFnarration": "(なんとか、居場所がバレずに@済みました)"
+             },
+             {
+                 "FnarrationEffect": "out",

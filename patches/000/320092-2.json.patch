@@ -1,0 +1,609 @@
+--- en/scenario_3/320092-2.json	2017-03-17 18:39:13.000000000 +0800
++++ jp/scenario_3/320092-2.json	2017-03-17 18:39:13.000000000 +0800
+@@ -79,8 +79,8 @@
+                         "id": 800900
+                     }
+                 ],
+-                "nameAvCenter": "Teacher",
+-                "textAvCenter": "[fontSize:20]Well then, can you solve@this problem, Tomoe...",
++                "nameAvCenter": "先生",
++                "textAvCenter": "それじゃあこの問題を、巴…",
+                 "textAvColorRGB": "255255255",
+                 "turnChangeOut": "fadeOut"
+             },
+@@ -91,8 +91,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvCenter": "Teacher",
+-                "textAvCenter": "[fontSize:20]..."
++                "nameAvCenter": "先生",
++                "textAvCenter": "…………"
+             },
+             {
+                 "chara": [
+@@ -103,8 +103,8 @@
+                         "lipSynch": 1
+                     }
+                 ],
+-                "nameAvCenter": "Teacher",
+-                "textAvCenter": "[fontSize:20]Hm? Is Tomoe still absent?"
++                "nameAvCenter": "先生",
++                "textAvCenter": "ん？巴はまだ休みなのか"
+             },
+             {
+                 "autoTurnLast": 0.5,
+@@ -133,7 +133,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -143,11 +143,11 @@
+                 "FnarrationWidth": 340,
+                 "FnarrationX": 160,
+                 "FnarrationY": -70,
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(While listening to the class@absentmindedly...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(授業を上の空で@聞き流しながら…)"
+             },
+             {
+-                "progressFnarration": "(The memory of that day keeps@repeating in my head.)"
++                "progressFnarration": "(頭の中には、あの日の記憶が@ずーっと繰り返されています)"
+             },
+             {
+                 "chara": [
+@@ -156,7 +156,7 @@
+                         "id": 200912
+                     }
+                 ],
+-                "progressFnarration": "(\"You don't have to become@like me.\")"
++                "progressFnarration": "(『私みたいには@ならなくていい』)"
+             },
+             {
+                 "chara": [
+@@ -166,10 +166,10 @@
+                         "motion": 300
+                     }
+                 ],
+-                "progressFnarration": "(Mom seemed so sad when@she said that...)"
++                "progressFnarration": "(そう言った、お母さんの顔は@なんだかとても悲しそうで…)"
+             },
+             {
+-                "progressFnarration": "(Just remembering it makes me@feel like crying.)"
++                "progressFnarration": "(私も、思い出すだけで@泣きそうになってしまいます)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -209,9 +209,9 @@
+                         "id": 833500
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Good work, Mabayu.@You can leave now.",
++                "textAvRight": "お疲れ様、まばゆちゃん@今日はもう、上がっていいわよ",
+                 "turnChangeOut": "fadeOut"
+             },
+             {
+@@ -220,9 +220,9 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Um... Sakie."
++                "textAvLeft": "あの…咲笑さん"
+             },
+             {
+                 "chara": [
+@@ -230,9 +230,9 @@
+                         "id": 833500
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Hm... What is it?"
++                "textAvRight": "ん…何？"
+             },
+             {
+                 "chara": [
+@@ -241,9 +241,9 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Mom could see the future,@couldn't she?"
++                "textAvLeft": "お母さんって、未来のことが@視えたりしたんですよね"
+             },
+             {
+                 "chara": [
+@@ -251,8 +251,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]What did she really think...@about fortune-telling?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "占いのこと…本当は@どう思ってたんでしょうか？"
+             },
+             {
+                 "chara": [
+@@ -264,9 +264,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Fortune-telling?@Why all of sudden?"
++                "textAvRight": "占いのこと？@急に、どうかした？"
+             },
+             {
+                 "chara": [
+@@ -275,9 +275,9 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Um, well...you see...@that's uh..."
++                "textAvLeft": "いや、あの…@なんていうか…ですね"
+             },
+             {
+                 "chara": [
+@@ -285,8 +285,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I've been watching so many@movies lately because..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私、こんなに映画をたくさん@観るようになったのは…"
+             },
+             {
+                 "chara": [
+@@ -294,8 +294,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I wanted to be like Mom,@who could see the future..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "お母さんみたいに、お話の未来が@先にわかるようになりたいって…"
+             },
+             {
+                 "chara": [
+@@ -303,8 +303,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]And I wanted to use that@ability to help people..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "それで、人の役に立てるように@なりたいと思ったからだって…"
+             },
+             {
+                 "chara": [
+@@ -312,8 +312,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]So I suddenly recalled that."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "そういうこと、映画を観てたら@突然思い出しちゃって"
+             },
+             {
+                 "bgmFadeOut": 3000,
+@@ -323,9 +323,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mabayu..."
++                "textAvRight": "まばゆちゃん…"
+             },
+             {
+                 "chara": [
+@@ -334,9 +334,9 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]\"You don't have to become like me.\""
++                "textAvLeft": "『私みたいにはならなくていい』"
+             },
+             {
+                 "chara": [
+@@ -344,8 +344,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Why did Mom say that?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "お母さんがそう、言ったのは@なんでなんですかね？"
+             },
+             {
+                 "bgm": "bgm02_anime06",
+@@ -354,8 +354,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I wonder if perhaps..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "もしかして、私のこと…"
+             },
+             {
+                 "chara": [
+@@ -366,8 +366,8 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]She didn't like me..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "嫌いだったのかな、なんて@考えちゃったりして…"
+             },
+             {
+                 "chara": [
+@@ -379,9 +379,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]That's not it."
++                "textAvRight": "それは違うわ"
+             },
+             {
+                 "chara": [
+@@ -393,9 +393,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]But...then why?"
++                "textAvLeft": "でも…それじゃあなんでです？"
+             },
+             {
+                 "chara": [
+@@ -403,8 +403,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]She could see the future@and help so many people..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "未来のことがわかって@たくさんの人が救えて…"
+             },
+             {
+                 "chara": [
+@@ -412,8 +412,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]That's why I wanted@to become like her..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "だから私も、お母さんみたいに@なりたいって思ったのに…"
+             },
+             {
+                 "chara": [
+@@ -422,8 +422,8 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I don't understand why she@said something like that..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "そんなこと言う理由が@全然、わかんなくて…"
+             },
+             {
+                 "chara": [
+@@ -435,9 +435,9 @@
+                         "pos": 2
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]It's because..."
++                "textAvRight": "それは…"
+             },
+             {
+                 "chara": [
+@@ -447,8 +447,8 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]..."
++                "nameAvRight": "咲笑",
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -456,9 +456,9 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]Yeah..."
++                "textAvLeft": "やっぱり、それも…"
+             },
+             {
+                 "chara": [
+@@ -466,8 +466,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I guess it's better@to forget it, right?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "忘れた方がいいことですか？"
+             },
+             {
+                 "chara": [
+@@ -477,9 +477,9 @@
+                         "lipSynch": 1
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Wha...."
++                "textAvRight": "え…"
+             },
+             {
+                 "chara": [
+@@ -488,9 +488,9 @@
+                         "motion": 200
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]It might be better to forget@what is forgotten..."
++                "textAvLeft": "忘れてしまったことは@忘れた方がいいこと…"
+             },
+             {
+                 "chara": [
+@@ -498,8 +498,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I forgot my memories of Mom..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私がお母さんとの思い出を@忘れてしまったのも…"
+             },
+             {
+                 "chara": [
+@@ -507,8 +507,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Because for me, they were@a good memory to forget...?"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私にとっては、忘れた方が@いい思い出だったから…？"
+             },
+             {
+                 "chara": [
+@@ -521,9 +521,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]Mabayu."
++                "textAvRight": "まばゆちゃん"
+             },
+             {
+                 "chara": [
+@@ -531,8 +531,8 @@
+                         "id": 833500
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]There's no need to rush,@it's okay."
++                "nameAvRight": "咲笑",
++                "textAvRight": "焦らなくても、大丈夫"
+             },
+             {
+                 "chara": [
+@@ -541,8 +541,8 @@
+                         "motion": 1
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
+-                "textAvRight": "[fontSize:20]If it's necessary, you'll remember@when the time comes..."
++                "nameAvRight": "咲笑",
++                "textAvRight": "もしそれが必要なら@必要な時にはちゃんと…"
+             },
+             {
+                 "chara": [
+@@ -554,9 +554,9 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]I don't want to."
++                "textAvLeft": "嫌なんです"
+             },
+             {
+                 "chara": [
+@@ -564,8 +564,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I...want to remember Mom properly."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私は…お母さんのことを@ちゃんと覚えていたい"
+             },
+             {
+                 "chara": [
+@@ -573,8 +573,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Every happy moment,@every sad moment..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "楽しいことも、辛いことも@ぜんぶ、ぜんぶひっくるめて…"
+             },
+             {
+                 "chara": [
+@@ -586,8 +586,8 @@
+                         "pos": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I want to engrave them all@in my memory!"
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "私の目に、焼き付けたい！"
+             },
+             {
+                 "autoTurnLast": 1.5,
+@@ -600,9 +600,9 @@
+                         "lipSynch": 0
+                     }
+                 ],
+-                "nameAvRight": "Sakie",
++                "nameAvRight": "咲笑",
+                 "textAvColorRGB": "255255255",
+-                "textAvRight": "[fontSize:20]..."
++                "textAvRight": "…………"
+             },
+             {
+                 "chara": [
+@@ -614,9 +614,9 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
++                "nameAvLeft": "まばゆ",
+                 "textAvColor": "textMabayu",
+-                "textAvLeft": "[fontSize:20]O-oh..."
++                "textAvLeft": "え、ええと…"
+             },
+             {
+                 "chara": [
+@@ -626,8 +626,8 @@
+                         "motion": 300
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]Sorry for raising my voice again..."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "また、大声出してしまって@スミマセン…"
+             },
+             {
+                 "chara": [
+@@ -636,8 +636,8 @@
+                         "id": 200904
+                     }
+                 ],
+-                "nameAvLeft": "Mabayu",
+-                "textAvLeft": "[fontSize:20]I'll leave now."
++                "nameAvLeft": "まばゆ",
++                "textAvLeft": "お先に失礼します"
+             },
+             {
+                 "autoTurnLast": 0.8,
+@@ -684,7 +684,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -701,11 +701,11 @@
+                         "motion": 100
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Again...)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(まただ…)"
+             },
+             {
+-                "progressFnarration": "(I've troubled Sakie again...)"
++                "progressFnarration": "(また、咲笑さんを@困らせてしまいました…)"
+             },
+             {
+                 "chara": [
+@@ -714,10 +714,10 @@
+                         "id": 200902
+                     }
+                 ],
+-                "progressFnarration": "(Even though she hasn't done@anything wrong...)"
++                "progressFnarration": "(咲笑さんは何にも悪いこと@してないのに…)"
+             },
+             {
+-                "progressFnarration": "(This is just me@taking it out on her.)"
++                "progressFnarration": "(これじゃただの@八つ当たりです)"
+             },
+             {
+                 "FnarrationEffect": "out",
+@@ -728,7 +728,7 @@
+                 "FnarrationCoverColor": "textBlack",
+                 "FnarrationCoverOpacity": 110,
+                 "FnarrationEffect": "in",
+-                "FnarrationFontSize": 18,
++                "FnarrationFontSize": 23,
+                 "FnarrationHeight": 100,
+                 "FnarrationLineMargin": 30,
+                 "FnarrationLineSpace": 20,
+@@ -747,11 +747,11 @@
+                         "motion": 0
+                     }
+                 ],
+-                "nameFnarration": "Mabayu",
+-                "progressFnarration": "(Yeah, I've decided.)"
++                "nameFnarration": "まばゆ",
++                "progressFnarration": "(うん、やっぱり決めました)"
+             },
+             {
+-                "progressFnarration": "(I can't stay in this state@of confusion.)"
++                "progressFnarration": "(このまま、モヤモヤとした@気持ちじゃいられません)"
+             },
+             {
+                 "chara": [
+@@ -761,7 +761,7 @@
+                         "motion": 400
+                     }
+                 ],
+-                "progressFnarration": "(I need to remember Mom@more clearly!)"
++                "progressFnarration": "(私、もっとちゃんと@お母さんのこと、思い出そう！)"
+             },
+             {
+                 "FnarrationEffect": "out",
