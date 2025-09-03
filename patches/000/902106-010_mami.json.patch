@@ -1,27 +1,5 @@
 --- en/scenario_9/902106-010_mami.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_9/902106-010_mami.json	2017-03-17 18:39:13.000000000 +0800
-@@ -32,8 +32,8 @@
-                         "id": 800700
-                     }
-                 ],
--                "nameAvCenter": "Teacher",
--                "textAvCenter": "[fontSize:20]Okay, everyone! We're meeting@back here in 10 minutes.",
-+                "nameAvCenter": "先生",
-+                "textAvCenter": "いいかみんな！10分後に@この場所に集合だからな",
-                 "textAvColorRGB": "255255255",
-                 "turnChangeOut": "fadeOut"
-             },
-@@ -43,8 +43,8 @@
-                         "id": 800700
-                     }
-                 ],
--                "nameAvCenter": "Teacher",
--                "textAvCenter": "[fontSize:20]Make sure to go to the bathroom@while you can!"
-+                "nameAvCenter": "先生",
-+                "textAvCenter": "トイレなんかはちゃんと@済ませておくように！"
-             },
-             {
-                 "autoTurnLast": 0.2,
 @@ -72,7 +72,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -31,37 +9,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -82,8 +82,8 @@
-                 "FnarrationWidth": 270,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Mami",
--                "progressFnarration": "(Hm...?)",
-+                "nameFnarration": "マミ",
-+                "progressFnarration": "(ん…)",
-                 "textAvColor": "textMami"
-             },
-             {
-@@ -93,7 +93,7 @@
-                         "motion": 300
-                     }
-                 ],
--                "progressFnarration": "(What's this strange@sensation? Could it be...?)"
-+                "progressFnarration": "(妙ね、この感覚は@もしかして…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -122,8 +122,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]......",
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "…………",
-                 "textAvColor": "textMabayu"
-             },
-             {
 @@ -157,7 +157,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -71,59 +18,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -175,8 +175,8 @@
-                         "id": 200501
-                     }
-                 ],
--                "nameFnarration": "Mami",
--                "progressFnarration": "(...!!)",
-+                "nameFnarration": "マミ",
-+                "progressFnarration": "(!!)",
-                 "textAvColor": "textMami"
-             },
-             {
-@@ -188,7 +188,7 @@
-                         "motion": 200
-                     }
-                 ],
--                "progressFnarration": "(No... She's walking towards@the Labyrinth...)"
-+                "progressFnarration": "(だめ…彼女、結界の方に…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -216,8 +216,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]Wait, huh?",
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "あ…あれ？",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -226,8 +226,8 @@
-                         "id": 200902
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]I'm...sensing something from over there...",
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "なんか…@向こうから、気配が…",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -236,8 +236,8 @@
-                         "id": 200902
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]Wait, what happened?!"
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "何かが…"
-             },
-             {
-                 "autoTurnLast": 0.2,
 @@ -270,7 +270,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -133,26 +27,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -286,8 +286,8 @@
-                         "motion": 100
-                     }
-                 ],
--                "nameFnarration": "Mami",
--                "progressFnarration": "(I suppose it can't be helped.)",
-+                "nameFnarration": "マミ",
-+                "progressFnarration": "(仕方ないわ)",
-                 "textAvColor": "textMami"
-             },
-             {
-@@ -296,7 +296,7 @@
-                         "id": 200501
-                     }
-                 ],
--                "progressFnarration": "(Now's not the time@to be doing this, but...)"
-+                "progressFnarration": "(本当は、こんなことをしている@場合じゃないのだけれど…)"
-             },
-             {
-                 "FnarrationEffect": "out",
 @@ -320,7 +320,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -162,40 +36,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -330,8 +330,8 @@
-                 "FnarrationWidth": 330,
-                 "FnarrationX": -220,
-                 "FnarrationY": 150,
--                "nameFnarration": "Mami",
--                "progressFnarration": "(I'll use my ribbon.)",
-+                "nameFnarration": "マミ",
-+                "progressFnarration": "(リボンを使って…)",
-                 "textAvColor": "textMami"
-             },
-             {
-@@ -348,8 +348,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Mami",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite2]Hyah!"
-+                "nameAvCenter": "マミ",
-+                "textAvCenter": "[flashEffect:flashWhite2]えいっ！"
-             },
-             {
-                 "autoTurnLast": 0.01,
-@@ -406,9 +406,9 @@
-                         "id": 200902
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
-+                "nameAvCenter": "まばゆ",
-                 "surround": "8007_ribbon",
--                "textAvCenter": "[fontSize:20]Ahhh!",
-+                "textAvCenter": "きゃあああっ!!",
-                 "textAvColor": "textMabayu",
-                 "turnChangeOut": "fadeOut",
-                 "turnChangeOutTime": 0.01
 @@ -440,7 +440,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -205,14 +45,3 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -456,8 +456,8 @@
-                         "motion": 200
-                     }
-                 ],
--                "nameFnarration": "Mami",
--                "progressFnarration": "(Wait outside for a little bit,@would you?)",
-+                "nameFnarration": "マミ",
-+                "progressFnarration": "(ちょっとだけ、外で@待っていてちょうだい)",
-                 "textAvClear": 1,
-                 "textAvColor": "textMami",
-                 "turnChangeOut": "rollOutFast"

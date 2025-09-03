@@ -1,64 +1,5 @@
 --- en/scenario_9/904101-030.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_9/904101-030.json	2017-03-17 18:39:13.000000000 +0800
-@@ -43,9 +43,9 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-1"
-                     }
-                 ],
--                "nameAvRight": "Sayaka",
-+                "nameAvRight": "さやか",
-                 "textAvColor": "textSayaka",
--                "textAvRight": "[fontSize:20]See? There's a cat in@front of the cake shop.",
-+                "textAvRight": "ほら、ケーキ屋さんの前に@ネコがいるじゃない？",
-                 "turnChangeOut": "fadeOut"
-             },
-             {
-@@ -56,9 +56,9 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-2"
-                     }
-                 ],
--                "nameAvLeft": "Madoka",
-+                "nameAvLeft": "まどか",
-                 "textAvColor": "textMadoka",
--                "textAvLeft": "[fontSize:20]Oh...yeah, that's Amy."
-+                "textAvLeft": "あ…うん、エイミーだよね"
-             },
-             {
-                 "chara": [
-@@ -71,9 +71,9 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-3"
-                     }
-                 ],
--                "nameAvRight": "Hitomi",
-+                "nameAvRight": "仁美",
-                 "textAvColorRGB": "255255255",
--                "textAvRight": "[fontSize:20]Amy?"
-+                "textAvRight": "エイミー？"
-             },
-             {
-                 "chara": [
-@@ -83,9 +83,9 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-4"
-                     }
-                 ],
--                "nameAvLeft": "Madoka",
-+                "nameAvLeft": "まどか",
-                 "textAvColor": "textMadoka",
--                "textAvLeft": "[fontSize:20]Yep.@She's a veeery picky eater."
-+                "textAvLeft": "そう、ものすごーくグルメでね"
-             },
-             {
-                 "chara": [
-@@ -96,8 +96,8 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-5"
-                     }
-                 ],
--                "nameAvLeft": "Madoka",
--                "textAvLeft": "[fontSize:20]She only eats chicken-flavored@cat food."
-+                "nameAvLeft": "まどか",
-+                "textAvLeft": "チキン味のカリカリしか@食べないんだよ"
-             },
-             {
-                 "autoTurnLast": 0.2,
 @@ -131,7 +131,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -68,38 +9,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -149,8 +149,8 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-6"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(As expected, Miss Akemi's@not at school.)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(やっぱり暁美さん@学校には来ていない)",
-                 "textAvColor": "textMabayu",
-                 "turnChangeOut": "rollOutFast"
-             },
-@@ -162,7 +162,7 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-7"
-                     }
-                 ],
--                "progressFnarration": "(Given the date, she must@still be in the hospital.)"
-+                "progressFnarration": "(この日付だと@まだ病院にいるはずです)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -200,9 +200,9 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-8"
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
-+                "nameAvCenter": "まばゆ",
-                 "surround": "8056_stoppingtime",
--                "textAvCenter": "[fontSize:20]Now's my chance!"
-+                "textAvCenter": "お、チャンス！"
-             },
-             {
-                 "autoTurnLast": 0.01,
 @@ -213,7 +213,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -109,23 +18,3 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -232,8 +232,8 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-9"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(I can find the hospital@she's in through the files@in the teacher's office...)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(職員室で書類を探して@今の彼女の入院先を見つけて…)",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -245,7 +245,7 @@
-                         "voiceFullAuto": "fullvoice/section_104203/vo_full_904101-030-10"
-                     }
-                 ],
--                "progressFnarration": "(I need to go see Miss Akemi!)"
-+                "progressFnarration": "(暁美さんに会わなきゃ！)"
-             },
-             {
-                 "FnarrationEffect": "out",

@@ -1,27 +1,5 @@
 --- en/scenario_9/903106-010.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_9/903106-010.json	2017-03-17 18:39:13.000000000 +0800
-@@ -80,8 +80,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-1"
-                     }
-                 ],
--                "nameAvCenter": "Teacher",
--                "textAvCenter": "[fontSize:20]Okay, everyone! We're meeting@back here in 10 minutes.",
-+                "nameAvCenter": "先生",
-+                "textAvCenter": "いいかみんな！10分後に@この場所に集合だからな",
-                 "textAvColorRGB": "255255255",
-                 "turnChangeOut": "fadeOut"
-             },
-@@ -92,8 +92,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-2"
-                     }
-                 ],
--                "nameAvCenter": "Teacher",
--                "textAvCenter": "[fontSize:20]Make sure to go to the bathroom@while you can!"
-+                "nameAvCenter": "先生",
-+                "textAvCenter": "トイレなんかはちゃんと@済ませておくように！"
-             },
-             {
-                 "autoTurnLast": 0.2,
 @@ -122,7 +122,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -31,44 +9,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -139,8 +139,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-3"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(Witches exert a negative@influence on reality.)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(魔女は現実に悪影響を及ぼす)",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -152,7 +152,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-4"
-                     }
-                 ],
--                "progressFnarration": "(During the dream, there was that@accident that happened here.)"
-+                "progressFnarration": "(夢では、この工場で@事故が起こりましたが…)"
-             },
-             {
-                 "chara": [
-@@ -162,7 +162,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-5"
-                     }
-                 ],
--                "progressFnarration": "(If the space I'd wandered into@had been a Witch's Labyrinth...)"
-+                "progressFnarration": "(私が迷い込んだあの空間が@魔女の結界なのだとしたら)"
-             },
-             {
-                 "chara": [
-@@ -173,7 +173,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-6"
-                     }
-                 ],
--                "progressFnarration": "(...The accident itself must have@been caused by the Witch.)"
-+                "progressFnarration": "(事故もまた、魔女の影響を@受けて起こったもののはず)"
-             },
-             {
-                 "FnarrationEffect": "out",
 @@ -209,7 +209,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -78,38 +18,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -227,8 +227,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-7"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(This is it.)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(そう、ここです)",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -239,7 +239,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-8"
-                     }
-                 ],
--                "progressFnarration": "(In the dream, I'm positive@this is where...)"
-+                "progressFnarration": "(この前の夢では、確か…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -332,9 +332,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-9"
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
-+                "nameAvCenter": "まばゆ",
-                 "surround": "8007_ribbon",
--                "textAvCenter": "[fontSize:20]*Screech*",
-+                "textAvCenter": "きゃあああっ!!",
-                 "turnChangeOut": "fadeOut",
-                 "turnChangeOutTime": 0.01
-             },
 @@ -346,7 +346,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -119,37 +27,6 @@
                  "FnarrationHeight": 80,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -363,8 +363,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-10"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(Wh-what the heck@is this?!)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(ちょっ、なんですか!?)",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -375,7 +375,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-11"
-                     }
-                 ],
--                "progressFnarration": "(What's pulling my legs?)"
-+                "progressFnarration": "(足、引っ張られて…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -393,8 +393,8 @@
-                         "voiceFull": "fullvoice/section_104202/vo_full_903106-010-12"
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]GYAAAAAH!"
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "うひゃああああああーっ!!"
-             },
-             {
-                 "autoTurnLast": 0.01,
 @@ -445,7 +445,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -159,46 +36,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -462,8 +462,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-13"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(Something caught my feet.)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(私は何かに足をすくわれました)",
-                 "textAvColor": "textMabayu",
-                 "turnChangeOut": "fadeOut"
-             },
-@@ -476,7 +476,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-14"
-                     }
-                 ],
--                "progressFnarration": "(If that had been some@kind of magic...)"
-+                "progressFnarration": "(あれが、魔法の力による@ものだったとするならば…)"
-             },
-             {
-                 "chara": [
-@@ -486,7 +486,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-15"
-                     }
-                 ],
--                "progressFnarration": "(There must have been a Magical@Girl around here somewhere.)"
-+                "progressFnarration": "(ここには誰か、魔法少女が…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -513,8 +513,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-16"
-                     }
-                 ],
--                "nameAvCenter": "Mabayu",
--                "textAvCenter": "[fontSize:20]Ah.",
-+                "nameAvCenter": "まばゆ",
-+                "textAvCenter": "あ…",
-                 "textAvColor": "textMabayu"
-             },
-             {
 @@ -526,7 +526,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -208,59 +45,3 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -543,8 +543,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-17"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(This feeling...)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(この感じ…)",
-                 "textAvColor": "textMabayu"
-             },
-             {
-@@ -556,7 +556,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-18"
-                     }
-                 ],
--                "progressFnarration": "(Time has stopped again!)"
-+                "progressFnarration": "(また、時間が止まってる)"
-             },
-             {
-                 "chara": [
-@@ -566,7 +566,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-19"
-                     }
-                 ],
--                "progressFnarration": "(It didn't stop here in the dream....@Why now?)"
-+                "progressFnarration": "(夢では、止まらなかったのに@どうして…？)"
-             },
-             {
-                 "chara": [
-@@ -579,7 +579,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-20"
-                     }
-                 ],
--                "progressFnarration": "(No―this isn't the time@to worry about that!)"
-+                "progressFnarration": "(いいえ、そんなことよりも！)"
-             },
-             {
-                 "chara": [
-@@ -589,7 +589,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-21"
-                     }
-                 ],
--                "progressFnarration": "(If I keep going now, I might@be able to figure out@what's causing all this!)"
-+                "progressFnarration": "(先に進めば、時間が止まる@原因が、見つかるかも！)"
-             },
-             {
-                 "chara": [
-@@ -600,7 +600,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903106-010-22"
-                     }
-                 ],
--                "progressFnarration": "(Okay―vanishing act.)"
-+                "progressFnarration": "(よし、姿を消して…)"
-             },
-             {
-                 "FnarrationEffect": "out",

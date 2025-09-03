@@ -1,52 +1,5 @@
 --- en/scenario_9/903122-050.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_9/903122-050.json	2017-03-17 18:39:13.000000000 +0800
-@@ -88,9 +88,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-1"
-                     }
-                 ],
--                "nameAvLeft": "Mabayu",
-+                "nameAvLeft": "まばゆ",
-                 "textAvColor": "textMabayu",
--                "textAvLeft": "[fontSize:20]Uh―hey, Sakie?",
-+                "textAvLeft": "あ…あの、咲笑さん！",
-                 "turnChangeOut": "fadeOut"
-             },
-             {
-@@ -102,9 +102,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-2"
-                     }
-                 ],
--                "nameAvRight": "Sakie",
-+                "nameAvRight": "咲笑",
-                 "textAvColorRGB": "255255255",
--                "textAvRight": "[fontSize:20]Yeah, yeah.@It's movie night, isn't it?"
-+                "textAvRight": "はいはい、夜の映画が@始まりそうなのね"
-             },
-             {
-                 "chara": [
-@@ -116,8 +116,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-3"
-                     }
-                 ],
--                "nameAvRight": "Sakie",
--                "textAvRight": "[fontSize:20]It's been a slow night.@Go on, you can head out early."
-+                "nameAvRight": "咲笑",
-+                "textAvRight": "今日はお客さんも少ないし@早引けしていいわよ"
-             },
-             {
-                 "chara": [
-@@ -129,9 +129,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-4"
-                     }
-                 ],
--                "nameAvLeft": "Mabayu",
-+                "nameAvLeft": "まばゆ",
-                 "textAvColor": "textMabayu",
--                "textAvLeft": "[fontSize:20]Thank you so much!"
-+                "textAvLeft": "ありがとうございますっ"
-             },
-             {
-                 "autoTurnLast": 0.5,
 @@ -162,7 +162,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -56,73 +9,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -179,8 +179,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-5"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(I don't want to miss it.)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(この日です…)",
-                 "textAvColor": "textMabayu",
-                 "turnChangeOut": "fadeOut"
-             },
-@@ -193,7 +193,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-6"
-                     }
-                 ],
--                "progressFnarration": "(Today was the day, last time...)"
-+                "progressFnarration": "(前の周のこの日、私は…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -245,9 +245,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-7"
-                     }
-                 ],
--                "nameAvRight": "Mami",
-+                "nameAvRight": "マミ",
-                 "textAvColor": "textMami",
--                "textAvRight": "[fontSize:20]Let's move!",
-+                "textAvRight": "行くわよ！",
-                 "turnChangeOut": "fadeOut"
-             },
-             {
-@@ -260,9 +260,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-8"
-                     }
-                 ],
--                "nameAvLeft": "Kyoko",
-+                "nameAvLeft": "杏子",
-                 "textAvColor": "textKyoko",
--                "textAvLeft": "[fontSize:20]You don't gotta tell me!"
-+                "textAvLeft": "言われなくても！"
-             },
-             {
-                 "autoTurnLast": 0.8,
-@@ -273,9 +273,9 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-9"
-                     }
-                 ],
--                "nameAvRight": "Mami",
-+                "nameAvRight": "マミ",
-                 "textAvColor": "textMami",
--                "textAvRight": "[fontSize:20][flashEffect:flashWhite1][se:5002_shooting_02_s]Tah!"
-+                "textAvRight": "[flashEffect:flashWhite1][se:5002_shooting_02_s]たぁっ！"
-             },
-             {
-                 "autoTurnLast": 0.8,
-@@ -286,8 +286,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-10"
-                     }
-                 ],
--                "nameAvCenter": "Kyoko",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite2][surround:2006A01]Hmph!",
-+                "nameAvCenter": "杏子",
-+                "textAvCenter": "[flashEffect:flashWhite2][surround:2006A01]ふんっ！",
-                 "textAvColor": "textKyoko"
-             },
-             {
 @@ -384,7 +384,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -132,23 +18,3 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -401,8 +401,8 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-11"
-                     }
-                 ],
--                "nameFnarration": "Mabayu",
--                "progressFnarration": "(The first time I ever saw@Magical Girls fight a Witch!)",
-+                "nameFnarration": "まばゆ",
-+                "progressFnarration": "(初めて魔法少女の戦いを見た)",
-                 "textAvColor": "textMabayu",
-                 "turnChangeOut": "fadeOut"
-             },
-@@ -415,7 +415,7 @@
-                         "voiceFullAuto": "fullvoice/section_104202/vo_full_903122-050-12"
-                     }
-                 ],
--                "progressFnarration": "(If Miss Akemi remembers too,@they'll be on their way already.@I gotta beat them to it.)"
-+                "progressFnarration": "(暁美さんは記憶を辿って@あの場所に向かうはず…！)"
-             },
-             {
-                 "FnarrationEffect": "out",

@@ -1,76 +1,5 @@
 --- en/scenario_9/902114-020_homura.json	2017-03-17 18:39:13.000000000 +0800
 +++ jp/scenario_9/902114-020_homura.json	2017-03-17 18:39:13.000000000 +0800
-@@ -38,10 +38,10 @@
-                         "id": 200501
-                     }
-                 ],
--                "nameAvLeft": "Mami",
-+                "nameAvLeft": "マミ",
-                 "surround": "7003_wind",
-                 "textAvColor": "textMami",
--                "textAvLeft": "[fontSize:20]This must be where the gas leak@incident happened yesterday...",
-+                "textAvLeft": "ここが、昨日ガス漏れの@事故があった場所ね…",
-                 "turnChangeOut": "fadeOut"
-             },
-             {
-@@ -57,9 +57,9 @@
-                         "motion": 201
-                     }
-                 ],
--                "nameAvRight": "Madoka",
-+                "nameAvRight": "まどか",
-                 "textAvColor": "textMadoka",
--                "textAvRight": "[fontSize:20]My Soul Gem is reacting too.@It must have been a Witch's doing."
-+                "textAvRight": "ソウルジェムも反応してる@魔女の仕業だったんだ"
-             },
-             {
-                 "chara": [
-@@ -68,9 +68,9 @@
-                         "motion": 200
-                     }
-                 ],
--                "nameAvLeft": "Mami",
-+                "nameAvLeft": "マミ",
-                 "textAvColor": "textMami",
--                "textAvLeft": "[fontSize:20]Since yesterday's incident already caused@damage, we can't afford to waste any time."
-+                "textAvLeft": "昨日も被害が出ている以上@のんびりとはしていられないわ"
-             },
-             {
-                 "chara": [
-@@ -78,8 +78,8 @@
-                         "id": 200501
-                     }
-                 ],
--                "nameAvLeft": "Mami",
--                "textAvLeft": "[fontSize:20]I'll be counting on you, Miss Akemi."
-+                "nameAvLeft": "マミ",
-+                "textAvLeft": "暁美さん、期待しているわよ"
-             },
-             {
-                 "chara": [
-@@ -91,9 +91,9 @@
-                         "pos": 2
-                     }
-                 ],
--                "nameAvRight": "Homura",
-+                "nameAvRight": "ほむら",
-                 "textAvColor": "textHomura",
--                "textAvRight": "[fontSize:20]Yes ma'am!"
-+                "textAvRight": "はいっ！"
-             },
-             {
-                 "autoTurnLast": 1,
-@@ -151,8 +151,8 @@
-                     }
-                 ],
-                 "flashEffect": "flashWhite2",
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20]Whoa! Ahhh!",
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "うわっ！わわわっ！",
-                 "textAvColor": "textHomura"
-             },
-             {
 @@ -163,7 +163,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -80,86 +9,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -181,12 +181,12 @@
-                         "motion": 300
-                     }
-                 ],
--                "nameFnarration": "Homura",
--                "progressFnarration": "(O-oh no...)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(だ、だめ…)",
-                 "textAvColor": "textHomura"
-             },
-             {
--                "progressFnarration": "(I can't even get to the Witch,@even though I have@weapons now...)"
-+                "progressFnarration": "(せっかく武器ができたのに@魔女まで辿り着けない)"
-             },
-             {
-                 "chara": [
-@@ -195,7 +195,7 @@
-                         "id": 200300
-                     }
-                 ],
--                "progressFnarration": "(I'm just going to be@a burden again...)"
-+                "progressFnarration": "(私、やっぱり足手まとい…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -223,8 +223,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Madoka",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite2][se:5009_shooting_05_h]Yah!",
-+                "nameAvCenter": "まどか",
-+                "textAvCenter": "[flashEffect:flashWhite2][se:5009_shooting_05_h]やあっ！",
-                 "textAvColor": "textMadoka"
-             },
-             {
-@@ -311,8 +311,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Madoka",
--                "textAvCenter": "[fontSize:20]Mami! Now!"
-+                "nameAvCenter": "まどか",
-+                "textAvCenter": "マミさん！今だよ！"
-             },
-             {
-                 "autoTurnLast": 0.2,
-@@ -339,8 +339,8 @@
-                         "pos": 1
-                     }
-                 ],
--                "nameAvCenter": "Mami",
--                "textAvCenter": "[fontSize:20]You got it!",
-+                "nameAvCenter": "マミ",
-+                "textAvCenter": "オッケー！",
-                 "textAvColor": "textMami"
-             },
-             {
-@@ -350,8 +350,8 @@
-                         "motion": 200
-                     }
-                 ],
--                "nameAvCenter": "Mami",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Yah!"
-+                "nameAvCenter": "マミ",
-+                "textAvCenter": "[flashEffect:flashWhite1]やっ！"
-             },
-             {
-                 "chara": [
-@@ -360,8 +360,8 @@
-                         "motion": 400
-                     }
-                 ],
--                "nameAvCenter": "Mami",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1]Hah!"
-+                "nameAvCenter": "マミ",
-+                "textAvCenter": "[flashEffect:flashWhite1]はっ！"
-             },
-             {
-                 "autoTurnLast": 2.5,
 @@ -405,7 +405,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -169,55 +18,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -415,21 +415,21 @@
-                 "FnarrationWidth": 280,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Homura",
--                "progressFnarration": "(Wow...)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(嘘…)",
-                 "textAvColor": "textHomura"
-             },
-             {
--                "progressFnarration": "(Her ribbons turned@into a bridge...)"
-+                "progressFnarration": "(巴さんのリボンが@橋になって…)"
-             },
-             {
-                 "FnarrationEffect": "out",
-                 "autoTurnLast": 0.01
-             },
-             {
--                "nameAvLeft": "Mami's Voice",
-+                "nameAvLeft": "マミの声",
-                 "textAvColor": "textMami",
--                "textAvLeft": "[fontSize:20]Miss Akemi! Go for it!"
-+                "textAvLeft": "暁美さん！お願い！"
-             },
-             {
-                 "chara": [
-@@ -438,8 +438,8 @@
-                         "motion": 100
-                     }
-                 ],
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20]Ready!",
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "はいっ！",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -517,8 +517,8 @@
-                         "id": 200300
-                     }
-                 ],
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20]*Pant* *Pant*",
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "はぁっはぁっ",
-                 "textAvColor": "textHomura"
-             },
-             {
 @@ -529,7 +529,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -227,28 +27,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -539,8 +539,8 @@
-                 "FnarrationWidth": 320,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Homura",
--                "progressFnarration": "(I'm still not capable of@fighting alone, but...)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(私はまだ、ひとりじゃ@戦えないけど…)",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -555,8 +555,8 @@
-                         "motion": 300
-                     }
-                 ],
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20]*Pant* *Pant*"
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "はぁっはぁっ"
-             },
-             {
-                 "autoTurnLast": 0.01,
 @@ -566,7 +566,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -258,28 +36,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -576,8 +576,8 @@
-                 "FnarrationWidth": 340,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Homura",
--                "progressFnarration": "(I have friends...)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(私には、仲間がいるから…)",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -633,8 +633,8 @@
-                         "motion": 400
-                     }
-                 ],
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20][flashEffect:flashWhite1][se:4053_landing_throw2]Yah!"
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "[flashEffect:flashWhite1][se:4053_landing_throw2]えいっ！"
-             },
-             {
-                 "autoTurnLast": 0.01,
 @@ -644,7 +644,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -289,29 +45,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -654,8 +654,8 @@
-                 "FnarrationWidth": 300,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Homura",
--                "progressFnarration": "(So I don't have to!)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(ひとりで戦わなくても@いいんだ！)",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -789,9 +789,9 @@
-                         "pos": 0
-                     }
-                 ],
--                "nameAvRight": "Madoka",
-+                "nameAvRight": "まどか",
-                 "textAvColor": "textMadoka",
--                "textAvRight": "[fontSize:20]Wh-whoa!"
-+                "textAvRight": "わわっ!?"
-             },
-             {
-                 "autoTurnLast": 0.5,
 @@ -839,7 +839,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -321,73 +54,6 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -849,8 +849,8 @@
-                 "FnarrationWidth": 330,
-                 "FnarrationX": 200,
-                 "FnarrationY": 160,
--                "nameFnarration": "Homura",
--                "progressFnarration": "(Did I...defeat it?)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(た、倒した…？)",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -860,7 +860,7 @@
-                         "motion": 300
-                     }
-                 ],
--                "progressFnarration": "(Did I really do that...?)"
-+                "progressFnarration": "(ホントに私、倒せたの…？)"
-             },
-             {
-                 "FnarrationEffect": "out",
-@@ -888,10 +888,10 @@
-                         "pos": 2
-                     }
-                 ],
--                "nameAvLeft": "Madoka",
-+                "nameAvLeft": "まどか",
-                 "surround": "stop",
-                 "textAvColor": "textMadoka",
--                "textAvLeft": "[fontSize:20]Yay!"
-+                "textAvLeft": "やったぁ！"
-             },
-             {
-                 "chara": [
-@@ -899,8 +899,8 @@
-                         "id": 200100
-                     }
-                 ],
--                "nameAvLeft": "Madoka",
--                "textAvLeft": "[fontSize:20]That was incredible, Homura!"
-+                "nameAvLeft": "まどか",
-+                "textAvLeft": "すごいよ、ほむらちゃん！"
-             },
-             {
-                 "chara": [
-@@ -909,9 +909,9 @@
-                         "motion": 100
-                     }
-                 ],
--                "nameAvRight": "Mami",
-+                "nameAvRight": "マミ",
-                 "textAvColor": "textMami",
--                "textAvRight": "[fontSize:20]Well done."
-+                "textAvRight": "お見事ね"
-             },
-             {
-                 "chara": [
-@@ -920,8 +920,8 @@
-                         "lipSynch": 0
-                     }
-                 ],
--                "nameAvCenter": "Homura",
--                "textAvCenter": "[fontSize:20]......",
-+                "nameAvCenter": "ほむら",
-+                "textAvCenter": "…………",
-                 "textAvColor": "textHomura"
-             },
-             {
 @@ -942,7 +942,7 @@
                  "FnarrationCoverColor": "textBlack",
                  "FnarrationCoverOpacity": 110,
@@ -397,23 +63,3 @@
                  "FnarrationHeight": 100,
                  "FnarrationLineMargin": 30,
                  "FnarrationLineSpace": 20,
-@@ -961,8 +961,8 @@
-                         "motion": 100
-                     }
-                 ],
--                "nameFnarration": "Homura",
--                "progressFnarration": "(Thank you, Miss Kaname.)",
-+                "nameFnarration": "ほむら",
-+                "progressFnarration": "(ありがとう、鹿目さん)",
-                 "textAvColor": "textHomura"
-             },
-             {
-@@ -972,7 +972,7 @@
-                         "id": 200300
-                     }
-                 ],
--                "progressFnarration": "(Now I can be a little@useful, right...?)"
-+                "progressFnarration": "(私もこれで、少しは@力になれるよね…？)"
-             },
-             {
-                 "FnarrationEffect": "out",
